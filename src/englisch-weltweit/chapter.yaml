@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Englisch weltweit
+summary: Die Weltkarte reicht jetzt um die ganze Erde. Du stellst Australien vor, erkennst Merkmale weiterer Varietäten des Englischen und lernst, wie du dich in Gesprächen mit Menschen aus anderen Kulturen angemessen verhältst.
+pages: [das-brauchst-du, australien, weitere-varietaet, kulturelle-konventionen]
+selfAssessment:
+  pages:
+    - exercises:
+        - /englisch-weltweit/australien/#aus-karte
+        - /englisch-weltweit/australien/#aus-reihenfolge
+        - /englisch-weltweit/australien/#aus-volk
+    - exercises:
+        - /englisch-weltweit/weitere-varietaet/#var-woerter
+        - /englisch-weltweit/weitere-varietaet/#var-stay
+        - /englisch-weltweit/weitere-varietaet/#var-meinung
+    - exercises:
+        - /englisch-weltweit/kulturelle-konventionen/#kk-antwort
+        - /englisch-weltweit/kulturelle-konventionen/#kk-kritik
+        - /englisch-weltweit/kulturelle-konventionen/#kk-schreiben

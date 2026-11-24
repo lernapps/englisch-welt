@@ -1,0 +1,302 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Kulturelle Umgangsformen
+description: Du liest drei kurze Gesprächsszenen und lernst, wie Abstand, Körpersprache, Small Talk und höfliche Kritik im Gespräch wirken. Du wählst eine angemessene Antwort und schreibst selbst einen Dialog.
+competencies:
+  - kulturelle-konventionen
+scope: "Die Seite zeigt drei Gesprächsszenen zwischen neutralen Rollen (Host und Guest, Visitor und Colleague, Reader und Writer) und erklärt vier Dinge: Körpersprache gehört zur nonverbalen Kommunikation. Der Abstand zwischen Menschen heißt in der Forschung Proxemik, Edward T. Hall beschrieb 1963 vier Zonen (intimate, personal, social, public), die Werte sind Richtwerte. Wie viel Abstand angenehm ist, hängt von Kultur, Situation und Person ab, Durchschnitte verschiedener Länder unterscheiden sich, einzelne Menschen sind verschieden. Small Talk hat die Teile Gruß, Gespräch und Abschluss, sichere Themen sind Wetter, Sport und Fernsehen, Regeln und Themen sind je nach Kultur verschieden. Höfliche Kritik beginnt mit etwas Positivem und macht aus der Kritik einen Vorschlag (could, might, perhaps, I wonder if). Geübt werden das Verstehen der Szenen, eine angemessene Antwort mit Begründung, höfliche Sätze und ein eigener Dialog. Typische Fehler sind, Unterschiede als feste Regeln für ganze Völker zu lesen, I wonder if wörtlich zu verstehen oder eine höfliche Kritik als unhöflich zu hören. Nicht hier: Klischees über einzelne Völker, Politik, Schulsysteme, Bewerbungsgespräche."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wie fängt ein Gespräch an?
+    blocks:
+      - type: text
+        text: "Die Weltkarte ist jetzt voll von Orten und Klängen. Auf diesem Halt geht es um etwas anderes: wie du dich im Gespräch mit Menschen verhältst, die andere Gewohnheiten haben. Auf der Wiederholungsseite hast du schon höfliche Grüße wiederholt. Vorher eine Frage an dich."
+      - type: single-choice
+        id: kk-start
+        text: Du sprichst zum ersten Mal mit einer fremden Person. Was gehört meistens zum Anfang?
+        options:
+          - text: Ein Gruß und ein paar freundliche Sätze über etwas Einfaches
+            correct: true
+            info: Gruß, kurzes Gespräch und Abschluss sind der übliche Ablauf.
+          - text: Die Frage, wie viel die andere Person verdient
+            correct: false
+            info: In einigen Ländern gilt die Frage nach dem Gehalt als privat.
+          - text: Eine lange Pause, bis die andere Person spricht
+            correct: false
+            info: Viele Menschen empfinden Schweigen als unangenehm.
+        explanation: Ein Gespräch beginnt meistens mit einem Gruß.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst, wie Abstand, Körpersprache, Small Talk und höfliche Kritik wirken. Du wählst im Gespräch eine angemessene Antwort und begründest sie. Du schreibst einen kurzen Dialog."
+  - type: section
+    id: lesen
+    title: Drei Gesprächsszenen
+    blocks:
+      - type: text
+        text: |
+          **Scene 1 · A guest arrives**
+
+          *A guest comes to a host's home for dinner.*
+
+          1. **Host:** (holding out a hand) Hello, welcome! Did you have a good journey?
+          2. **Guest:** (shaking hands) Yes, thank you. It was a long day, but the train was on time.
+          3. **Host:** I am glad to hear that. Let me take your coat. It is a lovely evening, isn't it?
+          4. **Guest:** It is. It stayed dry all day, and the garden looks beautiful.
+          5. **Guest:** I brought a small present for you. I hope you like tea.
+          6. **Host:** How kind of you! Thank you very much. Please come through.
+          7. **Host:** Dinner will be ready in ten minutes. Please sit down.
+          8. **Guest:** (later that evening) Thank you very much for having me. It was a lovely evening.
+          9. **Host:** Thank you for coming. Have a safe journey home!
+      - type: text
+        text: |
+          **Scene 2 · Two people at a conference**
+
+          *Two people meet in a busy hall.*
+
+          10. **Visitor:** (stepping closer) Is this your first time at the conference?
+          11. **Colleague:** (stepping back a little) Yes, it is. Have you been here before?
+          12. **Visitor:** (stepping closer again) Twice. The talks are always interesting.
+          13. **Colleague:** (smiling) That sounds good. What did you think of the first talk?
+          14. **Visitor:** I liked the examples. The project had a lot of good ideas.
+          15. **Colleague:** Shall we get a coffee? There is more room by the window.
+          16. **Visitor:** Of course. After you.
+
+          **Scene 3 · Feedback on a report**
+
+          *A reader gives feedback on a short report.*
+
+          17. **Reader:** Thank you for sending me the report. The first part is very clear.
+          18. **Reader:** I wonder if the second part could be a little shorter?
+          19. **Writer:** Do you think so? Which parts would you cut?
+          20. **Reader:** Perhaps the long table. The main numbers are enough for most readers.
+          21. **Writer:** That is a good idea. I am not sure about the ending. Is it too short?
+          22. **Reader:** No, the ending is fine. It might help to add one more example.
+          23. **Writer:** Thanks for telling me, that helps.
+          24. **Reader:** You are welcome. I am happy to read the next version, too.
+      - type: vocabulary
+        caption: Randglossar · Wörter der Szenen
+        languages:
+          source: de
+          target: en
+        entries:
+          - target: the journey
+            source: die Reise, die Fahrt
+          - target: to hold out a hand
+            source: die Hand reichen
+          - target: to shake hands
+            source: sich die Hand geben
+          - target: to step back
+            source: einen Schritt zurücktreten
+          - target: the conference
+            source: die Konferenz, die Tagung
+          - target: the colleague
+            source: der Kollege, die Kollegin
+          - target: the room
+            source: hier der Platz, der Raum
+          - target: the feedback
+            source: die Rückmeldung zu einer Arbeit
+          - target: to wonder
+            source: sich fragen
+          - target: perhaps
+            source: vielleicht
+          - target: to cut
+            source: hier streichen, kürzen
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: kk-verstehen
+        text: Stimmt das? In Szene 3 sagt die Reader direkt, dass der zweite Teil zu lang ist.
+        answer: false
+        hint: Lies Zeile 18.
+        explanation: Die Reader macht einen Vorschlag in Frageform.
+      - type: single-choice
+        id: kk-beleg
+        text: Welche Zeile zeigt, dass die Person mehr Abstand haben möchte?
+        options:
+          - text: Zeile 11
+            correct: true
+            info: Hier tritt die Person einen Schritt zurück.
+          - text: Zeile 10
+            correct: false
+            info: Hier tritt der Visitor näher.
+          - text: Zeile 15
+            correct: false
+            info: Hier schlägt die Person einen Platz vor.
+          - text: Zeile 16
+            correct: false
+            info: Hier antwortet der Visitor auf den Vorschlag.
+        explanation: Der Schritt zurück ist ein Signal ohne Worte.
+        hint: Suche eine Bewegung.
+      - type: open-task
+        id: kk-meinung
+        task: Was würdest du an der Stelle des Visitors tun, nachdem die andere Person zurücktritt? Schreibe zwei bis drei Sätze auf Englisch, zum Beispiel mit „I would … because …“.
+        points:
+          - text: Du sagst, was du tun würdest (zum Beispiel stehen bleiben oder mehr Platz lassen).
+            source: /englisch-weltweit/kulturelle-konventionen/#lesen
+          - text: Du gibst einen Grund an, der zur Szene passt (because …).
+            source: /englisch-weltweit/kulturelle-konventionen/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I would stay where I am and not step closer again, because the colleague stepped back. Maybe the colleague likes more room when people talk.
+        hint: Lies Zeile 10 bis 15.
+  - type: section
+    id: neu
+    title: Abstand, Small Talk und Kritik
+    blocks:
+      - type: figure
+        image: images/abstandszonen.svg
+        alt: Vier Ringe um eine Person in der Mitte. Der innerste Ring heißt intimate, der zweite personal, der dritte social und der äußerste public. Neben jedem Ring steht, wie weit er ungefähr von der Person reicht.
+        caption: Schemabild, nicht maßstabsgetreu. Die vier Zonen stammen von Edward T. Hall. Schau, wie die Zonen nach außen weiter von der Person entfernt sind.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Körpersprache** gehört zur nonverbalen Kommunikation: Berührung, Bewegung, Stimme, Zeit und Abstand. Den Abstand untersucht die **Proxemik**. Die Zahlen im Bild sind Richtwerte, keine Regeln.
+
+              **Wie viel Abstand angenehm ist**, hängt von der Kultur, der Situation und der Person ab. Eine Studie von 2017 fand bei Fremden im Durchschnitt mehr als 120 cm in Rumänien und Ungarn und weniger als 90 cm in Argentinien und Peru. Das sind Durchschnitte: Einzelne Menschen sind verschieden. Wenn jemand zurücktritt, ist ihm der Abstand oft zu klein.
+
+              **Small talk** ist ein freundliches Gespräch über unwichtige Dinge mit den Teilen Gruß, Gespräch und Abschluss. Sichere Themen sind oft das Wetter, Sport und Fernsehen. Eine Antwort mit etwas mehr als nur „Yes“ oder „No“ gilt als höflicher. Regeln und Themen unterscheiden sich je nach Kultur.
+
+              **Höfliche Kritik** beginnt mit etwas Positivem und macht aus der Kritik einen Vorschlag, zum Beispiel mit **could**, **might** oder **a bit**: It might be better to start with the main idea. Wie direkt Kritik sein darf, ist verschieden. Wenn du unsicher bist, wähle die höflichere Form.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: kk-antwort
+        text: "Nach einem Vortrag sagt eine Person zu dir: „Thank you for your talk. I wonder if the slides could have fewer words?“ Welche Antwort ist angemessen?"
+        options:
+          - text: Thank you, that is a helpful idea. I will try it.
+            correct: true
+            info: Du nimmst den höflichen Vorschlag auf.
+          - text: I do not know. I am not wondering about it.
+            correct: false
+            info: Der Satz ist ein Vorschlag, keine Frage.
+          - text: Why do you say that? That is rude.
+            correct: false
+            info: Die Form ist höflich, nicht unhöflich.
+        explanation: I wonder if … ist meistens ein höflicher Vorschlag.
+      - type: language-task
+        id: kk-kritik
+        languages:
+          source: de
+          target: en
+        mode: gap
+        task: Ergänze die höflichen Sätze.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - cue: Ich frage mich, ob der Text kürzer sein könnte.
+            target: I [wonder] if the text could be shorter.
+            mistakes:
+              - answer: I wander if the text could be shorter.
+                message: wonder (sich fragen) schreibst du mit o. wander heißt wandern.
+          - cue: Vielleicht könntest du die Tabelle streichen.
+            target: "[Perhaps|Maybe] you could cut the table."
+          - cue: Der zweite Teil ist sehr klar.
+            target: The second part is very [clear].
+            mistakes:
+              - answer: The second part is very clean.
+                message: clean heißt sauber. Klar im Sinn von verständlich heißt clear.
+        hint: Schau in die Zeilen 17 bis 22.
+      - type: language-task
+        id: kk-schreiben
+        languages:
+          source: de
+          target: en
+        task: Schreibe die Sätze auf Englisch.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - source: Vielen Dank, dass ich kommen durfte.
+            target: Thank you (very much |)for (having|inviting) me.
+            mistakes:
+              - answer: Thank you for have me.
+                message: Nach for steht die ing-Form.
+              - answer: Thanks you for having me.
+                message: Nach Thanks steht kein you.
+          - source: Entschuldigung, können Sie das bitte noch einmal sagen?
+            target: (Sorry|Excuse me), could you say that again, please?
+            mistakes:
+              - answer: Sorry, can you to say that again, please?
+                message: Nach could you steht das Verb ohne to.
+              - answer: Sorry, could you say that again?
+                message: Das please fehlt.
+        hint: Danken mit Thank you for …, bitten mit could you …, please.
+      - type: language-task
+        id: kk-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu. Du hörst drei Zeilen aus einem Gespräch. Schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - audio: please-take-a-seat-would-you-like-some-water.mp3
+            target: Please take a seat. Would you like some water?
+          - audio: yes-please-water-would-be-wonderful.mp3
+            target: Yes, please. Water would be wonderful.
+          - audio: i-hope-you-found-the-office-easily.mp3
+            target: I hope you found the office easily.
+        hint: Hör jeden Satz zweimal. Die Gastgeberin spricht britisch, der Gast spricht amerikanisch.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: kk-nachsprechen
+        language: en
+        items:
+          - audio: i-am-sorry-i-did-not-catch-your-name.mp3
+            text: I am sorry, I did not catch your name.
+          - audio: perhaps-we-could-look-at-the-table-together.mp3
+            text: Perhaps we could look at the table together.
+          - audio: thank-you-for-your-help-and-have-a-good-evening.mp3
+            text: Thank you for your help, and have a good evening.
+        hint: Sprich langsam nach. Achte auf name, table und together.
+      - type: open-task
+        id: kk-dialog
+        task: Schreibe einen Dialog mit vier bis sechs Zeilen zwischen Guest und Host. Er hat einen Gruß, eine freundliche Frage und eine höfliche Bitte.
+        points:
+          - text: Der Dialog beginnt mit einem Gruß und einer freundlichen Frage (small talk).
+            source: /englisch-weltweit/kulturelle-konventionen/#lesen
+          - text: Eine Bitte oder ein Vorschlag ist höflich formuliert (could, might, perhaps, please).
+            source: /englisch-weltweit/kulturelle-konventionen/#neu
+          - text: Jede Zeile beginnt mit der Rolle, zum Beispiel Host oder Guest, und besteht aus ganzen Sätzen.
+            kind: form
+        solution: |
+          Host: Hello, welcome! Did you find the house easily?
+          Guest: Yes, thank you. The streets were quiet.
+          Host: Good. Could you close the window, please? It is a bit cold.
+          Guest: Of course. Perhaps we could sit in the kitchen.
+        hint: Nimm die Szenen als Vorlage.
+  - type: section
+    id: weiter
+    title: Rückblick und Abschluss der Reise
+    blocks:
+      - type: table
+        caption: Schulkalender · Rückblick Kapitel 5
+        header:
+          - Halt
+          - Beispielsatz
+          - Das merkst du dir
+        rows:
+          - - Australien
+            - The First Fleet brought more than seven hundred convicts to Sydney Cove.
+            - Die Kolonie war zuerst ein Gefängnis der Briten.
+          - - Weitere Varietäten
+            - In Scotland, a lassie is a young girl.
+            - Jede Varietät hat eigene Wörter und eine eigene Norm.
+          - - Umgangsformen
+            - Your main idea is clear, but could we add a picture?
+            - Mach aus Kritik einen höflichen Vorschlag.
+      - type: text
+        text: Damit ist die Weltreise zu Ende. Du warst in den USA und in Kanada, hast britisches und amerikanisches Englisch verglichen und die Geschichte der USA gelesen. Zuletzt ging es nach Australien, zu weiteren Varietäten des Englischen und zu Umgangsformen in anderen Kulturen. Auf jedem Halt hast du gelesen, gehört, geschrieben und gesprochen.

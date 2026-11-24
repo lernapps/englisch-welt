@@ -1,0 +1,288 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Weitere Varietäten des Englischen
+description: Du erkennst typische Merkmale einer weiteren Varietät des Englischen, zum Beispiel des australischen und des schottischen Englisch, und liest Wörter mit einer Lesehilfe.
+competencies:
+  - weitere-varietaet
+scope: "Die Seite zeigt, dass Englisch in vielen Varietäten gesprochen wird, mit eigenen Merkmalen in Aussprache, Wortschatz, Schreibung und Grammatik. Eine Varietät ist kein falsches Englisch und hat eine eigene Standardform. Australisches Englisch entstand nach 1788 aus den Sprechweisen der Siedler aus Großbritannien und Irland, ist im ganzen Land ähnlich, schreibt wie das britische Englisch (colour, realise), spricht den r am Silbenende nicht, hat Wörter wie mate, arvo, barbie, g'day und outback und übernahm Wörter aus Aboriginal-Sprachen (kangaroo, boomerang). Schottisches Englisch entstand nach dem 17. Jahrhundert aus dem Kontakt von Scots und dem Englisch Englands, spricht den r meist, hat Wörter wie wee, bairn, bonnie und kirk, und stay kann dort live bedeuten. Es gibt keine Hörproben der Varietäten, nur Text, Wortliste und Lesehilfe, die Hörsätze sprechen britisch oder amerikanisch. Typische Fehler sind Varietät gleich Dialekt gleich falsches Englisch und stay wörtlich als bleiben zu lesen. Nicht hier: Indisches Englisch und andere Varietäten, Aussprache von britisch und amerikanisch (Kapitel 2), Politik."
+blocks:
+  - type: section
+    id: einstieg
+    title: Gleiche Sprache, andere Wörter
+    blocks:
+      - type: text
+        text: Auf dem letzten Halt warst du in Australien. Dort sprechen die Menschen Englisch, aber nicht genau so wie in London oder in New York. Aus dem Kapitel über britisches und amerikanisches Englisch kennst du schon Wörter, die sich unterscheiden. Vorher eine Frage an dich.
+      - type: single-choice
+        id: var-start
+        text: Wie heißt Benzin im Englisch in Australien?
+        options:
+          - text: petrol
+            correct: true
+            info: petrol gilt auch in Großbritannien.
+          - text: gasoline
+            correct: false
+            info: gasoline sagt man im amerikanischen Englisch.
+          - text: diesel
+            correct: false
+            info: diesel ist ein anderer Kraftstoff.
+        explanation: Für Benzin sagt man petrol.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst typische Merkmale einer weiteren Varietät des Englischen, zum Beispiel des australischen oder schottischen Englisch. Du liest ihre Wörter mit einer Lesehilfe und sagst, warum eine Varietät kein falsches Englisch ist."
+  - type: section
+    id: lesen
+    title: Eine Sprache, viele Varietäten
+    blocks:
+      - type: text
+        text: |
+          **What is a variety?**
+
+          1. English is spoken all over the world, and it does not sound or look the same everywhere. A form of English with its own typical sounds, words, grammar and spelling is called a variety.
+          2. Most varieties have a standard form that is used in schools, in the news and in books. A variety with its own features is not wrong English.
+
+          **Australian English**
+
+          3. Australian English began to grow apart from British English after 1788. The first settlers came from many parts of Britain and Ireland, and by the 1820s the children born in the colony already sounded different.
+          4. Today, English is the common language of Australia, and it is quite similar all over the country.
+          5. The spelling is close to British spelling: colour, honour and realise. The r at the end of a syllable is not pronounced.
+          6. Friends are often called mates, a barbecue is a barbie, the afternoon is the arvo, and g'day is a greeting. The outback is a remote area with very few people.
+          7. Some Aboriginal words, such as kangaroo and boomerang, are known all over the world.
+          8. In informal speech, yeah no can mean no, and no yeah can mean yes. The meaning is mostly in the last word.
+      - type: text
+        text: |
+          **Scottish English**
+
+          9. Scottish English is the English spoken in Scotland. It grew out of contact between Scots and the English of England after the seventeenth century.
+          10. Some speakers switch between Scottish English and Scots, depending on the situation. Many of them use Scots as the informal form.
+          11. Here Scottish English is different: in most places in Scotland, the r at the end of a syllable is pronounced.
+          12. Typical words are wee for small, bairn for child, bonnie for pretty and kirk for church. The ending -ie makes things smaller: a young boy can be a laddie and a young girl a lassie.
+          13. Some words are used in a different way. Where do you stay? means Where do you live?
+      - type: vocabulary
+        caption: Randglossar · Wörter und Lesehilfe (keine Lautschrift, kein nachgeahmter Akzent)
+        languages:
+          source: de
+          target: en
+        entries:
+          - target: the variety
+            source: die Varietät (eine Form des Englischen mit eigenen Merkmalen)
+          - target: the standard
+            source: die Standardform, die Norm
+          - target: formal, informal
+            source: förmlich, umgangssprachlich
+          - target: the region
+            source: das Gebiet
+          - target: to switch
+            source: wechseln
+          - target: mate
+            source: der Freund, der Kumpel
+            note: "Lesehilfe: MEIT. Australisch, auch britisch."
+          - target: g'day
+            source: der Gruß „guten Tag“
+            note: "Lesehilfe: ge-DEI. Australisch."
+          - target: arvo
+            source: der Nachmittag (kurz für afternoon)
+            note: "Lesehilfe: AA-wo. Australisch."
+          - target: barbie
+            source: das Grillen (kurz für barbecue)
+            note: "Lesehilfe: BAA-bi. Australisch."
+          - target: the outback
+            source: das Hinterland, ein abgelegenes Gebiet mit sehr wenigen Menschen
+            note: "Lesehilfe: AUT-bäk. Australisch."
+          - target: wee
+            source: klein
+            note: "Lesehilfe: WII. Schottisch."
+          - target: bairn
+            source: das Kind
+            note: "Lesehilfe: BÄRN. Schottisch."
+          - target: bonnie
+            source: hübsch
+            note: "Lesehilfe: BO-ni. Schottisch."
+          - target: kirk
+            source: die Kirche
+            note: "Lesehilfe: KIRK. Schottisch."
+          - target: laddie, lassie
+            source: Junge, Mädchen
+            note: "Lesehilfe: LÄ-di, LÄ-si. Schottisch."
+          - target: to stay
+            source: hier wohnen
+            note: Schottisch.
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: matching
+        id: var-zuordnen
+        text: Was sagt das Lesestück? Ordne zu.
+        pairs:
+          - left: Australian English
+            right: wuchs nach 1788 vom britischen Englisch weg
+          - left: Scottish English
+            right: entstand aus dem Kontakt von Scots und dem Englisch Englands
+          - left: die Standardform
+            right: wird in Schulen, Nachrichten und Büchern benutzt
+          - left: yeah no
+            right: kann nein bedeuten
+          - left: Where do you stay?
+            right: bedeutet in Schottland Wo wohnst du?
+        explanation: Die Zuordnungen stehen im Lesestück.
+        hint: Lies die Zeilen 2, 3, 8, 9 und 13.
+      - type: single-choice
+        id: var-beleg
+        text: Welche Zeile belegt, dass sich das australische Englisch erst nach 1788 vom britischen entfernte?
+        options:
+          - text: Zeile 3
+            correct: true
+            info: Hier steht das Jahr 1788.
+          - text: Zeile 4
+            correct: false
+            info: Hier geht es um die gemeinsame Sprache heute.
+          - text: Zeile 5
+            correct: false
+            info: Hier geht es um Schreibung und r.
+          - text: Zeile 7
+            correct: false
+            info: Hier geht es um Wörter der Aboriginal people.
+        explanation: Zeile 3 nennt die Zeit nach 1788.
+        hint: Suche die Zeile mit einem Jahr.
+      - type: single-choice
+        id: var-meinung
+        text: "Jemand sagt: „Australians use words like arvo and barbie, because they cannot speak proper English.“ Welche Antwort passt, und warum?"
+        options:
+          - text: "Das stimmt nicht: Australisches Englisch ist eine eigene Varietät mit eigener Norm, zum Beispiel mit eigenen Wörterbüchern."
+            correct: true
+            info: Es gibt eigene Wörterbücher, zum Beispiel das Macquarie Dictionary.
+          - text: "Das stimmt: Wörter wie arvo stehen in keinem Wörterbuch."
+            correct: false
+            info: Es gibt Wörterbücher des australischen Englisch.
+          - text: "Das stimmt teilweise: Nur britisches Englisch ist richtiges Englisch, alle anderen Varietäten weichen davon ab."
+            correct: false
+            info: Jede Varietät hat eine eigene Standardform.
+        explanation: Eine Varietät ist kein Fehler, sondern hat eine eigene Norm.
+        hint: Denke an Zeile 2.
+  - type: section
+    id: neu
+    title: Merkmale erkennen
+    blocks:
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Eine **Varietät** hat Merkmale in vier Bereichen: **Aussprache**, **Wortschatz**, **Schreibung** und **Grammatik**.
+
+              Beim Wortschatz teilt das australische Englisch manche Wörter mit dem britischen und andere mit dem amerikanischen: Für den Lastwagen sagt man in Australien **truck** wie im amerikanischen, für das Handy **mobile phone** wie im britischen Englisch.
+
+              Die **Lesehilfe** in der Wortliste ist nur eine Annäherung an das Lesen der Wörter. Sie ahmt keinen Akzent nach. Wie eine Varietät klingt, hörst du am besten von Menschen, die sie sprechen.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: var-woerter
+        text: Ordne jedem Wort die Bedeutung zu.
+        pairs:
+          - left: wee
+            right: klein
+          - left: bairn
+            right: das Kind
+          - left: arvo
+            right: der Nachmittag
+          - left: mate
+            right: der Freund
+          - left: outback
+            right: abgelegenes Gebiet mit wenigen Menschen
+        distractors:
+          - die Kirche
+        explanation: Die Wörter stammen aus dem australischen und dem schottischen Englisch.
+        hint: Schau in die Wortliste.
+      - type: single-choice
+        id: var-stay
+        text: In Schottland fragt jemand dich „Where do you stay?“ Was ist gemeint?
+        options:
+          - text: Wo wohnst du?
+            correct: true
+            info: In Schottland kann stay auch wohnen bedeuten.
+          - text: Wo bleibst du heute Abend?
+            correct: false
+            info: Das wäre die wörtliche Übersetzung.
+          - text: Wo hältst du an?
+            correct: false
+            info: stay bedeutet nicht anhalten.
+        explanation: stay kann in Schottland wohnen bedeuten.
+        hint: Lies Zeile 13.
+      - type: language-task
+        id: var-schreiben
+        languages:
+          source: de
+          target: en
+        mode: gap
+        task: Ergänze die australischen Wörter.
+        form:
+          case: hint
+          punctuation: ok
+          apostrophe: ok
+        items:
+          - cue: Wir grillen heute Nachmittag.
+            target: We are having a [barbie] this [arvo].
+            mistakes:
+              - answer: We are having a barbecue this arvo.
+                message: Hier sollst du die kurze Form barbie benutzen.
+              - answer: We are having a barbie this afternoon.
+                message: Hier sollst du die kurze Form arvo benutzen.
+          - cue: Hallo, mein Freund!
+            target: "[G'day], [mate]!"
+            mistakes:
+              - answer: Hello, mate!
+                message: Hier sollst du den Gruß g'day benutzen.
+              - answer: G'day, friend!
+                message: Hier sollst du das Wort mate benutzen.
+        hint: Schau in die Wortliste.
+      - type: language-task
+        id: var-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu und schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - audio: every-variety-of-english-has-its-own-typical-features.mp3
+            target: Every variety of English has its own typical features.
+          - audio: many-australian-words-come-from-aboriginal-languages.mp3
+            target: Many Australian words come from Aboriginal languages.
+          - audio: people-in-scotland-have-their-own-words-for-children.mp3
+            target: People in Scotland have their own words for children.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: var-nachsprechen
+        language: en
+        items:
+          - audio: australians-often-make-long-words-shorter.mp3
+            text: Australians often make long words shorter.
+          - audio: a-good-dictionary-describes-how-people-really-use-the-language.mp3
+            text: A good dictionary describes how people really use the language.
+          - audio: pronunciation-in-scotland-changes-from-region-to-region.mp3
+            text: Pronunciation in Scotland changes from region to region.
+        hint: Sprich langsam nach. Achte auf dictionary, really und pronunciation.
+      - type: open-task
+        id: var-frei
+        task: Wähle australisches oder schottisches Englisch. Schreibe zwei bis drei Sätze auf Englisch über Merkmale dieser Varietät, zum Beispiel mit „One typical word is … It means …“.
+        points:
+          - text: Du wählst eine Varietät und nennst ein Merkmal, zum Beispiel ein Wort, die Schreibung oder den r am Silbenende.
+            source: /englisch-weltweit/weitere-varietaet/#lesen
+          - text: Du sagst, was das Wort oder das Merkmal bedeutet oder wie es sich vom britischen Englisch unterscheidet.
+            source: /englisch-weltweit/weitere-varietaet/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          One typical word in Scottish English is bairn. It means child. In Scotland, the r at the end of a syllable is mostly pronounced.
+        hint: Schau in die Zeilen 5 bis 8 oder 11 bis 13.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Du hast jetzt gesehen, wie verschieden Englisch sein kann. Als Nächstes geht es um das, was zwischen Menschen passiert, wenn sie miteinander sprechen: **kulturelle Umgangsformen** wie Abstand, Small Talk und höfliche Kritik."
