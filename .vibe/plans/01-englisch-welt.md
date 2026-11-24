@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -100,9 +100,10 @@ Typische Fehlvorstellungen (je eine eigene Rückmeldung): USA = Amerika; Kanada 
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Recherche bestätigt; Kapitel 2 bf_emma gegen af_sarah; Kapitel 5 Varietäten als Text und Wortliste, Hörsätze nur GB/US; Videoszenen als Gesprächsszenen mit Hörfassung; 429-Quellen pro Seite langsam öffnen oder Aussage weglassen.
 
 ### Answers
 
@@ -138,22 +139,46 @@ Typische Fehlvorstellungen (je eine eigene Rückmeldung): USA = Amerika; Kanada 
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
+- [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
 
 ### Content method
+
+**Seitenform (alle Inhaltsseiten), gleiche Abschnitts-Ids in dieser Reihenfolge:** `einstieg` (Vorwissen-Frage als erste leichte Aufgabe, „Das kannst du danach“, Verbindung zur Seite davor), `lesen` (ein Lesestück in 2 bis 3 kurzen Abschnitten, Randglossar als `vocabulary`-Block „Randglossar · …“, Zeilen nummeriert), `verstehen` (drei Stufen: Verstehen, Belegen mit Zeile, Meinung), `neu` (Bild/Karte, Merke-Kasten, höchstens eine Wörtertabelle als `vocabulary`), `uebung` (mindestens vier Übungen, leicht → schwer, wechselnde Arten), `anwenden` (`speaking-task` und/oder `open-task` mit Punkten), `weiter` (nächster Halt). Höchstens etwa 25 Items, höchstens 10 Übungen, höchstens 350 Wörter Erklärtext (das Lesestück zählt nicht). Wiederholungsseiten: nur `einstieg` mit `recap:`, den „Ich kann“-Sätzen der Karte, höchstens einer Tabelle und höchstens zwei Kontrollfragen.
+
+**Figuren und Form:** Stufe 7-8: Lesestücke als Chats Sophie ↔ Jayden, kurze Dialoge im Klassenraum (Mr Hill, Ellie, Amir, Peter, Mrs Parker nur als Stimmen, ohne Einführung), Berichte; keine Altersangaben, keine Familie, kein Datum im Seitentext; ein Bild nur wo es etwas zeigt (Schemakarten, Zeitachse). Stufe 9-10: Sachtexte mit Daten, Quellenvergleich, Entscheidung („Welche Quelle nutzt du für …?“), keine erfundenen Kinder.
+
+**Muster je Baustein** (je Übung `mistakes` mit eigener Meldung, `hint`, `(a|b)`, `punctuation: ok`; Übungsarten wechseln):
+- usa-ueberblick (Musterseite): Schemakarte mit Regionen, Alaska/Hawaii; `matching` Region ↔ Lage; Karte lesen; Satz schreiben (`language-task`); Diktat; Fehler: USA = America, Hawaii in Asien.
+- usa-staedte: Chat; nummerierte Orte; `matching` Sehenswürdigkeit ↔ Stadt; Lückentext; Fehler: Washington D.C. = Washington State, New York = Hauptstadt.
+- kanada: Lesestück, zwei Amtssprachen, First Nations und Inuit sachlich; `true-false` mit Begründung; Fehler: nur Englisch, Toronto = Hauptstadt.
+- jugend-usa: Chat über Freizeit, Sport, Essen; Vergleich Sophie/Jayden (`matching`); `ordering`; Fehler: football/soccer, Klischees als Alltag.
+- schule-usa: Stundenplan (Tabelle), Begriffe grade, locker; Vergleich mit Millbrook; mode `choice`; Fehler: High School = Gymnasium.
+- feste-usa: Thanksgiving, Independence Day; Kalender „Schulkalender · …“; `ordering`; Fehler: Thanksgiving = Erntedank, Datum.
+- be-ae-wortschatz: Chat; Karten zweispaltig (`matching`); Lücke; Übersetzen; Fehler: vertauschte Wörter.
+- be-ae-aussprache: Hörpaare bf_emma/af_sarah als Diktat; Merkmale in Wortliste mit Lesehilfe (keine IPA); Nachsprechen; Fehler: amerikanisch = falsch.
+- be-ae-schreibung: Regelmuster aus Wortpaaren ableiten, mode `table`, Korrektur; Fehler: -ise im AE.
+- mayflower, einwanderung-usa, unabhaengigkeit-usa, westen-native-americans, politik-usa: Lesestück (Bericht), `timeline` aus `src/data/usa-zeitachse.yaml`, `ordering`, `matching`, je Ereignis „Wer gewinnt, wer verliert?“ mit mehreren Perspektiven; Zitate nur kurz mit Quelle und Lizenz; politik-usa mit `labelled-figure` der drei Gewalten; Fehler: Mayflower = Kolumbus, Declaration = Verfassung, Kongress = Präsident, Native Americans nur Vergangenheit.
+- sklaverei-buergerkrieg, gesellschaft-politik, buergerrechtsbewegung, migration-heute: Sachtext 300 bis 600 Wörter, Zeitachse, Quellenvergleich, Zitat nur wo Lizenz klar (Verfassungs-/Gesetzestexte, UDHR; „I have a dream“ ist urheberrechtlich geschützt: nur Fakten, kein Zitat, keine Hörfassung); Daten nur belegt; Fehler: nur eine Ursache des Bürgerkriegs, Rosa Parks war nur müde (Legende), Einwanderung = Flucht.
+- australien, weitere-varietaet, kulturelle-konventionen: Schemakarte, Zeitachse, Wortlisten mit Varietät, Gesprächsszenen mit Hörfassung (bf_emma/af_sarah, ohne nachgeahmten Akzent); `single-choice` angemessene Antwort mit Begründung; `open-task` Dialog; Fehler: Hauptstadt Sydney, Varietät = Dialekt = falsch.
+
+**Daten:** `src/data/usa-zeitachse.yaml` (Ereignisse einmal: Jahr, Titel, Perspektive, Quelle; K3 und K4). Sonst keine Datendatei: jede Tatsache steht einmal in ihrer Seite.
+**Bilder:** Skript `make_images.py` (SVG, Schemakarten „nicht genau nach Maßstab“, `CC-BY-4.0`, Quelle eigene Zeichnung), keine Fotos, keine Komponente.
+**Audio:** `bf_emma` (GB), `af_sarah` (US) nur in Kapitel 2 und den Gesprächsszenen von Kapitel 5; je Seite vier bis sechs ganze Sätze, `regen_audio.py`, Hörliste im Inhaltsführer, kein Satz zweimal.
+**Engagement:** Eröffnung: erste leichte Frage vor der Erklärung; Wechsel: lesen, zuordnen, hören, schreiben; Belohnung: Halt auf der Weltkarte, am Kapitelende „Schulkalender · …“-Rückblick; Geschichte: Chat von Sophie und Jayden, Karte und Zeitachse wachsen von Halt zu Halt; Wiederholung nur absichtlich.
+**Weiterbauen:** Seite anlegen, in `chapter.yaml` und `src/app.yaml` eintragen, Karten-Id als `competencies`, Datendatei und Hörliste erweitern.
 
 <!-- One line each: the patterns and where; the figures and how they are made; the data files; each component, what it
 checks and what it cannot; how a later agent adds a chapter. It becomes the content guide in Code. -->
@@ -184,11 +209,20 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Musterseite hello-america/usa-ueberblick: Lesestück (Chat), Schemakarte der USA, Randglossar, Aufgaben in drei Stufen, Übungen, Diktat und Nachsprechen (bf_emma), Schreibauftrag; app.yaml, chapter.yaml und Skript make_images.py
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Kapitel 1 Teil 1: Wiederholungsseite das-brauchst-du (schule-uk, feste-uk), Seiten usa-staedte und kanada mit Karte, Audio
+- [ ] Kapitel 1 Teil 2: Seiten jugend-usa, schule-usa und feste-usa mit Audio, Kapitel-Rückblick und Selbsteinschätzung
+- [ ] Kapitel 2 british-or-american: Wiederholungsseite (vokale, laut-buchstabe), Seiten be-ae-wortschatz, be-ae-aussprache (bf_emma gegen af_sarah) und be-ae-schreibung, Selbsteinschätzung
+- [ ] Kapitel 3 Teil 1: Datendatei usa-zeitachse, Seiten mayflower, einwanderung-usa und unabhaengigkeit-usa mit Zeitachse und Audio
+- [ ] Kapitel 3 Teil 2: Seiten westen-native-americans und politik-usa (mehrere Perspektiven), Selbsteinschätzung
+- [ ] Kapitel 4 freiheit-gleichheit: Wiederholungsseite vielfalt-gb, Seiten sklaverei-buergerkrieg, gesellschaft-politik, buergerrechtsbewegung, migration-heute (Sachtexte mit Quellen), Selbsteinschätzung
+- [ ] Kapitel 5 englisch-weltweit: Wiederholungsseite (britische-inseln, gruss-hoeflichkeit), Seiten australien, weitere-varietaet und kulturelle-konventionen mit Gesprächsszenen und Hörfassung, Selbsteinschätzung
+- [ ] Prüfskript für Hörsätze (keine Hörsätze im Text derselben Seite), Wörter außerhalb A1/A2 im Inhaltsführer, Hörliste; Medienübersicht prüfen
+<!-- tasks: pages (8 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
