@@ -213,9 +213,10 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Musterseite hello-america/usa-ueberblick: Lesestück (Chat), Schemakarte der USA, Randglossar, Aufgaben in drei Stufen, Übungen, Diktat und Nachsprechen (bf_emma), Schreibauftrag; app.yaml, chapter.yaml und Skript make_images.py
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Muster bestätigt; Kapitel 1 bis 5 parallel mit Sub-Agenten in Worktrees; Hörurteil bestätigt; vor dem Vorschau-PR Gesamtcheck und Sprachprüfung mit Sub-Agenten.
 - [ ] Kapitel 1 Teil 1: Wiederholungsseite das-brauchst-du (schule-uk, feste-uk), Seiten usa-staedte und kanada mit Karte, Audio
 - [ ] Kapitel 1 Teil 2: Seiten jugend-usa, schule-usa und feste-usa mit Audio, Kapitel-Rückblick und Selbsteinschätzung
 - [ ] Kapitel 2 british-or-american: Wiederholungsseite (vokale, laut-buchstabe), Seiten be-ae-wortschatz, be-ae-aussprache (bf_emma gegen af_sarah) und be-ae-schreibung, Selbsteinschätzung
