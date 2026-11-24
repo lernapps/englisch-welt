@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { checks-pass: 2 }
 ---
 
 # Plan: englisch-welt, first version
@@ -38,6 +38,7 @@ Lernende der Stufen 7-8 und 9-10 lernen die englischsprachige Welt außerhalb Gr
 - Videoszenen (Kapitel 5): keine eigenen Videos möglich; (guess) kurze Gesprächsszenen als Text und Hörszene (bf_emma/af_sarah), kein Video.
 - Karte und Zeitachse: selbst gezeichnete Schemakarten (SVG, Skript wie im Vorgänger), `timeline`-Blöcke aus Datendatei `src/data/`.
 - Kein Vue-Bauteil (`prefer-built-in-block`).
+- `scope`: ja (alle Seiten haben `open-task`, der Tutor beurteilt offene Antworten nach dem `scope`): `scope` in `src/app.yaml` und auf jeder Seite.
 
 ## Notes
 
@@ -203,12 +204,12 @@ page, which a link. -->
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Musterseite hello-america/usa-ueberblick: Lesestück (Chat), Schemakarte der USA, Randglossar, Aufgaben in drei Stufen, Übungen, Diktat und Nachsprechen (bf_emma), Schreibauftrag; app.yaml, chapter.yaml und Skript make_images.py
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->

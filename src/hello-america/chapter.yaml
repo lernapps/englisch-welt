@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Hello, America!
+summary: Die Weltkarte beginnt in den USA. Du beschreibst die USA und Kanada auf der Karte, stellst New York und Washington vor und vergleichst den Alltag, die Schule und die Feste von Jugendlichen mit deinen.
+pages: [usa-ueberblick]

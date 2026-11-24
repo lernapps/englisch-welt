@@ -1,10 +1,14 @@
 # yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 format: 2
-# The strand of the learning map the app stays in, <subject>/<strand> (e.g. mathematik/stochastik); then each page
-# names its competencies. none: the app is on no strand, and no page names competencies. A unit app across the strands
-# of a subject whose map allows it names subject: <subject> (e.g. franzoesisch) instead of strand.
-strand: none
-title: Platzhalter
-intro: Dieses Kapitel hält den Platz frei, bis der geplante Inhalt da ist.
+subject: englisch
+title: "Englisch in der Welt: USA, Kanada und Australien"
+intro: "Eine Weltkarte und eine Zeitachse tragen diese App. Sophie chattet mit Jayden aus Chicago, und die Reise führt von Halt zu Halt: durch die USA und Kanada, zu den Unterschieden zwischen britischem und amerikanischem Englisch, durch die Geschichte der USA und zuletzt nach Australien und zu weiteren Varietäten des Englischen. Mitwirkende: Sophie (Hauptfigur), Jayden (Chat-Freund aus Chicago), Mr Hill (Englischlehrer), Ellie, Peter und Amir (Klasse), Mrs Parker."
 languages: [de]
-chapters: [thema]
+scope:
+  text: Die App erklärt Jugendlichen mit Englisch als erster Fremdsprache die englischsprachige Welt außerhalb Großbritanniens. Eine Weltkarte führt von Halt zu Halt. Zuerst kommen die USA und Kanada (Karte, New York und Washington D.C., Alltag, High School und Feste von Jugendlichen), dann der Unterschied zwischen britischem und amerikanischem Englisch in Wortschatz, Aussprache und Schreibung. Eine Zeitachse erzählt die Geschichte der USA von der Mayflower bis zum politischen System, danach folgen Sklaverei, Bürgerkrieg, Bürgerrechtsbewegung, Demokratie und Migration heute und zuletzt Australien, weitere Varietäten des Englischen und Umgangsformen in anderen Kulturen. Geschichte und Gesellschaft werden sachlich mit mehreren Sichtweisen erzählt, ohne Bewertung der Gegenwart. Die Karten sind Schemakarten und nicht genau nach Maßstab.
+  out:
+    - Großbritannien und London (eigener Explainer)
+    - Schulsysteme mit Abschlüssen und Bewerbung
+    - Politik als Thema für Diskussionen
+    - Bevölkerungszahlen und Statistiken ohne Beleg
+chapters: [hello-america]
