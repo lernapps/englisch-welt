@@ -1,0 +1,238 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Einwanderung in die USA
+description: "Jayden schickt Sophie einen Bericht über Ellis Island. Du erklärst, warum Menschen aus Europa in die USA kamen, und erzählst, wie die Prüfung auf Ellis Island ablief."
+competencies: [einwanderung-usa]
+scope: "Die Seite erklärt, warum zwischen 1865 und 1917 etwa 24 Millionen Menschen aus Europa in die USA kamen, die meisten durch den Hafen von New York. Die Gründe waren verschieden: Arbeit, eigenes Land, Familie, Gewalt und Armut. Ellis Island war von 1892 bis 1954 die Station, an der etwa zwölf Millionen Menschen geprüft wurden: erst ein Arzt, dann ein Beamter mit Fragen zu Arbeit und Geld. Etwa zwei von hundert wurden zurückgeschickt. Viele Einwanderer arbeiteten für wenig Lohn, zum Beispiel beim Bau der Eisenbahn. Geübt werden Wörter für Ankunft und Prüfung und das Erzählen in der Vergangenheit sowie die Sicht verschiedener Seiten: Einwanderer, Wirtschaft, Menschen, die zurückmussten. Typischer Fehler: Einwanderung gleich Flucht. Es gibt keine erfundenen Lebensgeschichten. Nicht hier: Migration heute, Sklaverei, Einwanderungsgesetze nach 1924, Besiedlung des Westens."
+blocks:
+  - type: section
+    id: einstieg
+    title: Ein Bericht für die Schule
+    blocks:
+      - type: text
+        text: "Nach den Pilgern kamen noch viele Millionen Menschen aus Europa. Sophie will wissen, warum. Jayden hat einen Bericht für seine Schule geschrieben. Vorher eine Frage an dich."
+      - type: single-choice
+        id: einwanderung-start
+        text: Was ist Ellis Island?
+        options:
+          - text: Eine Insel bei New York, auf der Einwanderer geprüft wurden
+            correct: true
+            info: Dort prüfte die Regierung Einwanderer.
+          - text: Ein Staat im Westen der USA
+            correct: false
+            info: Ellis Island liegt bei New York und ist kein Staat.
+          - text: Das Schiff der Pilger von 1620
+            correct: false
+            info: Das Schiff der Pilger hieß Mayflower.
+        explanation: Auf Ellis Island kamen Einwanderer an.
+      - type: text
+        text: "**Das kannst du danach:** Du erklärst, warum Menschen aus Europa in die USA auswanderten, und erzählst, wie die Prüfung auf Ellis Island ablief."
+  - type: section
+    id: lesen
+    title: Jaydens Bericht
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Mr Hill says that millions of people came to the USA from Europe. Why did they come?
+          2. **Jayden:** I wrote a report about it. Here is a part of it.
+          3. **Jayden:** From 1865 to 1917, about twenty-four million people came to the USA from Europe. Most of them arrived at the Port of New York.
+          4. They came for different reasons. Some wanted a job or their own land. Some went to join family members. Others left because of violence or because they were very poor.
+      - type: text
+        text: |
+          5. In 1892 the government opened a station on Ellis Island. About twelve million people were checked there until 1954.
+          6. First a doctor looked at each person. Then an officer asked questions, for example about work and money. Most people stayed only a few hours.
+          7. About two out of one hundred people had to go back to Europe.
+          8. Many immigrants from Ireland and China worked on the railroads, often for low pay. The country grew fast.
+          9. **Sophie:** So everybody ran away from danger?
+          10. **Jayden:** No. Some did, but many came for a job, for land or for their families.
+          11. **Sophie:** Can you visit Ellis Island today?
+          12. **Jayden:** Yes, it is a museum now. You can only get there by ferry.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Berichts
+        languages: { source: de, target: en }
+        entries:
+          - target: the immigrant
+            source: der Einwanderer, die Einwanderin
+          - target: the report
+            source: der Bericht
+          - target: to arrive
+            source: ankommen
+          - target: the government
+            source: die Regierung
+          - target: the station
+            source: "die Station (hier: Stelle, an der Menschen geprüft werden)"
+          - target: the officer
+            source: der Beamte, die Beamtin
+          - target: to check
+            source: prüfen
+          - target: violence
+            source: die Gewalt
+          - target: poor
+            source: arm
+          - target: low pay
+            source: niedriger Lohn
+          - target: the railroad
+            source: die Eisenbahn
+          - target: the ferry
+            source: die Fähre
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: matching
+        id: einwanderung-verstehen
+        text: "Welche Angabe gehört zu welchem Satz aus Jaydens Bericht? Ordne zu."
+        pairs:
+          - left: 24 Millionen
+            right: Menschen aus Europa zwischen 1865 und 1917
+          - left: "1892"
+            right: Die Station auf Ellis Island öffnet
+          - left: 12 Millionen
+            right: Menschen, die bis 1954 auf Ellis Island geprüft wurden
+          - left: 2 von 100
+            right: Menschen, die nach Europa zurückmussten
+        explanation: Die Zahlen stehen in den Zeilen 3, 5 und 7.
+        hint: Lies die Zeilen 3 bis 7 noch einmal.
+      - type: single-choice
+        id: einwanderung-beleg
+        text: Welche Zeile belegt, dass nicht alle Menschen in den USA bleiben durften?
+        options:
+          - text: Zeile 7
+            correct: true
+            info: Hier steht die Zahl der Zurückgeschickten.
+          - text: Zeile 3
+            correct: false
+            info: Zeile 3 nennt, wie viele Menschen ankamen.
+          - text: Zeile 5
+            correct: false
+            info: Zeile 5 nennt das Jahr 1892 und die Zahl der Geprüften.
+          - text: Zeile 10
+            correct: false
+            info: Zeile 10 handelt von den Gründen der Menschen.
+        explanation: "Zeile 7: Etwa zwei von hundert mussten zurück nach Europa."
+        hint: Suche die Zeile über das Zurückschicken.
+      - type: open-task
+        id: einwanderung-meinung
+        task: "Die Einwanderung verändert das Land: Wer gewinnt, wer verliert? Schreibe zwei bis drei Sätze auf Englisch, zum Beispiel mit „The immigrants … but …“."
+        points:
+          - text: Du nennst, was Einwanderer gewannen oder suchten, zum Beispiel Arbeit, Land oder ein neues Leben.
+            source: /wie-die-usa-entstanden/einwanderung-usa/#lesen
+          - text: Du nennst eine Schwierigkeit, zum Beispiel die Prüfung auf Ellis Island, die Rückreise oder niedrigen Lohn.
+            source: /wie-die-usa-entstanden/einwanderung-usa/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          The immigrants wanted jobs and land, and the country got many new workers. But many of them worked for low pay, and about two out of one hundred people had to go back to Europe.
+        hint: Schau in die Zeilen 4, 7 und 8.
+  - type: section
+    id: neu
+    title: Schiffe nach New York
+    blocks:
+      - type: figure
+        image: images/einwanderung-karte.svg
+        alt: "Schemakarte des Atlantiks. Rechts liegt Europa, links die Ostküste der USA mit einem Kasten für New York und Ellis Island. Von Europa führen zwei gestrichelte Linien mit Segelschiffen über das Meer zur Küste."
+        caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die Linien zeigen die Wege der Schiffe nach New York."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: figure
+        image: images/zeitachse-usa-2.svg
+        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Links stehen graue Punkte, rechts kurz vor neunzehnhundert ein oranger Punkt unter einem Segelschiff."
+        caption: "Die Zeitachse wächst: Der orange Punkt ist neu, die grauen Punkte kennst du schon."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Wer in ein anderes Land zieht, um dort zu leben, ist aus Sicht des neuen Landes ein **immigrant**: Er **immigrates** (wandert ein). Aus Sicht des alten Landes ist er ein **emigrant**: Er **emigrates** (wandert aus). Menschen haben viele Gründe für diesen Schritt.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: einwanderung-grund
+        text: "Ein Mitschüler sagt: „Alle Einwanderer sind vor Gefahr geflohen.“ Welche Antwort stimmt?"
+        options:
+          - text: Nein, die Gründe waren verschieden. Viele kamen auch wegen Arbeit, Land oder Familie.
+            correct: true
+            info: Es gab viele Gründe.
+          - text: Ja, wer auswandert, flieht immer vor etwas.
+            correct: false
+            info: Das galt nur für einen Teil der Menschen.
+          - text: Nein, alle kamen nur wegen der Arbeit.
+            correct: false
+            info: Arbeit war wichtig, aber nicht der einzige Grund.
+        explanation: "Es gab nicht den einen Grund: Arbeit, Land, Familie, Gewalt."
+        hint: Lies noch einmal die Zeilen 4 und 10.
+      - type: ordering
+        id: einwanderung-reihenfolge
+        text: Bringe die Schritte der Prüfung in die richtige Reihenfolge.
+        items:
+          - Das Schiff erreicht den Hafen von New York.
+          - Ein Arzt schaut sich jeden Menschen an.
+          - Ein Beamter stellt Fragen zu Arbeit und Geld.
+          - Die meisten dürfen nach einigen Stunden in die USA.
+        explanation: Erst der Arzt, dann die Fragen des Beamten, dann die Entscheidung.
+        hint: Lies noch einmal die Zeile 6.
+      - type: language-task
+        id: einwanderung-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Viele Menschen kamen aus Europa.
+            target: Many people came from Europe.
+            mistakes:
+              - answer: Many people came of Europe.
+                message: "Für die Herkunft brauchst du from, nicht of."
+              - answer: Many people came to Europe.
+                message: to heißt „nach“.
+          - source: Sie wollten Arbeit.
+            target: They wanted (a job|work).
+            mistakes:
+              - answer: They wanted a work.
+                message: Mit Artikel sagst du a job.
+              - answer: They want work.
+                message: "Du brauchst die Vergangenheit: wanted."
+          - source: Ein Arzt prüfte jeden Einwanderer.
+            target: A doctor checked every immigrant.
+            mistakes:
+              - answer: A doctor checked every immigrants.
+                message: Nach every steht der Singular, also every immigrant.
+              - answer: A doctor check every immigrant.
+                message: "Du brauchst die Vergangenheit: checked."
+        hint: "Die Vergangenheit regelmäßiger Verben endet auf -ed. Nach every steht der Singular."
+      - type: language-task
+        id: einwanderung-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: immigrants-came-from-many-different-countries.mp3
+            target: Immigrants came from many different countries.
+          - audio: the-immigrants-had-to-answer-many-questions.mp3
+            target: The immigrants had to answer many questions.
+          - audio: ellis-island-is-open-to-visitors.mp3
+            target: Ellis Island is open to visitors.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: einwanderung-nachsprechen
+        language: en
+        items:
+          - audio: many-germans-and-italians-came-to-the-country.mp3
+            text: Many Germans and Italians came to the country.
+          - audio: thousands-of-people-arrived-every-day.mp3
+            text: Thousands of people arrived every day.
+          - audio: the-statue-of-liberty-is-close-to-ellis-island.mp3
+            text: The Statue of Liberty is close to Ellis Island.
+        hint: Sprich langsam nach. Achte auf Germans, thousands und Statue.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Auf der Zeitachse springt die Weltkarte jetzt zurück ins 18. Jahrhundert. Die Kolonisten werfen in **Boston** Tee ins Wasser, und die **Unabhängigkeit** beginnt."

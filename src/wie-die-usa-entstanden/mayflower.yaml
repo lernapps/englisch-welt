@@ -1,0 +1,239 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Pilgerväter und Mayflower
+description: "Sophie fragt Jayden nach dem Schiff Mayflower. Du erzählst, warum die Pilger England verließen, wo sie landeten und wer dort schon lebte, und wie die ersten Kolonien entstanden."
+competencies: [mayflower]
+scope: "Die Seite erzählt von den Pilgervätern (Pilgrims) und der Mayflower. Die Pilger waren Engländer, die eine eigene Kirche außerhalb der Church of England wollten und deshalb zuerst in die Niederlande zogen. 1620 segelte die Mayflower von England nach Nordamerika, landete bei Cape Cod und die Pilger gründeten die Plymouth Colony in Massachusetts. Fast die Hälfte starb im ersten Winter. Im März 1621 schlossen die Pilger mit Massasoit, einem Anführer der Wampanoag, einen Friedensvertrag. Die Virginia Colony (1607) ist älter, insgesamt entstanden dreizehn britische Kolonien. Geübt werden das Erzählen in der Vergangenheit (past simple), die Karte des Atlantiks und die Sicht verschiedener Seiten: Pilger und Wampanoag. Typische Fehler sind Mayflower gleich Kolumbus, Pilger gleich die ersten Menschen in Amerika, Plymouth Colony gleich erste Kolonie. Native Americans leben bis heute in den USA. Nicht hier: Einwanderung später, Thanksgiving, Unabhängigkeit, die Geschichte einzelner Völker im Detail."
+blocks:
+  - type: section
+    id: einstieg
+    title: Ein Schiff mit einem berühmten Namen
+    blocks:
+      - type: text
+        text: "Mr Hill hat ein Bild von einem Segelschiff gezeigt. Sophie fragt Jayden danach. Vorher eine Frage an dich."
+      - type: single-choice
+        id: mayflower-start
+        text: Wer fuhr 1620 mit der Mayflower nach Nordamerika?
+        options:
+          - text: Pilger aus England
+            correct: true
+            info: Die Pilger wollten eine eigene Kirche.
+          - text: Kolumbus und seine Mannschaft
+            correct: false
+            info: Kolumbus segelte 1492 für Spanien.
+          - text: Cowboys aus dem Westen
+            correct: false
+            info: Der Westen wurde erst viel später besiedelt.
+        explanation: Die Mayflower brachte Pilger über den Atlantik.
+      - type: text
+        text: "**Das kannst du danach:** Du erzählst, warum die Pilger England verließen und wer in Nordamerika schon lebte, und erklärst, wie die ersten Kolonien entstanden."
+  - type: section
+    id: lesen
+    title: Jayden erzählt von der Mayflower
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Mr Hill showed us a picture of the Mayflower today. Was that Columbus's ship?
+          2. **Jayden:** No! Columbus sailed for Spain in 1492. The Mayflower sailed from England in 1620.
+          3. **Sophie:** Who was on it?
+          4. **Jayden:** The Pilgrims. They were English people who wanted their own church, but in England that was against the law. So they moved to the Netherlands first.
+          5. **Sophie:** Why did they leave the Netherlands?
+          6. **Jayden:** They worried about money, and their children spoke more and more Dutch. They wanted to stay English.
+      - type: text
+        text: |
+          7. **Jayden:** In September 1620, one hundred and two passengers left England on the Mayflower and crossed the Atlantic Ocean. After about sixty-five days they saw land.
+          8. **Jayden:** They started the Plymouth Colony in what is now Massachusetts. Nearly half of the Pilgrims died in the first winter.
+          9. **Sophie:** Were the Pilgrims the first people in North America?
+          10. **Jayden:** No way. People from Europe came, but Native Americans lived in North America for thousands of years. The Wampanoag lived near Plymouth.
+          11. **Jayden:** In March 1621 the Pilgrims and Massasoit, a leader of the Wampanoag, signed a peace treaty. A man called Squanto, from the village of Patuxet, helped the Pilgrims.
+          12. **Sophie:** Was Plymouth the first British colony?
+          13. **Jayden:** No. The Virginia colony began in 1607. In the end, there were thirteen colonies.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: the Pilgrims
+            source: die Pilger (Engländer, die mit der Mayflower segelten)
+          - target: the colony
+            source: die Kolonie (Gebiet, das zu einem anderen Land gehört)
+          - target: the church
+            source: die Kirche
+          - target: against the law
+            source: verboten
+          - target: the Netherlands
+            source: die Niederlande
+          - target: Dutch
+            source: niederländisch
+          - target: to worry about
+            source: sich Sorgen machen um
+          - target: the passenger
+            source: der Passagier
+          - target: the Wampanoag
+            source: die Wampanoag (ein Volk der Native Americans in Massachusetts)
+          - target: Native Americans
+            source: die Native Americans (Menschen, deren Vorfahren schon lange vor den Europäern in Nordamerika lebten)
+          - target: the leader
+            source: der Anführer
+          - target: the treaty
+            source: der Vertrag
+          - target: the village
+            source: das Dorf
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: mayflower-verstehen
+        text: "Stimmt das? Die Pilger waren die ersten Menschen in Nordamerika."
+        answer: false
+        hint: Lies die Zeile 10 noch einmal.
+        explanation: "Native Americans lebten dort seit vielen Tausend Jahren. Die Pilger kamen 1620 aus Europa."
+      - type: single-choice
+        id: mayflower-beleg
+        text: Welche Zeile belegt, dass die Pilger Sorgen wegen des Geldes hatten?
+        options:
+          - text: Zeile 6
+            correct: true
+            info: Hier geht es um Geld.
+          - text: Zeile 4
+            correct: false
+            info: Zeile 4 handelt von der Kirche.
+          - text: Zeile 8
+            correct: false
+            info: Zeile 8 handelt vom ersten Winter.
+          - text: Zeile 13
+            correct: false
+            info: Zeile 13 handelt von der Virginia Colony.
+        explanation: "Zeile 6: Geldsorgen waren ein Grund, die Niederlande zu verlassen."
+        hint: Suche die Zeile über die Niederlande.
+      - type: open-task
+        id: mayflower-meinung
+        task: "Die Mayflower kommt in Nordamerika an: Wer gewinnt, wer verliert? Schreibe zwei bis drei Sätze auf Englisch über die Pilger und die Wampanoag, zum Beispiel mit „The Pilgrims got … but …“."
+        points:
+          - text: Du nennst, was die Pilger wollten oder bekamen, zum Beispiel eine eigene Kirche oder einen Platz zum Leben.
+            source: /wie-die-usa-entstanden/mayflower/#lesen
+          - text: Du nennst die Sicht der Wampanoag oder der Native Americans, zum Beispiel dass sie schon dort lebten oder 1621 einen Vertrag schlossen.
+            source: /wie-die-usa-entstanden/mayflower/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          The Pilgrims got a place for their own church, but nearly half of them died in the first winter. The Wampanoag already lived there, and now people from Europe came to their land. In 1621 both sides signed a peace treaty.
+        hint: Schau in die Zeilen 8, 10 und 11.
+  - type: section
+    id: neu
+    title: Die Reise auf der Karte
+    blocks:
+      - type: figure
+        image: images/mayflower-karte.svg
+        alt: "Schemakarte des Atlantiks. Links liegt die Küste von New England mit Cape Cod, rechts die Küste von England und weiter nordöstlich Leiden. Eine gestrichelte Linie führt von Leiden nach England und von dort mit einem Segelschiff über das Meer nach Cape Cod."
+        caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die gestrichelte Linie zeigt den Weg der Pilger."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: figure
+        image: images/zeitachse-usa-1.svg
+        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Drei orange Punkte liegen kurz nach sechzehnhundert, unter einem Segelschiff. Rechts ist die Achse noch leer."
+        caption: "Die Zeitachse der USA beginnt. Mit jedem Halt kommen neue Punkte dazu: graue Punkte sind schon bekannt, orange Punkte sind neu."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Die **Pilgrims** kamen 1620 auf der **Mayflower** und gründeten die **Plymouth Colony**. Eine **colony** gehört zu einem anderen Land, damals zu Großbritannien. Die Native Americans lebten schon lange vor den Pilgern dort und leben bis heute in den USA.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: mayflower-karte
+        text: Auf der Karte stehen Nummern. Ordne jeder Nummer den englischen Namen zu.
+        material:
+          - type: labelled-figure
+            image: images/mayflower-karte-aufgabe.svg
+            alt: "Schemakarte ohne Namen mit vier Markierungen: Markierung 1 liegt auf der linken Küste, 2 auf der rechten Küste, 3 auf dem Meer zwischen den Küsten und 4 auf dem Segelschiff."
+            caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben."
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            legend: false
+            labels:
+              - { x: 12, y: 27, text: North America, marker: "1" }
+              - { x: 87, y: 77, text: Europe, marker: "2" }
+              - { x: 48, y: 80, text: Atlantic Ocean, marker: "3" }
+              - { x: 60, y: 40, text: the Mayflower, marker: "4" }
+        pairsFrom: material
+        explanation: Die Mayflower fuhr von Europa über den Atlantik nach Nordamerika.
+        hint: Denk an die Himmelsrichtungen. Der Atlantik liegt im Osten der USA.
+      - type: ordering
+        id: mayflower-reihenfolge
+        text: Bringe die Stationen der Pilger in die richtige Reihenfolge.
+        items:
+          - Die Pilger ziehen in die Niederlande.
+          - Die Mayflower fährt aus England ab.
+          - Die Pilger sehen Land und gründen die Plymouth Colony.
+          - Fast die Hälfte der Pilger stirbt im ersten Winter.
+          - Die Pilger und Massasoit unterschreiben einen Friedensvertrag.
+        explanation: Zuerst die Niederlande, dann die Überfahrt, dann die Kolonie, der Winter und im März 1621 der Vertrag.
+        hint: Lies noch einmal die Zeilen 4 bis 11.
+      - type: language-task
+        id: mayflower-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze das Verb in der Vergangenheit.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Die Pilger fuhren mit der Mayflower.
+            target: The Pilgrims [sailed] on the Mayflower.
+            mistakes:
+              - answer: The Pilgrims sail on the Mayflower.
+                message: Du brauchst die Vergangenheit mit -ed.
+              - answer: The Pilgrims sails on the Mayflower.
+                message: Du brauchst die Vergangenheit mit -ed.
+          - cue: Die Wampanoag lebten in Nordamerika.
+            target: The Wampanoag [lived] in North America.
+            mistakes:
+              - answer: The Wampanoag live in North America.
+                message: Du brauchst die Vergangenheit mit -ed.
+              - answer: The Wampanoag lifed in North America.
+                message: live hat schon ein e, du hängst nur d an.
+          - cue: Die Pilger gründeten die Kolonie.
+            target: The Pilgrims [started] the colony.
+            mistakes:
+              - answer: The Pilgrims start the colony.
+                message: Du brauchst die Vergangenheit mit -ed.
+              - answer: The Pilgrims startd the colony.
+                message: Bei start hängst du -ed an, also started.
+        hint: Regelmäßige Verben bekommen in der Vergangenheit -ed.
+      - type: language-task
+        id: mayflower-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: many-pilgrims-became-ill-in-the-winter.mp3
+            target: Many Pilgrims became ill in the winter.
+          - audio: the-wampanoag-lived-there-long-before-the-pilgrims.mp3
+            target: The Wampanoag lived there long before the Pilgrims.
+          - audio: the-pilgrims-lived-in-a-dutch-city.mp3
+            target: The Pilgrims lived in a Dutch city.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: mayflower-nachsprechen
+        language: en
+        items:
+          - audio: the-mayflower-sailed-across-the-atlantic-ocean.mp3
+            text: The Mayflower sailed across the Atlantic Ocean.
+          - audio: squanto-learned-to-speak-english-in-england.mp3
+            text: Squanto learned to speak English in England.
+          - audio: massachusetts-is-in-the-north-east-of-the-country.mp3
+            text: Massachusetts is in the north-east of the country.
+        hint: Sprich langsam nach. Achte auf Atlantic, Squanto und Massachusetts.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Nach den Pilgern kamen noch viele Millionen Menschen aus Europa. Die Weltkarte zeigt jetzt ein Schiff vor **New York**: Dort liegt **Ellis Island**."
