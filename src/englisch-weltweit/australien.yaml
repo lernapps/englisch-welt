@@ -1,0 +1,331 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Australien
+description: "Du stellst Australien vor: Lage, Hauptstadt, die Geschichte als britische Kolonie und die Rolle der Aborigines und der Torres-Strait-Insulaner früher und heute."
+competencies:
+  - australien
+scope: "Die Seite stellt Australien vor. Australien ist ein Land und ein Kontinent, die Hauptstadt ist Canberra (nicht Sydney oder Melbourne, die größten Städte). Die meisten Menschen leben an der Küste, im Landesinneren ist es trocken. Die Aborigines und die Torres-Strait-Insulaner leben seit sehr langer Zeit dort. Die Aborigines sind kein einziges Volk, sondern viele Gruppen mit mehr als 250 Sprachen, die Torres-Strait-Insulaner sind ein eigenes Volk. Die Briten gründeten 1788 mit der First Fleet eine Strafkolonie in Sydney Cove, schlossen keine Verträge mit den Aborigines, und die Siedler nahmen den größten Teil des Landes. Ab 1886 nahmen Behörden viele Aboriginal-Kinder aus ihren Familien. 1901 vereinigten sich die sechs Kolonien. Ein Referendum 1967 und die Mabo-Entscheidung 1992 sind Schritte zu mehr Rechten. Geübt werden Lage auf der Karte, Zeitachse, zwei Sichtweisen auf dieselbe Geschichte und Sätze mit capital, coast und people. Typische Fehler sind Sydney als Hauptstadt, die Aborigines als ein Volk und Australien als leeres Land. Nicht hier: Politik der Gegenwart, Wirtschaft, Tiere, Schulsystem."
+blocks:
+  - type: section
+    id: einstieg
+    title: Nächster Halt Australien
+    blocks:
+      - type: text
+        text: Auf der Wiederholungsseite ging es um das Vereinigte Königreich. Von dort fuhren im Jahr 1788 Schiffe nach Australien. Der Halt auf der Weltkarte liegt also weit im Süden. Vorher eine Frage an dich.
+      - type: single-choice
+        id: aus-start
+        text: Welche Stadt ist die Hauptstadt von Australien?
+        options:
+          - text: Canberra
+            correct: true
+            info: Canberra wurde als Hauptstadt eigens gebaut.
+          - text: Sydney
+            correct: false
+            info: Sydney ist eine der größten Städte, aber nicht die Hauptstadt.
+          - text: Melbourne
+            correct: false
+            info: Melbourne war nur vorübergehend Sitz der Regierung.
+        explanation: Die Hauptstadt ist Canberra.
+      - type: text
+        text: "**Das kannst du danach:** Du zeigst Australien auf der Karte und nennst die Hauptstadt. Du erzählst in Stufen, wie die Briten kamen und wer vorher dort lebte. Du beschreibst zwei Sichtweisen auf dieselbe Geschichte, ohne zu urteilen."
+  - type: section
+    id: lesen
+    title: Ein Land, ein Kontinent, viele Völker
+    blocks:
+      - type: text
+        text: |
+          **The land**
+
+          1. Australia is a country and a continent at the same time. It consists of the mainland, the island of Tasmania and many smaller islands.
+          2. It lies between the Indian Ocean and the Pacific Ocean. In the north, the Timor Sea separates it from Asia, and the Tasman Sea lies between Australia and New Zealand.
+          3. It is the flattest and driest continent on which people live. About seventy per cent of the land is dry or half dry.
+          4. So most people live near the coast. About ninety-five per cent of the Australians live within a hundred kilometres of the sea.
+          5. Canberra is the capital. Sydney and Melbourne are bigger: both have more than five million people.
+          6. The Great Dividing Range runs along the east of the country. The Great Barrier Reef, the largest coral reef in the world, lies off the north-east coast.
+      - type: text
+        text: |
+          **The first peoples and the colony**
+
+          7. People have lived in Australia for a very long time. Researchers think that the ancestors of the Aboriginal Australians arrived between fifty thousand and sixty-five thousand years ago.
+          8. "Aboriginal Australians" does not mean one single people. When the British arrived, the Aboriginal people spoke more than two hundred and fifty different languages.
+          9. The Torres Strait Islanders are a different people with their own culture and languages. Their islands lie at the northern tip of Australia.
+          10. In 1770, James Cook sailed along the east coast and claimed it for Great Britain. In 1788, the First Fleet arrived at Sydney Cove with more than a thousand people, among them 778 convicts. Britain wanted a prison colony there.
+          11. The British made their camp at Sydney Cove on 26 January 1788. This day later became Australia's national day.
+      - type: text
+        text: |
+          **Then and now**
+
+          12. For Aboriginal people, the settlers brought great losses. The British signed no treaties with them. Many people died of diseases that the settlers brought, others were killed in fights over land, and the settlers took most of the land.
+          13. From 1886, officials took many Aboriginal children away from their families. They gave child protection and assimilation as their reasons.
+          14. On 1 January 1901, the six colonies became one country. Canberra was built as its capital, and until 1927 Melbourne served as the temporary capital.
+          15. In 1967, a referendum changed the constitution: Aboriginal Australians were now counted in the census, and the federal parliament could make laws for them. In 1992, the High Court decided in the Mabo case that native title had survived: Australia was not "land belonging to no one" when the British came.
+          16. The federal government later apologised for the policy of taking children away. In the census of 2021, 3.7 per cent of the people in Australia were Aboriginal, and almost 77,000 Aboriginal and Torres Strait Islander people spoke an Indigenous language at home.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Lesestücks
+        languages:
+          source: de
+          target: en
+        entries:
+          - target: the continent
+            source: der Kontinent
+          - target: the mainland
+            source: das Festland
+          - target: the coral reef
+            source: das Korallenriff
+          - target: the ancestors
+            source: die Vorfahren
+          - target: the fleet
+            source: die Flotte (mehrere Schiffe)
+          - target: the convict
+            source: der Sträfling (eine Person, die im Gefängnis sitzen soll)
+          - target: the colony
+            source: die Kolonie (ein Gebiet, das zu einem anderen Land gehört)
+          - target: the settler
+            source: der Siedler
+          - target: to claim
+            source: beanspruchen
+          - target: the treaty
+            source: der Vertrag zwischen Staaten oder Gruppen
+          - target: the disease
+            source: die Krankheit
+          - target: the camp
+            source: das Lager
+          - target: the assimilation
+            source: die Anpassung an die Mehrheit (die Kinder sollten die Lebensweise der Siedler übernehmen)
+          - target: the policy
+            source: das Vorgehen einer Regierung, die Politik
+          - target: the constitution
+            source: die Verfassung
+          - target: federal
+            source: des ganzen Staates (nicht nur eines Teils)
+          - target: the parliament
+            source: das Parlament
+          - target: the referendum
+            source: die Volksabstimmung
+          - target: the census
+            source: die Volkszählung
+          - target: native title
+            source: das Recht der ersten Völker auf ihr Land
+          - target: temporary
+            source: vorübergehend
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: matching
+        id: aus-zuordnen
+        text: Was sagt das Lesestück über diese Begriffe? Ordne zu.
+        pairs:
+          - left: Canberra
+            right: die Hauptstadt des Landes
+          - left: the Great Barrier Reef
+            right: das größte Korallenriff der Welt, vor der Nordostküste
+          - left: Tasmania
+            right: eine Insel, die zum Land gehört
+          - left: the First Fleet
+            right: die Flotte, die 1788 mit mehr als tausend Menschen in Sydney Cove ankam
+          - left: the Mabo case
+            right: eine Entscheidung des höchsten Gerichts im Jahr 1992
+        explanation: Die Begriffe stehen in den Zeilen 5 bis 15.
+        hint: Lies die Zeilen 5, 6, 10 und 15.
+      - type: single-choice
+        id: aus-beleg
+        text: Welche Zeile belegt, dass es keine Verträge mit den Aboriginal-Gruppen gab?
+        options:
+          - text: Zeile 12
+            correct: true
+            info: Hier steht, dass die Briten keine Verträge unterzeichneten.
+          - text: Zeile 10
+            correct: false
+            info: Hier geht es um Cook und die First Fleet.
+          - text: Zeile 13
+            correct: false
+            info: Hier geht es um die Kinder ab 1886.
+          - text: Zeile 15
+            correct: false
+            info: Hier geht es um 1967 und den Mabo-Fall.
+        explanation: Zeile 12 nennt die fehlenden Verträge.
+        hint: Suche das Wort treaties.
+      - type: open-task
+        id: aus-meinung
+        task: Das Lesestück zeigt zwei Sichtweisen auf den Beginn der Kolonie. Beschreibe sie in zwei bis drei Sätzen auf Englisch, zum Beispiel mit „For the British … but for …“.
+        points:
+          - text: Du nennst, was der Beginn der Kolonie für die Briten bedeutete (neues Lager, Strafkolonie, später Nationalfeiertag).
+            source: /englisch-weltweit/australien/#lesen
+          - text: Du nennst, was er für die Aboriginal people bedeutete (Verluste, keine Verträge, Land genommen).
+            source: /englisch-weltweit/australien/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          For the British, the camp at Sydney Cove was the start of a new colony, and the day later became the national day. For the Aboriginal people, the settlers brought diseases and fights, and the settlers took most of the land.
+        hint: Lies die Zeilen 10 bis 12.
+  - type: section
+    id: neu
+    title: Australien auf der Karte und in der Zeit
+    blocks:
+      - type: figure
+        image: images/australien-schema-natur.svg
+        alt: Schemakarte Australiens. Im Südosten liegt die Hauptstadt Canberra als Stern, östlich davon an der Küste Sydney und weiter im Süden Melbourne. Entlang der Ostseite verläuft die Great Dividing Range, vor der Nordostküste als gestrichelte Linie das Great Barrier Reef. Südlich des Festlands liegt die Insel Tasmania.
+        caption: Schemakarte, nicht genau nach Maßstab. Norden ist oben. Der Stern ist die Hauptstadt, die Punkte sind die beiden größten Städte.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: timeline
+        events:
+          - date: 1606
+            title: Erste belegte Landung von Europäern
+            text: Das niederländische Schiff Duyfken landet an der Küste.
+          - date: 1770
+            title: James Cook an der Ostküste
+            text: Cook zeichnet die Küste und beansprucht sie für Großbritannien.
+          - date: 1788-01-26
+            label: 26. Januar 1788
+            title: First Fleet in Sydney Cove
+            text: Die Briten gründen eine Strafkolonie. Der Tag wird später Nationalfeiertag.
+          - date: 1901-01-01
+            label: 1. Januar 1901
+            title: Die sechs Kolonien werden ein Staat
+            text: Australien ist nun ein Staat innerhalb des britischen Weltreichs.
+          - date: 1911
+            title: Das Gebiet der Hauptstadt entsteht
+            text: Das Gebiet für die künftige Hauptstadt Canberra wird eingerichtet.
+          - date: 1967
+            title: Volksabstimmung über die Verfassung
+            text: Aboriginal Australians werden bei der Volkszählung mitgezählt.
+          - date: 1992
+            title: Mabo-Entscheidung
+            text: Das höchste Gericht erkennt das Recht der ersten Völker auf ihr Land an.
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Eine Hauptstadt nennst du mit **the capital of …**: Washington, D.C. is the capital of the United States.
+
+              **Aboriginal Australians** und **Torres Strait Islanders** sind zwei verschiedene Gruppen. Zusammen sagt man auch **Indigenous Australians**, aber manche Menschen mögen dieses Wort nicht. Nutze die Namen, die die Gruppen für sich selbst benutzen.
+
+              Auf dasselbe Datum kann es zwei Sichtweisen geben. Beschreibe beide, ohne sie zu bewerten.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: aus-karte
+        text: Auf der Karte stehen Nummern. Ordne jeder Nummer den englischen Namen zu.
+        material:
+          - type: labelled-figure
+            image: images/australien-schema-aufgabe.svg
+            alt: "Schemakarte Australiens ohne Namen mit vier Markierungen im Meer: Markierung 1 liegt im Nordwesten zwischen dem Land und Asien, 2 westlich des Landes, 3 östlich des Landes und 4 im Südosten."
+            caption: Schemakarte, nicht genau nach Maßstab. Norden ist oben. Alle vier Markierungen stehen im Wasser.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            legend: false
+            labels:
+              - x: 29
+                y: 15
+                text: Timor Sea
+                marker: "1"
+              - x: 5
+                y: 58
+                text: Indian Ocean
+                marker: "2"
+              - x: 92
+                y: 47
+                text: Pacific Ocean
+                marker: "3"
+              - x: 78
+                y: 82
+                text: Tasman Sea
+                marker: "4"
+        pairsFrom: material
+        explanation: Die Namen zeigen Ozeane und Meere rund um das Land.
+        hint: Die Tasman Sea liegt zwischen Australien und New Zealand.
+      - type: ordering
+        id: aus-reihenfolge
+        text: Bringe die Ereignisse in die richtige Reihenfolge, das älteste zuerst.
+        items:
+          - Die Briten gründen in Sydney Cove eine Strafkolonie.
+          - Die sechs Kolonien werden ein gemeinsamer Staat.
+          - Eine Volksabstimmung ändert die Verfassung für die Aboriginal Australians.
+          - Das höchste Gericht entscheidet im Mabo-Fall.
+        explanation: Von 1788 über 1901 und 1967 bis 1992.
+        hint: Die Zeitachse nennt die Jahre.
+      - type: single-choice
+        id: aus-volk
+        text: "Jemand schreibt: „The Aborigines are one people with one language.“ Welche Antwort passt?"
+        options:
+          - text: "Das stimmt nicht: Es gab viele verschiedene Gruppen mit mehr als 250 Sprachen."
+            correct: true
+            info: Es gab viele Gruppen mit eigenen Sprachen und Kulturen.
+          - text: "Das stimmt: Alle Aborigines sprachen vor 1788 dieselbe Sprache."
+            correct: false
+            info: Vor 1788 wurden mehr als 250 Sprachen gesprochen.
+          - text: "Das stimmt nicht: Die Torres-Strait-Insulaner sind das einzige Volk des Landes."
+            correct: false
+            info: Die Torres-Strait-Insulaner sind ein eigenes Volk neben den Aboriginal-Gruppen.
+          - text: "Das stimmt nicht: Vor 1788 lebten noch keine Menschen in Australien."
+            correct: false
+            info: Menschen leben dort seit mindestens fünfzigtausend Jahren.
+        explanation: Aboriginal Australians sind viele Gruppen.
+        hint: Lies Zeile 8.
+      - type: language-task
+        id: aus-schreiben
+        languages:
+          source: de
+          target: en
+        task: Schreibe die Sätze auf Englisch.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - source: Die Hauptstadt von Australien ist Canberra.
+            target: The capital of Australia is Canberra.
+            mistakes:
+              - answer: The capital of Australia is Sydney.
+                message: Sydney ist nicht die Hauptstadt, sondern Canberra.
+              - answer: The capital from Australia is Canberra.
+                message: Nach capital steht of.
+          - source: Die meisten Australier leben an der Küste.
+            target: Most Australians live (on|near|by) the coast.
+            mistakes:
+              - answer: Most Australians live in the coast.
+                message: Mit coast sagst du on the coast oder near the coast.
+              - answer: The most Australians live near the coast.
+                message: Vor most steht kein the.
+        hint: capital = Hauptstadt, coast = Küste.
+      - type: language-task
+        id: aus-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu und schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - audio: australia-is-the-sixth-largest-country-in-the-world.mp3
+            target: Australia is the sixth largest country in the world.
+          - audio: tasmania-is-an-island-in-the-south-of-the-country.mp3
+            target: Tasmania is an island in the south of the country.
+          - audio: while-canberra-was-being-built-melbourne-was-the-temporary-capital.mp3
+            target: While Canberra was being built, Melbourne was the temporary capital.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: aus-nachsprechen
+        language: en
+        items:
+          - audio: many-australian-animals-live-in-no-other-country.mp3
+            text: Many Australian animals live in no other country.
+          - audio: the-great-barrier-reef-is-more-than-two-thousand-kilometres-long.mp3
+            text: The Great Barrier Reef is more than two thousand kilometres long.
+          - audio: aboriginal-australians-have-lived-there-for-many-thousands-of-years.mp3
+            text: Aboriginal Australians have lived there for many thousands of years.
+        hint: Sprich langsam nach. Achte auf Australian, Barrier und thousand.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Die Weltkarte hat jetzt auch einen Halt im Süden der Erde. Als Nächstes geht es um das, was du hörst, wenn Menschen in Australien, Schottland oder anderswo Englisch sprechen: **weitere Varietäten des Englischen**."
