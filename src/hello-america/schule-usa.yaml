@@ -1,0 +1,254 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: High School in den USA
+description: "Jayden beschreibt seinen Schultag an der High School. Du vergleichst mit Millbrook und mit deiner Schule und lernst Wörter wie grade, homeroom und elective."
+competencies: [schule-usa]
+scope: "Die Seite beschreibt den Alltag an einer amerikanischen High School und vergleicht ihn mit Millbrook und der eigenen Schule. Die meisten High Schools haben die Klassenstufen (grades) neun bis zwölf. Neunte Klasse (ninth grade) entspricht in England Year Ten. Die vier Jahre heißen freshman, sophomore, junior und senior. Die Schüler kommen zwischen sieben und neun Uhr morgens und gehen zwischen zwei und vier Uhr nachmittags, die Zeiten sind an jeder Schule anders. Morgens gibt es oft homeroom, eine kurze Zeit mit Anwesenheitsliste und Mitteilungen; in Großbritannien sagt man form time oder registration. Es gibt vier bis acht class periods am Tag, jede vierzig bis neunzig Minuten lang. Manche Fächer sind electives, also Wahlfächer. Viele Schulen haben lockers. Das Mittagessen findet meist in der Schule statt. Nach der Schule trainieren die Schulmannschaften. Öffentliche High Schools sind kostenlos und nehmen alle Kinder ihres Bezirks auf. Typische Fehler sind High School gleich Gymnasium, grade als Note statt Klassenstufe, election statt elective, attention statt attendance und die Zählung grade neun gleich Year Nine. Nicht hier: Schulabschlüsse, Noten und Prüfungen im Einzelnen, College, Kosten privater Schulen (stehen in einem anderen Explainer)."
+blocks:
+  - type: section
+    id: einstieg
+    title: Ein Schultag in Chicago
+    blocks:
+      - type: text
+        text: "Sophie möchte wissen, wie Jaydens Schultag aussieht, und vergleicht mit Millbrook. Vorher eine Frage an dich."
+      - type: single-choice
+        id: schule-start
+        text: "Was heißt „grade“ in „ninth grade“?"
+        options:
+          - text: die Klassenstufe
+            correct: true
+            info: So zählt man Schuljahre in den USA.
+          - text: die Note
+            correct: false
+            info: Grade heißt auch Note, hier aber nicht.
+          - text: das Schulfach
+            correct: false
+            info: Ein Schulfach heißt subject.
+        explanation: Hier ist die Klassenstufe gemeint.
+      - type: text
+        text: "**Das kannst du danach:** Du beschreibst den Alltag an einer amerikanischen High School und vergleichst ihn mit deiner Schule. Du erklärst Wörter wie homeroom und elective."
+  - type: section
+    id: lesen
+    title: Jayden erzählt von seiner High School
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Hi Jayden! What is a school day like in your school?
+          2. **Jayden:** In the USA most high schools have grades nine to twelve. Ninth grade is like Year Ten in England.
+          3. **Sophie:** We start at a quarter to nine at Millbrook School. When do you start?
+          4. **Jayden:** Students arrive between seven and nine in the morning, and the times are different in every school. In my school, we start with homeroom.
+          5. **Sophie:** What is homeroom?
+          6. **Jayden:** It is a short time in the morning. The teacher takes attendance and reads the announcements. I think you say form time.
+      - type: text
+        text: |
+          7. **Jayden:** Then we have four to eight class periods a day. A period is between forty and ninety minutes long, depending on the school.
+          8. **Jayden:** Some subjects are electives. That means you can choose them. In my school I can choose music. I keep my books in my locker.
+          9. **Sophie:** Do you have lunch at school?
+          10. **Jayden:** Yes, most schools have lunch in the school. Some schools let students go out.
+          11. **Jayden:** After school there are sports practices for the school teams.
+          12. **Sophie:** Do you have to pay for your school?
+          13. **Jayden:** No, public high schools are free. People's taxes pay for them.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: the grade
+            source: "die Klassenstufe (auch die Note)"
+          - target: homeroom
+            source: eine kurze Zeit am Morgen in der Klasse (britisch form time)
+          - target: attendance
+            source: die Anwesenheit
+          - target: the announcement
+            source: die Mitteilung, die Durchsage
+          - target: the class period
+            source: die Unterrichtsstunde (britisch lesson)
+          - target: the elective
+            source: das Wahlfach
+          - target: the locker
+            source: das Fach zum Abschließen für persönliche Sachen
+          - target: the tax
+            source: die Steuer
+          - target: the sports practice
+            source: das Training einer Mannschaft
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: single-choice
+        id: schule-verstehen
+        text: Welche Aussage über den Schulbeginn in den USA stimmt?
+        options:
+          - text: Er ist an jeder Schule anders, meist zwischen sieben und neun Uhr.
+            correct: true
+            info: Die Zeiten sind verschieden.
+          - text: Er ist an allen High Schools um acht Uhr.
+            correct: false
+            info: Es gibt keine feste Uhrzeit für alle.
+          - text: Er ist an allen High Schools um neun Uhr.
+            correct: false
+            info: Auch neun Uhr gilt nicht überall.
+        explanation: Die Zeiten sind an jeder Schule anders.
+        hint: Lies Zeile 4 noch einmal.
+      - type: matching
+        id: schule-zuordnen
+        text: "Was sagt Jayden über diese Dinge? Ordne zu."
+        pairs:
+          - left: homeroom
+            right: eine kurze Zeit am Morgen mit Anwesenheitsliste
+          - left: class period
+            right: eine Unterrichtsstunde, vierzig bis neunzig Minuten lang
+          - left: elective
+            right: ein Fach, das man wählen kann
+          - left: public high school
+            right: kostenlos, die Steuern bezahlen sie
+        explanation: Jayden erklärt die Wörter des Schultags nacheinander.
+        hint: Lies die Zeilen 6, 7, 8 und 13 noch einmal.
+      - type: single-choice
+        id: schule-beleg
+        text: Welche Zeile belegt, dass die Schulmannschaften nach dem Unterricht trainieren?
+        options:
+          - text: Zeile 11
+            correct: true
+            info: Dort trainieren die Schulmannschaften.
+          - text: Zeile 7
+            correct: false
+            info: Zeile 7 handelt von class periods.
+          - text: Zeile 10
+            correct: false
+            info: Zeile 10 handelt vom Mittagessen.
+          - text: Zeile 8
+            correct: false
+            info: Zeile 8 handelt von Wahlfächern.
+        explanation: Zeile 11 nennt das Training.
+        hint: Suche „after school“.
+      - type: open-task
+        id: schule-meinung
+        task: "Vergleiche deine Schule mit Jaydens High School. Was ist gleich, was ist anders? Schreibe zwei bis drei Sätze auf Englisch, zum Beispiel mit „In my school … but in Jayden's school …“."
+        points:
+          - text: Du nennst etwas aus deiner Schule, zum Beispiel den Schulbeginn oder die Pause.
+            kind: form
+          - text: Du nennst etwas aus Jaydens Schule, zum Beispiel homeroom, electives oder lockers.
+            source: /hello-america/schule-usa/#lesen
+          - text: Du vergleichst beides (but, and).
+            kind: form
+        solution: |
+          In my school we start at a quarter to nine, but in Jayden's school students arrive between seven and nine. Jayden can choose some subjects, because they are electives.
+        hint: Schau in die Zeilen 3 bis 8.
+  - type: section
+    id: neu
+    title: Millbrook und High School im Vergleich
+    blocks:
+      - type: figure
+        image: images/schule-stundenplan.svg
+        alt: "Ein Stundenplan für einen Tag, Beispiel von Jaydens Schule, von oben nach unten: Homeroom, first period, second period, Lunch, third period mit dem Wahlfach music, fourth period und zuletzt sports practice nach der Schule."
+        caption: "Skizze, ein Beispiel von Jaydens Schule. Jede Schule hat andere Zeiten. Lies von oben nach unten."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Millbrook und die High School
+        header: [Thema, Millbrook School, High School in den USA]
+        rows:
+          - [Beginn, "8:45", zwischen sieben und neun Uhr (je nach Schule)]
+          - [Am Morgen, "registration, form time", homeroom]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Mit **high school** meinst du die letzten Schuljahre, meist **grades** neun bis zwölf. Es ist keine besondere Schulform wie das Gymnasium. Auch **grade** kann Note heißen, doch bei **tenth grade** ist die Klassenstufe gemeint.
+
+              Die vier Jahre haben Namen: **freshman** (grade nine), **sophomore** (ten), **junior** (eleven) und **senior** (twelve).
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: schule-fehler
+        text: "Ein Freund sagt: „High School heißt Gymnasium, da gehen nur die besten Schüler hin.“ Was stimmt?"
+        options:
+          - text: Die High School sind die letzten Schuljahre, öffentliche High Schools nehmen alle Kinder ihres Bezirks auf.
+            correct: true
+            info: Sie wählt ihre Schüler nicht nach Noten aus.
+          - text: Eine High School ist eine Schule für Kinder von sechs bis zehn Jahren.
+            correct: false
+            info: Sie kommt später, meist ab grade nine.
+          - text: Eine High School ist eine Universität.
+            correct: false
+            info: Die Universität kommt danach.
+        explanation: High School ist eine Schulstufe, keine Auswahlschule.
+        hint: Lies Zeile 2.
+      - type: language-task
+        id: schule-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze das fehlende Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Im Homeroom prüft die Lehrerin die Anwesenheit.
+            target: In homeroom, the teacher takes [attendance].
+            mistakes:
+              - answer: In homeroom, the teacher takes attention.
+                message: attention heißt Aufmerksamkeit. Die Anwesenheit heißt attendance.
+          - cue: Ein Fach, das man wählen kann, ist ein Wahlfach.
+            target: A subject that you can choose is an [elective].
+            mistakes:
+              - answer: A subject that you can choose is an election.
+                message: election heißt Wahl, zum Beispiel die Wahl eines Präsidenten. Ein Wahlfach heißt elective.
+          - cue: Eine Unterrichtsstunde dauert vierzig bis neunzig Minuten.
+            target: A class [period] is between forty and ninety minutes long.
+            mistakes:
+              - answer: A class lesson is between forty and ninety minutes long.
+                message: Lesson ist das britische Wort. Im Chat von Jayden heißt die Stunde class period.
+        hint: Schau in das Randglossar.
+      - type: language-task
+        id: schule-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Die meisten High Schools haben die Klassenstufen neun bis zwölf.
+            target: Most high schools have grades nine to twelve.
+            mistakes:
+              - answer: Most high schools have classes nine to twelve.
+                message: Die Klassenstufen heißen grades. classes sind die Klassen oder Unterrichtsstunden.
+              - answer: Most high school has grades nine to twelve.
+                message: Nach most steht die Mehrzahl, also high schools, und das Verb heißt have.
+          - source: Die Schüler kommen zwischen sieben und neun Uhr an.
+            target: Students arrive between seven and (nine|nine o'clock).
+            mistakes:
+              - answer: Students arrive between seven to nine.
+                message: Nach between brauchst du and, nicht to.
+        hint: "Zwischen … und … heißt between … and …."
+      - type: language-task
+        id: schule-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: students-can-choose-some-subjects.mp3
+            target: Students can choose some subjects.
+          - audio: a-school-year-is-about-nine-months-long.mp3
+            target: A school year is about nine months long.
+          - audio: school-teams-often-train-after-school.mp3
+            target: School teams often train after school.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: schule-nachsprechen
+        language: en
+        items:
+          - audio: students-in-twelfth-grade-are-called-seniors.mp3
+            text: Students in twelfth grade are called seniors.
+          - audio: most-students-eat-lunch-at-school.mp3
+            text: Most students eat lunch at school.
+          - audio: the-school-day-ends-in-the-afternoon.mp3
+            text: The school day ends in the afternoon.
+        hint: Sprich langsam nach. Achte auf twelfth, seniors und lunch.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Nach der Schule folgen die Feste. Der nächste Halt der Weltkarte zeigt zwei Feiertage der USA: **Thanksgiving** und **Independence Day**."

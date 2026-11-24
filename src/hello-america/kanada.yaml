@@ -1,0 +1,253 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Kanada
+description: "Ein Abstecher nach Kanada: Du stellst das Land vor, seine Lage, seine Hauptstadt, die zwei Amtssprachen Englisch und Französisch und die Indigenous peoples."
+competencies: [kanada]
+scope: "Die Seite stellt Kanada vor. Kanada liegt im Norden der USA, ist nach der Gesamtfläche das zweitgrößte Land der Welt und hat zehn Provinzen und drei Territorien. Es grenzt an drei Ozeane (Atlantik im Osten, Pazifik im Westen, Arktischer Ozean im Norden). Die Hauptstadt ist Ottawa, die drei größten Städte (Großräume) sind Toronto, Montreal und Vancouver. Kanada hat zwei Amtssprachen der Bundesregierung, Englisch und Französisch; die meisten französischsprachigen Kanadier leben in Quebec, und viele Packungen tragen beide Sprachen. Die Indigenous peoples (First Nations, Inuit und Métis) leben seit Tausenden von Jahren dort, heute etwa fünf Prozent der Bevölkerung, sie sprechen viele eigene Sprachen, und in Nunavut ist Inuktitut eine Amtssprache. Typische Fehler sind zu glauben, in Kanada werde nur Englisch gesprochen, und Toronto für die Hauptstadt zu halten. Nicht hier: Geschichte Kanadas, Politik, Unterschiede der Provinzen im Einzelnen, Einwohnerzahlen."
+blocks:
+  - type: section
+    id: einstieg
+    title: Ein Abstecher zum Nachbarn
+    blocks:
+      - type: text
+        text: "Auf Mr Hills Weltkarte liegt nördlich der USA ein sehr großes Land. Sophie fragt Jayden, was er darüber weiß. Vorher eine Frage an dich."
+      - type: single-choice
+        id: kanada-start
+        text: In welcher Richtung liegt Kanada von den USA aus?
+        options:
+          - text: im Norden
+            correct: true
+            info: Kanada liegt im Norden der zusammenhängenden Staaten der USA.
+          - text: im Süden
+            correct: false
+            info: Im Süden liegt Mexiko.
+          - text: im Westen
+            correct: false
+            info: Im Westen liegt der Pazifik.
+        explanation: Im Norden der USA liegt Kanada, im Süden Mexiko.
+      - type: text
+        text: "**Das kannst du danach:** Du stellst Kanada vor: wo es liegt, wie die Hauptstadt heißt, welche zwei Amtssprachen es hat und wer die Indigenous peoples sind."
+  - type: section
+    id: lesen
+    title: Jayden erzählt von Kanada
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Hi Jayden! Mr Hill says Canada is your neighbour. Is it a big country?
+          2. **Jayden:** Yes, it is huge! Only one country is bigger. Canada is north of the USA, and the border between our countries is the longest in the world. (I write neighbor, but you write neighbour.)
+          3. **Sophie:** Is Canada by the sea?
+          4. **Jayden:** Yes, it has three oceans: the Atlantic in the east, the Pacific in the west and the Arctic in the north. Canada has ten provinces and three territories.
+          5. **Sophie:** What is the capital? Is it Toronto?
+          6. **Jayden:** No, it is Ottawa. Toronto, Montreal and Vancouver are the biggest cities.
+      - type: text
+        text: |
+          7. **Sophie:** Do people speak English in Canada?
+          8. **Jayden:** Yes, but also French! English and French are the two official languages of the Canadian government. Most French speakers live in Quebec.
+          9. **Jayden:** On many packages you can read English and French.
+          10. **Sophie:** Who lived in Canada first?
+          11. **Jayden:** Indigenous peoples have lived there for thousands of years. They are the First Nations, the Inuit and the Métis.
+          12. **Jayden:** Today about five percent of the people in Canada are Indigenous. They speak many different languages. In Nunavut, Inuktitut is an official language.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: the border
+            source: die Grenze
+          - target: the province
+            source: die Provinz
+          - target: the territory
+            source: das Territorium (ein Gebiet im Norden Kanadas)
+          - target: the Arctic
+            source: die Arktis
+          - target: an official language
+            source: eine Amtssprache
+          - target: the package
+            source: die Verpackung
+          - target: Indigenous
+            source: indigen, ursprünglich dort lebend
+          - target: the First Nations, the Inuit, the Métis
+            source: drei Gruppen der Indigenous peoples Kanadas
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: single-choice
+        id: kanada-verstehen
+        text: Welche Aussage über die Amtssprachen der kanadischen Regierung stimmt?
+        options:
+          - text: Englisch und Französisch sind beide Amtssprachen.
+            correct: true
+            info: Beide Sprachen sind Amtssprachen.
+          - text: Englisch ist die einzige Amtssprache.
+            correct: false
+            info: Auch Französisch ist eine Amtssprache.
+          - text: Französisch spricht man nur in Frankreich.
+            correct: false
+            info: Französisch gibt es auch in Kanada.
+        explanation: Kanada hat zwei Amtssprachen.
+        hint: Lies Zeile 8 noch einmal.
+      - type: matching
+        id: kanada-zuordnen
+        text: "Was sagt Jayden über diese Orte? Ordne zu."
+        pairs:
+          - left: Quebec
+            right: hier leben die meisten Menschen, die Französisch sprechen
+          - left: Nunavut
+            right: hier ist Inuktitut eine Amtssprache
+          - left: Ottawa
+            right: die Hauptstadt von Kanada
+          - left: Toronto
+            right: eine der größten Städte, aber nicht die Hauptstadt
+        explanation: Die Hauptstadt ist nicht die größte Stadt, und Französisch hat in Quebec viele Sprecher.
+        hint: Lies die Zeilen 6, 8 und 12 noch einmal.
+      - type: single-choice
+        id: kanada-beleg
+        text: Welche Zeile belegt, dass die Indigenous peoples schon sehr lange in Kanada leben?
+        options:
+          - text: Zeile 11
+            correct: true
+            info: "Dort steht: seit Tausenden von Jahren."
+          - text: Zeile 12
+            correct: false
+            info: Zeile 12 nennt die Menschen heute.
+          - text: Zeile 8
+            correct: false
+            info: Zeile 8 handelt von Amtssprachen.
+          - text: Zeile 2
+            correct: false
+            info: Zeile 2 handelt von der Größe.
+        explanation: Zeile 11 nennt Tausende von Jahren.
+        hint: Suche die Zeile mit „thousands of years“.
+      - type: open-task
+        id: kanada-meinung
+        task: "Kanada hat zwei Amtssprachen. Was findest du daran gut oder schwierig? Schreibe zwei bis drei Sätze auf Englisch, zum Beispiel mit „I think … because …“."
+        points:
+          - text: Du sagst, was du gut oder schwierig findest.
+            source: /hello-america/kanada/#lesen
+          - text: Du gibst einen Grund an (because …).
+            source: /hello-america/kanada/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I think two official languages are good because you can talk to more people. But it is difficult to learn two languages.
+        hint: Schau in die Zeilen 8 und 9. Dort stehen die Sprachen.
+  - type: section
+    id: neu
+    title: Kanada auf der Karte
+    blocks:
+      - type: figure
+        image: images/kanada-schema.svg
+        alt: "Schemakarte von Kanada. Das Land liegt oben und ist groß, mit einem Meerbusen in der Mitte und einigen Inseln im Norden. Darunter liegen die USA, links oben ein Stück von Alaska. Ein orangefarbener Stern im Südosten steht für die Hauptstadt Ottawa. Grau markiert sind Toronto, Montreal und Vancouver. Vancouver liegt im Südwesten an der Küste, Toronto und Montreal liegen im Südosten."
+        caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Der Stern ist die Hauptstadt, die grauen Punkte sind große Städte."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Eine **official language** (Amtssprache) benutzt die Regierung eines Landes in ihren Texten und Ämtern. Daneben können in einem Land viele weitere Sprachen gesprochen werden.
+
+              **Indigenous** sagst du von Menschen, die schon vor den Europäern in einem Land lebten. **Inuit** ist schon ein Plural: Du schreibst *the Inuit*, ohne -s.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: kanada-karte
+        text: Auf der Karte stehen Nummern. Ordne jeder Nummer den englischen Namen zu.
+        material:
+          - type: labelled-figure
+            image: images/kanada-schema-aufgabe.svg
+            alt: "Schemakarte von Kanada ohne Namen mit vier Markierungen: Markierung 1 liegt im Meer im Norden zwischen den Inseln, 2 im Meer am linken Rand im Westen, 3 im Meer am rechten Rand im Osten und 4 im Land unterhalb von Kanada."
+            caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben."
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            legend: false
+            labels:
+              - { x: 65, y: 9, text: Arctic Ocean, marker: "1" }
+              - { x: 6, y: 45, text: Pacific Ocean, marker: "2" }
+              - { x: 96, y: 52, text: Atlantic Ocean, marker: "3" }
+              - { x: 50, y: 82, text: USA, marker: "4" }
+        pairsFrom: material
+        explanation: Die drei Ozeane liegen im Norden, Westen und Osten Kanadas, im Süden liegen die USA.
+        hint: Der Pazifik liegt im Westen, der Atlantik im Osten.
+      - type: language-task
+        id: kanada-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze das fehlende Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Die Hauptstadt von Kanada heißt Ottawa.
+            target: The capital of Canada is [Ottawa].
+            mistakes:
+              - answer: The capital of Canada is Toronto.
+                message: Toronto ist eine der größten Städte, aber nicht die Hauptstadt.
+              - answer: The capital of Canada is Montreal.
+                message: Montreal ist eine der größten Städte, aber nicht die Hauptstadt.
+          - cue: In Kanada sprechen viele Menschen Französisch.
+            target: Many people in Canada speak [French].
+            mistakes:
+              - answer: Many people in Canada speak France.
+                message: France ist das Land. Die Sprache heißt French.
+          - cue: Kanada liegt im Norden der USA.
+            target: Canada is [north] of the USA.
+            mistakes:
+              - answer: Canada is nord of the USA.
+                message: Auf Englisch schreibst du north, mit th am Ende.
+        hint: Schau in den Chat und in das Randglossar.
+      - type: language-task
+        id: kanada-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Kanada hat zehn Provinzen und drei Territorien.
+            target: Canada has ten provinces and three territories.
+            mistakes:
+              - answer: Canada have ten provinces and three territories.
+                message: Canada ist ein einzelnes Land wie „it“. Das Verb heißt has.
+              - answer: Canada has ten province and three territory.
+                message: Nach einer Zahl brauchst du die Mehrzahl, mit -s oder -ies (provinces, territories).
+          - source: Inuktitut ist eine Amtssprache in Nunavut.
+            target: Inuktitut is an official language in Nunavut.
+            mistakes:
+              - answer: Inuktitut is a official language in Nunavut.
+                message: Vor einem Vokal heißt es an, also an official language.
+              - answer: Inuktitut is official language in Nunavut.
+                message: Du brauchst den Artikel an vor official language.
+        hint: Schau in Zeile 4 und Zeile 12.
+      - type: language-task
+        id: kanada-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: many-people-live-near-the-border-with-the-usa.mp3
+            target: Many people live near the border with the USA.
+          - audio: canada-and-the-usa-are-neighbours.mp3
+            target: Canada and the USA are neighbours.
+          - audio: many-indigenous-languages-are-spoken-in-canada.mp3
+            target: Many Indigenous languages are spoken in Canada.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: kanada-nachsprechen
+        language: en
+        items:
+          - audio: french-is-a-first-language-for-many-canadians.mp3
+            text: French is a first language for many Canadians.
+          - audio: toronto-is-bigger-than-ottawa.mp3
+            text: Toronto is bigger than Ottawa.
+          - audio: canada-is-the-second-biggest-country-in-the-world.mp3
+            text: Canada is the second biggest country in the world.
+        hint: Sprich langsam nach. Achte auf French, Canadians und Ottawa.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Der Abstecher ist zu Ende. Der nächste Halt der Weltkarte liegt wieder in den USA, in **Chicago**: Wie verbringen Jugendliche dort ihre Freizeit?"
