@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Freiheit und Gleichheit
+summary: Die Zeitachse der USA wächst bis zur Bürgerrechtsbewegung. Du liest Sachtexte über Sklaverei und Bürgerkrieg, über Demokratie und Menschenrechte, über Rosa Parks und Martin Luther King und vergleichst am Ende Migration in Großbritannien und den USA.
+pages: [das-brauchst-du, sklaverei-buergerkrieg, gesellschaft-politik, buergerrechtsbewegung, migration-heute]
+selfAssessment:
+  pages:
+    - exercises:
+        - /freiheit-gleichheit/sklaverei-buergerkrieg/#sklaverei-ordnen
+        - /freiheit-gleichheit/sklaverei-buergerkrieg/#sklaverei-karte
+        - /freiheit-gleichheit/sklaverei-buergerkrieg/#sklaverei-luecken
+    - exercises:
+        - /freiheit-gleichheit/gesellschaft-politik/#gesellschaft-wortfeld
+        - /freiheit-gleichheit/gesellschaft-politik/#gesellschaft-luecken
+        - /freiheit-gleichheit/gesellschaft-politik/#gesellschaft-schreiben
+    - exercises:
+        - /freiheit-gleichheit/buergerrechtsbewegung/#buergerrechte-ordnen
+        - /freiheit-gleichheit/buergerrechtsbewegung/#buergerrechte-personen
+        - /freiheit-gleichheit/buergerrechtsbewegung/#buergerrechte-heute
+    - exercises:
+        - /freiheit-gleichheit/migration-heute/#migration-quellen
+        - /freiheit-gleichheit/migration-heute/#migration-luecken
+        - /freiheit-gleichheit/migration-heute/#migration-minderheit

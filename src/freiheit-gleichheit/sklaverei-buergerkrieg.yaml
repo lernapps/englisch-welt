@@ -1,0 +1,290 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Sklaverei und Bürgerkrieg
+description: Du liest einen Sachtext über die Sklaverei in den USA und den Amerikanischen Bürgerkrieg, vergleichst die Sichtweisen und liest einen Satz aus der Emancipation Proclamation.
+competencies:
+  - sklaverei-buergerkrieg
+scope: "Die Seite erklärt die Geschichte der Sklaverei in den USA und den Amerikanischen Bürgerkrieg in Grundzügen. Sklaverei war in den USA von 1776 bis 1865 vor allem im Süden erlaubt; 1860 waren etwa vier Millionen Menschen versklavt. Nach der Wahl Abraham Lincolns 1860 verließen sieben, später elf Südstaaten die Union und bildeten die Konföderation. Der Krieg begann am 12. April 1861 bei Fort Sumter und endete 1865 mit der Aufgabe General Lees bei Appomattox. Die Emancipation Proclamation vom 1. Januar 1863 galt für versklavte Menschen in den Staaten im Aufstand, der 13. Zusatzartikel (Dezember 1865) beendete die Sklaverei im ganzen Land, außer als Strafe für ein Verbrechen. Der Krieg hatte mehrere Ursachen und Sichtweisen: Für den Süden stand die Sklaverei im Zentrum, für den Norden war das Ziel zunächst, die Union zu erhalten, versklavte Menschen suchten selbst Freiheit. Geübt werden das Lesen eines Sachtextes mit Zeilenbeleg, die Zuordnung von Sichtweisen, das Ordnen von Ereignissen und das Lesen einer Karte. Typische Fehler sind nur eine Ursache des Krieges, Sklaverei sei 1776 oder erst in den 1950er-Jahren geendet, die Emancipation Proclamation habe sofort alle befreit und Union gleich Gewerkschaft. Nicht hier: Bürgerrechtsbewegung und Rassentrennung im 20. Jahrhundert, Demokratie und Menschenrechte, Migration."
+blocks:
+  - type: section
+    id: einstieg
+    title: Ein Land und eine offene Frage
+    blocks:
+      - type: text
+        text: Du kennst die Unabhängigkeit der USA von 1776. Die Frage, wer in diesem Land frei sein darf, blieb damals offen. Vorher eine Frage an dich.
+      - type: single-choice
+        id: sklaverei-start
+        text: Seit wann ist die Sklaverei in den USA im ganzen Land verboten?
+        options:
+          - text: Seit der Unabhängigkeit im Jahr 1776
+            correct: false
+            info: Die Sklaverei blieb danach noch fast neunzig Jahre erlaubt.
+          - text: Seit dem Ende des Bürgerkriegs im Jahr 1865
+            correct: true
+            info: Im Dezember 1865 trat der 13. Zusatzartikel in Kraft.
+          - text: Seit der Bürgerrechtsbewegung der 1950er-Jahre
+            correct: false
+            info: Die Bürgerrechtsbewegung kämpfte gegen Rassentrennung, nicht gegen Sklaverei.
+        explanation: Die Sklaverei endete 1865.
+        hint: Denke an das Ende des Krieges.
+      - type: text
+        text: "**Das kannst du danach:** Du erklärst die Geschichte der Sklaverei in den USA und den Amerikanischen Bürgerkrieg in Grundzügen. Du nennst mehrere Ursachen und Sichtweisen und ordnest wichtige Ereignisse."
+  - type: section
+    id: lesen
+    title: "Lesestück: Slavery and the Civil War"
+    blocks:
+      - type: text
+        text: |
+          1. Slavery was legal in the United States from 1776 until 1865, mostly in the South. An enslaved person was treated as property: others could buy, sell or give away that person, and children were born into slavery.
+          2. By 1805 every Northern state had begun to end slavery, some of them only slowly. In the South it grew. After the cotton gin was invented, farms in the Deep South needed more and more workers, and the demand for enslaved people rose.
+          3. Congress banned the import of enslaved people from abroad in 1808. But more than a million people were sold inside the country, from the Upper South to the Deep South. By the census of 1860, about four million people were enslaved.
+          4. In the 1850s the biggest political fight was about the West: should slavery spread into the new territories? Many Southern leaders said yes. Many people in the North wanted to stop it.
+      - type: text
+        text: |
+          5. In 1860 Abraham Lincoln won the presidential election. He belonged to the Republican Party and opposed the spread of slavery into the West. Seven Southern states left the Union. Later four more followed, and the eleven states together formed the Confederacy.
+          6. The war began on 12 April 1861, when Confederate forces fired on Fort Sumter in South Carolina.
+          7. Historians today agree that slavery was at the centre of the Southern states' decision. For the North, the main aim at the start was to keep the Union together: it refused to accept that states could simply leave. So the two sides had different aims, and historians still discuss the reasons of the Union in detail.
+          8. On 1 January 1863, Lincoln signed the Emancipation Proclamation. It declared people who were enslaved in the states in rebellion to be free, and it allowed Black men to join the Union army. It applied to more than three and a half million of the four million enslaved people, but it could only be enforced where the Union army advanced.
+      - type: text
+        text: |
+          9. Enslaved people did not wait for this decree. Many had already escaped and looked for freedom behind Union lines.
+          10. In the summer of 1863 the Union won at Vicksburg, which split the Confederacy in two at the Mississippi River. At Gettysburg, General Lee's attack on the North failed.
+          11. On 9 April 1865, after the Confederates had left their capital, Richmond, General Lee surrendered to General Grant at Appomattox. An estimated 700,000 soldiers had died. In December 1865 the Thirteenth Amendment to the Constitution ended slavery in the whole country, except as a punishment for a crime.
+          12. Then began the time of Reconstruction: an attempt to rebuild the South and to give civil rights to the four million people who had been freed.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Lesestücks
+        languages:
+          source: de
+          target: en
+        entries:
+          - target: slavery
+            source: die Sklaverei
+          - target: enslaved
+            source: versklavt
+          - target: the property
+            source: das Eigentum
+          - target: the cotton gin
+            source: die Maschine, die Baumwolle von den Samen trennt
+          - target: the Deep South
+            source: der tiefe Süden (zum Beispiel Mississippi, Alabama)
+          - target: the census
+            source: die Volkszählung
+          - target: the Union
+            source: die Union, hier die Nordstaaten (nicht die Gewerkschaft)
+          - target: the Confederacy
+            source: die Konföderation, die elf Südstaaten
+          - target: the rebellion
+            source: der Aufstand
+          - target: to surrender
+            source: sich ergeben
+          - target: the amendment
+            source: der Zusatzartikel zur Verfassung
+          - target: Reconstruction
+            source: der Wiederaufbau nach dem Krieg
+          - target: designated
+            source: bestimmt, festgelegt
+          - target: the Constitution
+            source: die Verfassung
+          - target: the plantation
+            source: die Plantage, ein großer Landbetrieb für Baumwolle
+          - target: to elect
+            source: wählen (zum Beispiel einen Präsidenten)
+          - target: to command
+            source: den Oberbefehl haben, befehligen
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: single-choice
+        id: sklaverei-ursachen
+        text: Warum kam es zum Bürgerkrieg?
+        options:
+          - text: "Es gab mehrere Gründe: Für den Süden stand die Sklaverei im Zentrum, für den Norden war es zuerst das Ziel, die Union zu erhalten."
+            correct: true
+            info: So fassen es Historiker zusammen.
+          - text: Es ging nur um die Sklaverei, und der Norden kämpfte vom ersten Tag an nur für die Befreiung.
+            correct: false
+            info: Für den Norden ging es zuerst um die Union.
+          - text: Es ging nur um Geld und Zölle, die Sklaverei spielte keine Rolle.
+            correct: false
+            info: Die Sklaverei war für die Südstaaten zentral.
+        explanation: Es gab mehrere Ursachen und Sichtweisen.
+        hint: Lies Zeile 5 bis 7.
+      - type: single-choice
+        id: sklaverei-beleg
+        text: Welche Zeile belegt, dass versklavte Menschen schon vor 1863 Freiheit suchten?
+        options:
+          - text: Zeile 9
+            correct: true
+            info: Viele flohen schon vorher.
+          - text: Zeile 3
+            correct: false
+            info: Zeile 3 nennt Zahlen, nicht die Flucht.
+          - text: Zeile 7
+            correct: false
+            info: Zeile 7 nennt die Ziele der Seiten.
+          - text: Zeile 11
+            correct: false
+            info: Zeile 11 beschreibt das Kriegsende.
+        explanation: "Zeile 9: Viele flohen zur Union."
+        hint: Suche die Zeile mit „escaped“.
+      - type: open-task
+        id: sklaverei-meinung
+        task: "Aussage A: „Es ging nur um die Sklaverei.“ Aussage B: „Es ging nur um die Union.“ Schreibe zwei bis drei Sätze auf Englisch: Was passt, was fehlt?"
+        points:
+          - text: Du sagst, dass die Sklaverei für die Südstaaten im Zentrum stand.
+            source: /freiheit-gleichheit/sklaverei-buergerkrieg/#lesen
+          - text: Du sagst, dass der Norden zuerst die Union erhalten wollte.
+            source: /freiheit-gleichheit/sklaverei-buergerkrieg/#lesen
+          - text: Du schreibst ganze Sätze und nennst die Sichtweise (According to historians, for the South …).
+            kind: form
+        solution: |
+          Statement A is partly right: According to historians, slavery was at the centre of the Southern states' decision. But the North first wanted to keep the Union together, so A is not the whole story. Statement B misses that the South left the Union because of slavery.
+        hint: Lies Zeile 5 bis 7.
+  - type: section
+    id: neu
+    title: Karte und Quelle
+    blocks:
+      - type: figure
+        image: images/buergerkrieg-schema.svg
+        alt: Schemakarte der USA. Im Norden liegt die Union, im Süden liegt die Konföderation als rosa Fläche. Vier Orte sind mit Punkten markiert, Gettysburg und Richmond im Osten, Fort Sumter an der Südostküste und Vicksburg am Mississippi.
+        caption: Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die rosa Fläche zeigt die elf Staaten der Konföderation. Merke dir die vier Orte.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Wenn du über Geschichte sprichst, sagst du, wer etwas meint: **According to historians, …** (Nach Ansicht von Historikern …), **For the Southern leaders, …** (Für die Führenden des Südens …). So trennst du Fakten von Sichtweisen."
+      - type: quote
+        text: all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be free
+        origin:
+          author: Abraham Lincoln
+          work: Emancipation Proclamation
+          year: 1863
+        source: "National Archives, Transkription: https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation/transcript.html"
+        licence: gemeinfrei (Dokument der US-Regierung)
+      - type: single-choice
+        id: sklaverei-quelle
+        text: Für wen galt dieser Satz aus dem Erlass?
+        options:
+          - text: Für alle versklavten Menschen in den USA, auch in den Staaten der Union
+            correct: false
+            info: Der Satz nennt bestimmte Staaten.
+          - text: Für Menschen, die in den festgelegten Staaten im Aufstand versklavt waren
+            correct: true
+            info: Gemeint sind die Staaten im Aufstand.
+          - text: Nur für Männer, die in die Armee der Union eintraten
+            correct: false
+            info: Der Satz nennt alle Menschen dort, nicht nur Soldaten.
+        explanation: Er galt nur dort, wohin die Armee der Union kam.
+        hint: Achte auf „designated States“.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: sklaverei-ordnen
+        text: Bringe die vier Ereignisse in die richtige Reihenfolge, das früheste zuerst.
+        items:
+          - Truppen der Konföderation beschießen Fort Sumter.
+          - Lincoln unterschreibt die Emancipation Proclamation.
+          - General Lee ergibt sich bei Appomattox.
+          - Der 13. Zusatzartikel zur Verfassung wird ratifiziert.
+        explanation: 1861, 1863, April 1865, Dezember 1865.
+        hint: Erst beginnt der Krieg, am Ende steht der Zusatzartikel.
+      - type: matching
+        id: sklaverei-karte
+        text: Ordne jeder Nummer den Namen des Ortes zu.
+        material:
+          - type: labelled-figure
+            image: images/buergerkrieg-aufgabe.svg
+            alt: "Schemakarte der USA im Bürgerkrieg ohne Namen mit vier Markierungen: Markierung 1 liegt im Nordosten, 2 im Osten an der Grenze zum Süden, 3 an der Südostküste und 4 am Mississippi im Süden."
+            caption: Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die rosa Fläche ist der Süden.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            legend: false
+            labels:
+              - x: 79
+                y: 39
+                text: Gettysburg
+                marker: "1"
+              - x: 80
+                y: 51
+                text: Richmond
+                marker: "2"
+              - x: 83
+                y: 61
+                text: Fort Sumter
+                marker: "3"
+              - x: 59
+                y: 64
+                text: Vicksburg
+                marker: "4"
+        pairsFrom: material
+        explanation: Gettysburg liegt im Norden, die anderen im Süden.
+        hint: Fort Sumter liegt an der Küste.
+      - type: language-task
+        id: sklaverei-luecken
+        languages:
+          source: de
+          target: en
+        mode: gap
+        task: Ergänze das Wort.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - cue: Die Nordstaaten nannte man die Union.
+            target: The Northern states were called the [Union].
+            mistakes:
+              - answer: The Northern states were called the Confederacy.
+                message: Confederacy waren die Südstaaten.
+          - cue: Die Südstaaten bildeten die Konföderation.
+            target: The Southern states made the [Confederacy].
+            mistakes:
+              - answer: The Southern states made the Union.
+                message: Union hießen die Nordstaaten.
+          - cue: Der 13. Zusatzartikel beendete die Sklaverei.
+            target: The Thirteenth [Amendment] ended slavery.
+            mistakes:
+              - answer: The Thirteenth Proclamation ended slavery.
+                message: Proclamation ist der Erlass, ein Zusatzartikel heißt amendment.
+        hint: Zwei Seiten haben zwei Namen.
+      - type: language-task
+        id: sklaverei-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu und schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - audio: lincoln-was-elected-president-in-eighteen-sixty.mp3
+            target: Lincoln was elected president in (eighteen sixty|1860).
+          - audio: many-enslaved-people-worked-on-large-cotton-plantations.mp3
+            target: Many enslaved people worked on large cotton plantations.
+          - audio: the-union-army-won-the-war-after-four-years-of-fighting.mp3
+            target: The Union army won the war after (four|4) years of fighting.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: sklaverei-nachsprechen
+        language: en
+        items:
+          - audio: the-confederacy-had-its-capital-in-richmond.mp3
+            text: The Confederacy had its capital in Richmond.
+          - audio: general-grant-commanded-all-the-union-armies.mp3
+            text: General Grant commanded all the Union armies.
+          - audio: slavery-was-finally-ended-by-an-amendment-to-the-constitution.mp3
+            text: Slavery was finally ended by an amendment to the Constitution.
+        hint: Sprich langsam nach. Achte auf Confederacy, Richmond und Constitution.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Der Krieg endete 1865, die Frage der gleichen Rechte blieb. Als Nächstes geht es um **Gesellschaft und Politik**: Was bedeuten Demokratie, Menschenrechte und Engagement, und wie sind sie in der Geschichte der USA wichtig geworden?"

@@ -1,0 +1,284 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Gesellschaft und Politik
+description: Du liest einen Sachtext über Demokratie, Menschenrechte und gesellschaftliches Engagement. Du lernst das Wortfeld, liest einen Satz aus der Verfassung der USA und prüfst zwei belegte Beispiele.
+competencies:
+  - gesellschaft-politik
+scope: "Die Seite erklärt, worüber Jugendliche auf Englisch sprechen, wenn es um Demokratie, Menschenrechte und gesellschaftliches Engagement geht. In einer Demokratie entscheiden die Menschen mit, meist über frei gewählte Vertreter (Wahlen). Der 1. Zusatzartikel zur Verfassung der USA schützt unter anderem die Meinungs- und Pressefreiheit und das Recht, sich friedlich zu versammeln und die Regierung um Änderungen zu bitten (Petition). Die Allgemeine Erklärung der Menschenrechte der Vereinten Nationen wurde am 10. Dezember 1948 in Paris verkündet, hat dreißig Artikel und gilt für jeden Menschen ohne Unterschied. Als belegte Beispiele für Engagement dienen die NAACP (gegründet 1909) und der Freedom Summer 1964 in Mississippi. Geübt werden das Wortfeld (election, volunteer, petition, human rights), Sätze mit have the right to und das Begründen einer eigenen Meinung. Typische Fehler sind Demokratie gleich nur Wählen, Demokratie gleich alle entscheiden alles selbst, Menschenrechte gelten nur für Bürger eines Landes, voluntary statt volunteer und protest statt petition. Nicht hier: Rosa Parks und die Bürgerrechtsbewegung, das politische System der USA im Einzelnen, Bewertungen heutiger Politik."
+blocks:
+  - type: section
+    id: einstieg
+    title: Worüber wir sprechen
+    blocks:
+      - type: text
+        text: "Nach dem Ende der Sklaverei kam eine neue Frage: Wie gehen Menschen miteinander um, wenn alle Rechte haben sollen? Dazu brauchst du ein paar Wörter. Vorher eine Frage an dich."
+      - type: single-choice
+        id: gesellschaft-start
+        text: Was gehört zu einer Demokratie?
+        options:
+          - text: Menschen entscheiden mit, meist über Vertreter, die sie wählen.
+            correct: true
+            info: So steht es auch in der Erklärung von 1948.
+          - text: Es wird nur alle paar Jahre gewählt, mehr gehört nicht dazu.
+            correct: false
+            info: Dazu gehören auch Freiheiten wie die Meinungsfreiheit.
+          - text: Alle entscheiden jede Frage selbst, Vertreter gibt es nicht.
+            correct: false
+            info: In großen Ländern entscheiden meist gewählte Vertreter.
+        explanation: Demokratie heißt Mitentscheiden, meist über Vertreter.
+        hint: Denke an Millionen Einwohner.
+      - type: text
+        text: "**Das kannst du danach:** Du sprichst auf Englisch über Demokratie, Menschenrechte und Engagement. Du nennst zwei belegte Beispiele und sagst deine Meinung dazu."
+  - type: section
+    id: lesen
+    title: "Lesestück: Rights and taking part"
+    blocks:
+      - type: text
+        text: |
+          1. In a democracy, people take part in the decisions of their country. Usually they do this through representatives whom they choose freely in elections.
+          2. Democracy needs more than election day. In the United States, the First Amendment to the Constitution protects the freedom of speech and of the press. It also protects the right of people to meet peacefully and to ask the government for changes. Such a request is called a petition.
+          3. Human rights are rights that every person has, in every country. On 10 December 1948 the General Assembly of the United Nations proclaimed the Universal Declaration of Human Rights in Paris. It has thirty articles and has been translated into more than five hundred languages.
+          4. Article 1 says that all human beings are born free and equal in dignity and rights. Article 2 says that these rights belong to everyone, without distinction of any kind, for example race, colour, sex, language or religion. Other articles forbid slavery, protect the freedom of opinion and name the right to education and the right to take part in the government of one's country.
+      - type: text
+        text: |
+          5. The United Nations describes the Declaration as a common standard for all peoples and all nations.
+          6. People use their rights in many ways: they vote, join groups, write petitions, work as volunteers or protest peacefully. Two real examples from the history of the United States show this.
+          7. The National Association for the Advancement of Colored People (NAACP) was founded in 1909. It worked against racial discrimination through court cases, education and lobbying, which means talking to lawmakers.
+          8. In the summer of 1964, nearly 1,000 volunteers came to Mississippi, most of them white students from the North and West. They helped Black residents to register as voters and taught in "Freedom Schools". At least 30 Freedom Schools opened, with close to 3,500 students.
+          9. About 17,000 Black people in Mississippi tried to register as voters that summer, but only about 1,600 succeeded. Many white residents deeply resented the outsiders and the attempt to change their society.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Lesestücks
+        languages:
+          source: de
+          target: en
+        entries:
+          - target: the democracy
+            source: die Demokratie
+          - target: the representative
+            source: der Vertreter, die Vertreterin (gewählte Person)
+          - target: the election
+            source: die Wahl
+          - target: freely
+            source: frei, ohne Zwang
+          - target: the freedom of speech
+            source: die Meinungsfreiheit
+          - target: the press
+            source: die Presse
+          - target: peacefully
+            source: friedlich
+          - target: to assemble
+            source: sich versammeln
+          - target: human rights
+            source: die Menschenrechte
+          - target: the dignity
+            source: die Würde
+          - target: the volunteer
+            source: der Freiwillige, die Freiwillige
+          - target: to register
+            source: sich eintragen
+          - target: to resent
+            source: übel nehmen, ablehnen
+          - target: the grievance
+            source: die Beschwerde
+          - target: the amendment
+            source: der Zusatzartikel zur Verfassung
+          - target: the Constitution
+            source: die Verfassung
+          - target: to proclaim
+            source: verkünden
+          - target: to forbid
+            source: verbieten
+          - target: the article
+            source: der Artikel, hier ein Abschnitt der Erklärung
+          - target: without distinction
+            source: ohne Unterschied
+          - target: elementary
+            source: "Grund-, einfach (hier: Grundschule)"
+          - target: the lawmaker
+            source: der Gesetzgeber, die Gesetzgeberin
+          - target: the society
+            source: die Gesellschaft
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: gesellschaft-verstehen
+        text: Stimmt das? Nach der Erklärung von 1948 haben Menschen diese Rechte nur, wenn sie Bürger eines bestimmten Landes sind.
+        answer: false
+        hint: Lies Zeile 3 und 4.
+        explanation: Die Rechte gelten für jeden Menschen ohne Unterschied.
+      - type: single-choice
+        id: gesellschaft-beleg
+        text: Welche Zeile belegt, dass die Erklärung von 1948 die Sklaverei verbietet?
+        options:
+          - text: Zeile 4
+            correct: true
+            info: Andere Artikel verbieten die Sklaverei.
+          - text: Zeile 2
+            correct: false
+            info: Zeile 2 beschreibt den 1. Zusatzartikel.
+          - text: Zeile 7
+            correct: false
+            info: Zeile 7 nennt die NAACP.
+          - text: Zeile 9
+            correct: false
+            info: Zeile 9 nennt Zahlen von 1964.
+        explanation: Zeile 4 nennt die Artikel der Erklärung.
+        hint: Suche die Zeile mit „articles“.
+      - type: open-task
+        id: gesellschaft-meinung
+        task: Welche Form von Engagement aus dem Lesestück findest du am überzeugendsten? Schreibe zwei bis drei Sätze auf Englisch, zum Beispiel mit „I think … is a good way because …“.
+        points:
+          - text: Du nennst eine Form von Engagement aus dem Lesestück, zum Beispiel wählen, Petitionen, die NAACP oder Freedom Schools.
+            source: /freiheit-gleichheit/gesellschaft-politik/#lesen
+          - text: Du gibst einen Grund an (because …).
+            source: /freiheit-gleichheit/gesellschaft-politik/#lesen
+          - text: Du schreibst ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I think volunteering is a good way to take part because you can help people directly. In the text, the volunteers in Mississippi taught students in Freedom Schools.
+        hint: Es gibt keine einzige richtige Antwort. Schau in die Zeilen 6 bis 9.
+  - type: section
+    id: neu
+    title: Wie Demokratie funktioniert
+    blocks:
+      - type: figure
+        image: images/demokratie-schema.svg
+        alt: "Schema der repräsentativen Demokratie. Oben links steht „Citizens“, oben rechts „Elected representatives“, ein Pfeil führt von links nach rechts mit der Beschriftung „vote for“. Von den Vertretern führt ein Pfeil nach unten zu „Laws“, beschriftet mit „make“. Ein Pfeil von „Laws“ zurück zu „Citizens“ trägt die Beschriftung „apply to everyone“. Unten steht ein Kasten mit dem Text „In between: meet, protest, write petitions“."
+        caption: Schema, vereinfacht. Lies die Pfeile von links nach rechts und dann gegen den Uhrzeigersinn zurück zu den Bürgern.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Mit **have the right to** und einem Verb sagst du, was jemand darf: **Children have the right to play.** **Citizens have the right to speak.** Nach to steht die Grundform des Verbs. Bei **everyone** steht **has**: **Everyone has the right to be heard.**"
+      - type: quote
+        text: the right of the people peaceably to assemble, and to petition the Government for a redress of grievances
+        origin:
+          author: Verfassung der USA
+          work: 1. Zusatzartikel (Bill of Rights)
+          year: 1791
+        source: "National Archives, Bill of Rights, Transkription: https://www.archives.gov/founding-docs/bill-of-rights-transcript"
+        licence: gemeinfrei (Dokument der US-Regierung)
+      - type: single-choice
+        id: gesellschaft-quelle
+        text: Welches Recht nennt dieser Satz aus dem 1. Zusatzartikel?
+        options:
+          - text: Menschen dürfen jedes Gesetz selbst ändern.
+            correct: false
+            info: Die Regierung und die Vertreter entscheiden über Änderungen.
+          - text: Menschen dürfen sich friedlich versammeln und die Regierung um Abhilfe bitten.
+            correct: true
+            info: Versammeln und eine Bitte an die Regierung richten.
+          - text: Nur gewählte Vertreter dürfen mit der Regierung sprechen.
+            correct: false
+            info: Im Satz steht „the people“, nicht nur die Vertreter.
+        explanation: Der Satz schützt das friedliche Versammeln und die Petition.
+        hint: Achte auf „assemble“ und „petition“.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: gesellschaft-wortfeld
+        text: Ordne jedem englischen Ausdruck die richtige Bedeutung zu.
+        pairs:
+          - left: the election
+            right: die Wahl
+          - left: the volunteer
+            right: eine Person, die freiwillig und ohne Bezahlung hilft
+          - left: the petition
+            right: eine Forderung an die Regierung mit Unterschriften
+          - left: human rights
+            right: die Rechte jedes Menschen
+        explanation: Diese vier Wörter brauchst du, wenn du über Engagement sprichst.
+        hint: Denke an das Wortfeld Demokratie und Engagement.
+      - type: language-task
+        id: gesellschaft-luecken
+        languages:
+          source: de
+          target: en
+        mode: gap
+        task: Ergänze das Wort.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - cue: Die Menschen wählen ihre Vertreter bei Wahlen.
+            target: People choose their representatives in [elections].
+            mistakes:
+              - answer: People choose their representatives in election.
+                message: Hier brauchst du die Mehrzahl, elections.
+          - cue: Er arbeitet als Freiwilliger in der Schule.
+            target: He works as a [volunteer] at a school.
+            mistakes:
+              - answer: He works as a voluntary at a school.
+                message: voluntary ist ein Adjektiv und heißt freiwillig. Die Person heißt volunteer.
+          - cue: Sie unterschreiben eine Bittschrift an die Regierung.
+            target: They sign a [petition] to the government.
+            mistakes:
+              - answer: They sign a protest to the government.
+                message: Ein protest ist eine Demonstration oder ein Einspruch. Die Bittschrift mit Unterschriften heißt petition.
+        hint: Denke an das Wortfeld Demokratie und Engagement.
+      - type: language-task
+        id: gesellschaft-schreiben
+        languages:
+          source: de
+          target: en
+        task: Schreibe die Sätze auf Englisch.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - source: Jeder Mensch hat das Recht auf Bildung.
+            target: Everyone has the right to (an |)education.
+            mistakes:
+              - answer: Everyone have the right to education.
+                message: Bei everyone steht has.
+              - answer: Everyone has the right for education.
+                message: Nach right steht to, nicht for.
+          - source: Menschen dürfen sich friedlich versammeln.
+            target: People (may|can|are allowed to) (meet|assemble|gather) peacefully.
+            mistakes:
+              - answer: People may meet peaceful.
+                message: Zu meet gehört das Adverb peacefully.
+        hint: has the right to = hat das Recht zu.
+      - type: language-task
+        id: gesellschaft-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu und schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - audio: people-in-a-democracy-choose-their-leaders-in-elections.mp3
+            target: People in a democracy choose their leaders in elections.
+          - audio: the-declaration-says-that-elementary-education-should-be-free-for-everyone.mp3
+            target: The Declaration says that elementary education should be free for everyone.
+          - audio: volunteers-taught-students-in-freedom-schools-in-mississippi.mp3
+            target: Volunteers taught students in Freedom Schools in Mississippi.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: gesellschaft-nachsprechen
+        language: en
+        items:
+          - audio: the-first-amendment-is-part-of-the-american-constitution.mp3
+            text: The First Amendment is part of the American Constitution.
+          - audio: many-people-sign-petitions-to-ask-for-changes.mp3
+            text: Many people sign petitions to ask for changes.
+          - audio: the-naacp-also-worked-through-education-and-lobbying.mp3
+            text: The NAACP also worked through education and lobbying.
+        hint: Sprich langsam nach. Achte auf Amendment, petitions und lobbying.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Du kennst jetzt die Geschichte der Sklaverei und die Wörter für Rechte und Engagement. Als Nächstes geht es um die **Bürgerrechtsbewegung**: Rosa Parks, Martin Luther King und die Frage, wie die Lage heute aussieht."

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+  <title>Schema der repräsentativen Demokratie</title>
+  <rect width="480" height="300" fill="#f4efe2"/>
+  <rect x="20" y="40" width="150" height="60" rx="6" fill="#e3edf7" stroke="#333" stroke-width="2"/>
+  <text x="95" y="78" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#333">Citizens</text>
+  <rect x="310" y="40" width="150" height="60" rx="6" fill="#f7e8d8" stroke="#333" stroke-width="2"/>
+  <text x="385" y="64" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#333">Elected</text>
+  <text x="385" y="86" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#333">representatives</text>
+  <rect x="310" y="170" width="150" height="60" rx="6" fill="#e1f0e8" stroke="#333" stroke-width="2"/>
+  <text x="385" y="208" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#333">Laws</text>
+  <line x1="170" y1="70" x2="308" y2="70" stroke="#333" stroke-width="3"/>
+  <polygon points="308,70 296,63 296,77" fill="#333" stroke="#333" stroke-width="1" stroke-linejoin="round"/>
+  <text x="240" y="60" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#333">vote for</text>
+  <line x1="385" y1="100" x2="385" y2="168" stroke="#333" stroke-width="3"/>
+  <polygon points="385,168 378,156 392,156" fill="#333" stroke="#333" stroke-width="1" stroke-linejoin="round"/>
+  <text x="440" y="140" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#333">make</text>
+  <line x1="310" y1="200" x2="95" y2="200" stroke="#333" stroke-width="3"/>
+  <line x1="95" y1="200" x2="95" y2="102" stroke="#333" stroke-width="3"/>
+  <polygon points="95,102 88,114 102,114" fill="#333" stroke="#333" stroke-width="1" stroke-linejoin="round"/>
+  <text x="200" y="192" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#333">apply to everyone</text>
+  <rect x="20" y="250" width="440" height="38" rx="4" fill="#f4efe2" stroke="#333" stroke-width="2"/>
+  <text x="240" y="275" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#333">In between: meet, protest, write petitions</text>
+
+</svg>

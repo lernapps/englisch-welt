@@ -1,0 +1,276 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Migration und Minderheiten heute
+description: Du liest einen Sachtext mit Zahlen aus Großbritannien und den USA, trennst Einwanderung, Flucht und Minderheit und entscheidest, welche Quelle zu welcher Frage passt.
+competencies:
+  - migration-heute
+scope: "Die Seite vergleicht Migration und Minderheiten in Großbritannien und den USA heute, nur mit belegten Zahlen mit Jahr und Quelle. In den Volkszählungen 2021 und 2022 waren im Vereinigten Königreich 10,7 Millionen Menschen (16 Prozent) im Ausland geboren, in den USA waren es nach den Angaben vom Januar 2025 53,3 Millionen (15,8 Prozent). Die Volkszählung zeigt das Geburtsland, nicht den Aufenthaltsstatus oder die Dauer des Aufenthalts. Die Statistikbehörde ONS schätzt jährlich Zuzug und Wegzug (Juli 2024 bis Juni 2025, vorläufig: 898 000 kamen, 693 000 gingen, Saldo plus 204 000). Für die USA nennt das Jahrbuch 2016 von 1,18 Millionen legalen Einwanderern 48 Prozent nahe Verwandte von Bürgern, 12 Prozent Arbeit und 13 Prozent Flüchtlinge oder Asylsuchende. Eine Minderheit ist eine kleinere Gruppe und nicht immer eingewandert: 2024 bezeichneten sich in den USA etwa 3,43 Millionen Menschen allein als American Indian oder Alaska Native (etwa ein Prozent). Geübt werden Zahlen lesen, die passende Quelle wählen (Volkszählung, jährliche Schätzung, Statistik nach Gründen) und Begriffe (immigrant, minority, refugee). Typische Fehler sind Einwanderung gleich Flucht, Minderheit gleich Ausländer und der Vergleich von Zahlen aus verschiedenen Jahren oder mit verschiedenen Zählweisen. Nicht hier: Bewertung der Einwanderungspolitik, Zahlen ohne Beleg, Einzelschicksale."
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Länder, viele Zahlen
+    blocks:
+      - type: text
+        text: In diesem Halt vergleichst du Großbritannien und die USA. Du brauchst dafür, was du über Vielfalt in Großbritannien und über die Einwanderung in die USA weißt. Vorher eine Frage an dich.
+      - type: single-choice
+        id: migration-start
+        text: Welche Aussage über Migration stimmt?
+        options:
+          - text: Menschen wandern aus verschiedenen Gründen, zum Beispiel für Arbeit, Familie, Studium oder Schutz.
+            correct: true
+            info: Schutz ist nur ein Grund von vielen.
+          - text: Wer migriert, flieht immer vor Krieg oder Not.
+            correct: false
+            info: Viele kommen zu Verwandten oder zur Arbeit.
+          - text: Wer eingewandert ist, bleibt immer für immer im neuen Land.
+            correct: false
+            info: Viele ziehen später weiter oder zurück.
+        explanation: Migration hat viele Gründe.
+        hint: Denke an Familien, Arbeit und Schule.
+      - type: text
+        text: "**Das kannst du danach:** Du sprichst über Migration und Minderheiten in Großbritannien und den USA. Du nennst Zahlen mit Jahr und Quelle und wählst die Quelle, die zu deiner Frage passt."
+  - type: section
+    id: lesen
+    title: "Lesestück: Counting migration"
+    blocks:
+      - type: text
+        text: |
+          1. Migration means that people move from one country to another to live there. They do so for many reasons: to work, to join family, to study or to find safety. Only some of them are refugees.
+          2. Two numbers look alike. In the censuses of 2021 and 2022, 10.7 million people in the United Kingdom were born abroad: 16 per cent of the population. In the United States, 53.3 million residents were born abroad as of January 2025: 15.8 per cent.
+          3. But the numbers come from different years and different counts. A census asks all households. It shows where people were born, but it gives no information about their immigration status or how long they plan to stay.
+          4. Yearly estimates answer other questions. According to the Office for National Statistics, in the year to June 2025 about 898,000 people came to live in the United Kingdom and 693,000 left. The net migration, the difference, was plus 204,000. This is a provisional estimate.
+      - type: text
+        text: |
+          5. The reasons differ, too. After 1948, many people came to Britain from countries of the former British Empire, among them passengers on the ship Empire Windrush. In the census of 1951, 162,339 people in Britain had been born in Poland. After 2004, many came from Central and Eastern Europe. Free movement for citizens of the European Union ended on 31 December 2020. In 2022 the United Kingdom created special visas for people from Ukraine, and by 31 March 2025, 223,000 people had arrived this way.
+          6. In 2016 the United States admitted 1.18 million legal immigrants. Of these, 48 per cent were close relatives of American citizens, 12 per cent came for work and 13 per cent were refugees or asylum seekers.
+          7. A minority is a group that is smaller than the rest of the population. It does not mean that people came from abroad. In 2024 an estimated 3.43 million people in the United States identified as American Indian or Alaska Native alone, about 1 per cent of the population. Their ancestors lived on the continent long before the United States existed. The federal government recognises 574 tribes.
+          8. To compare two countries, you need the same year, the same definition and the same kind of source. These figures come from articles of the English Wikipedia, which name the census and the statistics offices as their sources.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Lesestücks
+        languages:
+          source: de
+          target: en
+        entries:
+          - target: the migration
+            source: die Wanderung von einem Land in ein anderes
+          - target: the immigrant
+            source: der Einwanderer, die Einwanderin
+          - target: the refugee
+            source: der Flüchtling
+          - target: the asylum seeker
+            source: die Person, die in einem Land um Schutz bittet
+          - target: born abroad
+            source: im Ausland geboren
+          - target: the census
+            source: die Volkszählung
+          - target: the status
+            source: der rechtliche Status (hier der Aufenthaltsstatus)
+          - target: provisional
+            source: vorläufig
+          - target: net migration
+            source: der Saldo, Zuzug minus Wegzug
+          - target: the minority
+            source: die Minderheit
+          - target: the tribe
+            source: die indigene Gruppe, der Stamm
+          - target: to recognise
+            source: anerkennen
+          - target: the source
+            source: die Quelle
+          - target: the ancestor
+            source: der Vorfahr, die Vorfahrin
+          - target: the continent
+            source: der Kontinent
+          - target: the household
+            source: der Haushalt
+          - target: the visa
+            source: das Visum, die Erlaubnis einzureisen
+          - target: the estimate
+            source: die Schätzung
+          - target: the definition
+            source: die Definition, die Zählweise
+          - target: the citizen
+            source: der Bürger, die Bürgerin
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: single-choice
+        id: migration-fluchtbild
+        text: Was zeigen die Zahlen für die USA im Jahr 2016 über die Gründe der Einwanderung?
+        options:
+          - text: Die meisten kamen als nahe Verwandte von Bürgern. Flüchtlinge und Asylsuchende waren eine kleinere Gruppe.
+            correct: true
+            info: Nach den Zahlen waren 48 Prozent nahe Verwandte.
+          - text: Fast alle waren Flüchtlinge.
+            correct: false
+            info: Nur 13 Prozent waren Flüchtlinge oder Asylsuchende.
+          - text: Niemand kam wegen der Arbeit.
+            correct: false
+            info: 12 Prozent kamen für die Arbeit.
+        explanation: Flucht ist nur ein Grund.
+        hint: Lies Zeile 6.
+      - type: single-choice
+        id: migration-beleg
+        text: Welche Zeile belegt, dass eine Volkszählung nichts über den Aufenthaltsstatus sagt?
+        options:
+          - text: Zeile 3
+            correct: true
+            info: Dort stehen die Grenzen der Volkszählung.
+          - text: Zeile 2
+            correct: false
+            info: Zeile 2 nennt zwei Zahlen.
+          - text: Zeile 4
+            correct: false
+            info: Zeile 4 beschreibt die jährliche Schätzung.
+          - text: Zeile 6
+            correct: false
+            info: Zeile 6 nennt Gründe in den USA.
+        explanation: Zeile 3 nennt das Geburtsland, nicht den Status.
+        hint: Suche die Grenzen der Volkszählung.
+      - type: true-false
+        id: migration-minderheit
+        text: Stimmt das? Eine Minderheit besteht immer aus Menschen, die aus dem Ausland eingewandert sind.
+        answer: false
+        hint: Denke an Vorfahren.
+        explanation: Native Americans sind ein Beispiel, ihre Vorfahren lebten schon vorher dort.
+      - type: open-task
+        id: migration-meinung
+        task: "Quellen vergleichen: Zeile 2 nennt 16 Prozent für Großbritannien und 15,8 Prozent für die USA. Haben beide Länder gleich viele im Ausland Geborene? Schreibe drei Sätze auf Englisch und nenne, was du vor einem Vergleich prüfst."
+        points:
+          - text: Du sagst, dass die Anteile ähnlich sind (16 und 15,8 Prozent) und die absoluten Zahlen sehr verschieden (10,7 und 53,3 Millionen).
+            source: /freiheit-gleichheit/migration-heute/#lesen
+          - text: Du nennst, was du prüfen würdest, zum Beispiel das Jahr (2021 und 2022, Januar 2025), die Zählweise und die Quelle.
+            source: /freiheit-gleichheit/migration-heute/#lesen
+          - text: Du schreibst ganze Sätze und trennst Fakten von deiner Meinung.
+            kind: form
+        solution: |
+          The shares are similar: 16 per cent in the United Kingdom and 15.8 per cent in the United States. But the numbers come from different years, 2021 and 2022 and January 2025. Before I compare them, I would check the year, the definition of born abroad and the original source.
+        hint: Schau in die Zeilen 2, 3 und 8.
+  - type: section
+    id: neu
+    title: Zahlen vergleichen
+    blocks:
+      - type: figure
+        image: images/migration-vergleich.svg
+        alt: Balkendiagramm mit zwei Balken. Der obere Balken zeigt für das Vereinigte Königreich 16 Prozent im Ausland Geborene nach den Volkszählungen 2021 und 2022, 10,7 Millionen Menschen. Der untere Balken zeigt für die USA 15,8 Prozent im Januar 2025, 53,3 Millionen Menschen. Die Skala läuft von 0 bis 20 Prozent.
+        caption: Anteil der im Ausland Geborenen. Die Zahlen sind aus verschiedenen Jahren und aus verschiedenen Quellen. Schau auf die Beschriftung über jedem Balken.
+        source: eigene Zeichnung nach Angaben der englischen Wikipedia
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Vergleiche Zahlen nur, wenn **Jahr**, **Definition** und **Art der Quelle** zusammenpassen. Nenne bei jeder Zahl das Jahr und die Quelle: *According to the census of 1951, 162,339 people in Britain had been born in Poland.* **Born abroad** (im Ausland geboren) und **minority** (Minderheit) bedeuten nicht dasselbe."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: migration-quellen
+        text: Welche Quelle nutzt du für diese Frage? Ordne zu.
+        material:
+          - type: table
+            caption: Drei Arten von Quellen
+            header:
+              - Quelle
+              - Was sie zeigt
+            rows:
+              - - Volkszählung (census)
+                - Alle Menschen, die an einem Stichtag im Land leben, mit ihrem Geburtsland
+              - - Jährliche Schätzung der Statistikbehörde
+                - Wie viele in einem Jahr kamen und wie viele gingen
+              - - Statistik der Aufnahmen nach Gründen
+                - Aus welchen Gründen Menschen in einem Jahr legal aufgenommen wurden
+        pairs:
+          - left: Wie viele im Ausland Geborene leben in Großbritannien?
+            right: Volkszählung (census)
+          - left: Kamen im letzten Jahr mehr Menschen, als gingen?
+            right: Jährliche Schätzung der Statistikbehörde
+          - left: Aus welchen Gründen wurden Menschen im Jahr 2016 in den USA aufgenommen?
+            right: Statistik der Aufnahmen nach Gründen
+        explanation: Jede Frage braucht die Quelle, die genau das zählt, was du wissen willst.
+        hint: Frage dich, ob die Quelle einen Stichtag, ein Jahr oder die Gründe zählt.
+      - type: language-task
+        id: migration-luecken
+        languages:
+          source: de
+          target: en
+        mode: gap
+        task: Ergänze das Wort.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - cue: Eine Minderheit ist eine kleinere Gruppe in der Bevölkerung.
+            target: A [minority] is a smaller group in the population.
+            mistakes:
+              - answer: A foreigner is a smaller group in the population.
+                message: foreigner heißt Ausländer, nicht Minderheit.
+          - cue: Menschen, die in ein Land einwandern, nennt man Einwanderer.
+            target: People who move into a country are called [immigrants].
+            mistakes:
+              - answer: People who move into a country are called emigrants.
+                message: Emigrants verlassen ein Land. Wer ankommt, ist ein immigrant.
+          - cue: Wer vor einem Krieg flieht, ist ein Flüchtling.
+            target: A person who flees from war is a [refugee].
+            mistakes:
+              - answer: A person who flees from war is an immigrant.
+                message: Ein immigrant wandert ein, ein refugee flieht.
+        hint: Drei Wörter für Menschen, die wandern.
+      - type: language-task
+        id: migration-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu und schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - audio: a-census-counts-the-people-who-live-in-a-country.mp3
+            target: A census counts the people who live in a country.
+          - audio: britain-created-special-visas-for-people-from-ukraine.mp3
+            target: Britain created special visas for people from Ukraine.
+          - audio: many-immigrants-join-close-relatives-who-are-american-citizens.mp3
+            target: Many immigrants join close relatives who are American citizens.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: migration-nachsprechen
+        language: en
+        items:
+          - audio: free-movement-for-citizens-of-the-european-union-ended-after-brexit.mp3
+            text: Free movement for citizens of the European Union ended after Brexit.
+          - audio: the-united-states-has-more-immigrants-than-any-other-country.mp3
+            text: The United States has more immigrants than any other country.
+          - audio: some-people-came-to-britain-as-refugees-from-hungary-in-the-nineteen-fifties.mp3
+            text: Some people came to Britain as refugees from Hungary in the nineteen fifties.
+        hint: Sprich langsam nach. Achte auf immigrants, Brexit und refugees.
+  - type: section
+    id: weiter
+    title: Rückblick und nächster Halt
+    blocks:
+      - type: table
+        caption: Schulkalender · Rückblick Kapitel 4
+        header:
+          - Halt
+          - Das kannst du jetzt
+          - Neues Beispiel
+        rows:
+          - - Sklaverei und Bürgerkrieg
+            - Du nennst mehrere Ursachen und Sichtweisen des Krieges.
+            - Lincoln wurde am 14. April 1865 erschossen, fünf Tage nach Lees Aufgabe.
+          - - Gesellschaft und Politik
+            - Du sprichst über Demokratie, Menschenrechte und Engagement.
+            - Artikel 18 der Erklärung der Menschenrechte nennt die Freiheit der Gedanken, des Gewissens und der Religion.
+          - - Bürgerrechtsbewegung
+            - Du trennst Fakt, Legende und Wertung.
+            - 1996 erhielt Rosa Parks die Presidential Medal of Freedom.
+          - - Migration heute
+            - Du prüfst und vergleichst Zahlen aus zwei Ländern.
+            - Die US-Regierung erkennt 574 Stämme von Native Americans an.
+      - type: text
+        text: "Kapitel 4 ist geschafft. Weiter geht es in **Kapitel 5**: Dort liest du über Australien, hörst weitere Varietäten des Englischen und übst Umgangsformen in anderen Kulturen."
