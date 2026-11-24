@@ -12,7 +12,7 @@ blocks:
         text: "Sophie schreibt mit Jayden aus Chicago. Mr Hill hat der Klasse eine Frage mitgegeben: Wie sieht Jaydens Land auf der Karte aus? Vorher eine Frage an dich."
       - type: single-choice
         id: usa-start
-        text: Welche zwei Länder grenzen an die Staaten der USA, die auf der Karte zusammenhängen?
+        text: Welche zwei Länder sind Nachbarn der USA?
         options:
           - text: Kanada und Mexiko
             correct: true
@@ -28,12 +28,12 @@ blocks:
         text: "**Das kannst du danach:** Du zeigst auf der Karte, wo die USA liegen, und beschreibst auf Englisch, was im Norden, Süden, Osten und Westen liegt. Du sagst, was Alaska und Hawaii besonders macht."
   - type: section
     id: lesen
-    title: Jayden erklärt seine Karte
+    title: Jayden erzählt von seinem Land
     blocks:
       - type: text
         text: |
           1. **Sophie:** Hi Jayden! Mr Hill wants us to learn about your country. Where do you live exactly?
-          2. **Jayden:** Hey Sophie! I live in Chicago. It is a big city on a huge lake.
+          2. **Jayden:** Hey Sophie! I live in Chicago. It is a big city on a huge lake, Lake Michigan.
           3. **Sophie:** Is Chicago near the ocean?
           4. **Jayden:** No, it is in the middle of the country. The Atlantic Ocean is far away in the east, and the Pacific Ocean is far away in the west.
           5. **Sophie:** How many states are there?
@@ -61,6 +61,18 @@ blocks:
             source: verbunden
           - target: the Great Plains
             source: die Great Plains (große, flache Grasflächen in der Mitte)
+          - target: far away
+            source: weit weg
+          - target: the middle
+            source: die Mitte
+          - target: special
+            source: besonders
+          - target: a group of
+            source: eine Gruppe von
+          - target: high
+            source: hoch
+          - target: the mountains
+            source: die Berge
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
@@ -84,7 +96,7 @@ blocks:
           - left: Great Plains
             right: in der Mitte des Landes
         explanation: Alaska und Hawaii sind die zwei besonderen Staaten.
-        hint: Alaska und Hawaii stehen in Zeile 7, Grand Canyon und Great Plains in Zeile 9.
+        hint: Lies die Zeilen 7 und 9 noch einmal.
       - type: single-choice
         id: usa-beleg
         text: Welche Zeile belegt, dass Chicago weit vom Meer entfernt liegt?
@@ -123,7 +135,7 @@ blocks:
       - type: figure
         image: images/usa-schema-natur.svg
         alt: Schemakarte der USA mit Gebirgen, Flüssen und Seen. Der Mississippi fließt in der Mitte von Norden nach Süden, die Great Plains liegen westlich davon, die Rocky Mountains weiter im Westen. Im Norden liegen die Great Lakes. Alaska und Hawaii sind in zwei kleinen Kästen unten links eingezeichnet.
-        caption: "Schemakarte, nicht genau nach Maßstab. Schau, was in der Mitte und im Westen liegt. Alaska und Hawaii sind in kleinen Kästen unten links gezeichnet."
+        caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Schau, was in der Mitte und im Westen liegt. Alaska und Hawaii sind in den kleinen Kästen unten links gezeichnet: links Alaska, rechts Hawaii."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note
@@ -131,7 +143,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Mit **north**, **south**, **east** und **west** sagst du, wo etwas liegt: Canada is **north of** the United States. Mit **in the east** beschreibst du einen Teil des Landes und mit **next to** den direkten Nachbarn. Das Land heißt **the United States** oder **the USA**. Viele sagen **America**. Weil auch Kanada und Mexiko in Nordamerika liegen, benutzt du in der Schule meist **the United States** oder **the USA**.
+              Mit **north**, **south**, **east** und **west** sagst du, wo etwas liegt: Canada is **north of** the United States. Das heißt: north = Norden, south = Süden, east = Osten, west = Westen. In der Schule sagst du für das Land **the United States** oder **the USA**, nicht **America**: Auch Kanada und Mexiko liegen in Nordamerika.
   - type: section
     id: uebung
     title: Übung
@@ -143,7 +155,7 @@ blocks:
           - type: labelled-figure
             image: images/usa-schema-aufgabe.svg
             alt: "Schemakarte der USA ohne Namen mit sechs Markierungen: Markierung 1 liegt im Norden, 2 im Süden, 3 im Osten auf dem Meer, 4 im Westen auf dem Meer, 5 im linken kleinen Kasten unten und 6 im rechten kleinen Kasten unten."
-            caption: "Schemakarte, nicht genau nach Maßstab. Die Nummern 1 und 2 liegen auf Ländern, 3 und 4 auf dem Meer, 5 und 6 in den Kästen."
+            caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die zwei kleinen Kästen unten links sind Zusatzkarten für zwei Staaten."
             source: eigene Zeichnung
             licence: CC-BY-4.0
             legend: false
@@ -181,7 +193,7 @@ blocks:
             mistakes:
               - answer: The Pacific Ocean is east of the USA.
                 message: Westen heißt west, Osten heißt east.
-        hint: north = Norden, south = Süden, east = Osten, west = Westen.
+        hint: Schau in den Merke-Kasten.
       - type: language-task
         id: usa-schreiben
         languages: { source: de, target: en }
@@ -189,14 +201,14 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Kanada liegt nördlich von Mexiko.
-            target: Canada is north of Mexico.
+            target: Canada is (to the |)north of Mexico.
             mistakes:
               - answer: Canada is in north of Mexico.
                 message: Mit north of brauchst du kein in.
               - answer: Canada is south of Mexico.
                 message: south ist Süden. Kanada liegt im Norden.
           - source: Alaska ist ein Staat der USA.
-            target: Alaska is a state of the (USA|United States).
+            target: Alaska is (a|one) state (of|in) the (USA|United States).
             mistakes:
               - answer: Alaska is a country of the USA.
                 message: Ein Bundesstaat heißt state. country ist ein ganzes Land.

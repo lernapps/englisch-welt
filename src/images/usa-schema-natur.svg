@@ -17,7 +17,7 @@
   <polygon points="116,150 130,120 144,150" fill="#9aa5ad" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
   <polygon points="136,150 150,120 164,150" fill="#9aa5ad" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
   <polygon points="156,150 170,120 184,150" fill="#9aa5ad" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
-  <text x="298" y="130" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="normal" fill="#2c6fd8">Mississippi</text>
+  <text x="298" y="130" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="normal" fill="#2c6fd8">Mississippi River</text>
   <text x="212" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">Great Plains</text>
   <text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">Rocky Mountains</text>
   <text x="350" y="52" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">Great Lakes</text>

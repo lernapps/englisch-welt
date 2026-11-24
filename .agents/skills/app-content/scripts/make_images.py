@@ -48,7 +48,7 @@ def usa_schema_natur():
     b += poly([(338,66),(362,60),(378,72),(358,80)], fill="#a9cfe6", sw=2)
     for x in (130,150,170):
         b += poly([(x-14,150),(x,120),(x+14,150)], fill="#9aa5ad", sw=2)
-    b += text(298, 130, "Mississippi", 14, "start", BLUE)
+    b += text(298, 130, "Mississippi River", 14, "start", BLUE)
     b += text(212, 100, "Great Plains", 14)
     b += text(150, 170, "Rocky Mountains", 14)
     b += text(350, 52, "Great Lakes", 14)
