@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: British or American?
+summary: "Sophie und Jayden sagen dasselbe mit anderen Wörtern, sprechen es anders aus und schreiben es anders. Du erkennst typische Unterschiede zwischen britischem und amerikanischem Englisch in Wortschatz, Aussprache und Schreibung."
+pages: [das-brauchst-du, be-ae-wortschatz, be-ae-aussprache, be-ae-schreibung]
+selfAssessment:
+  pages:
+    - exercises:
+        - /british-or-american/be-ae-wortschatz/#wortschatz-zuordnen
+        - /british-or-american/be-ae-wortschatz/#wortschatz-luecke
+        - /british-or-american/be-ae-wortschatz/#wortschatz-schreiben
+    - exercises:
+        - /british-or-american/be-ae-aussprache/#aussprache-stimme
+        - /british-or-american/be-ae-aussprache/#aussprache-lesehilfe
+        - /british-or-american/be-ae-aussprache/#aussprache-schreiben
+    - exercises:
+        - /british-or-american/be-ae-schreibung/#schreibung-muster
+        - /british-or-american/be-ae-schreibung/#schreibung-amerikanisch
+        - /british-or-american/be-ae-schreibung/#schreibung-britisch
