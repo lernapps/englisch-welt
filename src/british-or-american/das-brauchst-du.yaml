@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: "Zwei Dinge aus Klang und Schrift, bevor Sophie und Jayden British und American English vergleichen: ähnliche Vokale und Buchstabenverbindungen."
+recap: [englisch/vokale, englisch/laut-buchstabe]
+scope: "Die Seite wiederholt zwei Bausteine, die das Kapitel braucht: ähnliche englische Vokale (ship und sheep, cat und cut) und Buchstabenverbindungen wie ee, ea und igh (see und sea). Die Lesehilfe ist eine deutsche Annäherung ohne Lautschrift. Geübt wird nichts Neues. Typische Fehler sind kurzer und langer Vokal gleich sprechen und gleich klingende Wörter wie see und sea verwechseln. Nicht hier: Unterschiede zwischen britischer und amerikanischer Aussprache, Wortschatz und Schreibung (das kommt auf den nächsten Seiten)."
+blocks:
+  - type: section
+    id: einstieg
+    title: Kannst du das schon?
+    blocks:
+      - type: text
+        text: |
+          Auf den nächsten Seiten hörst und liest du, wie Sophie und Jayden dieselben Dinge verschieden sagen und schreiben. Dafür brauchst du zwei Dinge aus Klang und Schrift.
+
+          **Ich kann ähnliche englische Vokale unterscheiden und aussprechen, zum Beispiel in ship – sheep und cat – cut.** Der Vokal in *ship* ist kurz, der in *sheep* ist lang. Bei *cat* sprichst du ein offenes ä, bei *cut* ein kurzes a.
+
+          **Ich kann typische Buchstabenverbindungen wie ee, ea und igh lesen und gleich klingende Wörter wie see und sea unterscheiden.** *ee* und *ea* klingen oft gleich, *igh* klingt wie „ai“. Zwei Wörter können gleich klingen und trotzdem anders geschrieben werden.
+      - type: table
+        caption: Klassenzimmer-Poster · Laut und Buchstabe
+        header: [Wort, Lesehilfe, Merkhilfe]
+        rows:
+          - [ship, schipp, kurzer Vokal]
+          - [sheep, schiep, langer Vokal]
+          - [cat, kätt, offenes ä]
+          - [cut, katt, kurzes a]
+          - [night, nait, igh klingt wie „ai“]
+          - [see / sea, sie, "gleicher Klang, andere Schreibung"]
+      - type: single-choice
+        id: recap-gleich
+        text: Which two words sound the same?
+        options:
+          - text: see and sea
+            correct: true
+            info: Beide Wörter klingen gleich und werden anders geschrieben.
+          - text: ship and sheep
+            correct: false
+            info: ship hat einen kurzen, sheep einen langen Vokal. Die Wörter klingen verschieden.
+          - text: cat and cut
+            correct: false
+            info: cat hat ein offenes ä, cut ein kurzes a. Die Wörter klingen verschieden.
+        explanation: see und sea sind gleich im Klang und verschieden in der Schrift.
+        hint: Zwei Wörter dieser Paare klingen gleich. Welches Paar ist es?
+      - type: true-false
+        id: recap-vokal
+        text: "Stimmt das? Der Vokal in sheep ist länger als der Vokal in ship."
+        answer: true
+        hint: Schau auf das Poster.
+        explanation: sheep hat einen langen Vokal, ship einen kurzen.

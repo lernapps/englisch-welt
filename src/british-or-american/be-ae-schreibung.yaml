@@ -1,0 +1,257 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Britische und amerikanische Schreibung
+description: "Sophie und Jayden schreiben manche Wörter anders. Du erkennst typische Muster wie -our und -or und merkst: Amerikanische Schreibung ist nicht falsch."
+competencies: [be-ae-schreibung]
+scope: "Die Seite zeigt typische Unterschiede in der Schreibung von britischem und amerikanischem Englisch als Regelmuster: -our und -or (colour, color), -re und -er (centre, center), -ise und -ize (organise, organize), ein l oder zwei l bei der Verlängerung (travelling, traveling) und einzelne Wörter (grey und gray, programme und program). Nicht jedes Wort ändert sich: advise und exercise schreibt man in beiden Ländern mit -se. Die amerikanische Schreibung ist nicht falsch, und ein Text bleibt am besten bei einer Schreibung. Die Wörter klingen gleich, nur die Schreibung ist anders. Typische Fehler sind -ise im amerikanischen Text, britische und amerikanische Schreibung mischen, amerikanische Schreibung für falsch halten. Nicht hier: Wortschatz und Aussprache der beiden Varietäten, Schreibung in Australien oder Kanada, Zeichensetzung."
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Schreibungen, ein Wort
+    blocks:
+      - type: text
+        text: "Jetzt schauen Sophie und Jayden auf die Schreibung. Vorher eine Frage an dich."
+      - type: single-choice
+        id: schreibung-start
+        text: "Sophie schreibt „tyre“, Jayden schreibt „tire“. Beide meinen den Reifen. Was stimmt?"
+        options:
+          - text: Beide Schreibungen sind richtig, eine britisch und eine amerikanisch.
+            correct: true
+            info: tyre ist britisch, tire amerikanisch.
+          - text: Nur tyre ist richtig, tire ist ein Fehler.
+            correct: false
+            info: tire ist amerikanisch, kein Fehler.
+          - text: Nur tire ist richtig, tyre ist ein Fehler.
+            correct: false
+            info: tyre ist britisch, kein Fehler.
+        explanation: Die Wörter klingen gleich. Nur die Schreibung ist anders.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst typische Unterschiede in der Schreibung von britischem und amerikanischem Englisch und schreibst einen Text einheitlich britisch oder amerikanisch."
+  - type: section
+    id: lesen
+    title: Ein Poster für zwei Länder
+    blocks:
+      - type: text
+        text: "Jayden schreibt amerikanisch, Sophie britisch."
+      - type: text
+        text: |
+          1. **Sophie:** Hi Jayden! Mr Hill wants a poster about colours. My favourite colour is grey.
+          2. **Jayden:** Hey Sophie! My favorite color is gray, too. Why do you write a u in colour?
+          3. **Sophie:** In Britain we write colour, favourite and neighbour with a u.
+          4. **Jayden:** We write color, favorite and neighbor. Our neighbor lives in the center of town.
+          5. **Sophie:** In the centre of our town there is a theatre. We organise a school programme there.
+      - type: text
+        text: |
+          6. **Jayden:** Funny! We write theater, center, organize and program.
+          7. **Sophie:** We are travelling by train today, with two l. You write traveling with one l.
+          8. **Jayden:** Is my spelling wrong?
+          9. **Sophie:** No! Mr Hill says that American spelling is not wrong. It is just American.
+          10. **Jayden:** And your spelling is not wrong, either. Let's make one poster for both of us!
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats (britisch / amerikanisch)
+        languages: { source: de, target: en }
+        entries:
+          - target: the colour / the color
+            source: die Farbe
+          - target: favourite / favorite
+            source: Lieblings-
+          - target: grey / gray
+            source: grau
+            note: gray ist die häufigere amerikanische Schreibung.
+          - target: the neighbour / the neighbor
+            source: der Nachbar, die Nachbarin
+          - target: the centre / the center
+            source: die Mitte
+          - target: the theatre / the theater
+            source: das Theater
+          - target: to organise / to organize
+            source: organisieren
+          - target: the programme / the program
+            source: das Programm
+            note: In Großbritannien schreibt man für ein Computerprogramm auch program.
+          - target: travelling / traveling
+            source: reisen (mit -ing)
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: schreibung-verstehen
+        text: "Stimmt das? Jayden schreibt favorite mit u."
+        answer: false
+        hint: Lies die Zeilen 3 und 4 noch einmal.
+        explanation: Nur Sophie schreibt es mit u.
+      - type: single-choice
+        id: schreibung-beleg
+        text: Welche Zeile belegt, dass amerikanische Schreibung nicht falsch ist?
+        options:
+          - text: Zeile 9
+            correct: true
+            info: Hier sagt Sophie, was Mr Hill sagt.
+          - text: Zeile 3
+            correct: false
+            info: Hier erklärt Sophie ihre Schreibung.
+          - text: Zeile 7
+            correct: false
+            info: Hier geht es um travelling.
+          - text: Zeile 8
+            correct: false
+            info: Hier fragt Jayden nur.
+        explanation: In Zeile 9 steht die Antwort.
+        hint: Suche die Zeile, in der Mr Hill vorkommt.
+      - type: single-choice
+        id: schreibung-meinung
+        text: "Peter fragt: „Wie schreibe ich einen Text am besten?“ Was ist ein guter Rat?"
+        options:
+          - text: Wähle britisch oder amerikanisch und bleibe in dem ganzen Text dabei.
+            correct: true
+            info: Beide sind richtig, ein Text bleibt bei einer.
+          - text: Schreibe amerikanisch. Britische Schreibung ist falsch.
+            correct: false
+            info: Britisch ist nicht falsch.
+          - text: Mische beide Schreibungen im selben Text, zum Beispiel color und favourite.
+            correct: false
+            info: Mischen wirkt unordentlich.
+        explanation: Wichtig ist ein einheitlicher Text.
+        hint: Denke an Zeile 10.
+  - type: section
+    id: neu
+    title: Typische Muster
+    blocks:
+      - type: figure
+        image: images/be-ae-buchstaben.svg
+        alt: Vier Wortpaare, links britisch in Blau und rechts amerikanisch in Orange, mit unterstrichenen Buchstaben. honour und honor, litre und liter, realise und realize, cancelled und canceled.
+        caption: Die unterstrichenen Buchstaben sind anders. Die Wörter klingen gleich.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Britisch – amerikanisch: **-our – -or**, **-re – -er**, **-ise – -ize**, **zwei l – ein l**. Auch einzelne Wörter ändern sich: jewellery – jewelry.
+
+              Nicht jedes Wort ändert sich: **advise** und **exercise** schreibt man überall mit -se. **-ize** gibt es manchmal auch in Großbritannien, im amerikanischen Text steht aber nie -ise bei diesen Wörtern.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: schreibung-muster
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die amerikanische Schreibung nach dem Muster.
+        form: { case: hint, punctuation: ok }
+        table:
+          caption: Britisch und amerikanisch nach Mustern
+          header: [Muster, Britisch, Amerikanisch]
+          rows:
+            - ["-our – -or", neighbour, "[neighbor]"]
+            - ["-re – -er", centre, "[center]"]
+            - ["-re – -er", theatre, "[theater]"]
+            - ["-ise – -ize", organise, "[organize]"]
+            - ["zwei l – ein l", travelling, "[traveling]"]
+            - ["-our – -or", favourite, "[favorite]"]
+        hint: Schau in die Spalte Muster.
+      - type: language-task
+        id: schreibung-amerikanisch
+        languages: { source: de, target: en }
+        task: Schreibe jeden Satz amerikanisch, so wie Jayden aus den USA ihn schreibt.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: My neighbour is travelling to the theatre.
+            target: My neighbor is traveling to the theater.
+            mistakes:
+              - answer: My neighbor is travelling to the theater.
+                message: "Jayden schreibt traveling mit einem l."
+              - answer: My neighbour is traveling to the theater.
+                message: neighbour ist britisch.
+          - cue: We organise a programme.
+            target: We organize a program.
+            mistakes:
+              - answer: We organise a program.
+                message: In der amerikanischen Schreibung steht -ize, nicht -ise.
+              - answer: We organize a programme.
+                message: programme ist britisch.
+          - cue: My favourite colour is grey.
+            target: My favorite color is gray.
+            mistakes:
+              - answer: My favorite color is grey.
+                message: grey ist britisch.
+        hint: Schau in das Randglossar.
+      - type: language-task
+        id: schreibung-britisch
+        languages: { source: de, target: en }
+        task: Die Sätze mischen beide Schreibungen. Schreibe sie ganz britisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: The color of the theatre is gray.
+            target: The colour of the theatre is grey.
+            mistakes:
+              - answer: The color of the theatre is grey.
+                message: color ist amerikanisch.
+              - answer: The colour of the theatre is gray.
+                message: gray ist amerikanisch.
+          - cue: Our neighbor goes to the centre.
+            target: Our neighbour goes to the centre.
+            mistakes:
+              - answer: Our neighbor goes to the centre.
+                message: neighbor ist amerikanisch.
+        hint: Ändere jedes amerikanische Wort.
+      - type: language-task
+        id: schreibung-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst. Beim dritten Satz schreibst du amerikanisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-neighbours-are-travelling-to-the-centre.mp3
+            target: The neighbours are travelling to the centre.
+          - audio: they-organise-a-programme-at-the-theatre-on-friday.mp3
+            target: They organise a programme at the theatre on Friday.
+          - audio: the-neighbors-organize-a-program-at-the-theater-us.mp3
+            target: The neighbors organize a program at the theater.
+            mistakes:
+              - answer: The neighbours organise a programme at the theatre.
+                message: Hier schreibst du amerikanisch.
+        hint: Denke an die Muster.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: schreibung-nachsprechen
+        language: en
+        items:
+          - audio: the-centre-of-the-town-is-busy-on-saturday.mp3
+            text: The centre of the town is busy on Saturday.
+          - audio: my-favourite-colour-is-yellow.mp3
+            text: My favourite colour is yellow.
+        hint: Sprich langsam nach.
+      - type: open-task
+        id: schreibung-frei
+        task: "Schreibe zwei Sätze auf Englisch für ein Poster. Wähle britisch oder amerikanisch und benutze zwei Wörter aus dem Chat, die sich unterscheiden."
+        points:
+          - text: Du benutzt mindestens zwei Wörter aus dem Chat, die sich zwischen britisch und amerikanisch unterscheiden.
+            source: /british-or-american/be-ae-schreibung/#lesen
+          - text: Alle Wörter im Text sind in einer Schreibung geschrieben, britisch oder amerikanisch.
+            source: /british-or-american/be-ae-schreibung/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          My favourite colour is grey. The theatre is in the centre of our town.
+        hint: Schau in das Randglossar.
+  - type: section
+    id: weiter
+    title: Rückblick und nächster Halt
+    blocks:
+      - type: table
+        caption: Schulkalender · Rückblick Kapitel 2
+        header: [Thema, Britisch, Amerikanisch]
+        rows:
+          - [Wortschatz · der Punkt am Satzende, full stop, period]
+          - [Wortschatz · die Eisenbahn, railway, railroad]
+          - [Aussprache · pearl (die Perle), "r nicht hörbar", "r hörbar"]
+          - [Aussprache · metal und medal, "klingen verschieden", "klingen gleich"]
+          - [Schreibung · der Bordstein, kerb, curb]
+          - [Schreibung · der Pflug, plough, plow]
+      - type: text
+        text: "Auf der Weltkarte geht die Reise jetzt in die Vergangenheit. **Kapitel 3** erzählt die Geschichte der USA: Wie sind die USA entstanden?"
