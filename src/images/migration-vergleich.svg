@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+  <title>Balkendiagramm: Anteil der im Ausland Geborenen im Vereinigten Königreich und in den USA</title>
+  <rect width="480" height="280" fill="#f4efe2"/>
+  <line x1="40" y1="34" x2="40" y2="236" stroke="#333" stroke-width="2"/>
+  <line x1="40.0" y1="236" x2="40.0" y2="244" stroke="#333" stroke-width="2"/>
+  <text x="40.0" y="266" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">0 %</text>
+  <line x1="140.0" y1="236" x2="140.0" y2="244" stroke="#333" stroke-width="2"/>
+  <text x="140.0" y="266" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">5 %</text>
+  <line x1="240.0" y1="236" x2="240.0" y2="244" stroke="#333" stroke-width="2"/>
+  <text x="240.0" y="266" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">10 %</text>
+  <line x1="340.0" y1="236" x2="340.0" y2="244" stroke="#333" stroke-width="2"/>
+  <text x="340.0" y="266" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">15 %</text>
+  <line x1="440.0" y1="236" x2="440.0" y2="244" stroke="#333" stroke-width="2"/>
+  <text x="440.0" y="266" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">20 %</text>
+  <text x="48" y="28" text-anchor="start" font-family="sans-serif" font-size="16" font-weight="bold" fill="#333">United Kingdom, 2021 to 2022 censuses</text>
+  <rect x="40" y="38" width="320.0" height="40" rx="3" fill="#2c6fd8" stroke="#333" stroke-width="2"/>
+  <text x="350.0" y="65" text-anchor="end" font-family="sans-serif" font-size="18" font-weight="bold" fill="#fff">16 %</text>
+  <text x="48" y="100" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">10.7 million people born abroad</text>
+  <text x="48" y="140" text-anchor="start" font-family="sans-serif" font-size="16" font-weight="bold" fill="#333">United States, January 2025</text>
+  <rect x="40" y="150" width="316.0" height="40" rx="3" fill="#d35400" stroke="#333" stroke-width="2"/>
+  <text x="346.0" y="177" text-anchor="end" font-family="sans-serif" font-size="18" font-weight="bold" fill="#fff">15.8 %</text>
+  <text x="48" y="212" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">53.3 million people born abroad</text>
+
+</svg>
