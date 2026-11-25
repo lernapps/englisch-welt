@@ -38,7 +38,7 @@ blocks:
           4. **Jayden:** It is in November, on the fourth Thursday. So the date changes every year. Families have a big dinner with turkey, potatoes, corn and pumpkin pie.
           5. **Sophie:** Is it a harvest festival?
           6. **Jayden:** It is about giving thanks. The story says it began with a harvest feast in 1621 in Plymouth, where the Pilgrims lived. Canada has its own Thanksgiving, too.
-          7. **Jayden:** The Wampanoag, a Native American people, were there, too. The popular story says the Pilgrims invited them. Wampanoag accounts say the feast was first only for the Pilgrims.
+          7. **Jayden:** The Wampanoag, a Native American people, were there, too. The popular story says the Pilgrims invited them. Some Wampanoag say the feast was first only for the Pilgrims.
       - type: text
         text: |
           8. **Jayden:** Today Native Americans have different views. Some call Thanksgiving a National Day of Mourning.
@@ -69,6 +69,8 @@ blocks:
             source: der Umzug, die Parade
           - target: the Pilgrims
             source: die Pilger (englische Siedler in Plymouth)
+          - target: Native Americans
+            source: die Menschen, die schon vor den Europäern in Nordamerika lebten (in Kanada Indigenous peoples)
           - target: Wampanoag
             source: ein Volk der Native Americans
           - target: the National Day of Mourning
@@ -140,10 +142,12 @@ blocks:
     blocks:
       - type: table
         caption: Schulkalender · Feste in den USA
-        header: [Fest, Wann, Was viele Menschen tun]
+        header: [Fest, Wann und was viele tun]
         rows:
-          - [Thanksgiving, vierter Donnerstag im November, Familienessen und Paraden]
-          - [Independence Day, "4. Juli", Picknick und Feuerwerk]
+          - [Thanksgiving, vierter Donnerstag im November]
+          - [Thanksgiving, Familienessen und Paraden]
+          - [Independence Day, "4. Juli"]
+          - [Independence Day, Picknick und Feuerwerk]
       - type: note
         title: Merke
         blocks:
@@ -203,14 +207,14 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Familien essen am Thanksgiving Truthahn.
-            target: Families eat turkey on Thanksgiving.
+            target: Families eat turkey (on|at|for) Thanksgiving.
             mistakes:
               - answer: Families eats turkey on Thanksgiving.
                 message: Nach families steht die Mehrzahl, also eat ohne -s.
               - answer: Families eat turkey in Thanksgiving.
-                message: Bei einem Fest sagst du on, nicht in.
+                message: Vor Thanksgiving passt in nicht. Sag on, at oder for.
           - source: Independence Day erinnert an die Unabhängigkeitserklärung.
-            target: Independence Day (remembers|celebrates) the Declaration of Independence.
+            target: Independence Day (remembers|celebrates|commemorates) the Declaration of Independence.
             mistakes:
               - answer: Independence Day remember the Declaration of Independence.
                 message: Independence Day ist ein einzelnes Fest wie „it“. Das Verb braucht ein -s.
@@ -254,7 +258,7 @@ blocks:
           - ["Die USA im Überblick", "Chicago lies on a big lake."]
           - ["New York und Washington, D.C.", "The Washington Monument stands on the National Mall."]
           - ["Kanada", "The First Nations, the Inuit and the Métis are Indigenous peoples of Canada."]
-          - ["Jugendliche in den USA", "Chicago has twenty-four public beaches."]
+          - ["Jugendliche in den USA", "Deep-dish pizza is a specialty of Chicago."]
           - ["High School in den USA", "Students keep their books in a locker."]
           - ["Feste in den USA", "Many people have a picnic on Independence Day."]
       - type: text

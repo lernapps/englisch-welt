@@ -51,7 +51,7 @@ def usa_schema_natur():
     b += text(298, 130, "Mississippi River", 14, "start", BLUE)
     b += text(212, 100, "Great Plains", 14)
     b += text(150, 170, "Rocky Mountains", 14)
-    b += text(350, 52, "Great Lakes", 14)
+    b += text(350, 52, "Lake Michigan", 14)
     b += text(60, 276, "", 12)
     return svg(480, 300, "Schemakarte der USA mit Gebirgen, Flüssen und Seen", b)
 

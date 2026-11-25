@@ -34,15 +34,19 @@ def register(m):
         b = canada_base()
         b += m.text(200, 118, "Canada", 20, "middle", m.INK, "bold")
         b += m.text(200, 232, "USA", 18, "middle", m.INK, "bold")
+        def leader(x1, y1, x2, y2):
+            return f'  <line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{m.INK}" stroke-width="1.5"/>\n'
         b += dot(70, 156)
         b += m.text(78, 146, "Vancouver", 14, "start")
-        b += dot(350, 166, 4, "#555")
-        b += m.text(340, 192, "Toronto", 14, "end")
-        b += dot(386, 156, 4, "#555")
-        b += m.text(400, 140, "Montreal", 14, "middle")
-        b += m.poly([(368, 142), (371, 150), (379, 150), (373, 155), (375, 163), (368, 158), (361, 163), (363, 155), (357, 150), (365, 150)],
+        # drei Städte im Südosten: Beschriftungen unten in den USA, mit Linien
+        b += leader(350, 174, 338, 196) + leader(400, 160, 420, 198)
+        b += dot(350, 174, 4, "#555")
+        b += m.text(340, 212, "Toronto", 14, "end")
+        b += dot(400, 160, 4, "#555")
+        b += m.text(440, 214, "Montreal", 14, "end")
+        b += m.poly([(374, 130), (377, 138), (385, 138), (379, 143), (381, 151), (374, 146), (367, 151), (369, 143), (363, 138), (371, 138)],
                     fill="#d35400", sw=2)
-        b += m.text(354, 146, "Ottawa", 15, "end", m.INK, "bold")
+        b += m.text(358, 140, "Ottawa", 15, "end", m.INK, "bold")
         return m.svg(480, 300, "Schemakarte von Kanada mit Nachbarn und drei Städten", b)
 
     @m.image
@@ -69,10 +73,10 @@ def register(m):
     def schule_stundenplan():
         rows = [("Homeroom", "#fff4d6"), ("First period", "#e3d9bd"), ("Second period", "#e3d9bd"), ("Lunch", "#d7ecd9"),
                 ("Third period · music (elective)", "#cfe3f1"), ("Fourth period", "#e3d9bd"), ("After school: sports practice", "#f7d9c4")]
-        b = m.text(240, 26, "Jaydens Schultag (Beispiel)", 18, "middle", m.INK, "bold")
-        y = 40
+        b = m.text(240, 24, "Jaydens Schultag (Beispiel)", 18, "middle", m.INK, "bold")
+        y = 36
         for label, fill in rows:
-            b += m.rect(30, y, 420, 32, fill, m.INK, 2, 6)
-            b += m.text(46, y + 22, label, 16, "start")
-            y += 36
+            b += m.rect(30, y, 420, 28, fill, m.INK, 2, 6)
+            b += m.text(46, y + 20, label, 16, "start")
+            y += 33
         return m.svg(480, 300, "Stundenplan eines Tages mit Homeroom, vier Unterrichtsstunden, Mittagessen und Sporttraining", b)

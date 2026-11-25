@@ -2,7 +2,7 @@
 title: Jugendliche in den USA
 description: "Sophie fragt Jayden nach Freizeit, Sport und Essen. Du vergleichst und lernst, warum football in den USA etwas anderes ist und warum „viele“ besser ist als „alle“."
 competencies: [jugend-usa]
-scope: "Die Seite beschreibt Freizeit, Sport und Essen von Jugendlichen in den USA, ohne Klischees. Gelernt wird, dass viele Schulen Teams für verschiedene Sportarten haben, dass American football sehr beliebt ist, dass Basketball in den USA erfunden wurde und dass die fünf beliebtesten Zuschauersportarten American football, Basketball, Baseball, soccer und Eishockey sind. In den USA heißt football American football, und das, was Briten football nennen, heißt soccer. Viele amerikanische Gerichte (Hamburger, Hot Dogs, Pizza, Mac and Cheese, Apple Pie) gehen auf Rezepte von Einwanderern zurück, in Chicago gibt es deep-dish pizza. In Chicago gibt es vierundzwanzig öffentliche Strände am Lake Michigan und im Sommer viele Konzerte in den Parks. Geübt wird der faire Gebrauch von many, some, most statt all. Typische Fehler sind football gleich soccer, Burger jeden Tag, alle Jugendlichen gleich. Nicht hier: Schule und Stundenplan, Feste, genaue Zahlen und Statistiken zu Sportlern."
+scope: "Die Seite beschreibt Freizeit, Sport und Essen von Jugendlichen in den USA, ohne Klischees. Gelernt wird, dass viele Schulen Teams für verschiedene Sportarten haben, dass American football sehr beliebt ist, dass Basketball in den USA erfunden wurde und dass die fünf beliebtesten Zuschauersportarten American football, Basketball, Baseball, soccer und Eishockey sind. In den USA heißt football American football, und das, was Briten football nennen, heißt soccer. Viele amerikanische Gerichte (Hamburger, Hot Dogs, Pizza, Mac and Cheese, Apple Pie) gehen auf Rezepte von Einwanderern zurück, in Chicago gibt es deep-dish pizza. In Chicago gibt es viele öffentliche Strände am Lake Michigan und im Sommer viele Konzerte in den Parks. Geübt wird der faire Gebrauch von many, some, most statt all. Typische Fehler sind football gleich soccer, Burger jeden Tag, alle Jugendlichen gleich. Nicht hier: Schule und Stundenplan, Feste, genaue Zahlen und Statistiken zu Sportlern."
 blocks:
   - type: section
     id: einstieg
@@ -44,7 +44,7 @@ blocks:
           8. **Jayden:** No way! Burgers and hot dogs are popular, but there is much more. Many American dishes come from the recipes of immigrants. Pizza, mac and cheese and apple pie are examples.
           9. **Jayden:** In Chicago we have deep-dish pizza. It is a specialty of my city.
           10. **Sophie:** What do you do at the weekend?
-          11. **Jayden:** In summer I go to the beach on Lake Michigan with friends. Chicago has twenty-four public beaches.
+          11. **Jayden:** In summer I go to the beach on Lake Michigan with friends. Chicago has many public beaches.
           12. **Jayden:** There are also many concerts in the parks in summer.
       - type: vocabulary
         caption: Randglossar · Wörter des Chats
@@ -95,7 +95,7 @@ blocks:
           - left: American football
             right: viele High Schools haben ein Team
           - left: Lake Michigan
-            right: hier gibt es vierundzwanzig öffentliche Strände
+            right: hier gibt es viele öffentliche Strände
           - left: deep-dish pizza
             right: eine Spezialität aus Chicago
         explanation: Jayden erzählt von Sport, See und Essen.
@@ -189,7 +189,7 @@ blocks:
             target: Many dishes come from the recipes of [immigrants].
             mistakes:
               - answer: Many dishes come from the recipes of emigrants.
-                message: emigrants gehen weg. Einwanderer heißen immigrants.
+                message: Das ist ein ähnliches Wort mit anderer Bedeutung. Einwanderer heißen immigrants.
               - answer: Many dishes come from the recipes of immigrant.
                 message: Hier brauchst du die Mehrzahl.
         hint: Schau in das Randglossar.

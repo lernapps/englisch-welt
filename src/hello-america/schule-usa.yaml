@@ -47,6 +47,8 @@ blocks:
           11. **Jayden:** After school there are sports practices for the school teams.
           12. **Sophie:** Do you have to pay for your school?
           13. **Jayden:** No, public high schools are free. People's taxes pay for them.
+          14. **Sophie:** How long is the school year?
+          15. **Jayden:** About nine months.
       - type: vocabulary
         caption: Randglossar · Wörter des Chats
         languages: { source: de, target: en }
@@ -148,7 +150,7 @@ blocks:
         header: [Thema, Millbrook School, High School in den USA]
         rows:
           - [Beginn, "8:45", zwischen sieben und neun Uhr (je nach Schule)]
-          - [Am Morgen, "registration, form time", homeroom]
+          - [Am Morgen, "registration (Anwesenheit prüfen), form time (kurze Zeit am Morgen)", homeroom]
       - type: note
         title: Merke
         blocks:
@@ -213,7 +215,7 @@ blocks:
               - answer: Most high school has grades nine to twelve.
                 message: Nach most steht die Mehrzahl, also high schools, und das Verb heißt have.
           - source: Die Schüler kommen zwischen sieben und neun Uhr an.
-            target: Students arrive between seven and (nine|nine o'clock).
+            target: Students arrive between seven and (nine|nine o'clock|nine a.m.|nine in the morning).
             mistakes:
               - answer: Students arrive between seven to nine.
                 message: Nach between brauchst du and, nicht to.
