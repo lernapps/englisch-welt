@@ -15,15 +15,15 @@ blocks:
         id: sklaverei-start
         text: Seit wann ist die Sklaverei in den USA im ganzen Land verboten?
         options:
-          - text: Seit der Unabhängigkeit im Jahr 1776
+          - text: Seit dem Jahr 1776
             correct: false
             info: Die Sklaverei blieb danach noch fast neunzig Jahre erlaubt.
-          - text: Seit dem Ende des Bürgerkriegs im Jahr 1865
+          - text: Seit dem Jahr 1865
             correct: true
-            info: Im Dezember 1865 trat der 13. Zusatzartikel in Kraft.
-          - text: Seit der Bürgerrechtsbewegung der 1950er-Jahre
+            info: Im Dezember 1865 wurde der 13. Zusatzartikel ratifiziert.
+          - text: Seit dem Jahr 1955
             correct: false
-            info: Die Bürgerrechtsbewegung kämpfte gegen Rassentrennung, nicht gegen Sklaverei.
+            info: Um 1955 kämpften Menschen gegen Rassentrennung. Die Sklaverei war da schon lange verboten.
         explanation: Die Sklaverei endete 1865.
         hint: Denke an das Ende des Krieges.
       - type: text
@@ -41,17 +41,17 @@ blocks:
       - type: text
         text: |
           5. In 1860 Abraham Lincoln won the presidential election. He belonged to the Republican Party and opposed the spread of slavery into the West. Seven Southern states left the Union. Later four more followed, and the eleven states together formed the Confederacy.
-          6. The war began on 12 April 1861, when Confederate forces fired on Fort Sumter in South Carolina.
+          6. The war began on 12 April 1861, when Confederate forces fired on Fort Sumter, a fort in the harbour of Charleston, South Carolina.
           7. Historians today agree that slavery was at the centre of the Southern states' decision. For the North, the main aim at the start was to keep the Union together: it refused to accept that states could simply leave. So the two sides had different aims, and historians still discuss the reasons of the Union in detail.
           8. On 1 January 1863, Lincoln signed the Emancipation Proclamation. It declared people who were enslaved in the states in rebellion to be free, and it allowed Black men to join the Union army. It applied to more than three and a half million of the four million enslaved people, but it could only be enforced where the Union army advanced.
       - type: text
         text: |
           9. Enslaved people did not wait for this decree. Many had already escaped and looked for freedom behind Union lines.
           10. In the summer of 1863 the Union won at Vicksburg, which split the Confederacy in two at the Mississippi River. At Gettysburg, General Lee's attack on the North failed.
-          11. On 9 April 1865, after the Confederates had left their capital, Richmond, General Lee surrendered to General Grant at Appomattox. An estimated 700,000 soldiers had died. In December 1865 the Thirteenth Amendment to the Constitution ended slavery in the whole country, except as a punishment for a crime.
+          11. In 1864 Lincoln put General Grant in command of all the Union armies. On 9 April 1865, after the Confederates had left their capital, Richmond, General Lee surrendered to General Grant at Appomattox. An estimated 700,000 soldiers had died. In December 1865 the Thirteenth Amendment to the Constitution ended slavery in the whole country, except as a punishment for a crime.
           12. Then began the time of Reconstruction: an attempt to rebuild the South and to give civil rights to the four million people who had been freed.
       - type: vocabulary
-        caption: Randglossar · Wörter des Lesestücks
+        caption: Randglossar · Wörter der Seite
         languages:
           source: de
           target: en
@@ -146,7 +146,7 @@ blocks:
     blocks:
       - type: figure
         image: images/buergerkrieg-schema.svg
-        alt: Schemakarte der USA. Im Norden liegt die Union, im Süden liegt die Konföderation als rosa Fläche. Vier Orte sind mit Punkten markiert, Gettysburg und Richmond im Osten, Fort Sumter an der Südostküste und Vicksburg am Mississippi.
+        alt: Schemakarte der USA. Im Norden liegt die Union, im Süden liegt die Konföderation als rosa Fläche. Vier Orte sind mit Punkten markiert, Gettysburg im Norden, Richmond im Südosten, Fort Sumter an der Südostküste und Vicksburg am Mississippi. Der Mississippi ist als blaue Linie beschriftet.
         caption: Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die rosa Fläche zeigt die elf Staaten der Konföderation. Merke dir die vier Orte.
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -198,7 +198,7 @@ blocks:
         material:
           - type: labelled-figure
             image: images/buergerkrieg-aufgabe.svg
-            alt: "Schemakarte der USA im Bürgerkrieg ohne Namen mit vier Markierungen: Markierung 1 liegt im Nordosten, 2 im Osten an der Grenze zum Süden, 3 an der Südostküste und 4 am Mississippi im Süden."
+            alt: "Schemakarte der USA im Bürgerkrieg ohne Namen mit vier Markierungen: Markierung 1 liegt im Nordosten, 2 im Osten im Süden, 3 an der Südostküste und 4 am Mississippi im Süden. Die blaue Linie ist der Mississippi."
             caption: Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die rosa Fläche ist der Süden.
             source: eigene Zeichnung
             licence: CC-BY-4.0
@@ -209,7 +209,7 @@ blocks:
                 text: Gettysburg
                 marker: "1"
               - x: 80
-                y: 51
+                y: 54
                 text: Richmond
                 marker: "2"
               - x: 83
@@ -221,8 +221,8 @@ blocks:
                 text: Vicksburg
                 marker: "4"
         pairsFrom: material
-        explanation: Gettysburg liegt im Norden, die anderen im Süden.
-        hint: Fort Sumter liegt an der Küste.
+        explanation: Gettysburg liegt im Norden, dort scheiterte Lees Angriff (Zeile 10). Richmond, Fort Sumter und Vicksburg liegen im Süden, in der Konföderation.
+        hint: Fort Sumter liegt in South Carolina, Vicksburg am Mississippi.
       - type: language-task
         id: sklaverei-luecken
         languages:

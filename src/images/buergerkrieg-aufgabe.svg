@@ -8,8 +8,9 @@
   <polygon points="196,168 290,150 340,150 404,150 406,190 416,236 398,246 380,208 346,214 300,222 256,240 236,264 210,246 180,236 196,200" fill="#e6b9a0" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
   <path d="M268,70 C272,110 262,150 286,214" fill="none" stroke="#2c6fd8" stroke-width="5" stroke-linecap="round"/>
   <circle cx="396" cy="184" r="6" fill="#d35400" stroke="#333" stroke-width="2"/>
-  <circle cx="384" cy="152" r="6" fill="#d35400" stroke="#333" stroke-width="2"/>
+  <circle cx="384" cy="162" r="6" fill="#d35400" stroke="#333" stroke-width="2"/>
   <circle cx="378" cy="118" r="6" fill="#d35400" stroke="#333" stroke-width="2"/>
   <circle cx="281" cy="192" r="6" fill="#d35400" stroke="#333" stroke-width="2"/>
+  <text x="256" y="132" text-anchor="end" font-family="sans-serif" font-size="14" font-weight="normal" fill="#333">Mississippi</text>
 
 </svg>
