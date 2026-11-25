@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" font-family="sans-serif" font-size="16">
+<rect width="480" height="560" fill="#f4efe2"/>
+<text x="16" y="28" font-weight="bold">Die USA im Überblick</text>
+<rect x="16" y="40" width="448" height="46" fill="#fff" stroke="#888"/><text x="26" y="68">einstieg: Frage + „Das kannst du danach“</text>
+<rect x="16" y="96" width="448" height="120" fill="#fff" stroke="#888"/><text x="26" y="120">lesen: Chat Sophie ↔ Jayden (Zeilen 1-8)</text><text x="26" y="146">Randglossar: region, coast, state</text>
+<rect x="16" y="226" width="448" height="120" fill="#e8f0e0" stroke="#888"/><text x="26" y="250">Schemakarte: Northeast, South, Midwest, West;</text><text x="26" y="274">Alaska und Hawaii als Einsätze</text>
+<rect x="16" y="356" width="448" height="60" fill="#fff" stroke="#888"/><text x="26" y="380">verstehen: Verstehen · Beleg (Zeile) · Meinung</text>
+<rect x="16" y="426" width="448" height="60" fill="#fff" stroke="#888"/><text x="26" y="450">uebung: matching, Karte lesen, schreiben, Diktat</text>
+<rect x="16" y="496" width="448" height="50" fill="#fff" stroke="#888"/><text x="26" y="526">anwenden + weiter: Nachsprechen, Schreibauftrag</text>
+</svg>

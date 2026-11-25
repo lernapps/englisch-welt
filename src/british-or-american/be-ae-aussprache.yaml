@@ -1,0 +1,253 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Britische und amerikanische Aussprache
+description: "Du hörst dieselben Sätze mit einer britischen und einer amerikanischen Stimme und erkennst typische Unterschiede: das r, das t und das a in bath."
+competencies: [be-ae-aussprache]
+scope: "Die Seite zeigt typische Unterschiede in der Aussprache von britischem und amerikanischem Englisch an drei belegten Merkmalen. Erstens bleibt das r in den meisten amerikanischen Akzenten in allen Stellungen hörbar (car, door), in den meisten Akzenten Englands nur vor einem Vokal. Zweitens wird ein t zwischen zwei Vokalen im Amerikanischen zu einem kurzen, weichen Laut wie ein d (better klingt ungefähr wie bedder), im britischen Englisch klingt das t anders. Drittens sprechen viele Briten das a in bath lang (ungefähr bahth), Amerikaner kurz. Die Lesehilfe ist eine deutsche Annäherung ohne Lautschrift. Geübt wird mit Hörpaaren: dieselben Sätze mit einer britischen und einer amerikanischen KI-Stimme, dazu Nachsprechen. Es gibt viele Akzente in beiden Ländern, kein Akzent ist falsch oder besser, und Akzente wie das australische oder schottische Englisch haben hier keine Stimme. Typische Fehler sind amerikanisch für falsch halten und das r in car bei Sophie hören wollen. Nicht hier: Wortschatz und Schreibung der beiden Varietäten, regionale Akzente innerhalb der USA oder Großbritanniens im Einzelnen, Lautschrift."
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Stimmen, ein Satz
+    blocks:
+      - type: text
+        text: "Jetzt hörst du, wie Sophie und Jayden Wörter sprechen. Die langen und kurzen Vokale von der Wiederholungsseite helfen dir. Vorher eine Frage an dich."
+      - type: single-choice
+        id: aussprache-start
+        text: Was ist ein Akzent?
+        options:
+          - text: Ein anderes Wort für dieselbe Sache
+            correct: false
+            info: Das wäre ein Unterschied im Wortschatz.
+          - text: Ein Fehler beim Sprechen
+            correct: false
+            info: Ein Akzent ist kein Fehler.
+          - text: Die Art, wie Menschen die Laute einer Sprache sprechen
+            correct: true
+            info: Ein Akzent ist die Art zu sprechen.
+        explanation: Beim Akzent ist nur der Klang anders.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst typische Unterschiede in der Aussprache von britischem und amerikanischem Englisch."
+  - type: section
+    id: lesen
+    title: Sophie und Jayden vergleichen ihre Akzente
+    blocks:
+      - type: text
+        text: "Jayden hat Sophie eine Sprachnachricht geschickt. Die Lesehilfe in Anführungszeichen ist nur eine Annäherung."
+      - type: text
+        text: |
+          1. **Sophie:** Hi Jayden! I got your voice message. Your accent sounds different from mine.
+          2. **Jayden:** Hey Sophie! Yours sounds different to me, too. Let's compare some words.
+          3. **Sophie:** OK! Say car, please. I hear an r at the end of your word.
+          4. **Jayden:** Yes, in my accent the r is always there: car, park, door.
+          5. **Sophie:** In my accent the r is silent when no vowel comes next. For me, car sounds like "kah".
+          6. **Jayden:** Funny! Now say bath.
+      - type: text
+        text: |
+          7. **Sophie:** I say bath with a long a, like "bahth".
+          8. **Jayden:** I say a short a, like "bäth". And you say better like "bet-ta", right?
+          9. **Sophie:** Yes! You say it like "bedder"!
+          10. **Jayden:** That is the t. Between two vowels my t is quick and soft, like a d.
+          11. **Sophie:** Mr Hill says that both ways are normal. There is no one right accent.
+          12. **Jayden:** Right! And there are many accents in my country, too.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: the accent
+            source: der Akzent
+          - target: the voice message
+            source: die Sprachnachricht
+          - target: to compare
+            source: vergleichen
+          - target: silent
+            source: stumm
+            note: Gemeint ist ein Buchstabe, den man nicht spricht.
+          - target: the vowel
+            source: der Vokal
+            note: a, e, i, o, u
+          - target: soft
+            source: weich
+          - target: a long a / a short a
+            source: ein langes a / ein kurzes a
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: aussprache-verstehen
+        text: "Stimmt das? In Jaydens Akzent bleibt das r in car hörbar."
+        answer: true
+        hint: Lies die Zeilen 3 und 4 noch einmal.
+        explanation: Jayden spricht das r immer mit.
+      - type: matching
+        id: aussprache-zuordnen
+        text: "Wer spricht wie? Ordne zu."
+        pairs:
+          - left: car bei Sophie
+            right: ohne r, wie „kah“
+          - left: car bei Jayden
+            right: mit hörbarem r
+          - left: bath bei Sophie
+            right: langes a
+          - left: bath bei Jayden
+            right: kurzes a
+        explanation: Die Wörter sind gleich, nur der Klang ist anders.
+        hint: Lies die Zeilen 4 bis 8 noch einmal.
+      - type: single-choice
+        id: aussprache-beleg
+        text: Welche Zeile belegt, dass beide Arten zu sprechen normal sind?
+        options:
+          - text: Zeile 9
+            correct: false
+            info: Hier geht es um better.
+          - text: Zeile 2
+            correct: false
+            info: Hier schlägt Jayden vor, Wörter zu vergleichen.
+          - text: Zeile 12
+            correct: false
+            info: Hier geht es um Akzente in Jaydens Land.
+          - text: Zeile 11
+            correct: true
+            info: Dort steht, was Mr Hill sagt.
+        explanation: Mr Hill nennt beide Arten normal.
+        hint: Suche die Zeile, in der Mr Hill vorkommt.
+      - type: single-choice
+        id: aussprache-meinung
+        text: "Amir fragt: „Welchen Akzent soll ich lernen?“ Was ist eine gute Antwort?"
+        options:
+          - text: Nur den amerikanischen, denn der britische ist falsch.
+            correct: false
+            info: Britisch ist nicht falsch.
+          - text: Nur den britischen, denn der amerikanische ist falsch.
+            correct: false
+            info: Amerikanisch ist nicht falsch.
+          - text: Beide sind richtig. Wähle den, den du magst, und hör auch dem anderen zu.
+            correct: true
+            info: Beide Akzente sind richtig.
+        explanation: Kein Akzent ist falsch.
+        hint: Denke an Zeile 11.
+  - type: section
+    id: neu
+    title: Was klingt anders?
+    blocks:
+      - type: figure
+        image: images/be-ae-klang.svg
+        alt: Drei Karten mit je einem Wort und zwei Zeilen. Bei stork steht britisch stohk und amerikanisch stohrk. Bei ladder und latter steht britisch verschieden und amerikanisch gleich. Bei grass steht britisch grahss und amerikanisch gräss. Britisch ist blau, amerikanisch orange.
+        caption: Die Lesehilfe ist eine deutsche Annäherung ohne Lautschrift.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              1. **Das r:** Die meisten amerikanischen Akzente sprechen es überall, die meisten Akzente in England nur vor einem Vokal.
+              2. **Das t zwischen Vokalen:** Im amerikanischen Englisch klingt es weich, fast wie ein d.
+              3. **Das a:** Viele sagen es in England lang, in den USA kurz. Im Norden Englands sprechen viele Menschen es kurz.
+
+              Beides sind Akzente. Keiner ist falsch.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: aussprache-stimme
+        languages: { source: de, target: en }
+        direction: to-source
+        mode: choice
+        task: Hör zu. Welche Stimme spricht?
+        items:
+          - audio: her-sister-parked-the-car-near-the-door.mp3
+            source: Diese Stimme klingt [britisch].
+            distractors: [[amerikanisch]]
+          - audio: i-wrote-a-better-letter-about-the-party-us.mp3
+            source: Diese Stimme klingt [amerikanisch].
+            distractors: [[britisch]]
+          - audio: he-drinks-a-glass-of-milk-after-his-bath.mp3
+            source: Diese Stimme klingt [britisch].
+            distractors: [[amerikanisch]]
+        hint: Achte auf das r und auf das t zwischen Vokalen.
+      - type: language-task
+        id: aussprache-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: her-sister-parked-the-car-near-the-door-us.mp3
+            target: Her sister parked the car near the door.
+          - audio: i-wrote-a-better-letter-about-the-party.mp3
+            target: I wrote a better letter about the party.
+          - audio: he-drinks-a-glass-of-milk-after-his-bath-us.mp3
+            target: He drinks a glass of milk after his bath.
+        hint: Hör jeden Satz zweimal.
+      - type: matching
+        id: aussprache-lesehilfe
+        text: Ordne jedem Wort die passende Lesehilfe zu.
+        pairs:
+          - left: car (britisch)
+            right: kah
+          - left: car (amerikanisch)
+            right: kahr
+          - left: bath (britisch)
+            right: bahth
+          - left: bath (amerikanisch)
+            right: bäth
+        explanation: Das r und das a klingen anders.
+        hint: Schau in Sophies und Jaydens Zeilen.
+      - type: language-task
+        id: aussprache-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Sophie sagt bath mit einem langen a.
+            target: Sophie (says|pronounces) bath with a long a.
+            mistakes:
+              - answer: Sophie says bath with a short a.
+                message: Sophies a ist lang.
+          - source: Jayden spricht das r in car mit.
+            target: Jayden (says|pronounces) the r in car.
+            mistakes:
+              - answer: Sophie says the r in car.
+                message: Bei Sophie bleibt das r stumm.
+          - source: Beide Akzente sind normal.
+            target: (Both accents are|Both are|Both of them are) normal.
+            mistakes:
+              - answer: Only one accent is normal.
+                message: Mr Hill nennt beide Arten normal.
+        hint: Schau in den Chat.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: aussprache-nachsprechen
+        language: en
+        items:
+          - audio: her-sister-parked-the-car-near-the-door.mp3
+            text: Her sister parked the car near the door.
+          - audio: her-sister-parked-the-car-near-the-door-us.mp3
+            text: Her sister parked the car near the door.
+          - audio: he-drinks-a-glass-of-milk-after-his-bath.mp3
+            text: He drinks a glass of milk after his bath.
+          - audio: he-drinks-a-glass-of-milk-after-his-bath-us.mp3
+            text: He drinks a glass of milk after his bath.
+        hint: Du musst keinen Akzent nachmachen.
+      - type: open-task
+        id: aussprache-frei
+        task: "Schreibe zwei Sätze auf Englisch: Welchen Unterschied zwischen Sophies und Jaydens Akzent hast du gehört?"
+        points:
+          - text: Du nennst einen Unterschied, zum Beispiel das r in car oder das a in bath.
+            source: /british-or-american/be-ae-aussprache/#lesen
+          - text: Du sagst, wer wie spricht (Sophie oder Jayden).
+            source: /british-or-american/be-ae-aussprache/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          In Jayden's accent the r in car is always there, but in Sophie's accent it is silent. Both accents are normal.
+        hint: Schau in die Zeilen 4 bis 8.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Als Nächstes geht es um die **Schreibung**: Warum schreibt Jayden manche Wörter anders als Sophie?"

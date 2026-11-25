@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Hello, America!
+summary: Die Weltkarte beginnt in den USA. Du beschreibst die USA und Kanada auf der Karte, stellst New York und Washington vor und vergleichst den Alltag, die Schule und die Feste von Jugendlichen mit deinen.
+pages: [das-brauchst-du, usa-ueberblick, usa-staedte, kanada, jugend-usa, schule-usa, feste-usa]
+selfAssessment:
+  pages:
+    - exercises:
+        - /hello-america/usa-ueberblick/#usa-karte
+        - /hello-america/usa-ueberblick/#usa-lage
+        - /hello-america/usa-staedte/#staedte-ort
+        - /hello-america/usa-staedte/#staedte-luecke
+    - exercises:
+        - /hello-america/kanada/#kanada-karte
+        - /hello-america/kanada/#kanada-luecke
+        - /hello-america/jugend-usa/#jugend-fair
+        - /hello-america/jugend-usa/#jugend-luecke
+    - exercises:
+        - /hello-america/schule-usa/#schule-fehler
+        - /hello-america/schule-usa/#schule-luecke
+        - /hello-america/feste-usa/#feste-fehler
+        - /hello-america/feste-usa/#feste-luecke

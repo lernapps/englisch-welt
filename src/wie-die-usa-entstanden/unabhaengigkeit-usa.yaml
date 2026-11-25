@@ -1,0 +1,264 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Unabhängigkeit der USA
+description: "Sophie fragt Jayden nach dem Vierten Juli. Du erklärst, wie die USA unabhängig wurden: Boston Tea Party, Krieg und Declaration of Independence, mit mehreren Sichtweisen."
+competencies: [unabhaengigkeit-usa]
+scope: "Die Seite erklärt, wie die dreizehn britischen Kolonien unabhängig wurden. Die Kolonisten durften nicht im britischen Parlament mitentscheiden und sollten trotzdem Steuern zahlen. Bei der Boston Tea Party warfen Männer im Dezember 1773 mehr als dreihundert Kisten Tee ins Wasser, einige verkleidet als Native Americans. Großbritannien antwortete 1774 mit harten Gesetzen, im April 1775 begann der Krieg. Am 4. Juli 1776 nahm der Kongress die Declaration of Independence an, deren erster Entwurf von Thomas Jefferson stammte. Die Verfassung kam später. Ein kurzer Satz der Declaration steht als Zitat mit Quelle. Mehrere Sichtweisen: Kolonisten, die britische Regierung, Menschen, für die die Worte „alle Menschen sind gleich“ nicht galten (in allen dreizehn Kolonien war die Sklaverei erlaubt). Geübt werden unregelmäßige Verben der Vergangenheit (threw, wrote, began). Typische Fehler sind Declaration gleich Verfassung und Vierter Juli gleich Tea Party. Nicht hier: Sklaverei und Bürgerkrieg im Detail, der Aufbau des Staates."
+blocks:
+  - type: section
+    id: einstieg
+    title: Der Vierte Juli
+    blocks:
+      - type: text
+        text: "Mr Hill hat der Klasse eine Frage mitgegeben, und Sophie fragt Jayden. Den Vierten Juli kennst du von den Festen. Vorher eine Frage an dich."
+      - type: single-choice
+        id: unabhaengigkeit-start
+        text: Zu welchem Land gehörten die dreizehn Kolonien an der Ostküste, bevor sie frei wurden?
+        options:
+          - text: Zu Spanien
+            correct: false
+            info: Kolumbus segelte für Spanien, aber diese Kolonien waren britisch.
+          - text: Zu Großbritannien
+            correct: true
+            info: Es waren britische Kolonien.
+          - text: Zu den Niederlanden
+            correct: false
+            info: Die Pilger lebten zwar in den Niederlanden, aber die Kolonien waren britisch.
+        explanation: Die dreizehn Kolonien gehörten zu Großbritannien.
+      - type: text
+        text: "**Das kannst du danach:** Du erklärst, wie aus Kolonien ein Land wurde, und nennst Sichtweisen: Kolonisten, die Regierung im Mutterland und versklavte Menschen."
+  - type: section
+    id: lesen
+    title: Jayden erzählt vom Vierten Juli
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Mr Hill asked: What do Americans celebrate on the Fourth of July?
+          2. **Jayden:** The birthday of my country! In 1776, thirteen British colonies wrote a paper called the Declaration of Independence.
+          3. **Sophie:** Why did they want to be free?
+          4. **Jayden:** They had to pay British taxes, but nobody from the colonies sat in the British Parliament.
+          5. **Sophie:** And what about the tea?
+          6. **Jayden:** That was the Boston Tea Party in December 1773. Men from Boston threw more than three hundred chests of tea into the water. Some of them dressed like Native Americans.
+          7. **Jayden:** Britain answered with hard new laws in 1774. The war began in April 1775.
+      - type: text
+        text: |
+          8. **Sophie:** So the Tea Party was on the Fourth of July?
+          9. **Jayden:** No! On the Fourth of July 1776, Congress agreed to the text of the Declaration. Thomas Jefferson, one of the Founding Fathers, wrote the first draft.
+          10. **Sophie:** Is the Declaration the same as the Constitution?
+          11. **Jayden:** No. The Declaration says why the colonies were free. The Constitution came later and says how the country works.
+          12. **Sophie:** Did "all men are created equal" mean everybody?
+          13. **Jayden:** People asked that question even in 1776. In all thirteen colonies, slavery was legal. Enslaved Africans and African Americans were not free.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: to celebrate
+            source: feiern
+          - target: the Declaration of Independence
+            source: die Erklärung der Unabhängigkeit
+          - target: legal
+            source: erlaubt
+          - target: the colony
+            source: die Kolonie
+          - target: the tax
+            source: die Steuer
+          - target: Parliament
+            source: das Parlament (in Großbritannien)
+          - target: the chest
+            source: die Kiste
+          - target: to throw, threw
+            source: werfen, warf
+          - target: Congress
+            source: der Kongress (damals die Versammlung der Kolonien, heute das Parlament der USA)
+          - target: the draft
+            source: der Entwurf
+          - target: the Founding Fathers
+            source: die Gründerväter der USA
+          - target: the Constitution
+            source: die Verfassung
+          - target: slavery
+            source: die Sklaverei
+          - target: enslaved
+            source: versklavt (nicht frei)
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: multiple-choice
+        id: unabhaengigkeit-verstehen
+        text: Welche zwei Aussagen über die Declaration of Independence stimmen?
+        options:
+          - text: Sie ist die Verfassung der USA.
+            correct: false
+            info: Die Verfassung kam später.
+          - text: Sie wurde bei der Boston Tea Party geschrieben.
+            correct: false
+            info: Die Tea Party war 1773, die Declaration 1776.
+          - text: Der Kongress nahm sie am 4. Juli 1776 an.
+            correct: true
+            info: So sagt es Jayden in Zeile 9.
+          - text: Sie erklärt 1776, warum die Kolonien frei sein wollen.
+            correct: true
+            info: So sagt es Jayden in Zeile 11.
+        explanation: Die Declaration ist keine Verfassung.
+        hint: Lies die Zeilen 9 bis 11 noch einmal.
+      - type: single-choice
+        id: unabhaengigkeit-beleg
+        text: Welche Zeile belegt, dass der Krieg vor der Declaration begann?
+        options:
+          - text: Zeile 2
+            correct: false
+            info: Zeile 2 handelt von der Declaration.
+          - text: Zeile 7
+            correct: true
+            info: Hier steht der Beginn des Krieges.
+          - text: Zeile 6
+            correct: false
+            info: Zeile 6 handelt von der Tea Party.
+          - text: Zeile 11
+            correct: false
+            info: Zeile 11 handelt von der Verfassung.
+        explanation: "Zeile 7: Der Krieg begann im April 1775."
+        hint: Suche die Zeile mit dem Monat April.
+      - type: open-task
+        id: unabhaengigkeit-meinung
+        task: "Die Kolonien erklären sich für unabhängig: Wer gewinnt, wer verliert? Schreibe zwei bis drei Sätze auf Englisch."
+        points:
+          - text: Du nennst, was die Kolonisten gewinnen, zum Beispiel ein Land, das sich selbst regiert.
+            source: /wie-die-usa-entstanden/unabhaengigkeit-usa/#lesen
+          - text: Du nennst, was Großbritannien verliert, oder die Sicht von Menschen, die damals nicht frei waren.
+            source: /wie-die-usa-entstanden/unabhaengigkeit-usa/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          The colonists won a country with its own government. Britain lost thirteen colonies. But in 1776 slavery was legal in all the colonies, and enslaved people were not free, so "all men are created equal" did not mean everybody.
+        hint: Schau in die Zeilen 4 und 13.
+  - type: section
+    id: neu
+    title: Ein berühmter Satz
+    blocks:
+      - type: figure
+        image: images/zeitachse-usa-3.svg
+        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Links stehen graue Punkte, in der Mitte kurz vor achtzehnhundert drei orange Punkte dicht beieinander mit den Jahreszahlen 1773, 1775 und 1776, darunter ein Segelschiff."
+        caption: "Die Zeitachse wächst: Die drei orangen Punkte liegen nur wenige Jahre auseinander."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: quote
+        text: "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
+        origin:
+          {
+            author: Thomas Jefferson (erster Entwurf) und der Kongress,
+            work: The unanimous Declaration of the thirteen united States of America,
+            year: 1776,
+          }
+        source: "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence (Text der Declaration, geöffnet 2026-11-24)"
+        licence: gemeinfrei (Originaltext von 1776)
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Die **Declaration of Independence** (Unabhängigkeitserklärung) ist ein Text von 1776. Hilfe für den Satz oben: **self-evident** selbstverständlich, **created** geschaffen, **equal** gleich, **rights** Rechte, **Liberty** Freiheit, **Happiness** Glück.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: unabhaengigkeit-reihenfolge
+        text: Bringe die Ereignisse in die richtige Reihenfolge.
+        items:
+          - Männer aus Boston werfen Tee ins Wasser.
+          - Großbritannien antwortet mit harten neuen Gesetzen.
+          - Der Krieg beginnt.
+          - Der Kongress nimmt die Declaration an.
+        explanation: Tea Party 1773, harte Gesetze 1774, Kriegsbeginn im April 1775, Declaration im Juli 1776.
+        hint: Lies noch einmal die Zeilen 6, 7 und 9.
+      - type: matching
+        id: unabhaengigkeit-wersagtdas
+        text: "Wer sagt das? Die Sätze geben sinngemäß wieder, was die Gruppen damals meinten. Ordne zu."
+        pairs:
+          - left: We have no say in Parliament, so we should not pay its taxes.
+            right: Kolonisten, die Unabhängigkeit wollten
+          - left: Parliament has the right to make laws for the colonies.
+            right: die britische Regierung
+          - left: You say all men are equal, but you keep enslaved people.
+            right: Kritiker, die auf die Sklaverei hinwiesen
+        explanation: "Die Kolonisten wollten mitreden, die Regierung sah das Parlament als höchste Macht, Kritiker zeigten auf die Sklaverei."
+        hint: Denke an Zeile 4 und Zeile 13.
+      - type: single-choice
+        id: unabhaengigkeit-zitat
+        text: Was sagt der Satz aus der Declaration, den du oben gelesen hast?
+        options:
+          - text: Nur Männer aus Boston haben Rechte.
+            correct: false
+            info: Der Satz spricht von allen Menschen.
+          - text: Alle Menschen sind gleich geschaffen und haben Rechte wie Leben und Freiheit.
+            correct: true
+            info: So steht es im Text der Declaration.
+          - text: Der König von Großbritannien hat immer recht.
+            correct: false
+            info: Die Declaration kritisiert den König.
+        explanation: Der Satz nennt Gleichheit und Rechte.
+        hint: Schau in den Merke-Kasten.
+      - type: language-task
+        id: unabhaengigkeit-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze das Verb in der Vergangenheit.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Die Männer warfen die Kisten ins Wasser.
+            target: The men [threw] the chests into the water.
+            mistakes:
+              - answer: The men throwed the chests into the water.
+                message: throw ist unregelmäßig, nicht throwed.
+              - answer: The men throw the chests into the water.
+                message: Du brauchst die Vergangenheit.
+          - cue: Jefferson schrieb den ersten Entwurf.
+            target: Jefferson [wrote] the first draft.
+            mistakes:
+              - answer: Jefferson writed the first draft.
+                message: write ist unregelmäßig, nicht writed.
+              - answer: Jefferson written the first draft.
+                message: written ist die dritte Form, nicht die Vergangenheit.
+          - cue: Der Krieg begann 1775.
+            target: The war [began|started] in 1775.
+            mistakes:
+              - answer: The war beginned in 1775.
+                message: begin ist unregelmäßig, nicht beginned.
+              - answer: The war begun in 1775.
+                message: begun ist die dritte Form, nicht die Vergangenheit.
+        hint: "Diese drei Verben sind unregelmäßig. Schau in die Zeilen 6, 7 und 9."
+      - type: language-task
+        id: unabhaengigkeit-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: many-people-in-the-colonies-were-angry.mp3
+            target: Many people in the colonies were angry.
+          - audio: the-war-began-before-the-declaration.mp3
+            target: The war began before the Declaration.
+          - audio: many-people-read-the-declaration-in-the-newspapers.mp3
+            target: Many people read the Declaration in the newspapers.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: unabhaengigkeit-nachsprechen
+        language: en
+        items:
+          - audio: thirteen-colonies-became-one-new-country.mp3
+            text: Thirteen colonies became one new country.
+          - audio: boston-is-in-the-state-of-massachusetts.mp3
+            text: Boston is in the state of Massachusetts.
+          - audio: thomas-jefferson-was-a-founding-father.mp3
+            text: Thomas Jefferson was a Founding Father.
+        hint: Sprich langsam nach. Achte auf thirteen, Boston und Massachusetts.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Die neuen USA wachsen im 19. Jahrhundert. Die Weltkarte zeigt Wagenzüge, die nach **Westen** ziehen. Wer lebt dort schon?"

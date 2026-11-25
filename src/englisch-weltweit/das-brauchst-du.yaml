@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: "Kurze Wiederholung vor der Reise nach Australien und zu anderen Kulturen: die Britischen Inseln und höfliche Begrüßung."
+recap: [englisch/britische-inseln, englisch/gruss-hoeflichkeit]
+scope: "Die Seite wiederholt zwei Bausteine, die dieses Kapitel braucht, und übt sie nicht neu. Das Vereinigte Königreich (UK) besteht aus England, Scotland, Wales und Northern Ireland mit den Hauptstädten London, Edinburgh, Cardiff und Belfast. Great Britain ist die große Insel mit England, Scotland und Wales; Ireland ist die Nachbarinsel, auf der auch Northern Ireland liegt. Dazu kommen höfliche Begrüßung, Anrede, Danken und Entschuldigen auf Englisch. Typische Fehler sind UK, Great Britain und England gleichzusetzen. Nicht hier: Australien, Varietäten des Englischen und Umgangsformen anderer Kulturen, sie stehen auf den folgenden Seiten."
+blocks:
+  - type: section
+    id: einstieg
+    title: Kannst du das schon?
+    blocks:
+      - type: text
+        text: |
+          Für die Reise in dieses Kapitel brauchst du zwei Dinge, die du schon kennst. Prüfe dich selbst. Wenn dir etwas fehlt, hilft dir die Lernlandkarte weiter, auf die der Link jedes Bausteins zeigt.
+
+          **Die Britischen Inseln:** Ich kann die Teile des Vereinigten Königreichs und ihre Hauptstädte auf der Karte zeigen und UK, Great Britain und Ireland unterscheiden.
+
+          **Begrüßung und Höflichkeit:** Ich kann Menschen auf Englisch angemessen begrüßen, anreden und mich höflich bedanken und entschuldigen.
+      - type: table
+        caption: Die vier Teile des Vereinigten Königreichs
+        header: [Teil des UK, Hauptstadt]
+        rows:
+          - [England, London]
+          - [Scotland, Edinburgh]
+          - [Wales, Cardiff]
+          - [Northern Ireland, Belfast]
+      - type: single-choice
+        id: weltweit-uk
+        text: Welcher Name meint die große Insel mit England, Scotland und Wales?
+        options:
+          - text: England
+            correct: false
+            info: England ist nur ein Teil der Insel Great Britain und ein Teil des UK.
+          - text: Ireland
+            correct: false
+            info: Ireland ist die Nachbarinsel im Westen. Im Nordosten dieser Insel liegt Northern Ireland, ein Teil des UK.
+          - text: Great Britain
+            correct: true
+            info: Great Britain ist die Insel mit England, Scotland und Wales. Im Alltag meint man damit manchmal auch das ganze UK.
+        explanation: Great Britain nennt die Insel mit England, Scotland und Wales. Das UK schließt auch Northern Ireland ein.
+      - type: single-choice
+        id: weltweit-gruss
+        text: Du triffst am Morgen eine Lehrerin, die du nicht gut kennst. Was sagst du?
+        options:
+          - text: Good night.
+            correct: false
+            info: Good night sagst du, wenn du dich am Abend verabschiedest oder ins Bett gehst, nicht als Gruß am Morgen.
+          - text: Good morning.
+            correct: true
+            info: Good morning ist höflich und passt am Morgen für fast alle Menschen.
+          - text: Hey, what's up?
+            correct: false
+            info: Das sagst du zu Freunden. Zu einer Lehrerin ist es zu locker.
+        explanation: Am Morgen und zu Menschen, die du nicht gut kennst, passt Good morning.

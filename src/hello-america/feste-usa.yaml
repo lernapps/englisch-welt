@@ -1,0 +1,265 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Feste in den USA
+description: "Sophie fragt Jayden nach Thanksgiving und Independence Day. Du lernst, wann die Feste sind, was Menschen tun und warum Thanksgiving verschieden gesehen wird."
+competencies: [feste-usa]
+scope: "Die Seite beschreibt zwei Feste der USA, Thanksgiving und Independence Day, beide bundesweite Feiertage (federal holidays). Thanksgiving ist am vierten Donnerstag im November, das Datum ändert sich also jedes Jahr. Es geht ums Danken (giving thanks), im Mittelpunkt steht ein Familienessen mit Truthahn, Kartoffeln, Mais und Pumpkin Pie; dazu gehören Paraden wie die Macy's Thanksgiving Day Parade in New York und American-football-Spiele. Die Geschichte vom Erntefest 1621 in Plymouth wird mit mehreren Sichtweisen erzählt: Die bekannte Geschichte sagt, die Wampanoag seien eingeladen worden, Nachfahren der Wampanoag berichten, das Fest sei zuerst nur für die Pilgrims gedacht gewesen. Manche Native Americans nennen den Tag National Day of Mourning, andere sehen ihn verschieden; Kanada hat ein eigenes Thanksgiving. Independence Day, auch Fourth of July, ist am 4. Juli und erinnert an die Unabhängigkeitserklärung von 1776; Menschen feiern mit Picknicks, Grillen, Paraden und Feuerwerk in Rot, Weiß und Blau. Typische Fehler sind Thanksgiving als reines Erntedankfest, ein festes Datum für Thanksgiving und Independence Day mit Weihnachten oder Bonfire Night verwechseln. Nicht hier: Geschichte der Pilgrims und der Unabhängigkeit im Einzelnen (Kapitel 3), Feste in Großbritannien."
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Feste, zwei Geschichten
+    blocks:
+      - type: text
+        text: "Jetzt fragt Sophie Jayden nach den Festen in den USA. Vorher eine Frage an dich."
+      - type: single-choice
+        id: feste-start
+        text: "Was bedeutet das Wort „Thanksgiving“?"
+        options:
+          - text: Truthahn essen
+            correct: false
+            info: Truthahn ist nur das Essen.
+          - text: Geschenke bekommen
+            correct: false
+            info: Geschenke heißen gifts.
+          - text: Dank sagen
+            correct: true
+            info: Wörtlich heißt es Dank sagen.
+        explanation: Thanksgiving heißt Dank sagen.
+      - type: text
+        text: "**Das kannst du danach:** Du beschreibst Thanksgiving und Independence Day: wann sie sind, was Menschen tun und wie man ihre Geschichte fair erzählt."
+  - type: section
+    id: lesen
+    title: Jayden erzählt von zwei Festen
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Hi Jayden! Mr Hill wants us to learn about your holidays. Which ones do you have?
+          2. **Jayden:** There are two big ones, Thanksgiving and Independence Day. Both are federal holidays.
+          3. **Sophie:** What is Thanksgiving?
+          4. **Jayden:** It is in November, on the fourth Thursday. So the date changes every year. Families have a big dinner with turkey, potatoes, corn and pumpkin pie.
+          5. **Sophie:** Is it a harvest festival?
+          6. **Jayden:** It is about giving thanks. The story says it began with a harvest feast in 1621 in Plymouth, where the Pilgrims lived. Canada has its own Thanksgiving, too.
+          7. **Jayden:** The Wampanoag, a Native American people, were there, too. The popular story says the Pilgrims invited them. Some Wampanoag say the feast was first only for the Pilgrims.
+      - type: text
+        text: |
+          8. **Jayden:** Today Native Americans have different views. Some call Thanksgiving a National Day of Mourning.
+          9. **Sophie:** And Independence Day?
+          10. **Jayden:** It is on July 4. It remembers the Declaration of Independence from 1776.
+          11. **Jayden:** People have picnics and barbecues, watch parades and see fireworks. Many use red, white and blue, the colors of the flag.
+          12. **Sophie:** We have fireworks on Bonfire Night in England!
+          13. **Jayden:** Cool! We also say the Fourth of July for this day.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: the federal holiday
+            source: der bundesweite Feiertag
+          - target: the turkey
+            source: der Truthahn
+          - target: the corn
+            source: der Mais
+          - target: the pumpkin pie
+            source: der Kürbiskuchen
+          - target: the harvest
+            source: die Ernte
+          - target: the feast
+            source: das Festessen
+          - target: to invite
+            source: einladen
+          - target: the parade
+            source: der Umzug, die Parade
+          - target: the Pilgrims
+            source: die Pilger (englische Siedler in Plymouth)
+          - target: Native Americans
+            source: die Menschen, die schon vor den Europäern in Nordamerika lebten (in Kanada Indigenous peoples)
+          - target: Wampanoag
+            source: ein Volk der Native Americans
+          - target: the National Day of Mourning
+            source: ein Trauertag
+          - target: the Declaration of Independence
+            source: die Erklärung der Unabhängigkeit
+          - target: the fireworks
+            source: das Feuerwerk (meist Mehrzahl)
+          - target: the colors
+            source: die Farben (amerikanisch, britisch colours)
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: feste-verstehen
+        text: "Stimmt das? Thanksgiving findet in den USA jedes Jahr am gleichen Datum statt."
+        answer: false
+        hint: Lies Zeile 4 noch einmal.
+        explanation: Thanksgiving ist am vierten Donnerstag im November. Das Datum ist jedes Jahr ein anderes.
+      - type: matching
+        id: feste-zuordnen
+        text: "Was sagt Jayden über diese Dinge? Ordne zu."
+        pairs:
+          - left: Thanksgiving
+            right: vierter Donnerstag im November
+          - left: Independence Day
+            right: erinnert an die Unabhängigkeitserklärung
+          - left: Wampanoag
+            right: ein Volk der Native Americans
+          - left: National Day of Mourning
+            right: so nennen einige Native Americans den Tag
+        explanation: Jayden erzählt von beiden Festen und von verschiedenen Sichtweisen.
+        hint: Lies die Zeilen 4, 7, 8 und 10 noch einmal.
+      - type: single-choice
+        id: feste-beleg
+        text: Welche Zeile sagt, wie Native Americans heute auf Thanksgiving blicken?
+        options:
+          - text: Zeile 6
+            correct: false
+            info: Zeile 6 erzählt vom Erntefest.
+          - text: Zeile 11
+            correct: false
+            info: Zeile 11 handelt vom 4. Juli.
+          - text: Zeile 8
+            correct: true
+            info: Dort stehen die Ansichten von Native Americans.
+          - text: Zeile 4
+            correct: false
+            info: Zeile 4 handelt vom Datum.
+        explanation: Zeile 8 nennt die Ansichten von heute.
+        hint: Suche die Zeile mit „Today“ und „views“.
+      - type: open-task
+        id: feste-meinung
+        task: "Welches Fest in den USA erinnert dich an ein Fest bei dir? Schreibe zwei bis drei Sätze auf Englisch, zum Beispiel mit „… is like … because …“."
+        points:
+          - text: Du nennst ein Fest der USA, Thanksgiving oder Independence Day.
+            source: /hello-america/feste-usa/#lesen
+          - text: Du nennst ein Fest bei dir und einen Grund für den Vergleich (because …).
+            kind: form
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Independence Day is like Bonfire Night because there are fireworks. Thanksgiving is like Christmas because families have a big dinner.
+        hint: Schau in die Zeilen 4 und 11.
+  - type: section
+    id: neu
+    title: Feste im Kalender
+    blocks:
+      - type: table
+        caption: Schulkalender · Feste in den USA
+        header: [Fest, Wann und was viele tun]
+        rows:
+          - [Thanksgiving, vierter Donnerstag im November]
+          - [Thanksgiving, Familienessen und Paraden]
+          - [Independence Day, "4. Juli"]
+          - [Independence Day, Picknick und Feuerwerk]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Thanksgiving** ist ein Feiertag der USA, kein reines Erntefest. Es geht um das Danken. Wie bei jeder Geschichte gibt es mehrere Sichtweisen, und du sagst, wer sie erzählt: *Some people say …, but others say …*
+
+              Mit **first** bis **fourth** und einem Wochentag legst du ein Datum fest: *the second Monday in May*.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: feste-fehler
+        text: "Eine Freundin sagt: „Thanksgiving ist nur ein Erntefest, und es gibt es nur in den USA.“ Was stimmt?"
+        options:
+          - text: Thanksgiving ist das Fest für die Unabhängigkeit der USA.
+            correct: false
+            info: Das ist Independence Day.
+          - text: Thanksgiving ist ein Feiertag der USA, bei dem man dankt und isst, und Kanada hat ein eigenes Thanksgiving.
+            correct: true
+            info: In den USA ein Feiertag, und Kanada hat eins.
+          - text: Thanksgiving ist in den USA immer am 25. Dezember.
+            correct: false
+            info: Thanksgiving ist im November.
+        explanation: Thanksgiving ist kein reines Erntefest, und Kanada hat ein eigenes.
+        hint: Denke an den Merke-Kasten.
+      - type: language-task
+        id: feste-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze das fehlende Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Thanksgiving ist am vierten Donnerstag im November.
+            target: Thanksgiving is on the [fourth] Thursday in November.
+            mistakes:
+              - answer: Thanksgiving is on the forth Thursday in November.
+                message: "Die Schreibung ist fourth, mit u."
+              - answer: Thanksgiving is on the four Thursday in November.
+                message: Hier brauchst du die Ordnungszahl, also fourth.
+          - cue: Independence Day ist am vierten Juli.
+            target: Independence Day is on the Fourth of [July].
+            mistakes:
+              - answer: Independence Day is on the Fourth of Juli.
+                message: Der englische Monat heißt July, mit y.
+          - cue: Viele Menschen sehen am vierten Juli ein Feuerwerk.
+            target: Many people watch [fireworks] on the Fourth of July.
+            mistakes:
+              - answer: Many people watch firework on the Fourth of July.
+                message: Feuerwerk steht auf Englisch meist in der Mehrzahl, also fireworks.
+        hint: Schau in den Schulkalender und in den Merke-Kasten.
+      - type: language-task
+        id: feste-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Familien essen am Thanksgiving Truthahn.
+            target: Families eat turkey (on|at|for) Thanksgiving.
+            mistakes:
+              - answer: Families eats turkey on Thanksgiving.
+                message: Nach families steht die Mehrzahl, also eat ohne -s.
+              - answer: Families eat turkey in Thanksgiving.
+                message: Vor Thanksgiving passt in nicht. Sag on, at oder for.
+          - source: Independence Day erinnert an die Unabhängigkeitserklärung.
+            target: Independence Day (remembers|celebrates|commemorates) the Declaration of Independence.
+            mistakes:
+              - answer: Independence Day remember the Declaration of Independence.
+                message: Independence Day ist ein einzelnes Fest wie „it“. Das Verb braucht ein -s.
+        hint: Schau in die Zeilen 4 und 10.
+      - type: language-task
+        id: feste-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: thanksgiving-is-a-federal-holiday-in-the-usa.mp3
+            target: Thanksgiving is a federal holiday in the USA.
+          - audio: new-york-has-a-big-parade-on-thanksgiving.mp3
+            target: New York has a big parade on Thanksgiving.
+          - audio: fireworks-are-often-shown-in-the-evening.mp3
+            target: Fireworks are often shown in the evening.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: feste-nachsprechen
+        language: en
+        items:
+          - audio: pumpkin-pie-is-a-typical-dish-for-thanksgiving.mp3
+            text: Pumpkin pie is a typical dish for Thanksgiving.
+          - audio: independence-day-is-also-called-the-fourth-of-july.mp3
+            text: Independence Day is also called the Fourth of July.
+          - audio: some-people-go-to-parades-and-american-football-games.mp3
+            text: Some people go to parades and American football games.
+        hint: Sprich langsam nach. Achte auf Thanksgiving, pumpkin und Independence.
+  - type: section
+    id: weiter
+    title: Rückblick und nächster Halt
+    blocks:
+      - type: table
+        caption: Schulkalender · Rückblick Kapitel 1
+        header: [Halt, Das kannst du jetzt sagen]
+        rows:
+          - ["Die USA im Überblick", "Chicago lies on a big lake."]
+          - ["New York und Washington, D.C.", "The Washington Monument stands on the National Mall."]
+          - ["Kanada", "The First Nations, the Inuit and the Métis are Indigenous peoples of Canada."]
+          - ["Jugendliche in den USA", "Deep-dish pizza is a specialty of Chicago."]
+          - ["High School in den USA", "Students keep their books in a locker."]
+          - ["Feste in den USA", "Many people have a picnic on Independence Day."]
+      - type: text
+        text: "Die Weltkarte hat jetzt sechs Halte in den USA und in Kanada. Im nächsten Kapitel, **British or American?**, vergleichen Sophie und Jayden ihr Englisch: Wörter, Aussprache und Schreibung."

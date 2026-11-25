@@ -1,0 +1,281 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Britischer und amerikanischer Wortschatz
+description: "Sophie und Jayden sagen dasselbe mit anderen Wörtern. Du lernst wichtige Wortpaare und merkst: Beide Wörter sind richtig."
+competencies: [be-ae-wortschatz]
+scope: "Die Seite zeigt wichtige Unterschiede zwischen britischem und amerikanischem Wortschatz an Wortpaaren: flat und apartment, lift und elevator, pavement und sidewalk, petrol und gas, car park und parking lot, biscuit und cookie, autumn und fall, holiday und vacation, queue und line, trousers und pants. Dazu kommen Wörter mit anderer Bedeutung: football meint in Großbritannien Fußball und in den USA meist American football, soccer ist das amerikanische Wort für Fußball, und pants sind in Großbritannien Unterhosen. Britisch und amerikanisch sind zwei Varietäten des Englischen: Beide Wörter sind richtig, und man versteht einander meistens trotzdem. Typische Fehler sind die Wörter vertauschen, ein amerikanisches Wort „falsch“ nennen, gas mit Gas verwechseln und football mit Fußball gleichsetzen. Nicht hier: Aussprache, Schreibung und Grammatik der beiden Varietäten, regionale Wörter innerhalb der USA oder Großbritanniens."
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Länder, zwei Wörter
+    blocks:
+      - type: text
+        text: "Sophie und Jayden sagen oft dasselbe mit anderen Wörtern. Vorher eine Frage an dich."
+      - type: single-choice
+        id: wortschatz-start
+        text: "Sophie schreibt: „The car needs petrol.“ Jayden schreibt dasselbe mit „gas“. Was meint er?"
+        options:
+          - text: Luft für die Reifen
+            correct: false
+            info: Von Luft für die Reifen spricht Jayden nicht.
+          - text: Gas zum Kochen
+            correct: false
+            info: Das Wort gas sieht aus wie Gas, meint hier aber Benzin.
+          - text: Benzin für das Auto
+            correct: true
+            info: In den USA heißt Benzin gas.
+        explanation: Dasselbe Ding hat in zwei Ländern ein anderes Wort.
+      - type: text
+        text: "**Das kannst du danach:** Du nennst wichtige Unterschiede zwischen britischem und amerikanischem Wortschatz."
+  - type: section
+    id: lesen
+    title: Sophie und Jayden vergleichen Wörter
+    blocks:
+      - type: text
+        text: "Jayden schreibt amerikanisch, Sophie britisch."
+      - type: text
+        text: |
+          1. **Sophie:** Hi Jayden! I am home now. Our flat is on the second floor, but the lift is broken.
+          2. **Jayden:** Hey Sophie! Our apartment is on the fifth floor, so I am happy that our elevator works.
+          3. **Sophie:** Lucky you! Dad left the car in the car park, and I walked home on the pavement.
+          4. **Jayden:** We say parking lot and sidewalk.
+          5. **Sophie:** Mum says the car needs petrol again.
+          6. **Jayden:** For us it is gas. My dad buys gas every Friday.
+          7. **Sophie:** After school I had a biscuit and watched football on TV.
+          8. **Jayden:** A cookie? Nice! Remember: my football is American football, and your football is my soccer.
+      - type: text
+        text: |
+          9. **Sophie:** I remember! Do you like autumn?
+          10. **Jayden:** I love the fall, but I say fall, not autumn. The leaves are red and yellow.
+          11. **Sophie:** In the holidays we go to Cornwall. I hate to stand in a queue at the station.
+          12. **Jayden:** We say vacation. And we stand in line, not in a queue.
+          13. **Sophie:** I need new trousers for school. Today there was a long queue in the shop.
+          14. **Jayden:** A long line! And we say pants, not trousers.
+          15. **Sophie:** Careful! In Britain pants are underpants.
+          16. **Jayden:** Ha! Then we need a list of words for Mr Hill.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: the flat / the apartment
+            source: die Wohnung
+            note: flat ist britisch, apartment amerikanisch.
+          - target: the lift / the elevator
+            source: der Aufzug
+            note: lift ist britisch, elevator amerikanisch.
+          - target: the car park / the parking lot
+            source: der Parkplatz
+            note: car park ist britisch, parking lot amerikanisch.
+          - target: the pavement / the sidewalk
+            source: der Gehweg
+            note: pavement ist britisch, sidewalk amerikanisch.
+          - target: petrol / gas
+            source: das Benzin
+            note: petrol ist britisch, gas amerikanisch. Gemeint ist Benzin, nicht Gas zum Kochen.
+          - target: the biscuit / the cookie
+            source: der Keks
+            note: biscuit ist britisch, cookie amerikanisch.
+          - target: football / soccer
+            source: Fußball
+            note: soccer ist das amerikanische Wort für Fußball. Das kennst du schon vom Halt „Jugendliche in den USA“.
+          - target: the autumn / the fall
+            source: der Herbst
+            note: autumn ist britisch, fall amerikanisch.
+          - target: the holidays / vacation
+            source: die Ferien
+            note: holidays ist britisch, vacation amerikanisch.
+          - target: the queue / the line
+            source: die Warteschlange
+            note: queue ist britisch, line amerikanisch.
+          - target: the trousers / the pants
+            source: die Hose
+            note: trousers ist britisch, pants amerikanisch. In Großbritannien meint pants Unterhosen.
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: wortschatz-verstehen
+        text: "Stimmt das? Sophie und Jayden meinen mit „football“ dasselbe Spiel."
+        answer: false
+        hint: Lies Zeile 8 noch einmal.
+        explanation: Sophies football ist Jaydens soccer.
+      - type: single-choice
+        id: wortschatz-beleg
+        text: Welche Zeile belegt, dass pants in Großbritannien etwas anderes sind als in den USA?
+        options:
+          - text: Zeile 13
+            correct: false
+            info: Hier stehen trousers und queue.
+          - text: Zeile 16
+            correct: false
+            info: Hier geht es um die Wortliste.
+          - text: Zeile 14
+            correct: false
+            info: Hier sagt Jayden nur, dass er pants sagt.
+          - text: Zeile 15
+            correct: true
+            info: "Sophie warnt: pants sind in Großbritannien Unterhosen."
+        explanation: In Zeile 15 warnt Sophie.
+        hint: Suche die Zeile mit „Careful!“.
+      - type: single-choice
+        id: wortschatz-meinung
+        text: "Ellie sagt: „Jaydens Wörter sind falsches Englisch.“ Was passt?"
+        options:
+          - text: Ja. Nur britische Wörter sind richtiges Englisch.
+            correct: false
+            info: Dann wären Jaydens Wörter alle falsch. Das stimmt nicht.
+          - text: Nein. Amerikanische Wörter sind genauso richtig wie britische.
+            correct: true
+            info: Beide Varietäten sind richtig.
+          - text: Ja, aber nur im Englischunterricht in Großbritannien.
+            correct: false
+            info: Auch im Unterricht sind sie nicht falsch.
+        explanation: Jayden sagt apartment, Sophie flat. Beide haben recht.
+        hint: Denke an Zeile 16.
+  - type: section
+    id: neu
+    title: Dasselbe, aber anders gesagt
+    blocks:
+      - type: figure
+        image: images/be-ae-auto.svg
+        alt: Schemabild eines Autos von der Seite. Vorne steht in Blau bonnet und darunter in Orange hood, hinten in Blau boot und darunter in Orange trunk. Blau steht für britisch, Orange für amerikanisch.
+        caption: "Schemabild, nicht genau nach Maßstab. bonnet und hood sind die Motorhaube, boot und trunk der Kofferraum."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Für manche Dinge gibt es zwei Wörter, und beide sind richtig. Weitere Paare: **motorway** – **freeway** (die Autobahn), **courgette** – **zucchini** (die Zucchini).
+
+              Manchmal ist es dasselbe Wort mit anderer Bedeutung: **hockey** meint in Großbritannien oft Feldhockey, in den USA meistens Eishockey.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: wortschatz-zuordnen
+        text: Ordne jedem britischen Wort das amerikanische Wort zu.
+        pairs:
+          - left: lift
+            right: elevator
+          - left: pavement
+            right: sidewalk
+          - left: petrol
+            right: gas
+          - left: queue
+            right: line
+          - left: car park
+            right: parking lot
+        distractors: [pants, cookie]
+        explanation: Links steht das britische Wort.
+        hint: Jaydens Zeilen zeigen die amerikanischen Wörter.
+      - type: language-task
+        id: wortschatz-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze das amerikanische Wort, so wie Jayden aus den USA es sagt.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Wir nehmen den Aufzug in den vierten Stock.
+            target: Let's take the [elevator] to the fourth floor.
+            mistakes:
+              - answer: Let's take the lift to the fourth floor.
+                message: lift sagt Sophie.
+          - cue: Im Sommer haben wir Ferien am See.
+            target: In the summer we spend our [vacation] at the lake.
+            mistakes:
+              - answer: In the summer we have holiday at the lake.
+                message: holiday ist britisch.
+          - cue: Alle Kinder stehen in der Schlange.
+            target: All the children stand in [line].
+            mistakes:
+              - answer: All the children stand in queue.
+                message: queue sagt Sophie.
+        hint: Jayden schreibt amerikanisch.
+      - type: language-task
+        id: wortschatz-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch, britisch oder amerikanisch wie angegeben.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: "Unsere Wohnung ist im dritten Stock. (britisch)"
+            target: Our flat is on the third floor.
+            mistakes:
+              - answer: Our apartment is on the third floor.
+                message: apartment ist amerikanisch.
+          - source: "Das Auto steht auf dem Parkplatz. (amerikanisch)"
+            target: The car is in the parking lot.
+            mistakes:
+              - answer: The car is in the car park.
+                message: car park ist britisch.
+          - source: "Ihre Hose ist neu. (britisch)"
+            target: Her trousers are new.
+            mistakes:
+              - answer: Her pants are new.
+                message: In Großbritannien sind pants Unterhosen.
+        hint: Eine Hose steht im Englischen in der Mehrzahl.
+      - type: language-task
+        id: wortschatz-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das Wort, das zum Sprecher passt.
+        items:
+          - cue: "Sophie isst einen Keks zum Tee."
+            target: Sophie has a [biscuit] with her tea.
+            distractors: [[cookie]]
+          - cue: "Jaydens Wohnung ist im fünften Stock."
+            target: Jayden's [apartment] is on the fifth floor.
+            distractors: [[flat]]
+          - cue: "Jayden mag den Herbst."
+            target: Jayden loves the [fall].
+            distractors: [[autumn]]
+        hint: "Sophie spricht britisch, Jayden amerikanisch."
+      - type: language-task
+        id: wortschatz-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-lift-in-our-building-is-very-slow.mp3
+            target: The lift in our building is very slow.
+          - audio: we-waited-in-a-long-queue-at-the-bus-stop.mp3
+            target: We waited in a long queue at the bus stop.
+          - audio: the-cars-are-in-the-car-park-behind-the-shop.mp3
+            target: The cars are in the car park behind the shop.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: wortschatz-nachsprechen
+        language: en
+        items:
+          - audio: is-there-a-lift-in-your-building.mp3
+            text: Is there a lift in your building?
+          - audio: autumn-is-my-favourite-time-of-the-year.mp3
+            text: Autumn is my favourite time of the year.
+          - audio: we-play-football-in-the-park-at-the-weekend.mp3
+            text: We play football in the park at the weekend.
+        hint: Sprich langsam nach.
+      - type: open-task
+        id: wortschatz-schreiben-frei
+        task: "Schreibe Jayden zwei Sätze auf Englisch: Wie heißen zwei Dinge in Großbritannien, und wie sagt er sie? Zum Beispiel: „In Britain we say … and you say …“."
+        points:
+          - text: Du nennst zwei Wortpaare aus dem Chat.
+            source: /british-or-american/be-ae-wortschatz/#lesen
+          - text: Du sagst, welches Wort britisch ist und welches amerikanisch.
+            source: /british-or-american/be-ae-wortschatz/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          In Britain we say pavement and you say sidewalk. We say biscuit and you say cookie.
+        hint: Schau in das Randglossar.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Als Nächstes geht es um die **Aussprache**: Wie klingt dasselbe Wort bei Sophie und bei Jayden?"

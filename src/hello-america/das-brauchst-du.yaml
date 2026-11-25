@@ -1,0 +1,56 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: "Zwei Dinge aus Großbritannien helfen dir in diesem Kapitel: Schule und Feste. Prüfe, ob du sie noch kannst."
+recap: [englisch/schule-uk, englisch/feste-uk]
+scope: "Die Seite wiederholt zwei Bausteine, die dieses Kapitel voraussetzt: den Schulalltag in Großbritannien (Schuluniform, Schultag) und wichtige britische Feste (Christmas, Bonfire Night, Halloween). Sie lehrt nichts Neues, sie erinnert an Wörter und Themen und hat zwei Kontrollfragen. Typische Fehler sind Feste und Wörter aus den USA und Großbritannien zu vermischen. Nicht hier: die High School in den USA und amerikanische Feste (eigene Seiten), Schulabschlüsse, Geschichte der Feste."
+blocks:
+  - type: section
+    id: einstieg
+    title: Kannst du das schon?
+    blocks:
+      - type: text
+        text: |
+          Bevor es in die USA geht, prüfe zwei Dinge aus Großbritannien. Du brauchst sie später zum Vergleichen: den Schultag mit der High School in den USA, die Feste mit Thanksgiving und Independence Day.
+
+          **Ich kann den Schulalltag in Großbritannien beschreiben, zum Beispiel Schuluniform und Schultag, und mit meiner Schule vergleichen.**
+
+          **Ich kann wichtige Feste und Bräuche in Großbritannien beschreiben, zum Beispiel Christmas, Bonfire Night und Halloween.**
+      - type: single-choice
+        id: recap-schule
+        text: Welche Aussage passt zum Schulalltag in Großbritannien?
+        options:
+          - text: Der Schultag beginnt in der Nacht.
+            correct: false
+            info: Der Schultag beginnt am Morgen, in Millbrook um 8:45.
+          - text: Alle Kinder haben eine Schule ohne Pause.
+            correct: false
+            info: Zum Schultag gehören Pausen, auch in Großbritannien.
+          - text: Viele Kinder tragen in der Schule eine school uniform.
+            correct: true
+            info: Die Schuluniform gehört zum britischen Schulalltag, wie du in Millbrook gesehen hast.
+        explanation: Schuluniform und Schultag sind zwei Dinge, die du mit deiner eigenen Schule vergleichen kannst.
+        hint: Denke an Millbrook und an das, was die Kinder dort anziehen.
+      - type: single-choice
+        id: recap-feste
+        text: Wie sagst du „Weihnachten“ auf Englisch?
+        options:
+          - text: Halloween
+            correct: false
+            info: Halloween ist ein anderes Fest, am Ende des Oktobers.
+          - text: Christmas
+            correct: true
+            info: Christmas ist das britische Weihnachtsfest.
+          - text: Bonfire Night
+            correct: false
+            info: Bonfire Night ist ein Abend mit Feuer und Feuerwerk, kein Weihnachtsfest.
+        explanation: Christmas, Bonfire Night und Halloween sind drei wichtige Feste in Großbritannien.
+        hint: Es ist das Wort mit „Christ“ am Anfang.
+      - type: table
+        caption: Klassenzimmer-Poster · Schule und Feste in Großbritannien
+        header: [Englisch, Deutsch]
+        rows:
+          - [a school uniform, die Schuluniform]
+          - [the school day, der Schultag]
+          - [Christmas, Weihnachten]
+          - [Bonfire Night, ein Abend mit Feuer und Feuerwerk]
+          - [Halloween, ein Fest am Ende des Oktobers]

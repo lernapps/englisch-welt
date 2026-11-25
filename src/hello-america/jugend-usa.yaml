@@ -1,0 +1,257 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Jugendliche in den USA
+description: "Sophie fragt Jayden nach Freizeit, Sport und Essen. Du vergleichst und lernst, warum football in den USA etwas anderes ist und warum „viele“ besser ist als „alle“."
+competencies: [jugend-usa]
+scope: "Die Seite beschreibt Freizeit, Sport und Essen von Jugendlichen in den USA, ohne Klischees. Gelernt wird, dass viele Schulen Teams für verschiedene Sportarten haben, dass American football sehr beliebt ist, dass Basketball in den USA erfunden wurde und dass die fünf beliebtesten Zuschauersportarten American football, Basketball, Baseball, soccer und Eishockey sind. In den USA heißt football American football, und das, was Briten football nennen, heißt soccer. Viele amerikanische Gerichte (Hamburger, Hot Dogs, Pizza, Mac and Cheese, Apple Pie) gehen auf Rezepte von Einwanderern zurück, in Chicago gibt es deep-dish pizza. In Chicago gibt es viele öffentliche Strände am Lake Michigan und im Sommer viele Konzerte in den Parks. Geübt wird der faire Gebrauch von many, some, most statt all. Typische Fehler sind football gleich soccer, Burger jeden Tag, alle Jugendlichen gleich. Nicht hier: Schule und Stundenplan, Feste, genaue Zahlen und Statistiken zu Sportlern."
+blocks:
+  - type: section
+    id: einstieg
+    title: Was machen Jugendliche in den USA?
+    blocks:
+      - type: text
+        text: "Sophie möchte von Jayden wissen, wie sein Alltag nach der Schule aussieht. Vorher eine Frage an dich."
+      - type: single-choice
+        id: jugend-start
+        text: Welche Sportart ist in den USA besonders beliebt?
+        options:
+          - text: Rugby
+            correct: false
+            info: Rugby gehört nicht zu den beliebtesten Sportarten der USA.
+          - text: Cricket
+            correct: false
+            info: Cricket gehört nicht zu den beliebtesten Sportarten der USA.
+          - text: American football
+            correct: true
+            info: American football gilt als der beliebteste Zuschauersport der USA.
+        explanation: Beliebt sind American football, Basketball, Baseball, soccer und Eishockey.
+      - type: text
+        text: "**Das kannst du danach:** Du beschreibst, wie Jugendliche in den USA ihre Freizeit verbringen, welchen Sport sie treiben und was sie essen. Du sprichst fair über viele Menschen und verwechselst football und soccer nicht."
+  - type: section
+    id: lesen
+    title: Jayden erzählt von seinem Alltag
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Hi Jayden! What do you do after school?
+          2. **Jayden:** In my school, there are teams for many sports. I play basketball. It was invented in the USA!
+          3. **Sophie:** Is basketball the most popular sport there? Here it is football.
+          4. **Jayden:** We have a different game called football! It is American football. Your football is soccer for us.
+          5. **Sophie:** What? I play football with Ellie in the park!
+          6. **Jayden:** Haha, you play soccer! American football is very popular, and many high schools have a team. Basketball, baseball, soccer and ice hockey are popular, too.
+      - type: text
+        text: |
+          7. **Sophie:** And what do you eat? Burgers every day?
+          8. **Jayden:** No way! Burgers and hot dogs are popular, but there is much more. Many American dishes come from the recipes of immigrants. Pizza, mac and cheese and apple pie are examples.
+          9. **Jayden:** In Chicago we have deep-dish pizza. It is a specialty of my city.
+          10. **Sophie:** What do you do at the weekend?
+          11. **Jayden:** In summer I go to the beach on Lake Michigan with friends. Chicago has many public beaches.
+          12. **Jayden:** There are also many concerts in the parks in summer.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: the team
+            source: die Mannschaft
+          - target: invented
+            source: erfunden
+          - target: popular
+            source: beliebt
+          - target: soccer
+            source: Fußball (so sagt man in den USA, britisch football)
+          - target: American football
+            source: ein anderer Sport mit ovalem Ball (in den USA kurz football)
+          - target: the immigrant
+            source: der Einwanderer, die Einwanderin
+          - target: the dish
+            source: das Gericht
+          - target: the recipe
+            source: das Rezept
+          - target: mac and cheese
+            source: Makkaroni mit Käse
+          - target: the specialty
+            source: die Spezialität
+          - target: ice hockey
+            source: Eishockey
+          - target: deep-dish pizza
+            source: eine Pizza-Art aus Chicago
+          - target: public
+            source: öffentlich
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: jugend-verstehen
+        text: "Stimmt das? Was Sophie „football“ nennt, heißt in den USA „soccer“."
+        answer: true
+        hint: Lies die Zeilen 4 und 6 noch einmal.
+        explanation: In den USA heißt Sophies football soccer.
+      - type: matching
+        id: jugend-zuordnen
+        text: "Was sagt Jayden über diese Dinge? Ordne zu."
+        pairs:
+          - left: basketball
+            right: wurde in den USA erfunden
+          - left: American football
+            right: viele High Schools haben ein Team
+          - left: Lake Michigan
+            right: hier gibt es viele öffentliche Strände
+          - left: deep-dish pizza
+            right: eine Spezialität aus Chicago
+        explanation: Jayden erzählt von Sport, See und Essen.
+        hint: Lies die Zeilen 2, 6, 9 und 11 noch einmal.
+      - type: single-choice
+        id: jugend-beleg
+        text: Welche Zeile belegt, dass es in den USA nicht nur Burger zu essen gibt?
+        options:
+          - text: Zeile 7
+            correct: false
+            info: Zeile 7 ist Sophies Frage.
+          - text: Zeile 8
+            correct: true
+            info: Dort nennt Jayden viele weitere Gerichte.
+          - text: Zeile 9
+            correct: false
+            info: Zeile 9 handelt von Pizza.
+          - text: Zeile 11
+            correct: false
+            info: Zeile 11 handelt vom Strand.
+        explanation: Zeile 8 nennt viele Gerichte.
+        hint: Suche Jaydens Antwort auf die Frage nach Burgern.
+      - type: open-task
+        id: jugend-meinung
+        task: "Vergleiche: Was machst du nach der Schule, und was macht Jayden? Schreibe zwei bis drei Sätze auf Englisch, zum Beispiel mit „I … , but Jayden …“."
+        points:
+          - text: Du nennst etwas aus deinem eigenen Alltag.
+            kind: form
+          - text: Du nennst etwas, das Jayden macht, zum Beispiel Basketball oder den Strand.
+            source: /hello-america/jugend-usa/#lesen
+          - text: Du verbindest beides in einem Vergleich (but, and).
+            kind: form
+        solution: |
+          After school I play football in the park, but Jayden plays basketball. In summer he goes to the beach, and I go to the park.
+        hint: Schau in die Zeilen 2 und 11.
+  - type: section
+    id: neu
+    title: Fair über viele Menschen sprechen
+    blocks:
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Wenn du über viele Menschen sprichst, wähle die Mengenwörter mit Sorgfalt. **Many** heißt viele, **some** heißt einige, **most** heißt die meisten. **All** heißt alle, und das stimmt fast nie, denn Menschen sind verschieden: *Many teenagers like music. Some students walk to school.*
+
+              Ebenso sagst du lieber **often** (oft) und **sometimes** (manchmal) als **always** und **never**. So bleibt deine Aussage fair und richtig.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: multiple-choice
+        id: jugend-fair
+        text: Welche Sätze über Jugendliche in den USA sind fair? Wähle alle richtigen Sätze.
+        options:
+          - text: All American teenagers play American football.
+            correct: false
+            info: All heißt alle. Viele spielen anderen Sport.
+          - text: Many students in the USA play a sport after school.
+            correct: true
+            info: Many heißt viele, nicht alle.
+          - text: American teenagers eat burgers every day.
+            correct: false
+            info: Das ist ein Klischee. Es gibt viele Gerichte.
+          - text: Some American teenagers like pizza.
+            correct: true
+            info: Some heißt einige.
+          - text: Nobody in the USA plays soccer.
+            correct: false
+            info: Soccer ist in den USA beliebt.
+        explanation: Fair sind many, some und most. All und nobody stimmen selten.
+        hint: Achte auf all, every day und nobody.
+      - type: language-task
+        id: jugend-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze das fehlende Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: In den USA nennt man den Sport, den Sophie im Park spielt, soccer.
+            target: In the USA, people call the game in the park [soccer].
+            mistakes:
+              - answer: In the USA, people call the game in the park American football.
+                message: American football ist ein anderer Sport.
+          - cue: Basketball wurde in den USA erfunden.
+            target: Basketball was [invented] in the USA.
+            mistakes:
+              - answer: Basketball was discovered in the USA.
+                message: discovered heißt entdeckt. Ein Spiel wird erfunden.
+          - cue: Viele Gerichte kommen von den Rezepten der Einwanderer.
+            target: Many dishes come from the recipes of [immigrants].
+            mistakes:
+              - answer: Many dishes come from the recipes of emigrants.
+                message: Das ist ein ähnliches Wort mit anderer Bedeutung. Einwanderer heißen immigrants.
+              - answer: Many dishes come from the recipes of immigrant.
+                message: Hier brauchst du die Mehrzahl.
+        hint: Schau in das Randglossar.
+      - type: language-task
+        id: jugend-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Viele Schüler spielen American football.
+            target: Many students play American football.
+            mistakes:
+              - answer: Many students plays American football.
+                message: Nach many students heißt es play, ohne -s.
+              - answer: All students play American football.
+                message: all heißt alle. Gemeint ist many.
+              - answer: Many student play American football.
+                message: "Nach many steht die Mehrzahl: students."
+          - source: Ich spiele Basketball.
+            target: I play basketball.
+            mistakes:
+              - answer: I play the basketball.
+                message: Vor Sportarten steht kein the.
+              - answer: I am play basketball.
+                message: Nach I steht nur I play.
+          - source: Es gibt viele Konzerte in den Parks.
+            target: There are many concerts in the parks.
+            mistakes:
+              - answer: There is many concerts in the parks.
+                message: Zur Mehrzahl gehört there are.
+        hint: "Viele heißt many. Nach many steht die Mehrzahl."
+      - type: language-task
+        id: jugend-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: in-the-usa-football-means-american-football.mp3
+            target: In the USA, football means American football.
+          - audio: apple-pie-is-a-typical-american-dish.mp3
+            target: Apple pie is a typical American dish.
+          - audio: chicago-has-a-famous-basketball-team.mp3
+            target: Chicago has a famous basketball team.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: jugend-nachsprechen
+        language: en
+        items:
+          - audio: soccer-is-the-american-word-for-football.mp3
+            text: Soccer is the American word for football.
+          - audio: there-are-public-beaches-on-lake-michigan.mp3
+            text: There are public beaches on Lake Michigan.
+          - audio: each-basketball-team-has-five-players-on-the-court.mp3
+            text: Each basketball team has five players on the court.
+        hint: Sprich langsam nach. Achte auf soccer, beaches und Michigan.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Nach dem Sport geht es zur Schule. Der nächste Halt der Weltkarte ist die **High School**: Wie sieht ein Schultag in den USA aus?"

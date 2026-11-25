@@ -1,0 +1,281 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Bürgerrechtsbewegung in den USA
+description: Du liest einen Sachtext über Rosa Parks, Martin Luther King und die Bürgerrechtsbewegung, ordnest Ereignisse auf einer Zeitachse und schätzt die heutige Lage mit belegten Fakten ein.
+competencies:
+  - buergerrechtsbewegung
+scope: "Die Seite erklärt die Bürgerrechtsbewegung in den USA mit Rosa Parks und Martin Luther King und lässt die heutige Lage mit belegten Fakten einschätzen. Nach dem Bürgerkrieg änderten der 13. (1865), 14. (1868) und 15. Zusatzartikel (1870) die Verfassung, doch Gesetze der Südstaaten (Jim Crow) trennten Schwarze und Weiße und erschwerten das Wählen. 1954 erklärte das Oberste Gericht getrennte öffentliche Schulen für verfassungswidrig. Rosa Parks blieb am 1. Dezember 1955 in einem Bus in Montgomery sitzen und wurde verhaftet. Die Legende, sie sei nur müde gewesen, ist vereinfacht: Sie war seit 1943 in der NAACP, andere (zum Beispiel Claudette Colvin) waren schon vorher verhaftet worden, und sie sagte selbst, sie sei müde gewesen nachzugeben. Der Busboykott dauerte vom 5. Dezember 1955 bis zum 20. Dezember 1956, die Montgomery Improvement Association wählte Martin Luther King zum Leiter. Am 28. August 1963 sprach King beim Marsch auf Washington (die Rede „I have a dream“ wird hier nur als Fakt genannt). Es folgten der Civil Rights Act (2. Juli 1964) und der Voting Rights Act (6. August 1965). 2013 beendete das Oberste Gericht in Shelby County gegen Holder eine Regel des Voting Rights Act; die Folgen werden diskutiert. Geübt werden Sachtext lesen, Fakten von Legenden und Wertungen trennen, Ereignisse ordnen und eine Einschätzung mit Belegen schreiben. Typische Fehler sind Rosa Parks war nur müde, sie war die Erste, der Boykott dauerte einen Tag, civil rights gleich civil war, die Bewegung war mit einem Gesetz beendet. Nicht hier: Sklaverei und Bürgerkrieg, Menschenrechte allgemein, Migration, Bewertungen heutiger Politik."
+blocks:
+  - type: section
+    id: einstieg
+    title: Gleiche Rechte, getrennte Busse
+    blocks:
+      - type: text
+        text: Das Ende der Sklaverei bedeutete nicht, dass alle dieselben Rechte hatten. Davon erzählt diese Seite. Du brauchst dafür, was du über Sklaverei, Bürgerkrieg und Rechte gelernt hast. Vorher eine Frage an dich.
+      - type: single-choice
+        id: buergerrechte-start
+        text: Was bedeutet „civil rights“?
+        options:
+          - text: "Menschenrechte: Rechte, die überall auf der Welt für jeden gelten"
+            correct: false
+            info: Das sind „human rights“, die Menschenrechte.
+          - text: "Bürgerkrieg: ein Krieg zwischen Gruppen im eigenen Land"
+            correct: false
+            info: Der Bürgerkrieg heißt „civil war“.
+          - text: "Bürgerrechte: Rechte der Bürger eines Staates, etwa das Wahlrecht"
+            correct: true
+            info: Rechte, die ein Staat seinen Bürgern gibt.
+        explanation: Civil rights sind Bürgerrechte.
+        hint: Denke an „human rights“ auf der Seite davor.
+      - type: text
+        text: "**Das kannst du danach:** Du beschreibst die Bürgerrechtsbewegung mit Rosa Parks und Martin Luther King und schätzt die heutige Lage mit belegten Fakten ein."
+  - type: section
+    id: lesen
+    title: "Lesestück: The civil rights movement"
+    blocks:
+      - type: text
+        text: |
+          1. After the Civil War, three amendments changed the Constitution. The Thirteenth (1865) ended slavery. The Fourteenth (1868) gave citizenship to everyone born or naturalised in the United States. The Fifteenth (1870) said that the right to vote must not be denied because of race.
+          2. But the rules did not match daily life. In the South, the Jim Crow laws separated Black and white people. In the following decades, Southern states also made it hard for Black citizens to vote, for example with literacy tests. In 1896 the Supreme Court allowed "separate but equal" facilities.
+          3. In 1954 the Supreme Court decided unanimously in the case Brown v. Board of Education that separate public schools for Black and white children were unconstitutional.
+          4. In Montgomery, Alabama, buses were segregated. The ten front seats were reserved for white passengers and the ten back seats for Black passengers. In the sixteen middle seats, the driver decided. About three quarters of the riders were Black.
+      - type: text
+        text: |
+          5. On 1 December 1955, Rosa Parks refused to give up her seat for a white passenger and was arrested. A popular story says that she was simply tired after work. The facts are more complicated. Claudette Colvin, a fifteen-year-old student, had already been arrested in March 1955. Parks had been a member of the local NAACP since 1943. In summer 1955 she had attended a training course at the Highlander Folk School. Local leaders wanted a test case in court, and she seemed suitable. She later said that she was not physically tired, only tired of giving in.
+          6. The Women's Political Council planned a one-day bus boycott for 5 December, the day of her trial, and produced about 35,000 leaflets. After the trial the boycott went on. A new group, the Montgomery Improvement Association, chose a young Baptist minister, Martin Luther King Jr., as its leader. People walked or shared cars to get to work. The boycott ended on 20 December 1956, when a ruling that bus segregation was unconstitutional came into force. In 1957 Rosa Parks left Montgomery and moved to Detroit.
+          7. King, born in 1929, led the movement from 1955 until 1968 and used nonviolent protest. On 28 August 1963 about 250,000 people took part in the March on Washington, where he gave his famous "I Have a Dream" speech. In 1964 he received the Nobel Peace Prize. He was killed in Memphis in 1968.
+      - type: text
+        text: |
+          8. In 1964 President Johnson signed the Civil Rights Act, which banned discrimination at work and in public places. In March 1965, police attacked marchers near Selma, Alabama, who were demanding voting rights. On 6 August 1965, Johnson signed the Voting Rights Act, with King and Parks among the guests. It bans racial discrimination in voting and outlaws literacy tests.
+          9. The Voting Rights Act is still discussed. In 2013 the Supreme Court ended one of its rules, which had made some states ask Washington before they changed their voting rules. The Court said that this rule was out of date. People still discuss what this means for voters today.
+      - type: vocabulary
+        caption: Randglossar · Wörter der Seite
+        languages:
+          source: de
+          target: en
+        entries:
+          - target: the amendment
+            source: der Zusatzartikel zur Verfassung
+          - target: the Jim Crow laws
+            source: die Gesetze der Südstaaten, die Schwarze und Weiße trennten
+          - target: to naturalise
+            source: einbürgern
+          - target: to deny
+            source: verweigern
+          - target: the literacy test
+            source: der Lese- und Schreibtest vor der Wahl
+          - target: the Supreme Court
+            source: das Oberste Gericht
+          - target: unconstitutional
+            source: verfassungs­widrig
+          - target: segregated
+            source: nach Hautfarbe getrennt
+          - target: to refuse
+            source: sich weigern
+          - target: the test case
+            source: der Musterfall vor Gericht
+          - target: the boycott
+            source: der Boykott (man macht bewusst nicht mit)
+          - target: the leaflet
+            source: das Flugblatt
+          - target: nonviolent
+            source: gewaltlos
+          - target: to ban
+            source: verbieten
+          - target: the discrimination
+            source: die Diskriminie­rung
+          - target: abridged
+            source: eingeschränkt
+          - target: the servitude
+            source: die Knechtschaft, hier die Sklaverei
+          - target: arrested
+            source: verhaftet
+          - target: the ruling
+            source: das Urteil
+          - target: to outlaw
+            source: für gesetzwidrig erklären, verbieten
+          - target: the trial
+            source: der Prozess vor Gericht
+          - target: unanimously
+            source: einstimmig
+          - target: the segregation
+            source: die Rassen­trennung
+          - target: the carpool
+            source: die Fahrgemein­schaft, mehrere teilen sich ein Auto
+          - target: the minister
+            source: der Pfarrer, die Pfarrerin
+          - target: Baptist
+            source: zur Kirche der Baptisten gehörend (eine christliche Kirche)
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: single-choice
+        id: buergerrechte-parks
+        text: Warum blieb Rosa Parks 1955 im Bus sitzen? Welche Aussage passt zu den belegten Fakten?
+        options:
+          - text: Sie war einfach zu müde, es war ein Zufall.
+            correct: false
+            info: Das ist die vereinfachte Legende.
+          - text: Es war ihre bewusste Entscheidung. Sie war seit Jahren in der NAACP aktiv, und andere waren schon vor ihr verhaftet worden.
+            correct: true
+            info: So beschreiben es die Quellen.
+          - text: Sie war die erste Person, die in Montgomery dafür verhaftet wurde.
+            correct: false
+            info: Claudette Colvin wurde schon im März 1955 verhaftet.
+        explanation: Die Legende lässt aus, dass sie seit Jahren aktiv war.
+        hint: Lies Zeile 5.
+      - type: single-choice
+        id: buergerrechte-beleg
+        text: Welche Zeile belegt, dass der Busboykott länger als einen Tag dauerte?
+        options:
+          - text: Zeile 8
+            correct: false
+            info: Zeile 8 nennt Gesetze.
+          - text: Zeile 4
+            correct: false
+            info: Zeile 4 beschreibt die Sitzordnung.
+          - text: Zeile 5
+            correct: false
+            info: Zeile 5 erklärt die Legende.
+          - text: Zeile 6
+            correct: true
+            info: Das Ende war am 20. Dezember 1956.
+        explanation: Zeile 6 nennt Anfang und Ende.
+        hint: Suche die Daten 1955 und 1956.
+      - type: open-task
+        id: buergerrechte-meinung
+        task: "Die heutige Lage einschätzen: Nenne zwei Fakten aus dem Lesestück, die zeigen, was sich seit den 1950er-Jahren geändert hat. Sage, welche Daten du noch brauchst. Schreibe drei bis vier Sätze auf Englisch."
+        points:
+          - text: Du nennst zwei belegte Änderungen, zum Beispiel Brown gegen Board of Education, das Ende der getrennten Busse, den Civil Rights Act oder den Voting Rights Act.
+            source: /freiheit-gleichheit/buergerrechtsbewegung/#lesen
+          - text: Du sagst, dass die Lage heute weiter diskutiert wird (zum Beispiel das Urteil von 2013), und nennst, welche Daten oder Quellen du noch brauchst.
+            source: /freiheit-gleichheit/buergerrechtsbewegung/#lesen
+          - text: Du schreibst ganze Sätze und trennst Fakten von deiner Meinung (I think …).
+            kind: form
+        solution: |
+          Since the 1950s, the Supreme Court has ended segregation in public schools and on buses, and the Civil Rights Act of 1964 and the Voting Rights Act of 1965 banned discrimination. People still discuss voting rules today, for example after the ruling of 2013. To judge the situation, I would also like to see current figures from an official source.
+        hint: Schau in Zeile 3, 6, 8 und 9.
+  - type: section
+    id: neu
+    title: Zeitachse, Bus und Verfassung
+    blocks:
+      - type: timeline
+        data: usa-zeitachse-heute
+      - type: figure
+        image: images/montgomery-bus-schema.svg
+        alt: Schema der Sitzreihen eines Busses in Montgomery, von vorn nach hinten. Die zehn vorderen Sitze waren für weiße Fahrgäste reserviert, bei den sechzehn mittleren Sitzen entschied der Fahrer, die zehn hinteren Sitze waren für Schwarze Fahrgäste reserviert.
+        caption: Schema nach der Beschreibung der Sitzordnung in Montgomery, nicht genau nach Maßstab. Vorn ist links. Die Zahlen der Sitze sind schematisch.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Trenne Fakt, Legende und Wertung. Ein **Fakt** hat eine Quelle: *Brown v. Board of Education wurde 1954 entschieden.* Eine **Wertung** ist eine Meinung: *Das Urteil kam zu spät.* Eine **Legende** ist eine einfache Geschichte, die nicht alles erzählt. Frage immer: Wer sagt das, und was belegt es?"
+      - type: quote
+        text: The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude
+        origin:
+          author: Verfassung der USA
+          work: 15. Zusatzartikel, Abschnitt 1
+          year: 1870
+        source: "National Archives, 15th Amendment: https://www.archives.gov/milestone-documents/15th-amendment"
+        licence: gemeinfrei (Dokument der US-Regierung)
+      - type: single-choice
+        id: buergerrechte-quelle
+        text: Der Satz steht seit 1870 in der Verfassung. Warum war 1965 trotzdem ein neues Gesetz zum Wählen nötig?
+        options:
+          - text: Die Verfassung wurde geändert und das Wahlrecht abgeschafft.
+            correct: false
+            info: Die Verfassung blieb unverändert.
+          - text: Der Zusatzartikel galt nur für Frauen.
+            correct: false
+            info: Im Satz geht es um Hautfarbe, nicht um Geschlecht.
+          - text: Südstaaten hatten Regeln wie Lese- und Schreibtests, mit denen viele Schwarze nicht wählen konnten. Das neue Gesetz verbot sie.
+            correct: true
+            info: Lese- und Schreibtests und andere Hürden blieben.
+        explanation: Hürden kamen aus Regeln einzelner Staaten.
+        hint: Schau in Zeile 2.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: buergerrechte-ordnen
+        text: Bringe die vier Ereignisse in die richtige Reihenfolge, das früheste zuerst.
+        items:
+          - Das Oberste Gericht erklärt getrennte öffentliche Schulen für verfassungswidrig.
+          - Rosa Parks wird in Montgomery verhaftet.
+          - Rund 250 000 Menschen nehmen am Marsch auf Washington teil.
+          - Präsident Johnson unterschreibt den Voting Rights Act.
+        explanation: 1954, 1955, 1963, 1965.
+        hint: Urteile und Gesetze, 1954 bis 1965.
+      - type: matching
+        id: buergerrechte-personen
+        text: Wer oder was war das? Ordne zu.
+        pairs:
+          - left: the Women's Political Council
+            right: planten den ersten Tag des Busboykotts und verteilten Flugblätter
+          - left: Martin Luther King Jr.
+            right: wurde Leiter der Montgomery Improvement Association
+          - left: Claudette Colvin
+            right: wurde als Schülerin im März 1955 verhaftet, weil sie im Bus sitzen blieb
+          - left: the NAACP
+            right: Organisation, in der Rosa Parks seit 1943 Mitglied war
+        explanation: Die Bewegung hatte viele Beteiligte, nicht nur eine Person.
+        hint: Denke an Montgomery im Jahr 1955.
+      - type: matching
+        id: buergerrechte-trennen
+        text: "Fakt, Legende oder Wertung? Ordne zu."
+        pairs:
+          - left: Der Busboykott in Montgomery endete am 20. Dezember 1956.
+            right: Fakt
+          - left: Rosa Parks blieb nur sitzen, weil sie müde von der Arbeit war.
+            right: Legende
+          - left: Der Busboykott war die wichtigste Aktion der ganzen Bewegung.
+            right: Wertung
+        explanation: "Ein Fakt hat eine Quelle, eine Legende erzählt nicht alles, eine Wertung ist eine Meinung."
+        hint: Frage dich, was sich belegen lässt und was nur jemand meint.
+      - type: true-false
+        id: buergerrechte-heute
+        text: Stimmt das? Mit dem Voting Rights Act von 1965 war die Diskussion über das Wahlrecht für immer beendet.
+        answer: false
+        hint: Denke an das Urteil von 2013.
+        explanation: 2013 beendete das Gericht eine Regel des Gesetzes.
+      - type: language-task
+        id: buergerrechte-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu und schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: ok
+        items:
+          - audio: black-residents-organised-carpools-instead-of-riding-the-buses.mp3
+            target: Black residents organised carpools instead of riding the buses.
+          - audio: the-civil-rights-act-was-signed-by-president-johnson.mp3
+            target: The Civil Rights Act was signed by President Johnson.
+          - audio: rosa-parks-later-moved-from-montgomery-to-detroit.mp3
+            target: Rosa Parks later moved from Montgomery to Detroit.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: buergerrechte-nachsprechen
+        language: en
+        items:
+          - audio: martin-luther-king-was-a-baptist-minister.mp3
+            text: Martin Luther King was a Baptist minister.
+          - audio: king-believed-in-nonviolent-protest.mp3
+            text: King believed in nonviolent protest.
+          - audio: the-supreme-court-ruled-against-segregation-in-public-education.mp3
+            text: The Supreme Court ruled against segregation in public education.
+        hint: Sprich langsam nach. Achte auf Baptist, nonviolent und segregation.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Von der Sklaverei bis zum Voting Rights Act hast du die Zeitachse der Rechte gelesen. Im letzten Halt dieses Kapitels geht es um **Migration und Minderheiten heute**: Du vergleichst Großbritannien und die USA und entscheidest, welche Quelle für welche Frage passt."

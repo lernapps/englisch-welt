@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wie die USA entstanden
+summary: "Die Zeitachse der USA wächst: Schiffe und Wagenzüge ziehen über die Karte. An jedem Ereignis fragst du, wer gewinnt und wer verliert, und lässt auch die Native Americans zu Wort kommen. Du erzählst von der Mayflower, der Einwanderung, der Unabhängigkeit und der Besiedlung des Westens und beschreibst das politische System der USA."
+pages: [mayflower, einwanderung-usa, unabhaengigkeit-usa, westen-native-americans, politik-usa]
+selfAssessment:
+  pages:
+    - exercises:
+        - /wie-die-usa-entstanden/mayflower/#mayflower-karte
+        - /wie-die-usa-entstanden/mayflower/#mayflower-reihenfolge
+        - /wie-die-usa-entstanden/mayflower/#mayflower-luecke
+    - exercises:
+        - /wie-die-usa-entstanden/einwanderung-usa/#einwanderung-grund
+        - /wie-die-usa-entstanden/einwanderung-usa/#einwanderung-reihenfolge
+        - /wie-die-usa-entstanden/einwanderung-usa/#einwanderung-schreiben
+    - exercises:
+        - /wie-die-usa-entstanden/unabhaengigkeit-usa/#unabhaengigkeit-reihenfolge
+        - /wie-die-usa-entstanden/unabhaengigkeit-usa/#unabhaengigkeit-wersagtdas
+        - /wie-die-usa-entstanden/unabhaengigkeit-usa/#unabhaengigkeit-luecke
+    - exercises:
+        - /wie-die-usa-entstanden/westen-native-americans/#westen-reihenfolge
+        - /wie-die-usa-entstanden/westen-native-americans/#westen-wersagtdas
+        - /wie-die-usa-entstanden/westen-native-americans/#westen-schreiben
+    - exercises:
+        - /wie-die-usa-entstanden/politik-usa/#politik-zuordnen
+        - /wie-die-usa-entstanden/politik-usa/#politik-reihenfolge
+        - /wie-die-usa-entstanden/politik-usa/#politik-luecke

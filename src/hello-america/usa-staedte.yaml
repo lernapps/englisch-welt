@@ -1,0 +1,248 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: New York und Washington, D.C.
+description: "Sophie und Jayden stellen zwei berühmte Städte der USA vor: New York und Washington, D.C. Du lernst ihre wichtigsten Sehenswürdigkeiten und siehst, warum Washington, D.C. etwas Besonderes ist."
+competencies: [usa-staedte]
+scope: "Die Seite stellt New York und Washington, D.C. mit ihren wichtigsten Sehenswürdigkeiten vor. New York ist die größte Stadt der USA und liegt an der Ostküste, mit der Freiheitsstatue (ein Geschenk aus Frankreich), dem Central Park in Manhattan, dem Times Square und dem Broadway. Washington, D.C. ist die Hauptstadt der USA. D.C. steht für District of Columbia, ein Bezirk, der zu keinem Bundesstaat gehört. Dort stehen das White House, das Capitol (Sitz des Kongresses), die National Mall mit Lincoln Memorial und Washington Monument sowie die Museen der Smithsonian Institution, die kostenlos sind. New York war nur für kurze Zeit Hauptstadt. Geübt werden die Wörter capital, the biggest city, gift, free und die Zuordnung von Sehenswürdigkeiten zu Städten. Typische Fehler sind Washington, D.C. mit dem Bundesstaat Washington zu verwechseln und New York für die Hauptstadt zu halten. Nicht hier: Geschichte der Städte, Einwohnerzahlen, weitere Städte, Politik."
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Städte für Mr Hills Klasse
+    blocks:
+      - type: text
+        text: "Mr Hill möchte zwei berühmte Städte der USA zeigen. Sophie fragt Jayden um Rat. Vorher eine Frage an dich."
+      - type: single-choice
+        id: staedte-start
+        text: Welche Stadt ist die Hauptstadt der USA?
+        options:
+          - text: New York
+            correct: false
+            info: New York ist die größte Stadt, nicht die Hauptstadt.
+          - text: Washington, D.C.
+            correct: true
+            info: Washington, D.C. ist die Hauptstadt der USA.
+          - text: Chicago
+            correct: false
+            info: Chicago ist eine große Stadt, nicht die Hauptstadt.
+        explanation: Die größte Stadt ist oft nicht die Hauptstadt.
+      - type: text
+        text: "**Das kannst du danach:** Du stellst zwei berühmte Städte der USA mit ihren wichtigsten Sehenswürdigkeiten vor. Du sagst, welche der beiden die Hauptstadt ist, und du erklärst, was an ihr besonders ist."
+  - type: section
+    id: lesen
+    title: Jayden erzählt von zwei Städten
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Hi Jayden! Mr Hill wants us to show two famous cities of the USA. Which two should we take?
+          2. **Jayden:** New York and Washington, D.C.! New York is the biggest city in my country.
+          3. **Sophie:** Is New York the capital?
+          4. **Jayden:** No, it isn't. The capital is Washington, D.C.
+          5. **Sophie:** What can I see in New York?
+          6. **Jayden:** The Statue of Liberty is in the harbor. It was a gift from France.
+          7. **Jayden:** Central Park is a very big park in Manhattan. Millions of people go there.
+          8. **Jayden:** Times Square is full of lights. It is next to the theaters of Broadway.
+      - type: text
+        text: |
+          9. **Sophie:** And what about Washington, D.C.? What does D.C. mean?
+          10. **Jayden:** It means District of Columbia. It is not in a state. It is next to Maryland and Virginia, on the Potomac River.
+          11. **Jayden:** The White House and the Capitol are there. Congress meets in the Capitol.
+          12. **Sophie:** Is that the same Washington as Washington State?
+          13. **Jayden:** No! Washington State is one of the fifty states. Washington, D.C. is a city on its own.
+          14. **Jayden:** On the National Mall you can see the Lincoln Memorial and the Washington Monument. The Smithsonian museums are free.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: the capital
+            source: die Hauptstadt
+          - target: the harbor
+            source: der Hafen (Jayden schreibt amerikanisch, britisch harbour)
+          - target: a gift
+            source: ein Geschenk
+          - target: the theater
+            source: das Theater (amerikanisch, britisch theatre)
+          - target: full of lights
+            source: voller Lichter
+          - target: District of Columbia
+            source: Hauptstadtbezirk, kein Bundesstaat
+          - target: Congress
+            source: der Kongress (heute das Parlament der USA)
+          - target: the Capitol
+            source: das Kapitol (Gebäude des Kongresses)
+          - target: free
+            source: kostenlos
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: staedte-verstehen
+        text: "Stimmt das? Washington, D.C. liegt in einem der fünfzig Bundesstaaten."
+        answer: false
+        hint: Lies Zeile 10 noch einmal.
+        explanation: D.C. ist ein eigener Bezirk, kein Staat.
+      - type: matching
+        id: staedte-zuordnen
+        text: "Was sagt Jayden über diese Orte? Ordne zu."
+        pairs:
+          - left: Statue of Liberty
+            right: ein Geschenk aus Frankreich im Hafen
+          - left: Central Park
+            right: ein sehr großer Park in Manhattan
+          - left: Times Square
+            right: voller Lichter, neben den Theatern am Broadway
+          - left: Capitol
+            right: hier tagt der Kongress
+        explanation: Drei Orte liegen in New York.
+        hint: Lies die Zeilen 6, 7, 8 und 11 noch einmal.
+      - type: single-choice
+        id: staedte-beleg
+        text: Welche Zeile belegt, dass New York nicht die Hauptstadt der USA ist?
+        options:
+          - text: Zeile 2
+            correct: false
+            info: Zeile 2 nennt die größte Stadt.
+          - text: Zeile 7
+            correct: false
+            info: Zeile 7 handelt vom Central Park.
+          - text: Zeile 13
+            correct: false
+            info: Zeile 13 handelt von Washington State.
+          - text: Zeile 4
+            correct: true
+            info: Dort nennt Jayden die Hauptstadt.
+        explanation: Zeile 4 nennt die Hauptstadt.
+        hint: Suche den Namen der Hauptstadt.
+      - type: open-task
+        id: staedte-meinung
+        task: "Welche der beiden Städte möchtest du lieber besuchen? Schreibe zwei bis drei Sätze auf Englisch, zum Beispiel mit „I would like to visit … because …“."
+        points:
+          - text: Du nennst eine der beiden Städte, New York oder Washington, D.C.
+            source: /hello-america/usa-staedte/#lesen
+          - text: Du nennst einen Ort aus dem Chat und einen Grund (because …).
+            source: /hello-america/usa-staedte/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I would like to visit New York because I want to see the Statue of Liberty. I think Central Park is also very interesting.
+        hint: Schau in die Zeilen 6 bis 14.
+  - type: section
+    id: neu
+    title: Zwei Städte auf der Karte
+    blocks:
+      - type: figure
+        image: images/usa-schema-staedte.svg
+        alt: "Schemakarte der USA. An der Ostküste liegen zwei orange Punkte: New York weiter im Norden und Washington, D.C. etwas weiter im Süden. Im Landesinneren, am Lake Michigan, liegt ein grauer Punkt für Chicago. Alaska und Hawaii sind in zwei kleinen Kästen unten links eingezeichnet."
+        caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die zwei orangen Punkte sind die Städte dieser Seite, der graue Punkt ist Jaydens Stadt."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Die **capital** ist die Stadt, in der die Regierung eines Landes arbeitet. Sie ist nicht immer die größte Stadt. Mit dem Wort **biggest** sagst du, was am größten ist: *The hall is the biggest room in our school.* Und mit **free** sagst du, dass etwas nichts kostet: *The library is free.*
+
+              **D.C.** schreibt man mit zwei Punkten.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: multiple-choice
+        id: staedte-ort
+        text: "Welche Orte liegen in New York? Wähle alle richtigen Orte."
+        options:
+          - text: White House
+            correct: false
+            info: Es steht in Washington, D.C.
+          - text: Times Square
+            correct: true
+            info: Er liegt neben den Theatern am Broadway.
+          - text: Lincoln Memorial
+            correct: false
+            info: Es steht in Washington, D.C.
+          - text: Statue of Liberty
+            correct: true
+            info: Sie steht im Hafen von New York.
+          - text: Central Park
+            correct: true
+            info: Er liegt in Manhattan.
+        explanation: Die ersten drei Orte liegen in New York.
+        hint: Lies die Zeilen 6 bis 14.
+      - type: language-task
+        id: staedte-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze das fehlende Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Washington, D.C. ist die Hauptstadt der USA.
+            target: Washington, D.C. is the [capital] of the USA.
+            mistakes:
+              - answer: Washington, D.C. is the capitol of the USA.
+                message: "The Capitol ist das Gebäude. Hauptstadt heißt capital."
+          - cue: Die Freiheitsstatue war ein Geschenk aus Frankreich.
+            target: The Statue of Liberty was a [gift|present] from France.
+            mistakes:
+              - answer: The Statue of Liberty was a give from France.
+                message: give ist ein Verb. Das Nomen heißt gift.
+          - cue: Die Smithsonian-Museen sind kostenlos.
+            target: The Smithsonian museums are [free].
+            mistakes:
+              - answer: The Smithsonian museums are freely.
+                message: freely ist ein Adverb. Kostenlos heißt free.
+        hint: Schau in das Randglossar und in den Merke-Kasten.
+      - type: language-task
+        id: staedte-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Washington, D.C. liegt nicht in einem Staat.
+            target: Washington, D.C. (is not|isn't) in a state.
+            mistakes:
+              - answer: Washington, D.C. is no in a state.
+                message: Verneine mit is not (oder isn't), nicht mit no.
+              - answer: Washington, D.C. is in a state.
+                message: Gemeint ist das Gegenteil.
+          - source: Der Kongress trifft sich im Kapitol.
+            target: Congress meets in the Capitol.
+            mistakes:
+              - answer: Congress meet in the Capitol.
+                message: Congress ist wie „it“. Das Verb braucht -s.
+              - answer: Congress meets in the capital.
+                message: The Capitol ist das Gebäude.
+        hint: Das Kapitol schreibt man mit großem C.
+      - type: language-task
+        id: staedte-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-capital-of-the-usa-has-many-free-museums.mp3
+            target: The capital of the USA has many free museums.
+          - audio: millions-of-people-visit-central-park-every-year.mp3
+            target: Millions of people visit Central Park every year.
+          - audio: new-york-was-the-capital-of-the-country-for-a-short-time.mp3
+            target: New York was the capital of the country for a short time.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: staedte-nachsprechen
+        language: en
+        items:
+          - audio: people-speak-many-languages-in-new-york.mp3
+            text: People speak many languages in New York.
+          - audio: france-gave-the-statue-of-liberty-to-the-united-states.mp3
+            text: France gave the Statue of Liberty to the United States.
+          - audio: the-district-of-columbia-is-not-a-state.mp3
+            text: The District of Columbia is not a state.
+        hint: Sprich langsam nach. Achte auf Liberty, Columbia und languages.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Der nächste Halt der Weltkarte liegt im Norden, hinter der Grenze der USA: **Kanada**. Dort gibt es zwei Amtssprachen."

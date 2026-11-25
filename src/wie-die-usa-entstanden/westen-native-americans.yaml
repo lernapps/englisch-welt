@@ -1,0 +1,235 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Besiedlung des Westens
+description: "Sophie fragt Jayden, wer im Westen lebte, bevor die Siedler kamen. Du beschreibst die Besiedlung des Westens und was sie für die Native Americans bedeutete, aus mehreren Sichtweisen."
+competencies: [westen-native-americans]
+scope: "Die Seite beschreibt die Besiedlung des Westens der USA und was sie für die Native Americans bedeutete. Native Americans sind viele verschiedene Völker mit eigenen Sprachen und Heimatgebieten, sie leben bis heute in den USA. Der Indian Removal Act von 1830 führte zum Trail of Tears: Etwa sechzigtausend Native Americans mussten aus dem Südosten nach Westen ziehen, tausende starben. Siedler zogen in Wagenzügen nach Oregon und Kalifornien, der Homestead Act von 1862 gab hundertsechzig Acres Land gratis, 1869 war die Eisenbahn von Küste zu Küste fertig. Der Vertrag von 1868 gab den Lakota ein Reservat mit den Black Hills, später wurde er gebrochen, nachdem man dort Gold fand. Die Nez Perce unter Chief Joseph wollten ihr Land nicht aufgeben. Mehrere Sichtweisen: Siedler, Regierung, Native Americans. Geübt werden Orts- und Zeitangaben, Verben in Vergangenheit und Gegenwart sowie die Aufgabe „Wer sagt das?“. Typische Fehler sind Native Americans gleich ein einziges Volk und Native Americans nur in der Vergangenheit. Nicht hier: Sklaverei, Bürgerkrieg, Bürgerrechte, Erfindung von Details zu Religion oder Herkunft einzelner Völker."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wer lebte im Westen?
+    blocks:
+      - type: text
+        text: "Sophie fragt Jayden nach den Menschen im Westen. Vorher eine Frage an dich."
+      - type: single-choice
+        id: westen-start
+        text: Wer lebte im Westen, bevor die Siedler kamen?
+        options:
+          - text: Niemand, das Land war leer
+            correct: false
+            info: Das Land war seit langer Zeit bewohnt.
+          - text: Ein einziges Volk der Native Americans
+            correct: false
+            info: Es gab viele Völker, zum Beispiel die Lakota.
+          - text: Viele verschiedene Völker der Native Americans
+            correct: true
+            info: Es gab viele Nationen mit eigenen Sprachen.
+        explanation: Im Westen lebten viele Völker.
+      - type: text
+        text: "**Das kannst du danach:** Du beschreibst die Besiedlung des Westens und was sie für die Native Americans bedeutete."
+  - type: section
+    id: lesen
+    title: Jayden erzählt vom Westen
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Settlers moved to the West. Did anybody live there before?
+          2. **Jayden:** Yes! Many Native American nations lived in the West and in the East. They had their own languages and homelands.
+          3. **Jayden:** In 1830 the government passed the Indian Removal Act. About sixty thousand Native Americans from the south-east had to leave their homelands and move west of the Mississippi. Thousands died on the way. This is called the Trail of Tears.
+          4. **Sophie:** And the settlers?
+          5. **Jayden:** Many walked west in wagon trains. About four hundred thousand people took the long road to Oregon and California.
+          6. **Jayden:** In 1862 the Homestead Act gave settlers one hundred and sixty acres for free, if they worked the land for five years. In 1869 the first railroad from coast to coast was ready.
+      - type: text
+        text: |
+          7. **Sophie:** What did all this mean for the Native Americans?
+          8. **Jayden:** Many lost their land. In 1868 the government and the Lakota signed a treaty. It gave them a big reservation with the Black Hills. Then people found gold there, and the treaty was broken.
+          9. **Jayden:** The Nez Perce under Chief Joseph did not want to give up their land. In 1877 they walked about twelve hundred miles and fought on the way.
+          10. **Sophie:** Do Native Americans live in the USA today?
+          11. **Jayden:** Of course! In 2024, more than three million people said they were American Indian or Alaska Native. They belong to many nations, for example the Cherokee, the Lakota or the Navajo.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: the settler
+            source: der Siedler, die Siedlerin
+          - target: the nation
+            source: die Nation, das Volk
+          - target: the homeland
+            source: die Heimat, das Heimatgebiet
+          - target: the wagon train
+            source: der Wagenzug
+          - target: the acre
+            source: der Acre (Flächenmaß, 160 Acres sind etwa 65 Hektar)
+          - target: for free
+            source: gratis
+          - target: the reservation
+            source: das Reservat (Gebiet für eine Nation der Native Americans)
+          - target: the treaty
+            source: der Vertrag
+          - target: to give up
+            source: aufgeben
+          - target: to belong to
+            source: gehören zu
+          - target: the Homestead Act
+            source: der Homestead Act (ein Gesetz von 1862, das Siedlern Land gab)
+          - target: the Indian Removal Act
+            source: der Indian Removal Act (ein Gesetz von 1830, das Völker zum Umzug zwang)
+          - target: society
+            source: die Gesellschaft
+          - target: American Indian or Alaska Native
+            source: so heißen Native Americans in den Zählungen der USA
+          - target: Indigenous
+            source: "indigen (Menschen, die zuerst dort lebten; das Wort kennst du von Kanada)"
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: westen-verstehen
+        text: "Stimmt das? Native Americans gibt es heute nicht mehr in den USA."
+        answer: false
+        hint: Lies die Zeilen 10 und 11 noch einmal.
+        explanation: Native Americans leben heute in den USA, mehr als drei Millionen Menschen gaben das 2024 an.
+      - type: single-choice
+        id: westen-beleg
+        text: Welche Zeile belegt, dass ein Vertrag gebrochen wurde?
+        options:
+          - text: Zeile 9
+            correct: false
+            info: Zeile 9 handelt von den Nez Perce.
+          - text: Zeile 3
+            correct: false
+            info: Zeile 3 handelt vom Trail of Tears.
+          - text: Zeile 8
+            correct: true
+            info: Hier steht, dass der Vertrag gebrochen wurde.
+          - text: Zeile 6
+            correct: false
+            info: Zeile 6 handelt vom Homestead Act.
+        explanation: "Zeile 8: Gold in den Black Hills, dann der Vertragsbruch."
+        hint: Suche die Zeile mit dem Wort treaty.
+      - type: open-task
+        id: westen-meinung
+        task: "Der Westen wird besiedelt: Wer gewinnt, wer verliert? Schreibe drei Sätze auf Englisch, zum Beispiel mit „The settlers got … but the Native Americans …“."
+        points:
+          - text: Du nennst, was die Siedler gewannen, zum Beispiel Land oder die Eisenbahn.
+            source: /wie-die-usa-entstanden/westen-native-americans/#lesen
+          - text: Du nennst, was die Native Americans verloren oder wie sie reagierten, zum Beispiel Land, Weg ins Reservat oder Widerstand der Nez Perce.
+            source: /wie-die-usa-entstanden/westen-native-americans/#lesen
+          - text: Du sagst, dass Native Americans auch heute in den USA leben.
+            source: /wie-die-usa-entstanden/westen-native-americans/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          The settlers got free land and a railroad, but many Native Americans lost their land. Some nations, like the Nez Perce, did not want to give up their homelands. Native Americans still live in the USA today.
+        hint: Schau in die Zeilen 6, 8, 9 und 11.
+  - type: section
+    id: neu
+    title: Wagen, Bahn und Reservate
+    blocks:
+      - type: figure
+        image: images/westen-karte.svg
+        alt: "Schemakarte der USA. Eine orange gestrichelte Linie mit einem Planwagen führt von Missouri bis nach Oregon. Eine schwarz gepunktete Linie mit einer Lokomotive führt von der Mitte bis nach Kalifornien. Ein blauer Pfeil zeigt von der Ostseite der USA, östlich des Mississippi, nach Westen. In den Dakotas steht Black Hills."
+        caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Orange: Weg der Wagenzüge, schwarz gepunktet: Eisenbahn, blau: Weg der Native Americans aus dem Osten."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: figure
+        image: images/zeitachse-usa-4.svg
+        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Links stehen graue Punkte, rechts zwischen achtzehnhundert und neunzehnhundert fünf orange Punkte mit den Jahreszahlen 1830, 1862, 1868, 1869 und 1877, darunter ein Planwagen und eine Lokomotive."
+        caption: "Die Zeitachse wächst: Fünf neue Punkte liegen im 19. Jahrhundert."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Native Americans** sind nicht ein Volk, sondern viele **nations** mit eigenen Sprachen. Sie leben bis heute in den USA. Frage bei jeder Aussage: Wer spricht, und was will diese Gruppe?
+
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: westen-reihenfolge
+        text: Bringe die Ereignisse in die richtige Reihenfolge.
+        items:
+          - Der Indian Removal Act zwingt Völker zum Umzug nach Westen.
+          - Siedler bekommen Land durch den Homestead Act.
+          - Die Regierung und die Lakota schließen einen Vertrag.
+          - Die Eisenbahn von Küste zu Küste ist fertig.
+        explanation: Indian Removal Act 1830, Homestead Act 1862, Vertrag mit den Lakota 1868, Eisenbahn 1869.
+        hint: Lies noch einmal die Zeilen 3, 6 und 8.
+      - type: matching
+        id: westen-wersagtdas
+        text: "Wer sagt das? Die Sätze geben sinngemäß wieder, was die Gruppen damals wollten. Ordne zu."
+        pairs:
+          - left: We will get free land if we work it for five years.
+            right: Siedler
+          - left: Reservations will help Native Americans to join the rest of American society.
+            right: die Regierung
+          - left: We will not give up our land.
+            right: Nez Perce
+        explanation: "Siedler nutzten den Homestead Act, die Regierung wollte Reservate, die Nez Perce wollten bleiben."
+        hint: Denke an die Zeilen 6, 8 und 9.
+      - type: language-task
+        id: westen-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Die Siedler zogen nach Westen.
+            target: The settlers (moved|went|walked|travelled|traveled|headed|came) (to the |)west.
+            mistakes:
+              - answer: The settlers moved to west.
+                message: Sag to the west oder nur west.
+              - answer: The settlers move west.
+                message: Du brauchst die Vergangenheit.
+          - source: Viele Menschen mussten ihr Land verlassen.
+            target: Many people had to leave their land.
+            mistakes:
+              - answer: Many people had to left their land.
+                message: Nach had to steht die Grundform, also leave.
+              - answer: Many people must leave their land.
+                message: Für früher brauchst du had to.
+          - source: Native Americans leben heute in den USA.
+            target: Native Americans live in the (USA|United States|US) today.
+            mistakes:
+              - answer: Native Americans lived in the USA today.
+                message: Sie leben auch heute dort. Du brauchst die Gegenwart.
+              - answer: Native Americans live in America today.
+                message: In dieser Aufgabe gilt the USA oder the United States, so wie im Unterricht.
+        hint: "Achte auf die Zeit: früher oder heute? Nach had to steht die Grundform."
+      - type: language-task
+        id: westen-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-wagon-train-left-from-missouri.mp3
+            target: The wagon train left from Missouri.
+          - audio: native-american-nations-have-their-own-governments-today.mp3
+            target: Native American nations have their own governments today.
+          - audio: the-railroad-crossed-the-whole-country.mp3
+            target: The railroad crossed the whole country.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: westen-nachsprechen
+        language: en
+        items:
+          - audio: they-wanted-to-finish-the-trip-in-one-warm-season.mp3
+            text: They wanted to finish the trip in one warm season.
+          - audio: the-navajo-and-the-cherokee-are-two-different-nations.mp3
+            text: The Navajo and the Cherokee are two different nations.
+          - audio: today-people-speak-many-native-american-languages.mp3
+            text: Today people speak many Native American languages.
+        hint: Sprich langsam nach. Achte auf Navajo, Cherokee und languages.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Der letzte Halt liegt in **Washington, D.C.** (zurück im Jahr 1789). Wer entscheidet in den USA? Das zeigen **Präsident, Kongress und Verfassung**."

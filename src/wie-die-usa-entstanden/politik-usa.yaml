@@ -1,0 +1,259 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Politisches System der USA
+description: "Sophie fragt Jayden, wer in den USA entscheidet. Du beschreibst das politische System: Präsident, Kongress, Supreme Court und Verfassung, und siehst die ganze Zeitachse des Kapitels."
+competencies: [politik-usa]
+scope: "Die Seite beschreibt das politische System der USA. Die Verfassung (seit 1789 in Kraft) verteilt die Macht auf drei Gewalten, damit keine allein herrscht (checks and balances). Der Kongress aus Senat (100 Senatoren, zwei je Staat) und Repräsentantenhaus (435 Mitglieder) macht die Gesetze und entscheidet über Krieg. Der Präsident führt die Regierung, ist Oberbefehlshaber der Armee, wird für vier Jahre gewählt und kann nur einmal wiedergewählt werden. Er kann gegen ein Gesetz ein Veto einlegen, der Kongress kann das Veto mit zwei Dritteln in beiden Häusern überstimmen. Der Supreme Court hat neun Richter und kann sagen, dass ein Gesetz nicht zur Verfassung passt. Die Bundesregierung, die Staaten und die Nationen der Native Americans teilen sich Macht. Geübt werden das Beschreiben von Aufgaben (he/she/it-Form mit -s, can plus Grundform) und die Zeitachse des Kapitels. Typischer Fehler: Kongress gleich Präsident. Nicht hier: Wahlkampf, Parteien, Politik als Diskussionsthema, Bürgerrechte."
+blocks:
+  - type: section
+    id: einstieg
+    title: Wer entscheidet in den USA?
+    blocks:
+      - type: text
+        text: "Mr Hill fragt, wer in den USA die Gesetze macht. Sophie fragt Jayden. Vorher eine Frage an dich."
+      - type: single-choice
+        id: politik-start
+        text: In welcher Stadt arbeiten Kongress, Präsident und Supreme Court?
+        options:
+          - text: New York
+            correct: false
+            info: New York ist die größte Stadt, aber nicht die Hauptstadt.
+          - text: Washington, D.C.
+            correct: true
+            info: Alle drei Gewalten haben ihren Sitz in der Hauptstadt Washington, D.C.
+          - text: Boston
+            correct: false
+            info: Boston ist die Hauptstadt von Massachusetts, nicht die der USA.
+        explanation: Die Regierung der USA sitzt in der Hauptstadt Washington, D.C.
+      - type: text
+        text: "**Das kannst du danach:** Du beschreibst, was Präsident, Kongress und Supreme Court tun, und erklärst, warum die Macht geteilt ist."
+  - type: section
+    id: lesen
+    title: Jayden erklärt die Politik
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Who decides things in the USA?
+          2. **Jayden:** Three groups share the power: Congress, the President and the Supreme Court. The rules are in the Constitution. It has been in effect since 1789.
+          3. **Sophie:** Is Congress the same as the President?
+          4. **Jayden:** No! Congress makes the laws and decides about war. It has two parts: the Senate with one hundred senators and the House of Representatives with four hundred and thirty-five members. Each state sends two senators.
+          5. **Jayden:** The President leads the government and is the commander of the army. People elect the President for four years, and he or she can only be elected again once.
+          6. **Sophie:** Can the President make any law?
+      - type: text
+        text: |
+          7. **Jayden:** No. The President can say "no" to a law from Congress. That is called a veto. But Congress can overrule the veto if two thirds of the members of both parts vote for the law again.
+          8. **Jayden:** The third group is the Supreme Court with nine judges. It can say that a law does not fit the Constitution. The President picks the judges, and the Senate says yes.
+          9. **Sophie:** Why three groups?
+          10. **Jayden:** So that nobody gets all the power. Each group can check the others.
+          11. **Sophie:** And the states?
+          12. **Jayden:** Each of the fifty states has its own government. The federal government, the states and the Native American nations share power in the USA.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: Congress
+            source: der Kongress
+          - target: the Supreme Court
+            source: das Oberste Gericht
+          - target: in effect
+            source: in Kraft
+          - target: the commander
+            source: der Ober­befehls­haber
+          - target: the war
+            source: der Krieg
+          - target: the senator
+            source: der Senator, die Senatorin
+          - target: to vote
+            source: abstimmen, wählen
+          - target: the nation
+            source: die Nation, das Volk
+          - target: to share
+            source: teilen
+          - target: the power
+            source: die Macht
+          - target: the Constitution
+            source: die Verfassung
+          - target: the law
+            source: das Gesetz
+          - target: the Senate
+            source: der Senat
+          - target: the House of Representatives
+            source: das Reprä­sentanten­haus
+          - target: to elect
+            source: wählen
+          - target: the veto
+            source: das Veto
+          - target: to overrule
+            source: überstimmen
+          - target: the judge
+            source: der Richter, die Richterin
+          - target: to check
+            source: kontrollieren
+          - target: the federal government
+            source: die Bundes­regierung
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: politik-verstehen
+        text: "Stimmt das? Der Präsident macht die Gesetze der USA."
+        answer: false
+        hint: Lies die Zeilen 4 und 7 noch einmal.
+        explanation: "Die Gesetze macht der Kongress. Der Präsident kann sie mit einem Veto stoppen, aber der Kongress kann das Veto überstimmen."
+      - type: single-choice
+        id: politik-beleg
+        text: Welche Zeile belegt, dass der Kongress den Präsidenten überstimmen kann?
+        options:
+          - text: Zeile 8
+            correct: false
+            info: Zeile 8 handelt vom Supreme Court.
+          - text: Zeile 12
+            correct: false
+            info: Zeile 12 handelt von den Staaten.
+          - text: Zeile 5
+            correct: false
+            info: Zeile 5 handelt von der Wahl des Präsidenten.
+          - text: Zeile 7
+            correct: true
+            info: Hier steht, wie der Kongress ein Veto überstimmt.
+        explanation: "Zeile 7: Zwei Drittel in beiden Teilen können ein Veto überstimmen."
+        hint: Suche die Zeile mit dem Wort overrule.
+      - type: open-task
+        id: politik-meinung
+        task: "Die Macht ist auf drei Gruppen verteilt: Wer gewinnt, wer verliert dadurch? Schreibe zwei bis drei Sätze auf Englisch, zum Beispiel mit „Nobody can … because …“."
+        points:
+          - text: Du nennst, dass keine der drei Gruppen allein alle Macht hat.
+            source: /wie-die-usa-entstanden/politik-usa/#lesen
+          - text: Du nennst ein Beispiel, wie eine Gruppe eine andere kontrolliert, zum Beispiel das Veto oder den Supreme Court.
+            source: /wie-die-usa-entstanden/politik-usa/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Nobody can decide everything because the power is shared. The President can say no to a law, but Congress can overrule the veto. A group that wants all the power loses, because the other two groups check it.
+        hint: Schau in die Zeilen 7, 8 und 10.
+  - type: section
+    id: neu
+    title: Das Schema der drei Gewalten
+    blocks:
+      - type: labelled-figure
+        image: images/politik-gewalten.svg
+        alt: "Schema mit drei Kästen nebeneinander und einem Kasten darunter. Der linke Kasten (Markierung 1) enthält zwei Türen, der mittlere (Markierung 2) eine Person, der rechte (Markierung 3) eine Waage. Der breite Kasten unten (Markierung 4) ist durch Linien mit allen drei verbunden. Gestrichelte Linien verbinden die drei oberen Kästen."
+        caption: "Schema, nicht genau nach Maßstab. Die gestrichelten Linien zeigen: Jede Gewalt kontrolliert die anderen."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+        labels:
+          - { x: 17, y: 40, text: "Congress: Senate and House of Representatives", marker: "1" }
+          - { x: 50, y: 30, text: "President: elected for four years", marker: "2" }
+          - { x: 83, y: 40, text: "Supreme Court: nine judges", marker: "3" }
+          - { x: 50, y: 82, text: "Constitution: the rules for everybody", marker: "4" }
+      - type: figure
+        image: images/zeitachse-usa-5.svg
+        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Viele graue Punkte mit Jahreszahlen liegen auf der Achse, ein orangefarbener Punkt mit der Jahreszahl 1789 liegt kurz vor achtzehnhundert, darunter ein Kasten mit der Aufschrift USA."
+        caption: "Die Zeitachse ist jetzt voll. Der orange Punkt zeigt, wann die Verfassung in Kraft trat."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              In den USA teilen sich drei Gewalten die Macht: die gesetzgebende (**legislative**), die ausführende (**executive**) und die rechtsprechende (**judicial**) Gewalt. Das Prinzip heißt **checks and balances**: Jede Gewalt kann die anderen kontrollieren, damit keine allein herrscht.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: politik-zuordnen
+        text: Wer macht was? Ordne zu.
+        pairs:
+          - left: Sie macht die Gesetze und entscheidet über Krieg.
+            right: Congress
+          - left: Er sagt Nein zu einem Gesetz.
+            right: the President
+          - left: Sie prüft, ob ein Gesetz zur Verfassung passt.
+            right: the Supreme Court
+        explanation: "Der Kongress macht Gesetze, der Präsident kann ein Veto einlegen, der Supreme Court prüft die Gesetze an der Verfassung."
+        hint: Lies noch einmal die Zeilen 4, 7 und 8.
+      - type: ordering
+        id: politik-reihenfolge
+        text: Bringe die Schritte in die richtige Reihenfolge, wenn der Präsident ein Gesetz nicht will.
+        items:
+          - Der Kongress beschließt ein Gesetz.
+          - Der Präsident legt sein Veto ein.
+          - Zwei Drittel in beiden Teilen des Kongresses stimmen noch einmal dafür.
+          - Das Gesetz gilt trotz des Vetos.
+        explanation: Erst beschließt der Kongress, dann sagt der Präsident Nein, dann überstimmt der Kongress mit zwei Dritteln.
+        hint: Lies noch einmal die Zeile 7.
+      - type: language-task
+        id: politik-luecke
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Der Kongress macht die Gesetze.
+            target: Congress makes (the |)laws.
+            mistakes:
+              - answer: Congress make the laws.
+                message: Bei he, she und it brauchst du ein -s.
+          - source: Der Präsident kann Nein sagen.
+            target: The (President|president) can say no.
+            mistakes:
+              - answer: The President can says no.
+                message: Nach can steht die Grundform ohne -s.
+              - answer: The President can to say no.
+                message: Nach can steht die Grundform ohne to.
+          - source: Jeder Staat schickt zwei Senatoren.
+            target: (Each|Every) state sends two senators.
+            mistakes:
+              - answer: Each state send two senators.
+                message: Nach each steht die Form mit -s.
+              - answer: Every state send two senators.
+                message: Nach every steht die Form mit -s.
+        hint: "Bei he, she und it hängst du in der Gegenwart ein -s an. Nach can nicht."
+      - type: language-task
+        id: politik-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: congress-and-the-supreme-court-are-in-washington.mp3
+            target: Congress and the Supreme Court are in Washington.
+          - audio: the-senate-must-agree-to-new-judges.mp3
+            target: The Senate must agree to new judges.
+          - audio: people-vote-for-their-senators-and-representatives.mp3
+            target: People vote for their senators and representatives.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: politik-nachsprechen
+        language: en
+        items:
+          - audio: the-united-states-has-a-president-and-a-congress.mp3
+            text: The United States has a president and a Congress.
+          - audio: each-senator-is-elected-for-six-years.mp3
+            text: Each senator is elected for six years.
+          - audio: senators-and-representatives-work-in-congress.mp3
+            text: Senators and representatives work in Congress.
+        hint: Sprich langsam nach. Achte auf Senator, elected und representatives.
+  - type: section
+    id: weiter
+    title: Rückblick und nächster Halt
+    blocks:
+      - type: text
+        text: "Die Zeitachse des Kapitels ist voll. Zu jedem Ereignis gehört die Frage: Wer gewinnt, wer verliert?"
+      - type: timeline
+        data: usa-zeitachse
+      - type: table
+        caption: Schulkalender · Rückblick Kapitel 3
+        header: [Halt, Beispielsatz]
+        rows:
+          - [Mayflower, "The Pilgrims left England because they wanted their own church."]
+          - [Einwanderung, "Many immigrants worked on the railroads for low pay."]
+          - [Unabhängigkeit, "Some men at the Tea Party dressed like Native Americans."]
+          - [Besiedlung des Westens, "About four hundred thousand settlers walked to Oregon and California."]
+          - [Politik, "The President can only be elected again once."]
+      - type: text
+        text: "Im nächsten Kapitel, **Freiheit und Gleichheit** (Klasse 9 und 10), geht die Zeitachse bis heute weiter."

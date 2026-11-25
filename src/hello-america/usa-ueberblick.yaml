@@ -1,0 +1,251 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Die USA im Überblick
+description: "Sophie chattet mit Jayden aus Chicago. Du lernst, die USA auf der Karte zu beschreiben: Nachbarländer, Ozeane, Gebirge, Alaska und Hawaii."
+competencies: [usa-ueberblick]
+scope: "Die Seite beschreibt die USA auf der Karte. Die USA bestehen aus fünfzig Bundesstaaten und der Hauptstadt Washington, D.C. Achtundvierzig Staaten hängen zusammen: Kanada liegt im Norden, Mexiko im Süden, der Atlantik im Osten und der Pazifik im Westen. Alaska liegt im Nordwesten und ist nicht mit den anderen Staaten verbunden, Hawaii ist eine Inselgruppe im Pazifik. In der Mitte liegen der Mississippi und die Great Plains, im Westen die Rocky Mountains, in Arizona der Grand Canyon. Geübt werden Lagewörter (north, south, east, west, next to), das Beschreiben der Karte und der Unterschied zwischen den USA und „America“. Typische Fehler sind Hawaii in Asien, Alaska als Teil von Kanada, alle Staaten zusammenhängend und USA gleich Nordamerika. Nicht hier: Städte, Geschichte, einzelne Staaten und Regionen mit Namen."
+blocks:
+  - type: section
+    id: einstieg
+    title: Eine Karte für Mr Hills Klasse
+    blocks:
+      - type: text
+        text: "Sophie schreibt mit Jayden aus Chicago. Mr Hill hat der Klasse eine Frage mitgegeben: Wie sieht Jaydens Land auf der Karte aus? Vorher eine Frage an dich."
+      - type: single-choice
+        id: usa-start
+        text: Welche zwei Länder sind Nachbarn der USA?
+        options:
+          - text: Mexiko und Brasilien
+            correct: false
+            info: Brasilien liegt in Südamerika.
+          - text: Kanada und Alaska
+            correct: false
+            info: Alaska ist ein Staat der USA, kein Land.
+          - text: Kanada und Mexiko
+            correct: true
+            info: Kanada liegt im Norden und Mexiko im Süden der zusammenhängenden Staaten.
+        explanation: Kanada liegt im Norden, Mexiko im Süden.
+      - type: text
+        text: "**Das kannst du danach:** Du zeigst auf der Karte, wo die USA liegen, und beschreibst auf Englisch, was im Norden, Süden, Osten und Westen liegt. Du sagst, was Alaska und Hawaii besonders macht."
+  - type: section
+    id: lesen
+    title: Jayden erzählt von seinem Land
+    blocks:
+      - type: text
+        text: |
+          1. **Sophie:** Hi Jayden! Mr Hill wants us to learn about your country. Where do you live exactly?
+          2. **Jayden:** Hey Sophie! I live in Chicago. It is a big city on a huge lake, Lake Michigan.
+          3. **Sophie:** Is Chicago near the ocean?
+          4. **Jayden:** No, it is in the middle of the country. The Atlantic Ocean is far away in the east, and the Pacific Ocean is far away in the west.
+          5. **Sophie:** How many states are there?
+      - type: text
+        text: |
+          6. **Jayden:** Fifty! Forty-eight of them are connected. Canada is north of them and Mexico is south of them.
+          7. **Jayden:** The other two are special. Alaska is in the north-west, but it is not connected to the other states. Hawaii is a group of islands in the Pacific Ocean.
+          8. **Sophie:** What is in the middle of the country?
+          9. **Jayden:** The Mississippi River and the Great Plains. The Rocky Mountains are in the west. The Grand Canyon is in Arizona.
+          10. **Sophie:** Is "America" the same as the USA?
+          11. **Jayden:** People often say "America" for my country. But Canada and Mexico are in North America, too.
+      - type: vocabulary
+        caption: Randglossar · Wörter des Chats
+        languages: { source: de, target: en }
+        entries:
+          - target: the state
+            source: der Bundesstaat
+          - target: the ocean
+            source: der Ozean
+          - target: the lake
+            source: der See
+          - target: the island
+            source: die Insel
+          - target: connected
+            source: verbunden
+          - target: the Great Plains
+            source: die Great Plains (große, flache Grasflächen in der Mitte)
+          - target: far away
+            source: weit weg
+          - target: the middle
+            source: die Mitte
+          - target: special
+            source: besonders
+          - target: a group of
+            source: eine Gruppe von
+          - target: high
+            source: hoch
+          - target: the mountains
+            source: die Berge
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: true-false
+        id: usa-verstehen
+        text: "Stimmt das? Alle fünfzig Staaten der USA hängen auf der Karte zusammen."
+        answer: false
+        hint: Lies die Zeilen 6 und 7 noch einmal.
+        explanation: Nur 48 Staaten hängen zusammen.
+      - type: matching
+        id: usa-zuordnen
+        text: "Was sagt Jayden über diese Orte? Ordne zu."
+        pairs:
+          - left: Alaska
+            right: im Nordwesten, nicht mit den anderen Staaten verbunden
+          - left: Hawaii
+            right: eine Gruppe von Inseln im Pazifik
+          - left: Grand Canyon
+            right: in Arizona
+          - left: Great Plains
+            right: in der Mitte des Landes
+        explanation: Alaska und Hawaii sind die zwei besonderen Staaten.
+        hint: Lies die Zeilen 7 und 9 noch einmal.
+      - type: single-choice
+        id: usa-beleg
+        text: Welche Zeile belegt, dass Chicago weit vom Meer entfernt liegt?
+        options:
+          - text: Zeile 2
+            correct: false
+            info: Zeile 2 nennt nur den See.
+          - text: Zeile 9
+            correct: false
+            info: Zeile 9 nennt Landschaften, nicht Chicago.
+          - text: Zeile 6
+            correct: false
+            info: Zeile 6 nennt die Zahl der Staaten.
+          - text: Zeile 4
+            correct: true
+            info: Jayden nennt beide Ozeane als weit entfernt.
+        explanation: "Zeile 4: Chicago liegt in der Mitte des Landes."
+        hint: Suche die Zeile, in der Jayden die zwei Ozeane nennt.
+      - type: open-task
+        id: usa-meinung
+        task: "Welchen Ort aus dem Chat möchtest du zuerst sehen? Schreibe zwei bis drei Sätze auf Englisch, zum Beispiel mit „I would like to see … because …“."
+        points:
+          - text: Du nennst einen Ort aus dem Chat, zum Beispiel Hawaii, den Grand Canyon oder Chicago.
+            source: /hello-america/usa-ueberblick/#lesen
+          - text: Du gibst einen Grund an (because …).
+            source: /hello-america/usa-ueberblick/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I would like to see Hawaii first because it is a group of islands in the Pacific Ocean. I think the beaches are beautiful.
+        hint: Schau in die Zeilen 7 und 9. Dort stehen die Orte.
+  - type: section
+    id: neu
+    title: Die Karte beschreiben
+    blocks:
+      - type: figure
+        image: images/usa-schema-natur.svg
+        alt: Schemakarte der USA mit Gebirgen, Flüssen und Seen. Der Mississippi fließt in der Mitte von Norden nach Süden, die Great Plains liegen westlich davon, die Rocky Mountains weiter im Westen. Im Norden liegt der Lake Michigan. Alaska und Hawaii sind in zwei kleinen Kästen unten links eingezeichnet.
+        caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Schau, was in der Mitte und im Westen liegt. Alaska und Hawaii sind in den kleinen Kästen unten links gezeichnet: links Alaska, rechts Hawaii."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Mit **north**, **south**, **east** und **west** sagst du, wo etwas liegt: Canada is **north of** the United States. Das heißt: north = Norden, south = Süden, east = Osten, west = Westen. In der Schule sagst du für das Land **the United States** oder **the USA**, nicht **America**: Auch Kanada und Mexiko liegen in Nordamerika.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: usa-karte
+        text: Auf der Karte stehen Nummern. Ordne jeder Nummer den englischen Namen zu.
+        material:
+          - type: labelled-figure
+            image: images/usa-schema-aufgabe.svg
+            alt: "Schemakarte der USA ohne Namen mit sechs Markierungen: Markierung 1 liegt im Norden, 2 im Süden, 3 im Osten auf dem Meer, 4 im Westen auf dem Meer, 5 im linken kleinen Kasten unten und 6 im rechten kleinen Kasten unten."
+            caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die zwei kleinen Kästen unten links sind Zusatzkarten für zwei Staaten."
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            legend: false
+            labels:
+              - { x: 50, y: 9, text: Canada, marker: "1" }
+              - { x: 44, y: 86, text: Mexico, marker: "2" }
+              - { x: 94, y: 55, text: Atlantic Ocean, marker: "3" }
+              - { x: 6, y: 40, text: Pacific Ocean, marker: "4" }
+              - { x: 13, y: 87, text: Alaska, marker: "5" }
+              - { x: 35, y: 88, text: Hawaii, marker: "6" }
+        pairsFrom: material
+        explanation: Alaska und Hawaii liegen getrennt von den anderen Staaten.
+        hint: Der Atlantik liegt an der Küste im Osten, der Pazifik im Westen.
+      - type: language-task
+        id: usa-lage
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze die Himmelsrichtung.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Der Atlantik liegt im Osten der USA.
+            target: The Atlantic Ocean is [east] of the USA.
+            mistakes:
+              - answer: The Atlantic Ocean is west of the USA.
+                message: Osten heißt east, Westen heißt west.
+              - answer: The Atlantic Ocean is north of the USA.
+                message: north ist Norden. Osten heißt east.
+          - cue: Mexiko liegt im Süden der USA.
+            target: Mexico is [south] of the USA.
+            mistakes:
+              - answer: Mexico is north of the USA.
+                message: Norden heißt north. Süden heißt south.
+          - cue: Der Pazifik liegt im Westen der USA.
+            target: The Pacific Ocean is [west] of the USA.
+            mistakes:
+              - answer: The Pacific Ocean is east of the USA.
+                message: Westen heißt west, Osten heißt east.
+        hint: Schau in den Merke-Kasten.
+      - type: language-task
+        id: usa-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Kanada liegt nördlich von Mexiko.
+            target: Canada is (to the |)north of Mexico.
+            mistakes:
+              - answer: Canada is in north of Mexico.
+                message: Mit north of brauchst du kein in.
+              - answer: Canada is south of Mexico.
+                message: south ist Süden. Kanada liegt im Norden.
+          - source: Alaska ist ein Staat der USA.
+            target: Alaska is (a|one) state (of|in) the (USA|United States|US).
+            mistakes:
+              - answer: Alaska is a country of the USA.
+                message: Ein Bundesstaat heißt state. country ist ein ganzes Land.
+              - answer: Alaska is a state in Canada.
+                message: Alaska gehört zu den USA, nicht zu Kanada.
+        hint: "north of = nördlich von. Ein Bundesstaat heißt state."
+      - type: language-task
+        id: usa-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: hawaii-is-far-from-the-other-states.mp3
+            target: Hawaii is far from the other states.
+          - audio: alaska-has-very-high-mountains.mp3
+            target: Alaska has very high mountains.
+          - audio: the-mississippi-is-a-long-river.mp3
+            target: The Mississippi is a long river.
+        hint: Hör jeden Satz zweimal.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen
+    blocks:
+      - type: speaking-task
+        id: usa-nachsprechen
+        language: en
+        items:
+          - audio: the-united-states-has-fifty-states.mp3
+            text: The United States has fifty states.
+          - audio: many-people-visit-the-grand-canyon.mp3
+            text: Many people visit the Grand Canyon.
+          - audio: the-pacific-ocean-is-west-of-the-country.mp3
+            text: The Pacific Ocean is west of the country.
+        hint: Sprich langsam nach. Achte auf fifty, Canyon und Pacific.
+  - type: section
+    id: weiter
+    title: Nächster Halt
+    blocks:
+      - type: text
+        text: "Die Weltkarte hat jetzt ihren ersten Halt. Als Nächstes geht es nach **New York** und **Washington, D.C.**: Zwei Städte, die viele aus den Nachrichten kennen."
