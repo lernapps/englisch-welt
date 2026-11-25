@@ -9,23 +9,23 @@ blocks:
     title: Der Vierte Juli
     blocks:
       - type: text
-        text: "Mr Hill hat der Klasse eine Frage mitgegeben, und Sophie fragt Jayden. Vorher eine Frage an dich."
+        text: "Mr Hill hat der Klasse eine Frage mitgegeben, und Sophie fragt Jayden. Den Vierten Juli kennst du von den Festen. Vorher eine Frage an dich."
       - type: single-choice
         id: unabhaengigkeit-start
-        text: Was feiern die USA am 4. Juli?
+        text: Zu welchem Land gehörten die dreizehn Kolonien an der Ostküste, bevor sie frei wurden?
         options:
-          - text: Die Unabhängigkeit von Großbritannien
+          - text: Zu Großbritannien
             correct: true
-            info: Am 4. Juli 1776 nahm der Kongress die Declaration an.
-          - text: Die Ankunft der Mayflower
+            info: Es waren britische Kolonien.
+          - text: Zu Spanien
             correct: false
-            info: Die Mayflower kam schon 1620.
-          - text: Die Boston Tea Party
+            info: Kolumbus segelte für Spanien, aber diese Kolonien waren britisch.
+          - text: Zu den Niederlanden
             correct: false
-            info: Die Tea Party war im Dezember 1773.
-        explanation: Der 4. Juli erinnert an die Declaration von 1776.
+            info: Die Pilger lebten zwar in den Niederlanden, aber die Kolonien waren britisch.
+        explanation: Die dreizehn Kolonien gehörten zu Großbritannien.
       - type: text
-        text: "**Das kannst du danach:** Du erklärst, wie die USA unabhängig wurden, und nennst mehrere Sichtweisen: Kolonisten, die britische Regierung und Menschen, die damals nicht frei waren."
+        text: "**Das kannst du danach:** Du erklärst, wie aus Kolonien ein Land wurde, und nennst Sichtweisen: Kolonisten, die Regierung im Mutterland und versklavte Menschen."
   - type: section
     id: lesen
     title: Jayden erzählt vom Vierten Juli
@@ -46,7 +46,7 @@ blocks:
           10. **Sophie:** Is the Declaration the same as the Constitution?
           11. **Jayden:** No. The Declaration says why the colonies were free. The Constitution came later and says how the country works.
           12. **Sophie:** Did "all men are created equal" mean everybody?
-          13. **Jayden:** People asked that question even in 1776. In all thirteen colonies, slavery was legal.
+          13. **Jayden:** People asked that question even in 1776. In all thirteen colonies, slavery was legal. Enslaved Africans and African Americans were not free.
       - type: vocabulary
         caption: Randglossar · Wörter des Chats
         languages: { source: de, target: en }
@@ -68,7 +68,7 @@ blocks:
           - target: to throw, threw
             source: werfen, warf
           - target: Congress
-            source: der Kongress (die Versammlung der Kolonien)
+            source: der Kongress (damals die Versammlung der Kolonien, heute das Parlament der USA)
           - target: the draft
             source: der Entwurf
           - target: the Founding Fathers
@@ -77,6 +77,8 @@ blocks:
             source: die Verfassung
           - target: slavery
             source: die Sklaverei
+          - target: enslaved
+            source: versklavt (nicht frei)
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
@@ -128,7 +130,7 @@ blocks:
           - text: Es sind ganze Sätze mit Punkt am Ende.
             kind: form
         solution: |
-          The colonists won a country with its own government. Britain lost thirteen colonies. But in 1776 slavery was legal in all the colonies, so "all men are created equal" did not mean everybody.
+          The colonists won a country with its own government. Britain lost thirteen colonies. But in 1776 slavery was legal in all the colonies, and enslaved people were not free, so "all men are created equal" did not mean everybody.
         hint: Schau in die Zeilen 4 und 13.
   - type: section
     id: neu
@@ -136,7 +138,7 @@ blocks:
     blocks:
       - type: figure
         image: images/zeitachse-usa-3.svg
-        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Links stehen graue Punkte, in der Mitte kurz vor achtzehnhundert drei orange Punkte dicht beieinander, darunter ein Segelschiff."
+        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Links stehen graue Punkte, in der Mitte kurz vor achtzehnhundert drei orange Punkte dicht beieinander mit den Jahreszahlen 1773, 1775 und 1776, darunter ein Segelschiff."
         caption: "Die Zeitachse wächst: Die drei orangen Punkte liegen nur wenige Jahre auseinander."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -155,7 +157,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Die **Declaration of Independence** (Unabhängigkeitserklärung) ist ein Text von 1776. Er sagt, warum die Kolonien frei sein wollen. Hilfe für den Satz oben: **self-evident** selbstverständlich, **created** geschaffen, **equal** gleich, **rights** Rechte, **Liberty** Freiheit, **Happiness** Glück.
+              Die **Declaration of Independence** (Unabhängigkeitserklärung) ist ein Text von 1776. Hilfe für den Satz oben: **self-evident** selbstverständlich, **created** geschaffen, **equal** gleich, **rights** Rechte, **Liberty** Freiheit, **Happiness** Glück.
   - type: section
     id: uebung
     title: Übung
@@ -178,7 +180,7 @@ blocks:
             right: Kolonisten, die Unabhängigkeit wollten
           - left: Parliament has the right to make laws for the colonies.
             right: die britische Regierung
-          - left: You say all men are equal, but you keep slaves.
+          - left: You say all men are equal, but you keep enslaved people.
             right: Kritiker, die auf die Sklaverei hinwiesen
         explanation: "Die Kolonisten wollten mitreden, die Regierung sah das Parlament als höchste Macht, Kritiker zeigten auf die Sklaverei."
         hint: Denke an Zeile 4 und Zeile 13.
@@ -259,4 +261,4 @@ blocks:
     title: Nächster Halt
     blocks:
       - type: text
-        text: "Die neuen USA wachsen. Die Weltkarte zeigt jetzt Wagenzüge, die nach **Westen** ziehen. Wer lebt dort schon?"
+        text: "Die neuen USA wachsen im 19. Jahrhundert. Die Weltkarte zeigt Wagenzüge, die nach **Westen** ziehen. Wer lebt dort schon?"

@@ -41,11 +41,11 @@ blocks:
       - type: text
         text: |
           7. **Jayden:** No. The President can say "no" to a law from Congress. That is called a veto. But Congress can overrule the veto if two thirds of the members of both parts vote for the law again.
-          8. **Jayden:** The third group is the Supreme Court with nine judges. It can say that a law does not fit the Constitution.
+          8. **Jayden:** The third group is the Supreme Court with nine judges. It can say that a law does not fit the Constitution. The President picks the judges, and the Senate says yes.
           9. **Sophie:** Why three groups?
           10. **Jayden:** So that nobody gets all the power. Each group can check the others.
           11. **Sophie:** And the states?
-          12. **Jayden:** Each of the fifty states has its own government, too. The government, the states and the Native American nations share power in the USA.
+          12. **Jayden:** Each of the fifty states has its own government. The federal government, the states and the Native American nations share power in the USA.
       - type: vocabulary
         caption: Randglossar · Wörter des Chats
         languages: { source: de, target: en }
@@ -88,6 +88,8 @@ blocks:
             source: der Richter, die Richterin
           - target: to check
             source: kontrollieren
+          - target: the federal government
+            source: die Bundesregierung (für das ganze Land)
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
@@ -146,8 +148,8 @@ blocks:
           - { x: 50, y: 82, text: "Constitution: the rules for everybody", marker: "4" }
       - type: figure
         image: images/zeitachse-usa-5.svg
-        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Viele graue Punkte liegen auf der Achse, ein orangefarbener Punkt liegt kurz vor achtzehnhundert, darunter ein Kasten mit der Aufschrift USA."
-        caption: "Die Zeitachse ist fast voll. Der orange Punkt zeigt, wann die Verfassung in Kraft trat."
+        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Viele graue Punkte mit Jahreszahlen liegen auf der Achse, ein orangefarbener Punkt mit der Jahreszahl 1789 liegt kurz vor achtzehnhundert, darunter ein Kasten mit der Aufschrift USA."
+        caption: "Die Zeitachse ist jetzt voll. Der orange Punkt zeigt, wann die Verfassung in Kraft trat."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note
@@ -189,7 +191,7 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Der Kongress macht die Gesetze.
-            target: Congress makes the laws.
+            target: Congress makes (the |)laws.
             mistakes:
               - answer: Congress make the laws.
                 message: Bei he, she und it brauchst du ein -s.
@@ -201,10 +203,12 @@ blocks:
               - answer: The President can to say no.
                 message: Nach can steht die Grundform ohne to.
           - source: Jeder Staat schickt zwei Senatoren.
-            target: Each state sends two senators.
+            target: (Each|Every) state sends two senators.
             mistakes:
               - answer: Each state send two senators.
                 message: Nach each steht die Form mit -s.
+              - answer: Every state send two senators.
+                message: Nach every steht die Form mit -s.
         hint: "Bei he, she und it hängst du in der Gegenwart ein -s an. Nach can nicht."
       - type: language-task
         id: politik-hoeren

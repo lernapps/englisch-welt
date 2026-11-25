@@ -9,7 +9,7 @@ blocks:
     title: Ein Schiff mit einem berühmten Namen
     blocks:
       - type: text
-        text: "Mr Hill hat ein Bild von einem Segelschiff gezeigt. Sophie fragt Jayden danach. Vorher eine Frage an dich."
+        text: "Sophie fragt Jayden nach dem Schiff Mayflower. Vorher eine Frage an dich."
       - type: single-choice
         id: mayflower-start
         text: Wer fuhr 1620 mit der Mayflower nach Nordamerika?
@@ -25,7 +25,7 @@ blocks:
             info: Der Westen wurde erst viel später besiedelt.
         explanation: Die Mayflower brachte Pilger über den Atlantik.
       - type: text
-        text: "**Das kannst du danach:** Du erzählst, warum die Pilger England verließen und wer in Nordamerika schon lebte, und erklärst, wie die ersten Kolonien entstanden."
+        text: "**Das kannst du danach:** Du erzählst von der Reise der Mayflower und sagst, wer in Nordamerika schon lebte."
   - type: section
     id: lesen
     title: Jayden erzählt von der Mayflower
@@ -40,11 +40,11 @@ blocks:
           6. **Jayden:** They worried about money, and their children spoke more and more Dutch. They wanted to stay English.
       - type: text
         text: |
-          7. **Jayden:** In September 1620, one hundred and two passengers left England on the Mayflower and crossed the Atlantic Ocean. After about sixty-five days they saw land.
+          7. **Jayden:** In September 1620, one hundred and two passengers left England on the Mayflower and crossed the Atlantic Ocean. After about sixty-five days they saw land at Cape Cod.
           8. **Jayden:** They started the Plymouth Colony in what is now Massachusetts. Nearly half of the Pilgrims died in the first winter.
           9. **Sophie:** Were the Pilgrims the first people in North America?
-          10. **Jayden:** No way. People from Europe came, but Native Americans lived in North America for thousands of years. The Wampanoag lived near Plymouth.
-          11. **Jayden:** In March 1621 the Pilgrims and Massasoit, a leader of the Wampanoag, signed a peace treaty. A man called Squanto, from the village of Patuxet, helped the Pilgrims.
+          10. **Jayden:** No way. People from Europe came, but Native Americans lived in North America for thousands of years. The Wampanoag lived near Plymouth. Patuxet was empty after a plague.
+          11. **Jayden:** In March 1621 the Pilgrims and Massasoit, a leader of the Wampanoag, signed a peace treaty. A man called Squanto, from Patuxet, helped the Pilgrims. An English captain once took him to Europe by force. In England he learned the language.
           12. **Sophie:** Was Plymouth the first British colony?
           13. **Jayden:** No. The Virginia colony began in 1607. In the end, there were thirteen colonies.
       - type: vocabulary
@@ -77,6 +77,10 @@ blocks:
             source: der Vertrag
           - target: the village
             source: das Dorf
+          - target: the plague
+            source: die Seuche (eine Krankheit, an der viele Menschen sterben)
+          - target: by force
+            source: mit Gewalt, gegen den Willen
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
@@ -111,12 +115,12 @@ blocks:
         points:
           - text: Du nennst, was die Pilger wollten oder bekamen, zum Beispiel eine eigene Kirche oder einen Platz zum Leben.
             source: /wie-die-usa-entstanden/mayflower/#lesen
-          - text: Du nennst die Sicht der Wampanoag oder der Native Americans, zum Beispiel dass sie schon dort lebten oder 1621 einen Vertrag schlossen.
+          - text: Du nennst die Sicht der Wampanoag oder der Native Americans, zum Beispiel dass sie schon dort lebten, dass das Dorf Patuxet leer war oder dass sie 1621 einen Vertrag schlossen.
             source: /wie-die-usa-entstanden/mayflower/#lesen
           - text: Es sind ganze Sätze mit Punkt am Ende.
             kind: form
         solution: |
-          The Pilgrims got a place for their own church, but nearly half of them died in the first winter. The Wampanoag already lived there, and now people from Europe came to their land. In 1621 both sides signed a peace treaty.
+          The Pilgrims got a place for their own church, but nearly half of them died in the first winter. The Wampanoag already lived there, and a plague had emptied the village of Patuxet before the Pilgrims came. Now people from Europe came to their land, but in 1621 both sides signed a peace treaty.
         hint: Schau in die Zeilen 8, 10 und 11.
   - type: section
     id: neu
@@ -124,13 +128,13 @@ blocks:
     blocks:
       - type: figure
         image: images/mayflower-karte.svg
-        alt: "Schemakarte des Atlantiks. Links liegt die Küste von New England mit Cape Cod, rechts die Küste von England und weiter nordöstlich Leiden. Eine gestrichelte Linie führt von Leiden nach England und von dort mit einem Segelschiff über das Meer nach Cape Cod."
-        caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die gestrichelte Linie zeigt den Weg der Pilger."
+        alt: "Schemakarte des Atlantiks. Links liegt die Küste von New England mit Cape Cod, rechts die Küste von England. Eine gestrichelte Linie führt von England mit einem Segelschiff über das Meer nach Cape Cod."
+        caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die gestrichelte Linie zeigt den Weg der Mayflower."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: figure
         image: images/zeitachse-usa-1.svg
-        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Drei orange Punkte liegen kurz nach sechzehnhundert, unter einem Segelschiff. Rechts ist die Achse noch leer."
+        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Drei orange Punkte mit den Jahreszahlen 1607, 1620 und 1621 liegen kurz nach sechzehnhundert, unter einem Segelschiff. Rechts ist die Achse noch leer."
         caption: "Die Zeitachse der USA beginnt. Mit jedem Halt kommen neue Punkte dazu: graue Punkte sind schon bekannt, orange Punkte sind neu."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -139,7 +143,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Die **Pilgrims** kamen 1620 auf der **Mayflower** und gründeten die **Plymouth Colony**. Eine **colony** gehört zu einem anderen Land, damals zu Großbritannien. Die Native Americans lebten schon lange vor den Pilgern dort und leben bis heute in den USA.
+              Die **Pilgrims** kamen 1620 auf der **Mayflower** und gründeten die **Plymouth Colony**. Eine **colony** gehört zu einem anderen Land, damals zu Großbritannien. Native Americans lebten schon lange dort und leben bis heute in den USA.
   - type: section
     id: uebung
     title: Übung
@@ -182,7 +186,7 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - cue: Die Pilger fuhren mit der Mayflower.
-            target: The Pilgrims [sailed] on the Mayflower.
+            target: The Pilgrims [sailed|travelled|traveled] on the Mayflower.
             mistakes:
               - answer: The Pilgrims sail on the Mayflower.
                 message: Du brauchst die Vergangenheit mit -ed.
@@ -236,4 +240,4 @@ blocks:
     title: Nächster Halt
     blocks:
       - type: text
-        text: "Nach den Pilgern kamen noch viele Millionen Menschen aus Europa. Die Weltkarte zeigt jetzt ein Schiff vor **New York**: Dort liegt **Ellis Island**."
+        text: "Nach den Pilgern kamen noch viele Millionen Menschen aus Europa. Auf der Zeitachse geht es von 1620 nach 1892. Die Weltkarte zeigt jetzt ein Schiff vor **New York**: Dort liegt **Ellis Island**."

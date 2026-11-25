@@ -9,7 +9,7 @@ blocks:
     title: Wer lebte im Westen?
     blocks:
       - type: text
-        text: "Mr Hill hat eine Karte mit Wagenzügen gezeigt. Sophie fragt Jayden nach den Menschen im Westen. Vorher eine Frage an dich."
+        text: "Sophie fragt Jayden nach den Menschen im Westen. Vorher eine Frage an dich."
       - type: single-choice
         id: westen-start
         text: Wer lebte im Westen, bevor die Siedler kamen?
@@ -75,6 +75,10 @@ blocks:
             source: der Indian Removal Act (ein Gesetz von 1830, das Völker zum Umzug zwang)
           - target: society
             source: die Gesellschaft
+          - target: American Indian or Alaska Native
+            source: so heißen Native Americans in den Zählungen der USA
+          - target: Indigenous
+            source: "indigen (Menschen, die zuerst dort lebten; das Wort kennst du von Kanada)"
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
@@ -130,7 +134,7 @@ blocks:
         licence: CC-BY-4.0
       - type: figure
         image: images/zeitachse-usa-4.svg
-        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Links stehen graue Punkte, rechts zwischen achtzehnhundert und neunzehnhundert fünf orange Punkte, darunter ein Planwagen und eine Lokomotive."
+        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Links stehen graue Punkte, rechts zwischen achtzehnhundert und neunzehnhundert fünf orange Punkte mit den Jahreszahlen 1830, 1862, 1868, 1869 und 1877, darunter ein Planwagen und eine Lokomotive."
         caption: "Die Zeitachse wächst: Fünf neue Punkte liegen im 19. Jahrhundert."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -140,6 +144,7 @@ blocks:
           - type: text
             text: |
               **Native Americans** sind nicht ein Volk, sondern viele **nations** mit eigenen Sprachen. Sie leben bis heute in den USA. Frage bei jeder Aussage: Wer spricht, und was will diese Gruppe?
+
   - type: section
     id: uebung
     title: Übung
@@ -173,7 +178,7 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Die Siedler zogen nach Westen.
-            target: The settlers (moved|went|walked) (to the |)west.
+            target: The settlers (moved|went|walked|travelled|traveled|headed|came) (to the |)west.
             mistakes:
               - answer: The settlers moved to west.
                 message: Sag to the west oder nur west.
@@ -192,7 +197,7 @@ blocks:
               - answer: Native Americans lived in the USA today.
                 message: Sie leben auch heute dort. Du brauchst die Gegenwart.
               - answer: Native Americans live in America today.
-                message: Das Land heißt the USA, nicht America.
+                message: In dieser Aufgabe gilt the USA oder the United States, so wie im Unterricht.
         hint: "Achte auf die Zeit: früher oder heute? Nach had to steht die Grundform."
       - type: language-task
         id: westen-hoeren
@@ -217,14 +222,14 @@ blocks:
         items:
           - audio: they-wanted-to-finish-the-trip-in-one-warm-season.mp3
             text: They wanted to finish the trip in one warm season.
-          - audio: some-cherokee-still-live-in-north-carolina.mp3
-            text: Some Cherokee still live in North Carolina.
+          - audio: the-navajo-and-the-cherokee-are-two-different-nations.mp3
+            text: The Navajo and the Cherokee are two different nations.
           - audio: today-people-speak-many-native-american-languages.mp3
             text: Today people speak many Native American languages.
-        hint: Sprich langsam nach. Achte auf Cherokee, Carolina und languages.
+        hint: Sprich langsam nach. Achte auf Navajo, Cherokee und languages.
   - type: section
     id: weiter
     title: Nächster Halt
     blocks:
       - type: text
-        text: "Der letzte Halt liegt in **Washington, D.C.** Wer entscheidet in den USA? Das zeigen **Präsident, Kongress und Verfassung**."
+        text: "Der letzte Halt liegt in **Washington, D.C.** (zurück im Jahr 1789). Wer entscheidet in den USA? Das zeigen **Präsident, Kongress und Verfassung**."
