@@ -25,7 +25,7 @@ blocks:
             info: Das Schiff der Pilger hieß Mayflower.
         explanation: Auf Ellis Island kamen Einwanderer an.
       - type: text
-        text: "**Das kannst du danach:** Du erklärst, warum Menschen aus Europa in die USA auswanderten, und erzählst, wie die Prüfung auf Ellis Island ablief."
+        text: "**Das kannst du danach:** Du erklärst, warum Menschen aus Europa in die USA auswanderten, und erzählst, wie ihre Ankunft in New York ablief."
   - type: section
     id: lesen
     title: Jaydens Bericht
@@ -135,7 +135,7 @@ blocks:
         licence: CC-BY-4.0
       - type: figure
         image: images/zeitachse-usa-2.svg
-        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Links stehen graue Punkte, rechts kurz vor neunzehnhundert ein oranger Punkt unter einem Segelschiff."
+        alt: "Zeitachse von sechzehnhundert bis neunzehnhundert. Links stehen graue Punkte mit den Jahreszahlen 1607, 1620 und 1621, rechts kurz vor neunzehnhundert ein oranger Punkt mit der Jahreszahl 1892, darunter ein Segelschiff."
         caption: "Die Zeitachse wächst: Der orange Punkt ist neu, die grauen Punkte kennst du schon."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -144,7 +144,13 @@ blocks:
         blocks:
           - type: text
             text: |
-              Wer in ein anderes Land zieht, um dort zu leben, ist aus Sicht des neuen Landes ein **immigrant**: Er **immigrates** (wandert ein). Aus Sicht des alten Landes ist er ein **emigrant**: Er **emigrates** (wandert aus). Menschen haben viele Gründe für diesen Schritt.
+              Wer in ein anderes Land zieht, um dort zu leben, ist aus Sicht des neuen Landes ein **immigrant**: Diese Person **immigrates** (wandert ein). Aus Sicht des alten Landes ist sie ein **emigrant**: Diese Person **emigrates** (wandert aus).
+      - type: note
+        title: Nicht alle kamen aus eigenem Willen
+        blocks:
+          - type: text
+            text: |
+              Menschen aus Afrika kamen versklavt und nicht frei in die Kolonien. Davon erzählt das nächste Kapitel auf der Seite „Sklaverei und Bürgerkrieg“.
   - type: section
     id: uebung
     title: Übung
@@ -195,13 +201,13 @@ blocks:
               - answer: They want work.
                 message: "Du brauchst die Vergangenheit: wanted."
           - source: Ein Arzt prüfte jeden Einwanderer.
-            target: A doctor checked every immigrant.
+            target: A doctor (checked|examined) every immigrant.
             mistakes:
               - answer: A doctor checked every immigrants.
                 message: Nach every steht der Singular, also every immigrant.
               - answer: A doctor check every immigrant.
                 message: "Du brauchst die Vergangenheit: checked."
-        hint: "Die Vergangenheit regelmäßiger Verben endet auf -ed. Nach every steht der Singular."
+        hint: "Das erste Verb ist unregelmäßig. Regelmäßige Verben enden in der Vergangenheit auf -ed. Nach every steht der Singular."
       - type: language-task
         id: einwanderung-hoeren
         languages: { source: de, target: en }
@@ -235,4 +241,4 @@ blocks:
     title: Nächster Halt
     blocks:
       - type: text
-        text: "Auf der Zeitachse springt die Weltkarte jetzt zurück ins 18. Jahrhundert. Die Kolonisten werfen in **Boston** Tee ins Wasser, und die **Unabhängigkeit** beginnt."
+        text: "Auf der Zeitachse springt die Weltkarte jetzt zurück ins Jahr 1773. Die Kolonisten werfen in **Boston** Tee ins Wasser, und die **Unabhängigkeit** beginnt."

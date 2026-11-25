@@ -55,9 +55,6 @@ def register(m):
         b += path("M366,150 C300,130 240,150 150,112", ORANGE, 4, "10 8")
         b += ship(290, 154, 1.0)
         b += m.text(420, 170, "England", 16, "middle", INK, "bold")
-        b += line(366, 150, 410, 82, ORANGE, 4, "10 8")
-        b += circle(410, 82, 6, ORANGE)
-        b += m.text(430, 62, "Leiden", 16, "middle", INK, "bold")
         b += circle(366, 150, 6, ORANGE)
         b += circle(150, 112, 6, ORANGE)
         b += m.text(96, 100, "Cape Cod", 16, "middle", INK, "bold")
@@ -88,7 +85,7 @@ def register(m):
         b += m.text(110, 202, "Ellis Island", 14, "middle", INK)
         b += line(110, 160, 112, 148, INK, 2)
         b += m.text(420, 150, "Europe", 16, "middle", INK, "bold")
-        b += m.text(250, 262, "Atlantic Ocean", 16, "middle", BLUE)
+        b += m.text(250, 250, "Atlantic Ocean", 16, "middle", BLUE)
         return m.svg(480, 300, "Schemakarte: Schiffe von Europa nach New York", b)
 
     # ---------- Westen: USA mit Wagenzug, Eisenbahn, Umsiedlung ----------
@@ -112,47 +109,72 @@ def register(m):
         b += m.insets()
         return m.svg(480, 300, "Schemakarte der USA mit Wagenweg, Eisenbahn und Umsiedlungsweg", b)
 
-    # ---------- Zeitachsen: wachsen von Halt zu Halt (nur Jahreszahlen, keine Lösungen) ----------
+    # ---------- Zeitachsen: wachsen von Halt zu Halt (Jahreszahlen an jedem Punkt, keine Lösungen) ----------
     EVENTS = {
         1: [1607, 1620, 1621],
         2: [1892],
         3: [1773, 1775, 1776],
-        4: [1803, 1830, 1862, 1869, 1890],
+        4: [1830, 1862, 1868, 1869, 1877],
         5: [1789],
     }
     ORDER = [1, 2, 3, 4, 5]
+    MINSEP = 42
+
+    def spread(xs):
+        """Positions with at least MINSEP between neighbours, as close to the true x as possible."""
+        ps = list(xs)
+        for _ in range(400):
+            moved = False
+            for i in range(1, len(ps)):
+                gap = ps[i] - ps[i - 1]
+                if gap < MINSEP - 0.01:
+                    d = (MINSEP - gap) / 2
+                    ps[i - 1] -= d
+                    ps[i] += d
+                    moved = True
+            ps = [min(max(p, 30), 450) for p in ps]
+            if not moved:
+                break
+        return ps
 
     def axis(upto):
-        """Axis 1600 to 1900; events of earlier stops grey, of this stop orange. `upto` = page number 1..5."""
+        """Axis 1600 to 1900; events of earlier stops grey, of this stop orange. Every point carries its year.
+        Events alternate above and below the axis bar; slanted lines lead from the true place on the bar to the spread-out dots."""
         x0, x1 = 30, 450
         def X(year): return x0 + (year - 1600) * (x1 - x0) / 300
-        b = line(x0, 150, x1, 150, INK, 4)
+        b = m.rect(14, 96, 452, 24, LAND, INK, 2, 4)
         for y in (1600, 1700, 1800, 1900):
-            b += line(X(y), 140, X(y), 160, INK, 3)
-            b += m.text(X(y), 188, str(y), 16, "middle", INK, "bold")
+            b += m.text(X(y), 113, str(y), 14, "middle", INK, "bold")
         seen = []
         for p in ORDER:
             if p > upto: break
             for y in EVENTS[p]:
                 seen.append((y, p == upto))
-        ups = 0
-        for y, now in sorted(seen):
-            fill = ORANGE if now else "#9aa5ad"
-            lv = 120 - (ups % 3) * 22
-            b += line(X(y), 150, X(y), lv, fill, 2)
-            b += circle(X(y), lv, 8, fill, INK, 2)
-            ups += 1
+        seen.sort()
+        above = [e for i, e in enumerate(seen) if i % 2 == 0]
+        below = [e for i, e in enumerate(seen) if i % 2 == 1]
+        for group, up in ((above, True), (below, False)):
+            ps = spread([X(y) for y, _ in group])
+            for (y, now), px in zip(group, ps):
+                fill = ORANGE if now else "#9aa5ad"
+                ey = 96 if up else 120
+                dy = 52 if up else 164
+                ly = 36 if up else 192
+                b += line(X(y), ey, px, dy + (8 if up else -8), fill, 2)
+                b += circle(X(y), ey, 4, fill, INK, 1)
+                b += circle(px, dy, 8, fill, INK, 2)
+                b += m.text(px, ly, str(y), 14, "middle", INK, "bold" if now else "normal")
         return b
 
     for n in ORDER:
         def mk(n=n):
             def f():
                 b = axis(n)
-                if n == 1: b += ship(120, 262, 1.0)
-                if n == 2: b += ship(380, 262, 1.0)
-                if n == 3: b += ship(250, 262, 1.0)
-                if n == 4: b += wagon(250, 258, 1.2) + train(330, 258, 1.1)
-                if n == 5: b += m.rect(210, 224, 60, 40, "#fffaf0", INK, 2, 4) + m.text(240, 250, "USA", 16, "middle", INK, "bold")
+                if n == 1: b += ship(120, 252, 1.0)
+                if n == 2: b += ship(330, 252, 1.0)
+                if n == 3: b += ship(250, 252, 1.0)
+                if n == 4: b += wagon(200, 250, 1.2) + train(290, 250, 1.1)
+                if n == 5: b += m.rect(210, 208, 60, 40, "#fffaf0", INK, 2, 4) + m.text(240, 234, "USA", 16, "middle", INK, "bold")
                 return m.svg(480, 300, f"Zeitachse der USA von sechzehnhundert bis neunzehnhundert, Halt {n}", b)
             f.__name__ = f"zeitachse_usa_{n}"
             return f
