@@ -134,7 +134,7 @@ blocks:
     blocks:
       - type: figure
         image: images/usa-schema-natur.svg
-        alt: Schemakarte der USA mit Gebirgen, Flüssen und Seen. Der Mississippi fließt in der Mitte von Norden nach Süden, die Great Plains liegen westlich davon, die Rocky Mountains weiter im Westen. Im Norden liegen die Great Lakes. Alaska und Hawaii sind in zwei kleinen Kästen unten links eingezeichnet.
+        alt: Schemakarte der USA mit Gebirgen, Flüssen und Seen. Der Mississippi fließt in der Mitte von Norden nach Süden, die Great Plains liegen westlich davon, die Rocky Mountains weiter im Westen. Im Norden liegt der Lake Michigan. Alaska und Hawaii sind in zwei kleinen Kästen unten links eingezeichnet.
         caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Schau, was in der Mitte und im Westen liegt. Alaska und Hawaii sind in den kleinen Kästen unten links gezeichnet: links Alaska, rechts Hawaii."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -161,7 +161,7 @@ blocks:
             legend: false
             labels:
               - { x: 50, y: 9, text: Canada, marker: "1" }
-              - { x: 45, y: 93, text: Mexico, marker: "2" }
+              - { x: 44, y: 86, text: Mexico, marker: "2" }
               - { x: 94, y: 55, text: Atlantic Ocean, marker: "3" }
               - { x: 6, y: 40, text: Pacific Ocean, marker: "4" }
               - { x: 13, y: 87, text: Alaska, marker: "5" }

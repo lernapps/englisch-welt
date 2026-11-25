@@ -25,7 +25,7 @@ blocks:
             info: Chicago ist eine große Stadt, nicht die Hauptstadt.
         explanation: Die größte Stadt ist oft nicht die Hauptstadt.
       - type: text
-        text: "**Das kannst du danach:** Du stellst New York und Washington, D.C. mit ihren wichtigsten Sehenswürdigkeiten vor. Du sagst, welche Stadt die Hauptstadt ist, und du erklärst, warum Washington, D.C. kein Staat ist."
+        text: "**Das kannst du danach:** Du stellst zwei berühmte Städte der USA mit ihren wichtigsten Sehenswürdigkeiten vor. Du sagst, welche der beiden die Hauptstadt ist, und du erklärst, was an ihr besonders ist."
   - type: section
     id: lesen
     title: Jayden erzählt von zwei Städten
@@ -65,7 +65,7 @@ blocks:
           - target: District of Columbia
             source: Hauptstadtbezirk, kein Bundesstaat
           - target: Congress
-            source: der Kongress (das Parlament der USA)
+            source: der Kongress (heute das Parlament der USA)
           - target: the Capitol
             source: das Kapitol (Gebäude des Kongresses)
           - target: free
@@ -131,7 +131,7 @@ blocks:
     blocks:
       - type: figure
         image: images/usa-schema-staedte.svg
-        alt: "Schemakarte der USA. An der Ostküste liegen zwei orange Punkte: New York weiter im Norden und Washington, D.C. etwas weiter im Süden. Im Landesinneren, am Great-Lakes-Gebiet, liegt ein grauer Punkt für Chicago. Alaska und Hawaii sind in zwei kleinen Kästen unten links eingezeichnet."
+        alt: "Schemakarte der USA. An der Ostküste liegen zwei orange Punkte: New York weiter im Norden und Washington, D.C. etwas weiter im Süden. Im Landesinneren, am Lake Michigan, liegt ein grauer Punkt für Chicago. Alaska und Hawaii sind in zwei kleinen Kästen unten links eingezeichnet."
         caption: "Schemakarte, nicht genau nach Maßstab. Norden ist oben. Die zwei orangen Punkte sind die Städte dieser Seite, der graue Punkt ist Jaydens Stadt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
