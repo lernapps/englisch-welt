@@ -2,14 +2,14 @@
 title: Das brauchst du hier
 description: "Eine kurze Wiederholung zu Kapitel 4: Menschen mit vielen Herkünften leben in Großbritannien zusammen. Das hilft dir bei Migration und Minderheiten heute."
 recap: [englisch/vielfalt-gb]
-scope: "Die Seite wiederholt den Baustein „Kulturelle Vielfalt in Großbritannien“ aus einer anderen App: In Großbritannien leben Menschen mit vielen verschiedenen Herkünften zusammen. Viele Familien kamen nach dem Zweiten Weltkrieg aus Ländern des früheren britischen Empire, später auch aus Ländern der Europäischen Union. Die Seite führt in Kapitel 4 ein, das mit Sachtexten, Daten und Quellen arbeitet. Typische Fehler sind die Annahme, alle Menschen in Großbritannien hätten dieselbe Herkunft, und die Gleichsetzung von Vielfalt mit Einwanderung aus nur einem Land. Nicht hier: Zahlen, Statistiken und der Vergleich mit den USA (die stehen auf der Seite „Migration und Minderheiten heute“)."
+scope: "Die Seite wiederholt den Baustein „Kulturelle Vielfalt in Großbritannien“ aus einer anderen App: In Großbritannien leben Menschen mit vielen verschiedenen Herkünften zusammen. Viele Familien kamen nach dem Zweiten Weltkrieg aus Ländern des früheren britischen Empire, später auch aus Ländern der Europäischen Union. Die Seite führt in Kapitel 4 ein, das mit Sachtexten, Daten und Quellen arbeitet, und fragt die Aufgabe des Supreme Court aus Kapitel 3 ab. Typische Fehler sind die Annahme, alle Menschen in Großbritannien hätten dieselbe Herkunft, und die Gleichsetzung von Vielfalt mit Einwanderung aus nur einem Land. Nicht hier: Zahlen, Statistiken und der Vergleich mit den USA (die stehen auf der Seite „Migration und Minderheiten heute“)."
 blocks:
   - type: section
     id: einstieg
     title: Kannst du das schon?
     blocks:
       - type: text
-        text: "Dieses Kapitel arbeitet mit Sachtexten, Daten und Quellen. Du liest, wie die Geschichte der USA mit Freiheit und Gleichheit zusammenhängt, und vergleichst am Ende die USA mit Großbritannien. Für den Vergleich brauchst du einen Baustein, der nicht in dieser App geübt wird."
+        text: "Dieses Kapitel arbeitet mit Sachtexten, Daten und Quellen. Du liest, wie die Geschichte der USA mit Freiheit und Gleichheit zusammenhängt, und vergleichst am Ende die USA mit Großbritannien. Für den Vergleich brauchst du einen Baustein, der nicht in dieser App geübt wird, und etwas aus Kapitel 3."
       - type: text
         text: "**Kulturelle Vielfalt in Großbritannien:** Ich kann beschreiben, dass in Großbritannien Menschen mit vielen verschiedenen Herkünften zusammenleben. Viele Familien kamen nach dem Zweiten Weltkrieg aus Ländern des früheren britischen Empire, andere aus Polen und aus weiteren Ländern Europas."
       - type: single-choice
@@ -27,5 +27,22 @@ blocks:
             info: Viele kamen aus dem früheren Empire, aber auch aus Polen und aus anderen Ländern Europas.
         explanation: Wenn du den ersten Satz erklären kannst, bist du für dieses Kapitel bereit. Sonst schau auf der Lernlandkarte bei dem Baustein nach.
         hint: Denke an die Menschen aus dem früheren Empire und an die aus Europa.
+      - type: text
+        text: "**Aus Kapitel 3:** Du kennst das politische System der USA mit Präsident, Kongress, Supreme Court und Verfassung. Die Zeitachse aus Kapitel 3 endete 1892 mit Ellis Island. Hier geht sie weiter: von der Sklaverei und dem Bürgerkrieg über die Zusatzartikel zur Verfassung bis zum Voting Rights Act von 1965 und zu einem Urteil von 2013."
+      - type: single-choice
+        id: supreme-court-pruefen
+        text: Welche Aufgabe hat der Supreme Court?
+        options:
+          - text: Er prüft, ob ein Gesetz zur Verfassung passt.
+            correct: true
+            info: So ist es. Darum sind Urteile des Supreme Court in diesem Kapitel wichtig.
+          - text: Er macht die Gesetze der USA.
+            correct: false
+            info: Gesetze macht der Kongress.
+          - text: Er wählt den Präsidenten der USA.
+            correct: false
+            info: Der Supreme Court wählt niemanden, er urteilt.
+        explanation: Wer das weiß, kann in diesem Kapitel Urteile wie Brown gegen Board of Education einordnen. Sonst schau noch einmal in Kapitel 3 auf die Seite zur Politik der USA.
+        hint: Denke an die drei Gewalten und an „Gesetz und Verfassung“.
       - type: text
         text: "Los geht es mit dem ersten Halt: **Sklaverei und Bürgerkrieg** in den USA."

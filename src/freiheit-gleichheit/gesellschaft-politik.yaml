@@ -17,7 +17,7 @@ blocks:
         options:
           - text: Menschen entscheiden mit, meist über Vertreter, die sie wählen.
             correct: true
-            info: So steht es auch in der Erklärung von 1948.
+            info: Das ist der Kern einer Demokratie.
           - text: Es wird nur alle paar Jahre gewählt, mehr gehört nicht dazu.
             correct: false
             info: Dazu gehören auch Freiheiten wie die Meinungsfreiheit.
@@ -35,7 +35,7 @@ blocks:
       - type: text
         text: |
           1. In a democracy, people take part in the decisions of their country. Usually they do this through representatives whom they choose freely in elections.
-          2. Democracy needs more than election day. In the United States, the First Amendment to the Constitution protects the freedom of speech and of the press. It also protects the right of people to meet peacefully and to ask the government for changes. Such a request is called a petition.
+          2. Democracy needs more than election day. In the United States, the First Amendment to the Constitution protects the freedom of speech and of the press. It also protects the right of people to assemble, which means to meet peacefully, and to ask the government for changes. Such a request, often with many signatures, is called a petition.
           3. Human rights are rights that every person has, in every country. On 10 December 1948 the General Assembly of the United Nations proclaimed the Universal Declaration of Human Rights in Paris. It has thirty articles and has been translated into more than five hundred languages.
           4. Article 1 says that all human beings are born free and equal in dignity and rights. Article 2 says that these rights belong to everyone, without distinction of any kind, for example race, colour, sex, language or religion. Other articles forbid slavery, protect the freedom of opinion and name the right to education and the right to take part in the government of one's country.
       - type: text
@@ -46,7 +46,7 @@ blocks:
           8. In the summer of 1964, nearly 1,000 volunteers came to Mississippi, most of them white students from the North and West. They helped Black residents to register as voters and taught in "Freedom Schools". At least 30 Freedom Schools opened, with close to 3,500 students.
           9. About 17,000 Black people in Mississippi tried to register as voters that summer, but only about 1,600 succeeded. Many white residents deeply resented the outsiders and the attempt to change their society.
       - type: vocabulary
-        caption: Randglossar · Wörter des Lesestücks
+        caption: Randglossar · Wörter der Seite
         languages:
           source: de
           target: en
@@ -145,7 +145,7 @@ blocks:
       - type: figure
         image: images/demokratie-schema.svg
         alt: "Schema der repräsentativen Demokratie. Oben links steht „Citizens“, oben rechts „Elected representatives“, ein Pfeil führt von links nach rechts mit der Beschriftung „vote for“. Von den Vertretern führt ein Pfeil nach unten zu „Laws“, beschriftet mit „make“. Ein Pfeil von „Laws“ zurück zu „Citizens“ trägt die Beschriftung „apply to everyone“. Unten steht ein Kasten mit dem Text „In between: meet, protest, write petitions“."
-        caption: Schema, vereinfacht. Lies die Pfeile von links nach rechts und dann gegen den Uhrzeigersinn zurück zu den Bürgern.
+        caption: "Schema, vereinfacht. Die Pfeile laufen im Uhrzeigersinn: von den Bürgern zu den Vertretern, weiter zu den Gesetzen und zurück zu den Bürgern."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note
@@ -189,7 +189,7 @@ blocks:
           - left: the volunteer
             right: eine Person, die freiwillig und ohne Bezahlung hilft
           - left: the petition
-            right: eine Forderung an die Regierung mit Unterschriften
+            right: eine Bitte an die Regierung, oft mit vielen Unterschriften
           - left: human rights
             right: die Rechte jedes Menschen
         explanation: Diese vier Wörter brauchst du, wenn du über Engagement sprichst.
@@ -232,14 +232,14 @@ blocks:
           punctuation: ok
         items:
           - source: Jeder Mensch hat das Recht auf Bildung.
-            target: Everyone has the right to (an |)education.
+            target: (Everyone|Everybody) has (the|a) right to (an |)education.
             mistakes:
               - answer: Everyone have the right to education.
                 message: Bei everyone steht has.
               - answer: Everyone has the right for education.
                 message: Nach right steht to, nicht for.
           - source: Menschen dürfen sich friedlich versammeln.
-            target: People (may|can|are allowed to) (meet|assemble|gather) peacefully.
+            target: People (may|can|are allowed to|have the right to) (meet|assemble|gather) peacefully.
             mistakes:
               - answer: People may meet peaceful.
                 message: Zu meet gehört das Adverb peacefully.
@@ -281,4 +281,4 @@ blocks:
     title: Nächster Halt
     blocks:
       - type: text
-        text: "Du kennst jetzt die Geschichte der Sklaverei und die Wörter für Rechte und Engagement. Als Nächstes geht es um die **Bürgerrechtsbewegung**: Rosa Parks, Martin Luther King und die Frage, wie die Lage heute aussieht."
+        text: "Du kennst jetzt die Geschichte der Sklaverei und die Wörter für Rechte und Engagement. Als Nächstes geht es um die **Bürgerrechtsbewegung**: Rosa Parks, Martin Luther King und die Frage, wie du Fakt, Legende und Wertung trennst."

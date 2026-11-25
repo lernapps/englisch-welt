@@ -35,17 +35,17 @@ blocks:
       - type: text
         text: |
           1. Migration means that people move from one country to another to live there. They do so for many reasons: to work, to join family, to study or to find safety. Only some of them are refugees.
-          2. Two numbers look alike. In the censuses of 2021 and 2022, 10.7 million people in the United Kingdom were born abroad: 16 per cent of the population. In the United States, 53.3 million residents were born abroad as of January 2025: 15.8 per cent.
+          2. Two numbers look alike. In the censuses of 2021 and 2022, 10.7 million residents of the United Kingdom were born abroad: 16 per cent of the population. In the United States, 53.3 million residents were born abroad as of January 2025: 15.8 per cent.
           3. But the numbers come from different years and different counts. A census asks all households. It shows where people were born, but it gives no information about their immigration status or how long they plan to stay.
           4. Yearly estimates answer other questions. According to the Office for National Statistics, in the year to June 2025 about 898,000 people came to live in the United Kingdom and 693,000 left. The net migration, the difference, was plus 204,000. This is a provisional estimate.
       - type: text
         text: |
-          5. The reasons differ, too. After 1948, many people came to Britain from countries of the former British Empire, among them passengers on the ship Empire Windrush. In the census of 1951, 162,339 people in Britain had been born in Poland. After 2004, many came from Central and Eastern Europe. Free movement for citizens of the European Union ended on 31 December 2020. In 2022 the United Kingdom created special visas for people from Ukraine, and by 31 March 2025, 223,000 people had arrived this way.
+          5. The reasons for migration also change over time. After 1948, many people came to Britain from countries of the former British Empire, among them passengers on the ship Empire Windrush. After 2004, many came from Central and Eastern Europe. Free movement for citizens of the European Union ended on 31 December 2020. In 2022 the United Kingdom created special visas for people from Ukraine, and by 31 March 2025, 223,000 people had arrived this way.
           6. In 2016 the United States admitted 1.18 million legal immigrants. Of these, 48 per cent were close relatives of American citizens, 12 per cent came for work and 13 per cent were refugees or asylum seekers.
-          7. A minority is a group that is smaller than the rest of the population. It does not mean that people came from abroad. In 2024 an estimated 3.43 million people in the United States identified as American Indian or Alaska Native alone, about 1 per cent of the population. Their ancestors lived on the continent long before the United States existed. The federal government recognises 574 tribes.
-          8. To compare two countries, you need the same year, the same definition and the same kind of source. These figures come from articles of the English Wikipedia, which name the census and the statistics offices as their sources.
+          7. A minority is a group that is smaller than the rest of the population. It does not mean that people came from abroad. In 2024 an estimated 3.43 million residents identified as American Indian or Alaska Native alone, about 1 per cent of the population. This is the name the census uses for people from the first nations of the continent. You know them as Native Americans from chapter 3. Their ancestors lived on the continent long before the United States existed. The federal government recognises 574 tribes.
+          8. To compare two countries, you need the same year, the same definition and the same kind of source. These figures come from three articles of the English Wikipedia (see the source of the figure below), which name the census and the statistics offices as their sources.
       - type: vocabulary
-        caption: Randglossar · Wörter des Lesestücks
+        caption: Randglossar · Wörter der Seite
         languages:
           source: de
           target: en
@@ -70,6 +70,8 @@ blocks:
             source: der Saldo, Zuzug minus Wegzug
           - target: the minority
             source: die Minderheit
+          - target: American Indian or Alaska Native
+            source: Bezeichnung der Volkszählung für Menschen der ersten Völker des Kontinents (Native Americans)
           - target: the tribe
             source: die indigene Gruppe, die Nation (englisch tribe)
           - target: to recognise
@@ -154,13 +156,13 @@ blocks:
         image: images/migration-vergleich.svg
         alt: Balkendiagramm mit zwei Balken. Der obere Balken zeigt für das Vereinigte Königreich 16 Prozent im Ausland Geborene nach den Volkszählungen 2021 und 2022, 10,7 Millionen Menschen. Der untere Balken zeigt für die USA 15,8 Prozent im Januar 2025, 53,3 Millionen Menschen. Die Skala läuft von 0 bis 20 Prozent.
         caption: Anteil der im Ausland Geborenen. Die Zahlen sind aus verschiedenen Jahren und aus verschiedenen Quellen. Schau auf die Beschriftung über jedem Balken.
-        source: eigene Zeichnung nach Angaben der englischen Wikipedia
+        source: "eigene Zeichnung nach Angaben der englischen Wikipedia: https://en.wikipedia.org/wiki/Modern_immigration_to_the_United_Kingdom, https://en.wikipedia.org/wiki/Immigration_to_the_United_States, https://en.wikipedia.org/wiki/United_States"
         licence: CC-BY-4.0
       - type: note
         title: Merke
         blocks:
           - type: text
-            text: "Vergleiche Zahlen nur, wenn **Jahr**, **Definition** und **Art der Quelle** zusammenpassen. Nenne bei jeder Zahl das Jahr und die Quelle: *According to the census of 1951, 162,339 people in Britain had been born in Poland.* **Born abroad** (im Ausland geboren) und **minority** (Minderheit) bedeuten nicht dasselbe."
+            text: "Vergleiche Zahlen nur, wenn **Jahr**, **Definition** und **Art der Quelle** zusammenpassen. Nenne bei jeder Zahl das Jahr und die Quelle: *According to the census, 16 per cent of the residents were born abroad.* **Born abroad** (im Ausland geboren) und **minority** (Minderheit) bedeuten nicht dasselbe."
   - type: section
     id: uebung
     title: Übung
@@ -211,10 +213,12 @@ blocks:
             mistakes:
               - answer: People who move into a country are called emigrants.
                 message: Emigrants verlassen ein Land. Wer ankommt, ist ein immigrant.
-          - cue: Wer vor einem Krieg flieht, ist ein Flüchtling.
-            target: A person who flees from war is a [refugee].
+              - answer: People who move into a country are called immigrant.
+                message: "Der Satz spricht von mehreren Menschen: Hier steht die Mehrzahl, immigrants."
+          - cue: Wer flieht, um Schutz zu finden, ist ein Flüchtling.
+            target: A person who flees to find safety is a [refugee].
             mistakes:
-              - answer: A person who flees from war is an immigrant.
+              - answer: A person who flees to find safety is an immigrant.
                 message: Ein immigrant wandert ein, ein refugee flieht.
         hint: Drei Wörter für Menschen, die wandern.
       - type: language-task
@@ -244,11 +248,11 @@ blocks:
         items:
           - audio: free-movement-for-citizens-of-the-european-union-ended-after-brexit.mp3
             text: Free movement for citizens of the European Union ended after Brexit.
-          - audio: the-united-states-has-more-immigrants-than-any-other-country.mp3
-            text: The United States has more immigrants than any other country.
-          - audio: some-people-came-to-britain-as-refugees-from-hungary-in-the-nineteen-fifties.mp3
-            text: Some people came to Britain as refugees from Hungary in the nineteen fifties.
-        hint: Sprich langsam nach. Achte auf immigrants, Brexit und refugees.
+          - audio: a-provisional-estimate-can-change-later.mp3
+            text: A provisional estimate can change later.
+          - audio: many-people-came-to-britain-from-central-and-eastern-europe-after-two-thousand-and-four.mp3
+            text: Many people came to Britain from Central and Eastern Europe after two thousand and four.
+        hint: Sprich langsam nach. Achte auf Brexit, provisional und Eastern.
   - type: section
     id: weiter
     title: Rückblick und nächster Halt
@@ -262,15 +266,17 @@ blocks:
         rows:
           - - Sklaverei und Bürgerkrieg
             - Du nennst mehrere Ursachen und Sichtweisen des Krieges.
-            - Lincoln wurde am 14. April 1865 erschossen, fünf Tage nach Lees Aufgabe.
+            - Lincoln wurde am 14. April 1865 erschossen und starb am nächsten Tag.
           - - Gesellschaft und Politik
             - Du sprichst über Demokratie, Menschenrechte und Engagement.
-            - Artikel 18 der Erklärung der Menschenrechte nennt die Freiheit der Gedanken, des Gewissens und der Religion.
+            - Die Bill of Rights, zu der der 1. Zusatzartikel gehört, wurde 1791 angenommen.
           - - Bürgerrechtsbewegung
             - Du trennst Fakt, Legende und Wertung.
             - 1996 erhielt Rosa Parks die Presidential Medal of Freedom.
           - - Migration heute
             - Du prüfst und vergleichst Zahlen aus zwei Ländern.
-            - Die US-Regierung erkennt 574 Nationen und Gruppen von Native Americans (tribes) an.
+            - Im Jahr 2022 gab es in den USA 87,7 Millionen Einwanderer und ihre dort geborenen Kinder, fast 27 Prozent der Bevölkerung.
+      - type: text
+        text: "Quellen der neuen Beispiele (englische Wikipedia): https://en.wikipedia.org/wiki/American_Civil_War (Lincoln), https://en.wikipedia.org/wiki/United_States (Bill of Rights, Einwanderer 2022), https://en.wikipedia.org/wiki/Rosa_Parks (Medal of Freedom)."
       - type: text
         text: "Kapitel 4 ist geschafft. Weiter geht es in **Kapitel 5**: Dort liest du über Australien, hörst weitere Varietäten des Englischen und übst Umgangsformen in anderen Kulturen."
