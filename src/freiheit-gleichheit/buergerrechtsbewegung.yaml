@@ -15,15 +15,15 @@ blocks:
         id: buergerrechte-start
         text: Was bedeutet „civil rights“?
         options:
-          - text: "Bürgerrechte: Rechte der Bürger eines Staates, etwa das Wahlrecht"
-            correct: true
-            info: Rechte, die ein Staat seinen Bürgern gibt.
-          - text: "Bürgerkrieg: ein Krieg zwischen Gruppen im eigenen Land"
-            correct: false
-            info: Der Bürgerkrieg heißt „civil war“.
           - text: "Menschenrechte: Rechte, die überall auf der Welt für jeden gelten"
             correct: false
             info: Das sind „human rights“, die Menschenrechte.
+          - text: "Bürgerkrieg: ein Krieg zwischen Gruppen im eigenen Land"
+            correct: false
+            info: Der Bürgerkrieg heißt „civil war“.
+          - text: "Bürgerrechte: Rechte der Bürger eines Staates, etwa das Wahlrecht"
+            correct: true
+            info: Rechte, die ein Staat seinen Bürgern gibt.
         explanation: Civil rights sind Bürgerrechte.
         hint: Denke an „human rights“ auf der Seite davor.
       - type: text
@@ -128,18 +128,18 @@ blocks:
         id: buergerrechte-beleg
         text: Welche Zeile belegt, dass der Busboykott länger als einen Tag dauerte?
         options:
-          - text: Zeile 6
-            correct: true
-            info: Das Ende war am 20. Dezember 1956.
+          - text: Zeile 8
+            correct: false
+            info: Zeile 8 nennt Gesetze.
           - text: Zeile 4
             correct: false
             info: Zeile 4 beschreibt die Sitzordnung.
           - text: Zeile 5
             correct: false
             info: Zeile 5 erklärt die Legende.
-          - text: Zeile 8
-            correct: false
-            info: Zeile 8 nennt Gesetze.
+          - text: Zeile 6
+            correct: true
+            info: Das Ende war am 20. Dezember 1956.
         explanation: Zeile 6 nennt Anfang und Ende.
         hint: Suche die Daten 1955 und 1956.
       - type: open-task
@@ -184,15 +184,15 @@ blocks:
         id: buergerrechte-quelle
         text: Der Satz steht seit 1870 in der Verfassung. Warum war 1965 trotzdem ein neues Gesetz zum Wählen nötig?
         options:
-          - text: Südstaaten hatten Regeln wie Lese- und Schreibtests, mit denen viele Schwarze nicht wählen konnten. Das neue Gesetz verbot sie.
-            correct: true
-            info: Lese- und Schreibtests und andere Hürden blieben.
-          - text: Der Zusatzartikel galt nur für Frauen.
-            correct: false
-            info: Im Satz geht es um Hautfarbe, nicht um Geschlecht.
           - text: Die Verfassung wurde geändert und das Wahlrecht abgeschafft.
             correct: false
             info: Die Verfassung blieb unverändert.
+          - text: Der Zusatzartikel galt nur für Frauen.
+            correct: false
+            info: Im Satz geht es um Hautfarbe, nicht um Geschlecht.
+          - text: Südstaaten hatten Regeln wie Lese- und Schreibtests, mit denen viele Schwarze nicht wählen konnten. Das neue Gesetz verbot sie.
+            correct: true
+            info: Lese- und Schreibtests und andere Hürden blieben.
         explanation: Hürden kamen aus Regeln einzelner Staaten.
         hint: Schau in Zeile 2.
   - type: section

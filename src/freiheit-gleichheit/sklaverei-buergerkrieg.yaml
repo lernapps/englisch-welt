@@ -98,12 +98,12 @@ blocks:
         id: sklaverei-ursachen
         text: Warum kam es zum Bürgerkrieg?
         options:
-          - text: "Es gab mehrere Gründe: Für den Süden stand die Sklaverei im Zentrum, für den Norden war es zuerst das Ziel, die Union zu erhalten."
-            correct: true
-            info: So fassen es Historiker zusammen.
           - text: Es ging nur um die Sklaverei, und der Norden kämpfte vom ersten Tag an nur für die Befreiung.
             correct: false
             info: Für den Norden ging es zuerst um die Union.
+          - text: "Es gab mehrere Gründe: Für den Süden stand die Sklaverei im Zentrum, für den Norden war es zuerst das Ziel, die Union zu erhalten."
+            correct: true
+            info: So fassen es Historiker zusammen.
           - text: Es ging nur um Geld und Zölle, die Sklaverei spielte keine Rolle.
             correct: false
             info: Die Sklaverei war für die Südstaaten zentral.
@@ -113,18 +113,18 @@ blocks:
         id: sklaverei-beleg
         text: Welche Zeile belegt, dass versklavte Menschen schon vor 1863 Freiheit suchten?
         options:
-          - text: Zeile 9
-            correct: true
-            info: Viele flohen schon vorher.
+          - text: Zeile 11
+            correct: false
+            info: Zeile 11 beschreibt das Kriegsende.
           - text: Zeile 3
             correct: false
             info: Zeile 3 nennt Zahlen, nicht die Flucht.
           - text: Zeile 7
             correct: false
             info: Zeile 7 nennt die Ziele der Seiten.
-          - text: Zeile 11
-            correct: false
-            info: Zeile 11 beschreibt das Kriegsende.
+          - text: Zeile 9
+            correct: true
+            info: Viele flohen schon vorher.
         explanation: "Zeile 9: Viele flohen zur Union."
         hint: Suche die Zeile mit „escaped“.
       - type: open-task

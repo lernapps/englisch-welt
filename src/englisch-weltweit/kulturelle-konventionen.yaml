@@ -15,15 +15,15 @@ blocks:
         id: kk-start
         text: Du sprichst zum ersten Mal mit einer fremden Person. Was gehört meistens zum Anfang?
         options:
-          - text: Ein Gruß und ein paar freundliche Sätze über etwas Einfaches
-            correct: true
-            info: Gruß, kurzes Gespräch und Abschluss sind der übliche Ablauf.
-          - text: Die Frage, wie viel die andere Person verdient
-            correct: false
-            info: In einigen Ländern gilt die Frage nach dem Gehalt als privat.
           - text: Gleich ein ernstes Streitgespräch über Politik
             correct: false
             info: Sichere Themen für den Anfang sind eher das Wetter, Sport und Fernsehen.
+          - text: Die Frage, wie viel die andere Person verdient
+            correct: false
+            info: In einigen Ländern gilt die Frage nach dem Gehalt als privat.
+          - text: Ein Gruß und ein paar freundliche Sätze über etwas Einfaches
+            correct: true
+            info: Gruß, kurzes Gespräch und Abschluss sind der übliche Ablauf.
         explanation: Ein Gespräch beginnt meistens mit einem Gruß.
       - type: text
         text: "**Das kannst du danach:** Du erkennst, wie Abstand, Körpersprache, Small Talk und höfliche Kritik wirken. Du wählst im Gespräch eine angemessene Antwort und begründest sie. Du schreibst einen kurzen Dialog."
@@ -120,15 +120,15 @@ blocks:
         id: kk-beleg
         text: Welche Zeile zeigt, dass die Person mehr Abstand haben möchte?
         options:
+          - text: Zeile 15
+            correct: false
+            info: Hier schlägt die Person einen Platz vor.
           - text: Zeile 11
             correct: true
             info: Hier tritt die Person einen Schritt zurück.
           - text: Zeile 10
             correct: false
             info: Hier tritt der Visitor näher.
-          - text: Zeile 15
-            correct: false
-            info: Hier schlägt die Person einen Platz vor.
           - text: Zeile 16
             correct: false
             info: Hier antwortet der Visitor auf den Vorschlag.
@@ -179,12 +179,12 @@ blocks:
         id: kk-antwort
         text: "Nach einem Vortrag sagt eine Person zu dir: „Thank you for your talk. I wonder if the slides could have fewer words?“ Welche Antwort ist angemessen?"
         options:
-          - text: Thank you, that is a helpful idea. I will try it.
-            correct: true
-            info: Du nimmst den höflichen Vorschlag auf.
           - text: I do not know. I am not wondering about it.
             correct: false
             info: Der Satz ist ein Vorschlag, keine Frage an dich.
+          - text: Thank you, that is a helpful idea. I will try it.
+            correct: true
+            info: Du nimmst den höflichen Vorschlag auf.
           - text: No, the slides are fine. Please do not tell me what to do.
             correct: false
             info: Der Satz ist ein höflicher Vorschlag, kein Befehl. Eine Antwort, die den Vorschlag annimmt, ist angemessener.

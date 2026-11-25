@@ -14,15 +14,15 @@ blocks:
         id: usa-start
         text: Welche zwei Länder sind Nachbarn der USA?
         options:
-          - text: Kanada und Mexiko
-            correct: true
-            info: Kanada liegt im Norden und Mexiko im Süden der zusammenhängenden Staaten.
-          - text: Kanada und Alaska
-            correct: false
-            info: Alaska ist ein Staat der USA, kein Land.
           - text: Mexiko und Brasilien
             correct: false
             info: Brasilien liegt in Südamerika.
+          - text: Kanada und Alaska
+            correct: false
+            info: Alaska ist ein Staat der USA, kein Land.
+          - text: Kanada und Mexiko
+            correct: true
+            info: Kanada liegt im Norden und Mexiko im Süden der zusammenhängenden Staaten.
         explanation: Kanada liegt im Norden, Mexiko im Süden.
       - type: text
         text: "**Das kannst du danach:** Du zeigst auf der Karte, wo die USA liegen, und beschreibst auf Englisch, was im Norden, Süden, Osten und Westen liegt. Du sagst, was Alaska und Hawaii besonders macht."
@@ -101,18 +101,18 @@ blocks:
         id: usa-beleg
         text: Welche Zeile belegt, dass Chicago weit vom Meer entfernt liegt?
         options:
-          - text: Zeile 4
-            correct: true
-            info: Jayden nennt beide Ozeane als weit entfernt.
           - text: Zeile 2
             correct: false
             info: Zeile 2 nennt nur den See.
-          - text: Zeile 6
-            correct: false
-            info: Zeile 6 nennt die Zahl der Staaten.
           - text: Zeile 9
             correct: false
             info: Zeile 9 nennt Landschaften, nicht Chicago.
+          - text: Zeile 6
+            correct: false
+            info: Zeile 6 nennt die Zahl der Staaten.
+          - text: Zeile 4
+            correct: true
+            info: Jayden nennt beide Ozeane als weit entfernt.
         explanation: "Zeile 4: Chicago liegt in der Mitte des Landes."
         hint: Suche die Zeile, in der Jayden die zwei Ozeane nennt.
       - type: open-task

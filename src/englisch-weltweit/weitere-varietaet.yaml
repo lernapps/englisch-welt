@@ -15,15 +15,15 @@ blocks:
         id: var-start
         text: Wie heißt Benzin im Englischen in Australien?
         options:
-          - text: petrol
-            correct: true
-            info: petrol sagt man in Australien, wie im britischen Englisch.
-          - text: gas
-            correct: false
-            info: gas sagt man im amerikanischen Englisch. In Australien sagt man petrol.
           - text: diesel
             correct: false
             info: diesel ist ein anderer Kraftstoff.
+          - text: gas
+            correct: false
+            info: gas sagt man im amerikanischen Englisch. In Australien sagt man petrol.
+          - text: petrol
+            correct: true
+            info: petrol sagt man in Australien, wie im britischen Englisch.
         explanation: Für Benzin sagt man petrol.
       - type: text
         text: "**Das kannst du danach:** Du erkennst typische Merkmale einer weiteren Varietät des Englischen, zum Beispiel des australischen oder schottischen Englisch. Du liest ihre Wörter mit einer Lesehilfe und sagst, warum eine Varietät kein falsches Englisch ist."
@@ -132,9 +132,6 @@ blocks:
         id: var-beleg
         text: Welche Zeile belegt, dass sich das australische Englisch erst nach 1788 vom britischen entfernte?
         options:
-          - text: Zeile 3
-            correct: true
-            info: Hier steht das Jahr 1788.
           - text: Zeile 4
             correct: false
             info: Hier geht es um die gemeinsame Sprache heute.
@@ -144,18 +141,21 @@ blocks:
           - text: Zeile 7
             correct: false
             info: Hier geht es um Wörter der Aboriginal people.
+          - text: Zeile 3
+            correct: true
+            info: Hier steht das Jahr 1788.
         explanation: Zeile 3 nennt die Zeit nach 1788.
         hint: Suche die Zeile mit einem Jahr.
       - type: single-choice
         id: var-meinung
         text: "Jemand sagt: „Australians use words like arvo and barbie, because they cannot speak proper English.“ Welche Antwort passt, und warum?"
         options:
-          - text: "Das stimmt nicht: Australisches Englisch ist eine eigene Varietät mit eigener Norm, zum Beispiel mit eigenen Wörterbüchern."
-            correct: true
-            info: Es gibt eigene Wörterbücher, zum Beispiel das Macquarie Dictionary.
           - text: "Das stimmt: Wörter wie arvo stehen in keinem Wörterbuch."
             correct: false
             info: Es gibt Wörterbücher des australischen Englisch.
+          - text: "Das stimmt nicht: Australisches Englisch ist eine eigene Varietät mit eigener Norm, zum Beispiel mit eigenen Wörterbüchern."
+            correct: true
+            info: Es gibt eigene Wörterbücher, zum Beispiel das Macquarie Dictionary.
           - text: "Das stimmt teilweise: Nur britisches Englisch ist richtiges Englisch, alle anderen Varietäten weichen davon ab."
             correct: false
             info: Auch andere Varietäten wie das australische Englisch haben eine eigene Norm.
@@ -201,15 +201,15 @@ blocks:
         id: var-stay
         text: In Schottland fragt jemand dich „Where do you stay?“ Was ist gemeint?
         options:
-          - text: Wo wohnst du?
-            correct: true
-            info: In Schottland kann stay auch wohnen bedeuten.
-          - text: Wo bleibst du heute Abend?
-            correct: false
-            info: Das wäre die wörtliche Übersetzung.
           - text: Wo hältst du an?
             correct: false
             info: stay bedeutet nicht anhalten.
+          - text: Wo bleibst du heute Abend?
+            correct: false
+            info: Das wäre die wörtliche Übersetzung.
+          - text: Wo wohnst du?
+            correct: true
+            info: In Schottland kann stay auch wohnen bedeuten.
         explanation: stay kann in Schottland wohnen bedeuten.
         hint: Lies Zeile 13.
       - type: language-task

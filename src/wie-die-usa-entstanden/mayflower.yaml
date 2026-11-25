@@ -14,15 +14,15 @@ blocks:
         id: mayflower-start
         text: Wer fuhr 1620 mit der Mayflower nach Nordamerika?
         options:
-          - text: Pilger aus England
-            correct: true
-            info: Die Pilger wollten eine eigene Kirche.
           - text: Kolumbus und seine Mannschaft
             correct: false
             info: Kolumbus segelte 1492 für Spanien.
           - text: Cowboys aus dem Westen
             correct: false
             info: Der Westen wurde erst viel später besiedelt.
+          - text: Pilger aus England
+            correct: true
+            info: Die Pilger wollten eine eigene Kirche.
         explanation: Die Mayflower brachte Pilger über den Atlantik.
       - type: text
         text: "**Das kannst du danach:** Du erzählst von der Reise der Mayflower und sagst, wer in Nordamerika schon lebte."
@@ -95,9 +95,6 @@ blocks:
         id: mayflower-beleg
         text: Welche Zeile belegt, dass die Pilger Sorgen wegen des Geldes hatten?
         options:
-          - text: Zeile 6
-            correct: true
-            info: Hier geht es um Geld.
           - text: Zeile 4
             correct: false
             info: Zeile 4 handelt von der Kirche.
@@ -107,6 +104,9 @@ blocks:
           - text: Zeile 13
             correct: false
             info: Zeile 13 handelt von der Virginia Colony.
+          - text: Zeile 6
+            correct: true
+            info: Hier geht es um Geld.
         explanation: "Zeile 6: Geldsorgen waren ein Grund, die Niederlande zu verlassen."
         hint: Suche die Zeile über die Niederlande.
       - type: open-task

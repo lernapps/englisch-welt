@@ -15,15 +15,15 @@ blocks:
         id: migration-start
         text: Welche Aussage über Migration stimmt?
         options:
-          - text: Menschen wandern aus verschiedenen Gründen, zum Beispiel für Arbeit, Familie, Studium oder Schutz.
-            correct: true
-            info: Schutz ist nur ein Grund von vielen.
           - text: Wer migriert, flieht immer vor Krieg oder Not.
             correct: false
             info: Viele kommen zu Verwandten oder zur Arbeit.
           - text: Wer eingewandert ist, bleibt für immer im neuen Land.
             correct: false
             info: Viele ziehen später weiter oder zurück.
+          - text: Menschen wandern aus verschiedenen Gründen, zum Beispiel für Arbeit, Familie, Studium oder Schutz.
+            correct: true
+            info: Schutz ist nur ein Grund von vielen.
         explanation: Migration hat viele Gründe.
         hint: Denke an Familien, Arbeit und Schule.
       - type: text
@@ -100,33 +100,33 @@ blocks:
         id: migration-fluchtbild
         text: Was zeigen die Zahlen für die USA im Jahr 2016 über die Gründe der Einwanderung?
         options:
-          - text: Die meisten kamen als nahe Verwandte von Bürgern. Flüchtlinge und Asylsuchende waren eine kleinere Gruppe.
-            correct: true
-            info: Nach den Zahlen waren 48 Prozent nahe Verwandte.
-          - text: Fast alle waren Flüchtlinge.
-            correct: false
-            info: Nur 13 Prozent waren Flüchtlinge oder Asylsuchende.
           - text: Niemand kam wegen der Arbeit.
             correct: false
             info: 12 Prozent kamen für die Arbeit.
+          - text: Fast alle waren Flüchtlinge.
+            correct: false
+            info: Nur 13 Prozent waren Flüchtlinge oder Asylsuchende.
+          - text: Die meisten kamen als nahe Verwandte von Bürgern. Flüchtlinge und Asylsuchende waren eine kleinere Gruppe.
+            correct: true
+            info: Nach den Zahlen waren 48 Prozent nahe Verwandte.
         explanation: Flucht ist nur ein Grund.
         hint: Lies Zeile 6.
       - type: single-choice
         id: migration-beleg
         text: Welche Zeile belegt, dass eine Volkszählung nichts über den Aufenthaltsstatus sagt?
         options:
-          - text: Zeile 3
-            correct: true
-            info: Dort stehen die Grenzen der Volkszählung.
           - text: Zeile 2
             correct: false
             info: Zeile 2 nennt zwei Zahlen.
-          - text: Zeile 4
-            correct: false
-            info: Zeile 4 beschreibt die jährliche Schätzung.
           - text: Zeile 6
             correct: false
             info: Zeile 6 nennt Gründe in den USA.
+          - text: Zeile 4
+            correct: false
+            info: Zeile 4 beschreibt die jährliche Schätzung.
+          - text: Zeile 3
+            correct: true
+            info: Dort stehen die Grenzen der Volkszählung.
         explanation: Zeile 3 nennt das Geburtsland, nicht den Status.
         hint: Suche die Grenzen der Volkszählung.
       - type: true-false
@@ -279,4 +279,4 @@ blocks:
       - type: text
         text: "Quellen der neuen Beispiele (englische Wikipedia): https://en.wikipedia.org/wiki/American_Civil_War (Lincoln), https://en.wikipedia.org/wiki/United_States (Bill of Rights, Einwanderer 2022), https://en.wikipedia.org/wiki/Rosa_Parks (Medal of Freedom)."
       - type: text
-        text: "Kapitel 4 ist geschafft. Weiter geht es in **Kapitel 5**: Dort liest du über Australien, hörst weitere Varietäten des Englischen und übst Umgangsformen in anderen Kulturen."
+        text: "Kapitel 4 ist geschafft. Weiter geht es in **Kapitel 5**: Dort geht die Weltkarte nach Australien, das einmal britische Kolonie war. Du liest über weitere Varietäten des Englischen und übst Umgangsformen in Gesprächen mit Menschen anderer Kulturen."

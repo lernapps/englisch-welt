@@ -14,12 +14,12 @@ blocks:
         id: unabhaengigkeit-start
         text: Zu welchem Land gehörten die dreizehn Kolonien an der Ostküste, bevor sie frei wurden?
         options:
-          - text: Zu Großbritannien
-            correct: true
-            info: Es waren britische Kolonien.
           - text: Zu Spanien
             correct: false
             info: Kolumbus segelte für Spanien, aber diese Kolonien waren britisch.
+          - text: Zu Großbritannien
+            correct: true
+            info: Es waren britische Kolonien.
           - text: Zu den Niederlanden
             correct: false
             info: Die Pilger lebten zwar in den Niederlanden, aber die Kolonien waren britisch.
@@ -87,30 +87,30 @@ blocks:
         id: unabhaengigkeit-verstehen
         text: Welche zwei Aussagen über die Declaration of Independence stimmen?
         options:
-          - text: Sie erklärt 1776, warum die Kolonien frei sein wollen.
-            correct: true
-            info: So sagt es Jayden in Zeile 11.
-          - text: Der Kongress nahm sie am 4. Juli 1776 an.
-            correct: true
-            info: So sagt es Jayden in Zeile 9.
           - text: Sie ist die Verfassung der USA.
             correct: false
             info: Die Verfassung kam später.
           - text: Sie wurde bei der Boston Tea Party geschrieben.
             correct: false
             info: Die Tea Party war 1773, die Declaration 1776.
+          - text: Der Kongress nahm sie am 4. Juli 1776 an.
+            correct: true
+            info: So sagt es Jayden in Zeile 9.
+          - text: Sie erklärt 1776, warum die Kolonien frei sein wollen.
+            correct: true
+            info: So sagt es Jayden in Zeile 11.
         explanation: Die Declaration ist keine Verfassung.
         hint: Lies die Zeilen 9 bis 11 noch einmal.
       - type: single-choice
         id: unabhaengigkeit-beleg
         text: Welche Zeile belegt, dass der Krieg vor der Declaration begann?
         options:
-          - text: Zeile 7
-            correct: true
-            info: Hier steht der Beginn des Krieges.
           - text: Zeile 2
             correct: false
             info: Zeile 2 handelt von der Declaration.
+          - text: Zeile 7
+            correct: true
+            info: Hier steht der Beginn des Krieges.
           - text: Zeile 6
             correct: false
             info: Zeile 6 handelt von der Tea Party.
@@ -188,15 +188,15 @@ blocks:
         id: unabhaengigkeit-zitat
         text: Was sagt der Satz aus der Declaration, den du oben gelesen hast?
         options:
+          - text: Nur Männer aus Boston haben Rechte.
+            correct: false
+            info: Der Satz spricht von allen Menschen.
           - text: Alle Menschen sind gleich geschaffen und haben Rechte wie Leben und Freiheit.
             correct: true
             info: So steht es im Text der Declaration.
           - text: Der König von Großbritannien hat immer recht.
             correct: false
             info: Die Declaration kritisiert den König.
-          - text: Nur Männer aus Boston haben Rechte.
-            correct: false
-            info: Der Satz spricht von allen Menschen.
         explanation: Der Satz nennt Gleichheit und Rechte.
         hint: Schau in den Merke-Kasten.
       - type: language-task

@@ -14,15 +14,15 @@ blocks:
         id: westen-start
         text: Wer lebte im Westen, bevor die Siedler kamen?
         options:
-          - text: Viele verschiedene Völker der Native Americans
-            correct: true
-            info: Es gab viele Nationen mit eigenen Sprachen.
-          - text: Ein einziges Volk der Native Americans
-            correct: false
-            info: Es gab viele Völker, zum Beispiel die Lakota.
           - text: Niemand, das Land war leer
             correct: false
             info: Das Land war seit langer Zeit bewohnt.
+          - text: Ein einziges Volk der Native Americans
+            correct: false
+            info: Es gab viele Völker, zum Beispiel die Lakota.
+          - text: Viele verschiedene Völker der Native Americans
+            correct: true
+            info: Es gab viele Nationen mit eigenen Sprachen.
         explanation: Im Westen lebten viele Völker.
       - type: text
         text: "**Das kannst du danach:** Du beschreibst die Besiedlung des Westens und was sie für die Native Americans bedeutete."
@@ -93,18 +93,18 @@ blocks:
         id: westen-beleg
         text: Welche Zeile belegt, dass ein Vertrag gebrochen wurde?
         options:
-          - text: Zeile 8
-            correct: true
-            info: Hier steht, dass der Vertrag gebrochen wurde.
-          - text: Zeile 3
-            correct: false
-            info: Zeile 3 handelt vom Trail of Tears.
-          - text: Zeile 6
-            correct: false
-            info: Zeile 6 handelt vom Homestead Act.
           - text: Zeile 9
             correct: false
             info: Zeile 9 handelt von den Nez Perce.
+          - text: Zeile 3
+            correct: false
+            info: Zeile 3 handelt vom Trail of Tears.
+          - text: Zeile 8
+            correct: true
+            info: Hier steht, dass der Vertrag gebrochen wurde.
+          - text: Zeile 6
+            correct: false
+            info: Zeile 6 handelt vom Homestead Act.
         explanation: "Zeile 8: Gold in den Black Hills, dann der Vertragsbruch."
         hint: Suche die Zeile mit dem Wort treaty.
       - type: open-task

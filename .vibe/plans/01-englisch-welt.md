@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -61,6 +61,8 @@ Typische Fehlvorstellungen (je eine eigene Rückmeldung): USA = Amerika; Kanada 
 **Quellen (Fakten, keine Sätze):** Karte `https://lernapps.net/apps/map/englisch.json` (geöffnet 2026-11-24); Grundwortschatz. Wikipedia (en), per API am 2026-11-24 geöffnet: geöffnet: Canada, Australia, Chicago, Pilgrims (Plymouth Colony), Thanksgiving (United States), United States Declaration of Independence, American frontier, Slavery in the United States, Rosa Parks, Voting Rights Act of 1965. **Nicht geprüft (HTTP 429):** United States, New York City, Washington D.C., Official bilingualism in Canada, Independence Day, Mayflower, Ellis Island, Boston Tea Party, Constitution, American Civil War, Martin Luther King Jr., Civil Rights Movement, History of Australia, Aboriginal Australians, Varietäten-Artikel; sie werden beim Bau der jeweiligen Seite einzeln und langsam geöffnet (kein Scraper, keine Schleife) oder die Aussage entfällt. Weitere Quellen: Klexikon und Library of Congress/National Archives (Originaltexte: Declaration, Verfassung, Rede „I have a dream“ nur als Faktenbeleg, Zitate nur kurz und mit Quelle, Lizenz vorher lesen); VOA Learning English nur nach Prüfung der Lizenzseite. Keine Texte aus BBC Newsround, Newsela usw.
 
 **Offene Punkte für die Orchestrator-Session:** (1) Hörproben für australisches, schottisches, indisches Englisch gibt es nicht (nur US/GB-Stimmen erlaubt); (2) Videoszenen in Kapitel 5 als Text/Hörszene; (3) Stufe 7-8 Kapitel 3 mit der Frage „Wer gewinnt, wer verliert?“ und Native-American-Perspektiven: eigene Quellen, keine Bilder Dritter.
+
+**Gesamtcheck (Code, abgeschlossen):** Ein Lerner-Check der Musterseite (Sub-Agent, Klasse 7/8) und drei Prüfungen der fertigen App mit Sub-Agenten: Kapitel 1-3 als Lernende Klasse 8, Kapitel 4-5 als Lernende Klasse 10, dazu eine Prüfung der englischen und deutschen Sprache (nur Lesen). Behoben (je Kapitel in `.vibe/notes/kN-quellen.md`): richtige Option stand überall zuerst (Skript `mische_optionen.py` mischt alle Auswahlfragen; die richtige Option ist oft noch die längste: bleibt als Schwäche), Wörter vor ihrer Einführung, Rückblicke mit Ungelehrtem, unbelegte Zahlen und Aussagen (entfernt), Badge „© CC-BY-4.0“ verdeckt Bildinhalt (Bilder umgebaut), Zeitachsen ohne Jahreszahlen, Doppelungen zwischen Seiten, Perspektiven bei Mayflower, Unabhängigkeit, Einwanderung, Australien, Sprachfehler und fehlende richtige Antworten. Offen: `explainer-text-load` (Hinweis) bei den sieben Seiten mit Lesestück der Stufe 9-10 (Konventionen zählen das Lesestück nicht mit); alle Hörsätze unangehört (Hörliste im Inhaltsführer); Lesehilfen in deutscher Annäherung ungeprüft; Indian English nicht geöffnet; `flat – apartment` nur aus der Karte belegt.
 
 ## Explore
 
@@ -230,7 +232,7 @@ page, which a link. -->
 - [x] Run `npx --no -- lernapps check` until it passes.
 - [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit

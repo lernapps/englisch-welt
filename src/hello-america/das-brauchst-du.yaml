@@ -19,27 +19,27 @@ blocks:
         id: recap-schule
         text: Welche Aussage passt zum Schulalltag in Großbritannien?
         options:
-          - text: Viele Kinder tragen in der Schule eine school uniform.
-            correct: true
-            info: Die Schuluniform gehört zum britischen Schulalltag, wie du in Millbrook gesehen hast.
           - text: Der Schultag beginnt in der Nacht.
             correct: false
             info: Der Schultag beginnt am Morgen, in Millbrook um 8:45.
           - text: Alle Kinder haben eine Schule ohne Pause.
             correct: false
             info: Zum Schultag gehören Pausen, auch in Großbritannien.
+          - text: Viele Kinder tragen in der Schule eine school uniform.
+            correct: true
+            info: Die Schuluniform gehört zum britischen Schulalltag, wie du in Millbrook gesehen hast.
         explanation: Schuluniform und Schultag sind zwei Dinge, die du mit deiner eigenen Schule vergleichen kannst.
         hint: Denke an Millbrook und an das, was die Kinder dort anziehen.
       - type: single-choice
         id: recap-feste
         text: Wie sagst du „Weihnachten“ auf Englisch?
         options:
-          - text: Christmas
-            correct: true
-            info: Christmas ist das britische Weihnachtsfest.
           - text: Halloween
             correct: false
             info: Halloween ist ein anderes Fest, am Ende des Oktobers.
+          - text: Christmas
+            correct: true
+            info: Christmas ist das britische Weihnachtsfest.
           - text: Bonfire Night
             correct: false
             info: Bonfire Night ist ein Abend mit Feuer und Feuerwerk, kein Weihnachtsfest.

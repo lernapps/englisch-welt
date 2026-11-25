@@ -14,15 +14,15 @@ blocks:
         id: feste-start
         text: "Was bedeutet das Wort „Thanksgiving“?"
         options:
-          - text: Dank sagen
-            correct: true
-            info: Wörtlich heißt es Dank sagen.
-          - text: Geschenke bekommen
-            correct: false
-            info: Geschenke heißen gifts.
           - text: Truthahn essen
             correct: false
             info: Truthahn ist nur das Essen.
+          - text: Geschenke bekommen
+            correct: false
+            info: Geschenke heißen gifts.
+          - text: Dank sagen
+            correct: true
+            info: Wörtlich heißt es Dank sagen.
         explanation: Thanksgiving heißt Dank sagen.
       - type: text
         text: "**Das kannst du danach:** Du beschreibst Thanksgiving und Independence Day: wann sie sind, was Menschen tun und wie man ihre Geschichte fair erzählt."
@@ -109,18 +109,18 @@ blocks:
         id: feste-beleg
         text: Welche Zeile sagt, wie Native Americans heute auf Thanksgiving blicken?
         options:
-          - text: Zeile 8
-            correct: true
-            info: Dort stehen die Ansichten von Native Americans.
-          - text: Zeile 4
-            correct: false
-            info: Zeile 4 handelt vom Datum.
           - text: Zeile 6
             correct: false
             info: Zeile 6 erzählt vom Erntefest.
           - text: Zeile 11
             correct: false
             info: Zeile 11 handelt vom 4. Juli.
+          - text: Zeile 8
+            correct: true
+            info: Dort stehen die Ansichten von Native Americans.
+          - text: Zeile 4
+            correct: false
+            info: Zeile 4 handelt vom Datum.
         explanation: Zeile 8 nennt die Ansichten von heute.
         hint: Suche die Zeile mit „Today“ und „views“.
       - type: open-task
@@ -164,15 +164,15 @@ blocks:
         id: feste-fehler
         text: "Eine Freundin sagt: „Thanksgiving ist nur ein Erntefest, und es gibt es nur in den USA.“ Was stimmt?"
         options:
+          - text: Thanksgiving ist das Fest für die Unabhängigkeit der USA.
+            correct: false
+            info: Das ist Independence Day.
           - text: Thanksgiving ist ein Feiertag der USA, bei dem man dankt und isst, und Kanada hat ein eigenes Thanksgiving.
             correct: true
             info: In den USA ein Feiertag, und Kanada hat eins.
           - text: Thanksgiving ist in den USA immer am 25. Dezember.
             correct: false
             info: Thanksgiving ist im November.
-          - text: Thanksgiving ist das Fest für die Unabhängigkeit der USA.
-            correct: false
-            info: Das ist Independence Day.
         explanation: Thanksgiving ist kein reines Erntefest, und Kanada hat ein eigenes.
         hint: Denke an den Merke-Kasten.
       - type: language-task

@@ -15,15 +15,15 @@ blocks:
         id: gesellschaft-start
         text: Was gehört zu einer Demokratie?
         options:
-          - text: Menschen entscheiden mit, meist über Vertreter, die sie wählen.
-            correct: true
-            info: Das ist der Kern einer Demokratie.
-          - text: Es wird nur alle paar Jahre gewählt, mehr gehört nicht dazu.
-            correct: false
-            info: Dazu gehören auch Freiheiten wie die Meinungsfreiheit.
           - text: Alle entscheiden jede Frage selbst, Vertreter gibt es nicht.
             correct: false
             info: In großen Ländern entscheiden meist gewählte Vertreter.
+          - text: Es wird nur alle paar Jahre gewählt, mehr gehört nicht dazu.
+            correct: false
+            info: Dazu gehören auch Freiheiten wie die Meinungsfreiheit.
+          - text: Menschen entscheiden mit, meist über Vertreter, die sie wählen.
+            correct: true
+            info: Das ist der Kern einer Demokratie.
         explanation: Demokratie heißt Mitentscheiden, meist über Vertreter.
         hint: Denke an Millionen Einwohner.
       - type: text
@@ -111,18 +111,18 @@ blocks:
         id: gesellschaft-beleg
         text: Welche Zeile belegt, dass die Erklärung von 1948 die Sklaverei verbietet?
         options:
-          - text: Zeile 4
-            correct: true
-            info: Andere Artikel verbieten die Sklaverei.
           - text: Zeile 2
             correct: false
             info: Zeile 2 beschreibt den 1. Zusatzartikel.
-          - text: Zeile 7
-            correct: false
-            info: Zeile 7 nennt die NAACP.
+          - text: Zeile 4
+            correct: true
+            info: Andere Artikel verbieten die Sklaverei.
           - text: Zeile 9
             correct: false
             info: Zeile 9 nennt Zahlen von 1964.
+          - text: Zeile 7
+            correct: false
+            info: Zeile 7 nennt die NAACP.
         explanation: Zeile 4 nennt die Artikel der Erklärung.
         hint: Suche die Zeile mit „articles“.
       - type: open-task

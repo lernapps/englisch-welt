@@ -14,15 +14,15 @@ blocks:
         id: schreibung-start
         text: "Sophie schreibt „tyre“, Jayden schreibt „tire“. Beide meinen den Reifen. Was stimmt?"
         options:
-          - text: Beide Schreibungen sind richtig, eine britisch und eine amerikanisch.
-            correct: true
-            info: tyre ist britisch, tire amerikanisch.
           - text: Nur tyre ist richtig, tire ist ein Fehler.
             correct: false
             info: tire ist amerikanisch, kein Fehler.
           - text: Nur tire ist richtig, tyre ist ein Fehler.
             correct: false
             info: tyre ist britisch, kein Fehler.
+          - text: Beide Schreibungen sind richtig, eine britisch und eine amerikanisch.
+            correct: true
+            info: tyre ist britisch, tire amerikanisch.
         explanation: Die Wörter klingen gleich. Nur die Schreibung ist anders.
       - type: text
         text: "**Das kannst du danach:** Du erkennst typische Unterschiede in der Schreibung von britischem und amerikanischem Englisch und schreibst einen Text einheitlich britisch oder amerikanisch."
@@ -86,33 +86,33 @@ blocks:
         id: schreibung-beleg
         text: Welche Zeile belegt, dass amerikanische Schreibung nicht falsch ist?
         options:
-          - text: Zeile 9
-            correct: true
-            info: Hier sagt Sophie, was Mr Hill sagt.
+          - text: Zeile 8
+            correct: false
+            info: Hier fragt Jayden nur.
           - text: Zeile 3
             correct: false
             info: Hier erklärt Sophie ihre Schreibung.
           - text: Zeile 7
             correct: false
             info: Hier geht es um travelling.
-          - text: Zeile 8
-            correct: false
-            info: Hier fragt Jayden nur.
+          - text: Zeile 9
+            correct: true
+            info: Hier sagt Sophie, was Mr Hill sagt.
         explanation: In Zeile 9 steht die Antwort.
         hint: Suche die Zeile, in der Mr Hill vorkommt.
       - type: single-choice
         id: schreibung-meinung
         text: "Peter fragt: „Wie schreibe ich einen Text am besten?“ Was ist ein guter Rat?"
         options:
+          - text: Mische beide Schreibungen im selben Text, zum Beispiel color und favourite.
+            correct: false
+            info: Mischen wirkt unordentlich.
           - text: Wähle britisch oder amerikanisch und bleibe in dem ganzen Text dabei.
             correct: true
             info: Beide sind richtig, ein Text bleibt bei einer.
           - text: Schreibe amerikanisch. Britische Schreibung ist falsch.
             correct: false
             info: Britisch ist nicht falsch.
-          - text: Mische beide Schreibungen im selben Text, zum Beispiel color und favourite.
-            correct: false
-            info: Mischen wirkt unordentlich.
         explanation: Wichtig ist ein einheitlicher Text.
         hint: Denke an Zeile 10.
   - type: section

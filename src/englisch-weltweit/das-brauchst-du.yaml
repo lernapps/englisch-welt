@@ -27,27 +27,27 @@ blocks:
         id: weltweit-uk
         text: Welcher Name meint die große Insel mit England, Scotland und Wales?
         options:
-          - text: Great Britain
-            correct: true
-            info: Great Britain ist die Insel mit England, Scotland und Wales. Im Alltag meint man damit manchmal auch das ganze UK.
-          - text: Ireland
-            correct: false
-            info: Ireland ist die Nachbarinsel im Westen. Im Nordosten dieser Insel liegt Northern Ireland, ein Teil des UK.
           - text: England
             correct: false
             info: England ist nur ein Teil der Insel Great Britain und ein Teil des UK.
+          - text: Ireland
+            correct: false
+            info: Ireland ist die Nachbarinsel im Westen. Im Nordosten dieser Insel liegt Northern Ireland, ein Teil des UK.
+          - text: Great Britain
+            correct: true
+            info: Great Britain ist die Insel mit England, Scotland und Wales. Im Alltag meint man damit manchmal auch das ganze UK.
         explanation: Great Britain nennt die Insel mit England, Scotland und Wales. Das UK schließt auch Northern Ireland ein.
       - type: single-choice
         id: weltweit-gruss
         text: Du triffst am Morgen eine Lehrerin, die du nicht gut kennst. Was sagst du?
         options:
+          - text: Good night.
+            correct: false
+            info: Good night sagst du, wenn du dich am Abend verabschiedest oder ins Bett gehst, nicht als Gruß am Morgen.
           - text: Good morning.
             correct: true
             info: Good morning ist höflich und passt am Morgen für fast alle Menschen.
           - text: Hey, what's up?
             correct: false
             info: Das sagst du zu Freunden. Zu einer Lehrerin ist es zu locker.
-          - text: Good night.
-            correct: false
-            info: Good night sagst du, wenn du dich am Abend verabschiedest oder ins Bett gehst, nicht als Gruß am Morgen.
         explanation: Am Morgen und zu Menschen, die du nicht gut kennst, passt Good morning.

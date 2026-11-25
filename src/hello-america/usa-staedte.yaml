@@ -14,12 +14,12 @@ blocks:
         id: staedte-start
         text: Welche Stadt ist die Hauptstadt der USA?
         options:
-          - text: Washington, D.C.
-            correct: true
-            info: Washington, D.C. ist die Hauptstadt der USA.
           - text: New York
             correct: false
             info: New York ist die größte Stadt, nicht die Hauptstadt.
+          - text: Washington, D.C.
+            correct: true
+            info: Washington, D.C. ist die Hauptstadt der USA.
           - text: Chicago
             correct: false
             info: Chicago ist eine große Stadt, nicht die Hauptstadt.
@@ -98,9 +98,6 @@ blocks:
         id: staedte-beleg
         text: Welche Zeile belegt, dass New York nicht die Hauptstadt der USA ist?
         options:
-          - text: Zeile 4
-            correct: true
-            info: Dort nennt Jayden die Hauptstadt.
           - text: Zeile 2
             correct: false
             info: Zeile 2 nennt die größte Stadt.
@@ -110,6 +107,9 @@ blocks:
           - text: Zeile 13
             correct: false
             info: Zeile 13 handelt von Washington State.
+          - text: Zeile 4
+            correct: true
+            info: Dort nennt Jayden die Hauptstadt.
         explanation: Zeile 4 nennt die Hauptstadt.
         hint: Suche den Namen der Hauptstadt.
       - type: open-task
@@ -151,21 +151,21 @@ blocks:
         id: staedte-ort
         text: "Welche Orte liegen in New York? Wähle alle richtigen Orte."
         options:
-          - text: Statue of Liberty
-            correct: true
-            info: Sie steht im Hafen von New York.
-          - text: Central Park
-            correct: true
-            info: Er liegt in Manhattan.
+          - text: White House
+            correct: false
+            info: Es steht in Washington, D.C.
           - text: Times Square
             correct: true
             info: Er liegt neben den Theatern am Broadway.
           - text: Lincoln Memorial
             correct: false
             info: Es steht in Washington, D.C.
-          - text: White House
-            correct: false
-            info: Es steht in Washington, D.C.
+          - text: Statue of Liberty
+            correct: true
+            info: Sie steht im Hafen von New York.
+          - text: Central Park
+            correct: true
+            info: Er liegt in Manhattan.
         explanation: Die ersten drei Orte liegen in New York.
         hint: Lies die Zeilen 6 bis 14.
       - type: language-task

@@ -14,12 +14,12 @@ blocks:
         id: politik-start
         text: In welcher Stadt arbeiten Kongress, Präsident und Supreme Court?
         options:
-          - text: Washington, D.C.
-            correct: true
-            info: Alle drei Gewalten haben ihren Sitz in der Hauptstadt Washington, D.C.
           - text: New York
             correct: false
             info: New York ist die größte Stadt, aber nicht die Hauptstadt.
+          - text: Washington, D.C.
+            correct: true
+            info: Alle drei Gewalten haben ihren Sitz in der Hauptstadt Washington, D.C.
           - text: Boston
             correct: false
             info: Boston ist die Hauptstadt von Massachusetts, nicht die der USA.
@@ -104,18 +104,18 @@ blocks:
         id: politik-beleg
         text: Welche Zeile belegt, dass der Kongress den Präsidenten überstimmen kann?
         options:
-          - text: Zeile 7
-            correct: true
-            info: Hier steht, wie der Kongress ein Veto überstimmt.
-          - text: Zeile 5
-            correct: false
-            info: Zeile 5 handelt von der Wahl des Präsidenten.
           - text: Zeile 8
             correct: false
             info: Zeile 8 handelt vom Supreme Court.
           - text: Zeile 12
             correct: false
             info: Zeile 12 handelt von den Staaten.
+          - text: Zeile 5
+            correct: false
+            info: Zeile 5 handelt von der Wahl des Präsidenten.
+          - text: Zeile 7
+            correct: true
+            info: Hier steht, wie der Kongress ein Veto überstimmt.
         explanation: "Zeile 7: Zwei Drittel in beiden Teilen können ein Veto überstimmen."
         hint: Suche die Zeile mit dem Wort overrule.
       - type: open-task

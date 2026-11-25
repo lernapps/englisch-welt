@@ -29,15 +29,15 @@ blocks:
         id: recap-gleich
         text: Which two words sound the same?
         options:
+          - text: bed and bad
+            correct: false
+            info: bed hat ein e, bad ein offenes ä. Die Wörter klingen verschieden.
           - text: meet and meat
             correct: true
             info: Beide Wörter klingen gleich und werden anders geschrieben. ee und ea klingen oft gleich.
           - text: bit and beat
             correct: false
             info: bit hat einen kurzen, beat einen langen Vokal. Die Wörter klingen verschieden.
-          - text: bed and bad
-            correct: false
-            info: bed hat ein e, bad ein offenes ä. Die Wörter klingen verschieden.
         explanation: meet und meat sind gleich im Klang und verschieden in der Schrift.
         hint: Zwei Wörter dieser Paare klingen gleich. Denke an ee und ea.
       - type: true-false

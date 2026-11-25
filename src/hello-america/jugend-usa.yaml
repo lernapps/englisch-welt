@@ -14,15 +14,15 @@ blocks:
         id: jugend-start
         text: Welche Sportart ist in den USA besonders beliebt?
         options:
-          - text: American football
-            correct: true
-            info: American football gilt als der beliebteste Zuschauersport der USA.
-          - text: Cricket
-            correct: false
-            info: Cricket gehört nicht zu den beliebtesten Sportarten der USA.
           - text: Rugby
             correct: false
             info: Rugby gehört nicht zu den beliebtesten Sportarten der USA.
+          - text: Cricket
+            correct: false
+            info: Cricket gehört nicht zu den beliebtesten Sportarten der USA.
+          - text: American football
+            correct: true
+            info: American football gilt als der beliebteste Zuschauersport der USA.
         explanation: Beliebt sind American football, Basketball, Baseball, soccer und Eishockey.
       - type: text
         text: "**Das kannst du danach:** Du beschreibst, wie Jugendliche in den USA ihre Freizeit verbringen, welchen Sport sie treiben und was sie essen. Du sprichst fair über viele Menschen und verwechselst football und soccer nicht."
@@ -104,12 +104,12 @@ blocks:
         id: jugend-beleg
         text: Welche Zeile belegt, dass es in den USA nicht nur Burger zu essen gibt?
         options:
-          - text: Zeile 8
-            correct: true
-            info: Dort nennt Jayden viele weitere Gerichte.
           - text: Zeile 7
             correct: false
             info: Zeile 7 ist Sophies Frage.
+          - text: Zeile 8
+            correct: true
+            info: Dort nennt Jayden viele weitere Gerichte.
           - text: Zeile 9
             correct: false
             info: Zeile 9 handelt von Pizza.
@@ -151,18 +151,18 @@ blocks:
         id: jugend-fair
         text: Welche Sätze über Jugendliche in den USA sind fair? Wähle alle richtigen Sätze.
         options:
-          - text: Many students in the USA play a sport after school.
-            correct: true
-            info: Many heißt viele, nicht alle.
-          - text: Some American teenagers like pizza.
-            correct: true
-            info: Some heißt einige.
           - text: All American teenagers play American football.
             correct: false
             info: All heißt alle. Viele spielen anderen Sport.
+          - text: Many students in the USA play a sport after school.
+            correct: true
+            info: Many heißt viele, nicht alle.
           - text: American teenagers eat burgers every day.
             correct: false
             info: Das ist ein Klischee. Es gibt viele Gerichte.
+          - text: Some American teenagers like pizza.
+            correct: true
+            info: Some heißt einige.
           - text: Nobody in the USA plays soccer.
             correct: false
             info: Soccer ist in den USA beliebt.

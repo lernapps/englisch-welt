@@ -15,15 +15,15 @@ blocks:
         id: aus-start
         text: Welche Stadt ist die Hauptstadt von Australien?
         options:
+          - text: Melbourne
+            correct: false
+            info: Melbourne war nur vorübergehend Sitz der Regierung.
           - text: Canberra
             correct: true
             info: Canberra wurde als Hauptstadt eigens gebaut.
           - text: Sydney
             correct: false
             info: Sydney ist eine der größten Städte, aber nicht die Hauptstadt.
-          - text: Melbourne
-            correct: false
-            info: Melbourne war nur vorübergehend Sitz der Regierung.
         explanation: Die Hauptstadt ist Canberra.
       - type: text
         text: "**Das kannst du danach:** Du zeigst Australien auf der Karte und nennst die Hauptstadt. Du erzählst in Stufen, wie die Briten kamen und wer vorher dort lebte. Du beschreibst zwei Sichtweisen auf dieselbe Geschichte, ohne zu urteilen."
@@ -139,18 +139,18 @@ blocks:
         id: aus-beleg
         text: Welche Zeile belegt, dass es keine Verträge mit den Aboriginal-Gruppen gab?
         options:
-          - text: Zeile 12
-            correct: true
-            info: Hier steht, dass die Briten keine Verträge unterzeichneten.
-          - text: Zeile 10
-            correct: false
-            info: Hier geht es um Cook und die First Fleet.
-          - text: Zeile 13
-            correct: false
-            info: Hier geht es um die Kinder ab 1886.
           - text: Zeile 15
             correct: false
             info: Hier geht es um 1967 und den Mabo-Fall.
+          - text: Zeile 12
+            correct: true
+            info: Hier steht, dass die Briten keine Verträge unterzeichneten.
+          - text: Zeile 13
+            correct: false
+            info: Hier geht es um die Kinder ab 1886.
+          - text: Zeile 10
+            correct: false
+            info: Hier geht es um Cook und die First Fleet.
         explanation: Zeile 12 nennt die fehlenden Verträge.
         hint: Suche das Wort treaties.
       - type: open-task
@@ -257,18 +257,18 @@ blocks:
         id: aus-volk
         text: "Jemand schreibt: „Aboriginal Australians are one people with one language.“ Welche Antwort passt?"
         options:
-          - text: "Das stimmt nicht: Es gab viele verschiedene Gruppen mit mehr als 250 Sprachen."
-            correct: true
-            info: Es gab viele Gruppen mit eigenen Sprachen und Kulturen.
-          - text: "Das stimmt: Alle Aboriginal Australians sprachen vor 1788 dieselbe Sprache."
-            correct: false
-            info: Vor 1788 wurden mehr als 250 Sprachen gesprochen.
-          - text: "Das stimmt nicht: Die Torres-Strait-Insulaner sind das einzige Volk des Landes."
-            correct: false
-            info: Die Torres-Strait-Insulaner sind ein eigenes Volk neben den Aboriginal-Gruppen.
           - text: "Das stimmt nicht: Vor 1788 lebten noch keine Menschen in Australien."
             correct: false
             info: Menschen leben dort seit mindestens fünfzigtausend Jahren.
+          - text: "Das stimmt: Alle Aboriginal Australians sprachen vor 1788 dieselbe Sprache."
+            correct: false
+            info: Vor 1788 wurden mehr als 250 Sprachen gesprochen.
+          - text: "Das stimmt nicht: Es gab viele verschiedene Gruppen mit mehr als 250 Sprachen."
+            correct: true
+            info: Es gab viele Gruppen mit eigenen Sprachen und Kulturen.
+          - text: "Das stimmt nicht: Die Torres-Strait-Insulaner sind das einzige Volk des Landes."
+            correct: false
+            info: Die Torres-Strait-Insulaner sind ein eigenes Volk neben den Aboriginal-Gruppen.
         explanation: Aboriginal Australians sind viele Gruppen.
         hint: Lies Zeile 8.
       - type: language-task

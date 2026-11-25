@@ -14,15 +14,15 @@ blocks:
         id: einwanderung-start
         text: Was ist Ellis Island?
         options:
+          - text: Das Schiff der Pilger von 1620
+            correct: false
+            info: Das Schiff der Pilger hieß Mayflower.
           - text: Eine Insel bei New York, auf der Einwanderer geprüft wurden
             correct: true
             info: Dort prüfte die Regierung Einwanderer.
           - text: Ein Staat im Westen der USA
             correct: false
             info: Ellis Island liegt bei New York und ist kein Staat.
-          - text: Das Schiff der Pilger von 1620
-            correct: false
-            info: Das Schiff der Pilger hieß Mayflower.
         explanation: Auf Ellis Island kamen Einwanderer an.
       - type: text
         text: "**Das kannst du danach:** Du erklärst, warum Menschen aus Europa in die USA auswanderten, und erzählst, wie ihre Ankunft in New York ablief."
@@ -96,18 +96,18 @@ blocks:
         id: einwanderung-beleg
         text: Welche Zeile belegt, dass nicht alle Menschen in den USA bleiben durften?
         options:
-          - text: Zeile 7
-            correct: true
-            info: Hier steht die Zahl der Zurückgeschickten.
-          - text: Zeile 3
-            correct: false
-            info: Zeile 3 nennt, wie viele Menschen ankamen.
           - text: Zeile 5
             correct: false
             info: Zeile 5 nennt das Jahr 1892 und die Zahl der Geprüften.
+          - text: Zeile 7
+            correct: true
+            info: Hier steht die Zahl der Zurückgeschickten.
           - text: Zeile 10
             correct: false
             info: Zeile 10 handelt von den Gründen der Menschen.
+          - text: Zeile 3
+            correct: false
+            info: Zeile 3 nennt, wie viele Menschen ankamen.
         explanation: "Zeile 7: Etwa zwei von hundert mussten zurück nach Europa."
         hint: Suche die Zeile über das Zurückschicken.
       - type: open-task
@@ -159,12 +159,12 @@ blocks:
         id: einwanderung-grund
         text: "Ein Mitschüler sagt: „Alle Einwanderer sind vor Gefahr geflohen.“ Welche Antwort stimmt?"
         options:
-          - text: Nein, die Gründe waren verschieden. Viele kamen auch wegen Arbeit, Land oder Familie.
-            correct: true
-            info: Es gab viele Gründe.
           - text: Ja, wer auswandert, flieht immer vor etwas.
             correct: false
             info: Das galt nur für einen Teil der Menschen.
+          - text: Nein, die Gründe waren verschieden. Viele kamen auch wegen Arbeit, Land oder Familie.
+            correct: true
+            info: Es gab viele Gründe.
           - text: Nein, alle kamen nur wegen der Arbeit.
             correct: false
             info: Arbeit war wichtig, aber nicht der einzige Grund.

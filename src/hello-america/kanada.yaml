@@ -14,15 +14,15 @@ blocks:
         id: kanada-start
         text: In welcher Richtung liegt Kanada von den USA aus?
         options:
-          - text: im Norden
-            correct: true
-            info: Kanada liegt im Norden der zusammenhängenden Staaten der USA.
           - text: im Süden
             correct: false
             info: Im Süden liegt Mexiko.
           - text: im Westen
             correct: false
             info: Im Westen liegt der Pazifik.
+          - text: im Norden
+            correct: true
+            info: Kanada liegt im Norden der zusammenhängenden Staaten der USA.
         explanation: Im Norden der USA liegt Kanada, im Süden Mexiko.
       - type: text
         text: "**Das kannst du danach:** Du stellst Kanada vor: wo es liegt, wie die Hauptstadt heißt, welche zwei Amtssprachen es hat und wer die Indigenous peoples sind."
@@ -74,12 +74,12 @@ blocks:
         id: kanada-verstehen
         text: Welche Aussage über die Amtssprachen der kanadischen Regierung stimmt?
         options:
-          - text: Englisch und Französisch sind beide Amtssprachen.
-            correct: true
-            info: Beide Sprachen sind Amtssprachen.
           - text: Englisch ist die einzige Amtssprache.
             correct: false
             info: Auch Französisch ist eine Amtssprache.
+          - text: Englisch und Französisch sind beide Amtssprachen.
+            correct: true
+            info: Beide Sprachen sind Amtssprachen.
           - text: Französisch spricht man nur in Frankreich.
             correct: false
             info: Französisch gibt es auch in Kanada.
@@ -103,18 +103,18 @@ blocks:
         id: kanada-beleg
         text: Welche Zeile belegt, dass die Indigenous peoples schon sehr lange in Kanada leben?
         options:
-          - text: Zeile 11
-            correct: true
-            info: "Dort steht: seit Tausenden von Jahren."
-          - text: Zeile 12
-            correct: false
-            info: Zeile 12 nennt die Menschen heute.
           - text: Zeile 8
             correct: false
             info: Zeile 8 handelt von Amtssprachen.
           - text: Zeile 2
             correct: false
             info: Zeile 2 handelt von der Größe.
+          - text: Zeile 11
+            correct: true
+            info: "Dort steht: seit Tausenden von Jahren."
+          - text: Zeile 12
+            correct: false
+            info: Zeile 12 nennt die Menschen heute.
         explanation: Zeile 11 nennt Tausende von Jahren.
         hint: Suche die Zeile mit „thousands of years“.
       - type: open-task

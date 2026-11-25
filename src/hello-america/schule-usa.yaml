@@ -14,15 +14,15 @@ blocks:
         id: schule-start
         text: "Was heißt „grade“ in „ninth grade“?"
         options:
-          - text: die Klassenstufe
-            correct: true
-            info: So zählt man Schuljahre in den USA.
           - text: die Note
             correct: false
             info: Grade heißt auch Note, hier aber nicht.
           - text: das Schulfach
             correct: false
             info: Ein Schulfach heißt subject.
+          - text: die Klassenstufe
+            correct: true
+            info: So zählt man Schuljahre in den USA.
         explanation: Hier ist die Klassenstufe gemeint.
       - type: text
         text: "**Das kannst du danach:** Du beschreibst den Alltag an einer amerikanischen High School und vergleichst ihn mit deiner Schule. Du erklärst Wörter wie homeroom und elective."
@@ -79,15 +79,15 @@ blocks:
         id: schule-verstehen
         text: Welche Aussage über den Schulbeginn in den USA stimmt?
         options:
-          - text: Er ist an jeder Schule anders, meist zwischen sieben und neun Uhr.
-            correct: true
-            info: Die Zeiten sind verschieden.
           - text: Er ist an allen High Schools um acht Uhr.
             correct: false
             info: Es gibt keine feste Uhrzeit für alle.
           - text: Er ist an allen High Schools um neun Uhr.
             correct: false
             info: Auch neun Uhr gilt nicht überall.
+          - text: Er ist an jeder Schule anders, meist zwischen sieben und neun Uhr.
+            correct: true
+            info: Die Zeiten sind verschieden.
         explanation: Die Zeiten sind an jeder Schule anders.
         hint: Lies Zeile 4 noch einmal.
       - type: matching
@@ -108,18 +108,18 @@ blocks:
         id: schule-beleg
         text: Welche Zeile belegt, dass die Schulmannschaften nach dem Unterricht trainieren?
         options:
-          - text: Zeile 11
-            correct: true
-            info: Dort trainieren die Schulmannschaften.
-          - text: Zeile 7
-            correct: false
-            info: Zeile 7 handelt von class periods.
-          - text: Zeile 10
-            correct: false
-            info: Zeile 10 handelt vom Mittagessen.
           - text: Zeile 8
             correct: false
             info: Zeile 8 handelt von Wahlfächern.
+          - text: Zeile 10
+            correct: false
+            info: Zeile 10 handelt vom Mittagessen.
+          - text: Zeile 7
+            correct: false
+            info: Zeile 7 handelt von class periods.
+          - text: Zeile 11
+            correct: true
+            info: Dort trainieren die Schulmannschaften.
         explanation: Zeile 11 nennt das Training.
         hint: Suche „after school“.
       - type: open-task
@@ -167,15 +167,15 @@ blocks:
         id: schule-fehler
         text: "Ein Freund sagt: „High School heißt Gymnasium, da gehen nur die besten Schüler hin.“ Was stimmt?"
         options:
-          - text: Die High School sind die letzten Schuljahre, öffentliche High Schools nehmen alle Kinder ihres Bezirks auf.
-            correct: true
-            info: Sie wählt ihre Schüler nicht nach Noten aus.
-          - text: Eine High School ist eine Schule für Kinder von sechs bis zehn Jahren.
-            correct: false
-            info: Sie kommt später, meist ab grade nine.
           - text: Eine High School ist eine Universität.
             correct: false
             info: Die Universität kommt danach.
+          - text: Eine High School ist eine Schule für Kinder von sechs bis zehn Jahren.
+            correct: false
+            info: Sie kommt später, meist ab grade nine.
+          - text: Die High School sind die letzten Schuljahre, öffentliche High Schools nehmen alle Kinder ihres Bezirks auf.
+            correct: true
+            info: Sie wählt ihre Schüler nicht nach Noten aus.
         explanation: High School ist eine Schulstufe, keine Auswahlschule.
         hint: Lies Zeile 2.
       - type: language-task

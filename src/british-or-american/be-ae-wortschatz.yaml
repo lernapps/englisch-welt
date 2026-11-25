@@ -14,15 +14,15 @@ blocks:
         id: wortschatz-start
         text: "Sophie schreibt: „The car needs petrol.“ Jayden schreibt dasselbe mit „gas“. Was meint er?"
         options:
-          - text: Benzin für das Auto
-            correct: true
-            info: In den USA heißt Benzin gas.
-          - text: Gas zum Kochen
-            correct: false
-            info: Das Wort gas sieht aus wie Gas, meint hier aber Benzin.
           - text: Luft für die Reifen
             correct: false
             info: Von Luft für die Reifen spricht Jayden nicht.
+          - text: Gas zum Kochen
+            correct: false
+            info: Das Wort gas sieht aus wie Gas, meint hier aber Benzin.
+          - text: Benzin für das Auto
+            correct: true
+            info: In den USA heißt Benzin gas.
         explanation: Dasselbe Ding hat in zwei Ländern ein anderes Wort.
       - type: text
         text: "**Das kannst du danach:** Du nennst wichtige Unterschiede zwischen britischem und amerikanischem Wortschatz."
@@ -103,30 +103,30 @@ blocks:
         id: wortschatz-beleg
         text: Welche Zeile belegt, dass pants in Großbritannien etwas anderes sind als in den USA?
         options:
-          - text: Zeile 15
-            correct: true
-            info: "Sophie warnt: pants sind in Großbritannien Unterhosen."
-          - text: Zeile 14
-            correct: false
-            info: Hier sagt Jayden nur, dass er pants sagt.
           - text: Zeile 13
             correct: false
             info: Hier stehen trousers und queue.
           - text: Zeile 16
             correct: false
             info: Hier geht es um die Wortliste.
+          - text: Zeile 14
+            correct: false
+            info: Hier sagt Jayden nur, dass er pants sagt.
+          - text: Zeile 15
+            correct: true
+            info: "Sophie warnt: pants sind in Großbritannien Unterhosen."
         explanation: In Zeile 15 warnt Sophie.
         hint: Suche die Zeile mit „Careful!“.
       - type: single-choice
         id: wortschatz-meinung
         text: "Ellie sagt: „Jaydens Wörter sind falsches Englisch.“ Was passt?"
         options:
-          - text: Nein. Amerikanische Wörter sind genauso richtig wie britische.
-            correct: true
-            info: Beide Varietäten sind richtig.
           - text: Ja. Nur britische Wörter sind richtiges Englisch.
             correct: false
             info: Dann wären Jaydens Wörter alle falsch. Das stimmt nicht.
+          - text: Nein. Amerikanische Wörter sind genauso richtig wie britische.
+            correct: true
+            info: Beide Varietäten sind richtig.
           - text: Ja, aber nur im Englischunterricht in Großbritannien.
             correct: false
             info: Auch im Unterricht sind sie nicht falsch.

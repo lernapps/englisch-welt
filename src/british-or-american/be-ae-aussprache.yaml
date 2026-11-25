@@ -14,15 +14,15 @@ blocks:
         id: aussprache-start
         text: Was ist ein Akzent?
         options:
-          - text: Die Art, wie Menschen die Laute einer Sprache sprechen
-            correct: true
-            info: Ein Akzent ist die Art zu sprechen.
-          - text: Ein Fehler beim Sprechen
-            correct: false
-            info: Ein Akzent ist kein Fehler.
           - text: Ein anderes Wort für dieselbe Sache
             correct: false
             info: Das wäre ein Unterschied im Wortschatz.
+          - text: Ein Fehler beim Sprechen
+            correct: false
+            info: Ein Akzent ist kein Fehler.
+          - text: Die Art, wie Menschen die Laute einer Sprache sprechen
+            correct: true
+            info: Ein Akzent ist die Art zu sprechen.
         explanation: Beim Akzent ist nur der Klang anders.
       - type: text
         text: "**Das kannst du danach:** Du erkennst typische Unterschiede in der Aussprache von britischem und amerikanischem Englisch."
@@ -96,33 +96,33 @@ blocks:
         id: aussprache-beleg
         text: Welche Zeile belegt, dass beide Arten zu sprechen normal sind?
         options:
-          - text: Zeile 11
-            correct: true
-            info: Dort steht, was Mr Hill sagt.
-          - text: Zeile 2
-            correct: false
-            info: Hier schlägt Jayden vor, Wörter zu vergleichen.
           - text: Zeile 9
             correct: false
             info: Hier geht es um better.
+          - text: Zeile 2
+            correct: false
+            info: Hier schlägt Jayden vor, Wörter zu vergleichen.
           - text: Zeile 12
             correct: false
             info: Hier geht es um Akzente in Jaydens Land.
+          - text: Zeile 11
+            correct: true
+            info: Dort steht, was Mr Hill sagt.
         explanation: Mr Hill nennt beide Arten normal.
         hint: Suche die Zeile, in der Mr Hill vorkommt.
       - type: single-choice
         id: aussprache-meinung
         text: "Amir fragt: „Welchen Akzent soll ich lernen?“ Was ist eine gute Antwort?"
         options:
-          - text: Beide sind richtig. Wähle den, den du magst, und hör auch dem anderen zu.
-            correct: true
-            info: Beide Akzente sind richtig.
-          - text: Nur den britischen, denn der amerikanische ist falsch.
-            correct: false
-            info: Amerikanisch ist nicht falsch.
           - text: Nur den amerikanischen, denn der britische ist falsch.
             correct: false
             info: Britisch ist nicht falsch.
+          - text: Nur den britischen, denn der amerikanische ist falsch.
+            correct: false
+            info: Amerikanisch ist nicht falsch.
+          - text: Beide sind richtig. Wähle den, den du magst, und hör auch dem anderen zu.
+            correct: true
+            info: Beide Akzente sind richtig.
         explanation: Kein Akzent ist falsch.
         hint: Denke an Zeile 11.
   - type: section
