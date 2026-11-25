@@ -217,16 +217,16 @@ page, which a link. -->
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
       Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Muster bestätigt; Kapitel 1 bis 5 parallel mit Sub-Agenten in Worktrees; Hörurteil bestätigt; vor dem Vorschau-PR Gesamtcheck und Sprachprüfung mit Sub-Agenten.
-- [ ] Kapitel 1 Teil 1: Wiederholungsseite das-brauchst-du (schule-uk, feste-uk), Seiten usa-staedte und kanada mit Karte, Audio
-- [ ] Kapitel 1 Teil 2: Seiten jugend-usa, schule-usa und feste-usa mit Audio, Kapitel-Rückblick und Selbsteinschätzung
-- [ ] Kapitel 2 british-or-american: Wiederholungsseite (vokale, laut-buchstabe), Seiten be-ae-wortschatz, be-ae-aussprache (bf_emma gegen af_sarah) und be-ae-schreibung, Selbsteinschätzung
-- [ ] Kapitel 3 Teil 1: Datendatei usa-zeitachse, Seiten mayflower, einwanderung-usa und unabhaengigkeit-usa mit Zeitachse und Audio
-- [ ] Kapitel 3 Teil 2: Seiten westen-native-americans und politik-usa (mehrere Perspektiven), Selbsteinschätzung
-- [ ] Kapitel 4 freiheit-gleichheit: Wiederholungsseite vielfalt-gb, Seiten sklaverei-buergerkrieg, gesellschaft-politik, buergerrechtsbewegung, migration-heute (Sachtexte mit Quellen), Selbsteinschätzung
-- [ ] Kapitel 5 englisch-weltweit: Wiederholungsseite (britische-inseln, gruss-hoeflichkeit), Seiten australien, weitere-varietaet und kulturelle-konventionen mit Gesprächsszenen und Hörfassung, Selbsteinschätzung
-- [ ] Prüfskript für Hörsätze (keine Hörsätze im Text derselben Seite), Wörter außerhalb A1/A2 im Inhaltsführer, Hörliste; Medienübersicht prüfen
+- [x] Kapitel 1 Teil 1: Wiederholungsseite das-brauchst-du (schule-uk, feste-uk), Seiten usa-staedte und kanada mit Karte, Audio
+- [x] Kapitel 1 Teil 2: Seiten jugend-usa, schule-usa und feste-usa mit Audio, Kapitel-Rückblick und Selbsteinschätzung
+- [x] Kapitel 2 british-or-american: Wiederholungsseite (vokale, laut-buchstabe), Seiten be-ae-wortschatz, be-ae-aussprache (bf_emma gegen af_sarah) und be-ae-schreibung, Selbsteinschätzung
+- [x] Kapitel 3 Teil 1: Datendatei usa-zeitachse, Seiten mayflower, einwanderung-usa und unabhaengigkeit-usa mit Zeitachse und Audio
+- [x] Kapitel 3 Teil 2: Seiten westen-native-americans und politik-usa (mehrere Perspektiven), Selbsteinschätzung
+- [x] Kapitel 4 freiheit-gleichheit: Wiederholungsseite vielfalt-gb, Seiten sklaverei-buergerkrieg, gesellschaft-politik, buergerrechtsbewegung, migration-heute (Sachtexte mit Quellen), Selbsteinschätzung
+- [x] Kapitel 5 englisch-weltweit: Wiederholungsseite (britische-inseln, gruss-hoeflichkeit), Seiten australien, weitere-varietaet und kulturelle-konventionen mit Gesprächsszenen und Hörfassung, Selbsteinschätzung
+- [x] Prüfskript für Hörsätze (keine Hörsätze im Text derselben Seite), Wörter außerhalb A1/A2 im Inhaltsführer, Hörliste; Medienübersicht prüfen
 <!-- tasks: pages (8 added): the other pages or screens, after the pattern -->
-- [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
+- [x] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
