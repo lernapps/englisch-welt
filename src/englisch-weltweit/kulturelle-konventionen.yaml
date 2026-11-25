@@ -10,7 +10,7 @@ blocks:
     title: Wie fängt ein Gespräch an?
     blocks:
       - type: text
-        text: "Die Weltkarte ist jetzt voll von Orten und Klängen. Auf diesem Halt geht es um etwas anderes: wie du dich im Gespräch mit Menschen verhältst, die andere Gewohnheiten haben. Auf der Wiederholungsseite hast du schon höfliche Grüße wiederholt. Vorher eine Frage an dich."
+        text: "Die Weltkarte ist jetzt voll von Orten und Klängen. Auf diesem Halt geht es um etwas anderes: wie du dich im Gespräch mit Menschen verhältst, die andere Gewohnheiten haben. Zu Beginn des Kapitels hast du schon höfliche Grüße wiederholt. Die drei Gesprächsszenen auf dieser Seite sind erfundene Beispiele zwischen neutralen Rollen. Sie zeigen Tendenzen, keine festen Regeln für ein ganzes Land. Vorher eine Frage an dich."
       - type: single-choice
         id: kk-start
         text: Du sprichst zum ersten Mal mit einer fremden Person. Was gehört meistens zum Anfang?
@@ -21,9 +21,9 @@ blocks:
           - text: Die Frage, wie viel die andere Person verdient
             correct: false
             info: In einigen Ländern gilt die Frage nach dem Gehalt als privat.
-          - text: Eine lange Pause, bis die andere Person spricht
+          - text: Gleich ein ernstes Streitgespräch über Politik
             correct: false
-            info: Viele Menschen empfinden Schweigen als unangenehm.
+            info: Sichere Themen für den Anfang sind eher das Wetter, Sport und Fernsehen.
         explanation: Ein Gespräch beginnt meistens mit einem Gruß.
       - type: text
         text: "**Das kannst du danach:** Du erkennst, wie Abstand, Körpersprache, Small Talk und höfliche Kritik wirken. Du wählst im Gespräch eine angemessene Antwort und begründest sie. Du schreibst einen kurzen Dialog."
@@ -73,7 +73,7 @@ blocks:
           23. **Writer:** Thanks for telling me, that helps.
           24. **Reader:** You are welcome. I am happy to read the next version, too.
       - type: vocabulary
-        caption: Randglossar · Wörter der Szenen
+        caption: Randglossar · Wörter der Seite
         languages:
           source: de
           target: en
@@ -100,16 +100,22 @@ blocks:
             source: vielleicht
           - target: to cut
             source: hier streichen, kürzen
+          - target: to invite
+            source: einladen
+          - target: to repeat
+            source: wiederholen
+          - target: again
+            source: noch einmal
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
     blocks:
       - type: true-false
         id: kk-verstehen
-        text: Stimmt das? In Szene 3 sagt die Reader direkt, dass der zweite Teil zu lang ist.
+        text: Stimmt das? In Szene 3 sagt Reader direkt, dass der zweite Teil zu lang ist.
         answer: false
         hint: Lies Zeile 18.
-        explanation: Die Reader macht einen Vorschlag in Frageform.
+        explanation: Reader macht einen Vorschlag in Frageform.
       - type: single-choice
         id: kk-beleg
         text: Welche Zeile zeigt, dass die Person mehr Abstand haben möchte?
@@ -148,8 +154,8 @@ blocks:
       - type: figure
         image: images/abstandszonen.svg
         alt: Vier Ringe um eine Person in der Mitte. Der innerste Ring heißt intimate, der zweite personal, der dritte social und der äußerste public. Neben jedem Ring steht, wie weit er ungefähr von der Person reicht.
-        caption: Schemabild, nicht maßstabsgetreu. Die vier Zonen stammen von Edward T. Hall. Schau, wie die Zonen nach außen weiter von der Person entfernt sind.
-        source: eigene Zeichnung
+        caption: Schemabild, nicht maßstabsgetreu. Die vier Zonen und ihre Werte stammen von Edward T. Hall (1963), hier nach dem Artikel „Proxemics“ der englischen Wikipedia. Schau, wie die Zonen nach außen weiter von der Person entfernt sind.
+        source: eigene Zeichnung nach Angaben der englischen Wikipedia
         licence: CC-BY-4.0
       - type: note
         title: Merke
@@ -158,11 +164,13 @@ blocks:
             text: |
               **Körpersprache** gehört zur nonverbalen Kommunikation: Berührung, Bewegung, Stimme, Zeit und Abstand. Den Abstand untersucht die **Proxemik**. Die Zahlen im Bild sind Richtwerte, keine Regeln.
 
-              **Wie viel Abstand angenehm ist**, hängt von der Kultur, der Situation und der Person ab. Eine Studie von 2017 fand bei Fremden im Durchschnitt mehr als 120 cm in Rumänien und Ungarn und weniger als 90 cm in Argentinien und Peru. Das sind Durchschnitte: Einzelne Menschen sind verschieden. Wenn jemand zurücktritt, ist ihm der Abstand oft zu klein.
+              **Wie viel Abstand angenehm ist**, hängt von der Kultur, der Situation und der Person ab. Eine Studie von 2017 (so beschreibt sie der Wikipedia-Artikel „Proxemics“) fand bei Fremden im Durchschnitt mehr als 120 cm in Rumänien und Ungarn und weniger als 90 cm in Argentinien und Peru. Das sind Durchschnitte und nur Tendenzen: Einzelne Menschen sind verschieden. Wenn jemand zurücktritt, ist ihm der Abstand oft zu klein.
 
               **Small Talk** ist ein freundliches Gespräch über unwichtige Dinge mit den Teilen Gruß, Gespräch und Abschluss. Sichere Themen sind oft das Wetter, Sport und Fernsehen. Eine Antwort mit etwas mehr als nur „Yes“ oder „No“ gilt als höflicher. Regeln und Themen unterscheiden sich je nach Kultur.
 
               **Höfliche Kritik** beginnt mit etwas Positivem und macht aus der Kritik einen Vorschlag, zum Beispiel mit **could**, **might** oder **a bit**: It might be better to start with the main idea. Wie direkt Kritik sein darf, ist verschieden. Wenn du unsicher bist, wähle die höflichere Form.
+
+              **Höfliche Bitten:** Mit **Excuse me** oder **Sorry** sprichst du jemanden an oder zeigst, dass du etwas nicht verstanden hast. Mit **Could you … , please?** bittest du höflich, zum Beispiel: Could you speak more slowly, please?
   - type: section
     id: uebung
     title: Übung
@@ -176,10 +184,10 @@ blocks:
             info: Du nimmst den höflichen Vorschlag auf.
           - text: I do not know. I am not wondering about it.
             correct: false
-            info: Der Satz ist ein Vorschlag, keine Frage.
-          - text: Why do you say that? That is rude.
+            info: Der Satz ist ein Vorschlag, keine Frage an dich.
+          - text: No, the slides are fine. Please do not tell me what to do.
             correct: false
-            info: Die Form ist höflich, nicht unhöflich.
+            info: Der Satz ist ein höflicher Vorschlag, kein Befehl. Eine Antwort, die den Vorschlag annimmt, ist angemessener.
         explanation: I wonder if … ist meistens ein höflicher Vorschlag.
       - type: language-task
         id: kk-kritik
@@ -215,10 +223,10 @@ blocks:
           case: hint
           punctuation: ok
         items:
-          - source: Vielen Dank, dass ich kommen durfte.
-            target: (Thank you|Thanks) (very much |)for (having|inviting|letting) me(| come).
+          - source: Vielen Dank, dass du mich eingeladen hast.
+            target: (Thank you|Thanks) (very much |)for (inviting|having) me.
             mistakes:
-              - answer: Thank you for have me.
+              - answer: Thank you for invite me.
                 message: Nach for steht die ing-Form.
               - answer: Thanks you for having me.
                 message: Nach Thanks steht kein you.
@@ -291,12 +299,12 @@ blocks:
         rows:
           - - Australien
             - The First Fleet brought more than seven hundred convicts to Sydney Cove.
-            - Die Kolonie war zuerst ein Gefängnis der Briten.
+            - Die Briten gründeten 1788 eine Strafkolonie in einem Land, in dem schon Menschen lebten.
           - - Weitere Varietäten
             - In Scotland, a lassie is a young girl.
-            - Jede Varietät hat eigene Wörter und eine eigene Norm.
+            - Eine Varietät hat eigene Wörter und ist kein falsches Englisch.
           - - Umgangsformen
             - Your main idea is clear, but could we add a picture?
             - Mach aus Kritik einen höflichen Vorschlag.
       - type: text
-        text: Damit ist die Weltreise zu Ende. Du warst in den USA und in Kanada, hast britisches und amerikanisches Englisch verglichen und die Geschichte der USA gelesen. Zuletzt ging es nach Australien, zu weiteren Varietäten des Englischen und zu Umgangsformen in anderen Kulturen. Auf jedem Halt hast du gelesen, gehört, geschrieben und gesprochen.
+        text: Damit ist die Weltreise zu Ende. Du warst in den USA und in Kanada, hast britisches und amerikanisches Englisch verglichen und die Geschichte der USA gelesen. Zuletzt ging es nach Australien, zu weiteren Varietäten des Englischen und zu Umgangsformen im Gespräch, die je nach Kultur, Situation und Person verschieden sein können. Auf jedem Halt hast du gelesen, gehört, geschrieben und gesprochen.

@@ -1,12 +1,9 @@
 {
-  "src/audio/australia-is-the-sixth-largest-country-in-the-world.mp3": "Australia is the sixth largest country in the world.",
   "src/audio/tasmania-is-an-island-in-the-south-of-the-country.mp3": "Tasmania is an island in the south of the country.",
   "src/audio/while-canberra-was-being-built-melbourne-was-the-temporary-capital.mp3": "While Canberra was being built, Melbourne was the temporary capital.",
   "src/audio/many-australian-animals-live-in-no-other-country.mp3": "Many Australian animals live in no other country.",
-  "src/audio/the-great-barrier-reef-is-more-than-two-thousand-kilometres-long.mp3": "The Great Barrier Reef is more than two thousand kilometres long.",
   "src/audio/aboriginal-australians-have-lived-there-for-many-thousands-of-years.mp3": "Aboriginal Australians have lived there for many thousands of years.",
   "src/audio/every-variety-of-english-has-its-own-typical-features.mp3": "Every variety of English has its own typical features.",
-  "src/audio/many-australian-words-come-from-aboriginal-languages.mp3": "Many Australian words come from Aboriginal languages.",
   "src/audio/people-in-scotland-have-their-own-words-for-children.mp3": "People in Scotland have their own words for children.",
   "src/audio/australians-often-make-long-words-shorter.mp3": "Australians often make long words shorter.",
   "src/audio/a-good-dictionary-describes-how-people-really-use-the-language.mp3": "A good dictionary describes how people really use the language.",
@@ -15,5 +12,8 @@
   "src/audio/i-hope-you-found-the-office-easily.mp3": "I hope you found the office easily.",
   "src/audio/i-am-sorry-i-did-not-catch-your-name.mp3": "I am sorry, I did not catch your name.",
   "src/audio/perhaps-we-could-look-at-the-table-together.mp3": "Perhaps we could look at the table together.",
-  "src/audio/thank-you-for-your-help-and-have-a-good-evening.mp3": "Thank you for your help, and have a good evening."
+  "src/audio/thank-you-for-your-help-and-have-a-good-evening.mp3": "Thank you for your help, and have a good evening.",
+  "src/audio/only-five-countries-in-the-world-are-bigger-than-australia.mp3": "Only five countries in the world are bigger than Australia.",
+  "src/audio/canberra-is-smaller-than-sydney-but-it-is-the-capital.mp3": "Canberra is smaller than Sydney, but it is the capital.",
+  "src/audio/some-australian-words-come-from-aboriginal-languages.mp3": "Some Australian words come from Aboriginal languages."
 }

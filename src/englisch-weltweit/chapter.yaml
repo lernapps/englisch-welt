@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Englisch weltweit
-summary: Die Weltkarte reicht jetzt um die ganze Erde. Du stellst Australien vor, erkennst Merkmale weiterer Varietäten des Englischen und lernst, wie du dich in Gesprächen mit Menschen aus anderen Kulturen angemessen verhältst.
+summary: Die Weltkarte reicht jetzt um die ganze Erde. Du stellst Australien vor, erkennst Merkmale weiterer Varietäten des Englischen und lernst, wie Umgangsformen im Gespräch wirken und sich je nach Kultur unterscheiden können.
 pages: [das-brauchst-du, australien, weitere-varietaet, kulturelle-konventionen]
 selfAssessment:
   pages:
