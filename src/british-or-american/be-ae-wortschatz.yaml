@@ -2,7 +2,7 @@
 title: Britischer und amerikanischer Wortschatz
 description: "Sophie und Jayden sagen dasselbe mit anderen Wörtern. Du lernst wichtige Wortpaare und merkst: Beide Wörter sind richtig."
 competencies: [be-ae-wortschatz]
-scope: "Die Seite zeigt wichtige Unterschiede zwischen britischem und amerikanischem Wortschatz an Wortpaaren: flat und apartment, lift und elevator, pavement und sidewalk, petrol und gas, car park und parking lot, biscuit und cookie, autumn und fall, holiday und vacation, queue und line, trousers und pants. Dazu kommen Wörter mit anderer Bedeutung: football meint in Großbritannien Fußball und in den USA meist American Football, soccer ist das amerikanische Wort für Fußball, und pants sind in Großbritannien Unterhosen. Britisch und amerikanisch sind zwei Varietäten des Englischen: Beide Wörter sind richtig, und man versteht einander meistens trotzdem. Typische Fehler sind die Wörter vertauschen, ein amerikanisches Wort „falsch“ nennen, gas mit Gas verwechseln und football mit Fußball gleichsetzen. Nicht hier: Aussprache, Schreibung und Grammatik der beiden Varietäten, regionale Wörter innerhalb der USA oder Großbritanniens."
+scope: "Die Seite zeigt wichtige Unterschiede zwischen britischem und amerikanischem Wortschatz an Wortpaaren: flat und apartment, lift und elevator, pavement und sidewalk, petrol und gas, car park und parking lot, biscuit und cookie, autumn und fall, holiday und vacation, queue und line, trousers und pants. Dazu kommen Wörter mit anderer Bedeutung: football meint in Großbritannien Fußball und in den USA meist American football, soccer ist das amerikanische Wort für Fußball, und pants sind in Großbritannien Unterhosen. Britisch und amerikanisch sind zwei Varietäten des Englischen: Beide Wörter sind richtig, und man versteht einander meistens trotzdem. Typische Fehler sind die Wörter vertauschen, ein amerikanisches Wort „falsch“ nennen, gas mit Gas verwechseln und football mit Fußball gleichsetzen. Nicht hier: Aussprache, Schreibung und Grammatik der beiden Varietäten, regionale Wörter innerhalb der USA oder Großbritanniens."
 blocks:
   - type: section
     id: einstieg
@@ -14,9 +14,9 @@ blocks:
         id: wortschatz-start
         text: "Jayden aus Chicago sagt: „I play football after school.“ Welches Spiel meint er?"
         options:
-          - text: American Football
+          - text: American football
             correct: true
-            info: In den USA meint football meistens American Football.
+            info: In den USA meint football meistens American football.
           - text: Fußball, wie Sophie ihn spielt
             correct: false
             info: Fußball heißt bei Jayden soccer.
@@ -44,7 +44,7 @@ blocks:
           8. **Jayden:** A cookie? Nice! I play football, too, but my football is a different game. You mean soccer!
       - type: text
         text: |
-          9. **Sophie:** Yes! Soccer is my football. Do you like the autumn?
+          9. **Sophie:** Yes! Soccer is my football. Do you like autumn?
           10. **Jayden:** I love the fall, but I say fall, not autumn. The leaves are red and yellow.
           11. **Sophie:** In the holidays we go to Cornwall. I hate to stand in a queue at the station.
           12. **Jayden:** We say vacation. And we stand in line, not in a queue.
@@ -80,7 +80,7 @@ blocks:
           - target: the autumn / the fall
             source: der Herbst
             note: autumn ist britisch, fall amerikanisch.
-          - target: the holidays / the vacation
+          - target: the holidays / vacation
             source: die Ferien
             note: holidays ist britisch, vacation amerikanisch.
           - target: the queue / the line
@@ -184,7 +184,7 @@ blocks:
               - answer: Let's take the lift to the fourth floor.
                 message: lift sagt Sophie.
           - cue: Im Sommer haben wir Ferien am See.
-            target: In the summer we have [vacation] at the lake.
+            target: In the summer we spend our [vacation] at the lake.
             mistakes:
               - answer: In the summer we have holiday at the lake.
                 message: holiday ist britisch.
@@ -225,7 +225,7 @@ blocks:
           - cue: "Sophie isst einen Keks zum Tee."
             target: Sophie has a [biscuit] with her tea.
             distractors: [[cookie]]
-          - cue: "Jayden mag Fußball."
+          - cue: "Jayden mag Fußball, das Spiel mit dem runden Ball."
             target: Jayden likes to play [soccer].
             distractors: [[football]]
           - cue: "Jayden mag den Herbst."

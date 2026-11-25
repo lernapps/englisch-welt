@@ -187,7 +187,7 @@ blocks:
               - answer: Many people must leave their land.
                 message: Für früher brauchst du had to.
           - source: Native Americans leben heute in den USA.
-            target: Native Americans live in the (USA|United States) today.
+            target: Native Americans live in the (USA|United States|US) today.
             mistakes:
               - answer: Native Americans lived in the USA today.
                 message: Sie leben auch heute dort. Du brauchst die Gegenwart.

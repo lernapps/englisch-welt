@@ -219,13 +219,13 @@ blocks:
               - answer: Jefferson written the first draft.
                 message: written ist die dritte Form, nicht die Vergangenheit.
           - cue: Der Krieg begann 1775.
-            target: The war [began] in 1775.
+            target: The war [began|started] in 1775.
             mistakes:
               - answer: The war beginned in 1775.
                 message: begin ist unregelmäßig, nicht beginned.
               - answer: The war begun in 1775.
                 message: begun ist die dritte Form, nicht die Vergangenheit.
-        hint: "Diese drei Verben sind unregelmäßig. Sieh in die Zeilen 6, 7 und 9."
+        hint: "Diese drei Verben sind unregelmäßig. Schau in die Zeilen 6, 7 und 9."
       - type: language-task
         id: unabhaengigkeit-hoeren
         languages: { source: de, target: en }

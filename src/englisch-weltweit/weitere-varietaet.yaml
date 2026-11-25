@@ -13,7 +13,7 @@ blocks:
         text: Auf dem letzten Halt warst du in Australien. Dort sprechen die Menschen Englisch, aber nicht genau so wie in London oder in New York. Aus dem Kapitel über britisches und amerikanisches Englisch kennst du schon Wörter, die sich unterscheiden. Vorher eine Frage an dich.
       - type: single-choice
         id: var-start
-        text: Wie heißt Benzin im Englisch in Australien?
+        text: Wie heißt Benzin im Englischen in Australien?
         options:
           - text: petrol
             correct: true

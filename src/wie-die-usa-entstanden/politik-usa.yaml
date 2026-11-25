@@ -53,7 +53,7 @@ blocks:
           - target: Congress
             source: der Kongress (macht die Gesetze)
           - target: the Supreme Court
-            source: der Oberste Gerichtshof
+            source: das Oberste Gericht
           - target: in effect
             source: in Kraft
           - target: the commander
@@ -252,4 +252,4 @@ blocks:
           - [Besiedlung des Westens, "About four hundred thousand settlers walked to Oregon and California."]
           - [Politik, "The President can only be elected again once."]
       - type: text
-        text: "Im nächsten Kapitel, **Freiheit und Gleichheit** (Stufen 9 und 10), geht die Zeitachse bis heute weiter."
+        text: "Im nächsten Kapitel, **Freiheit und Gleichheit** (Klasse 9 und 10), geht die Zeitachse bis heute weiter."

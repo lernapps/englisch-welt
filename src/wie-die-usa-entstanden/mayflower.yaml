@@ -162,7 +162,7 @@ blocks:
               - { x: 60, y: 40, text: the Mayflower, marker: "4" }
         pairsFrom: material
         explanation: Die Mayflower fuhr von Europa über den Atlantik nach Nordamerika.
-        hint: Denk an die Himmelsrichtungen. Der Atlantik liegt im Osten der USA.
+        hint: Denke an die Himmelsrichtungen. Der Atlantik liegt im Osten der USA.
       - type: ordering
         id: mayflower-reihenfolge
         text: Bringe die Stationen der Pilger in die richtige Reihenfolge.
@@ -196,7 +196,7 @@ blocks:
               - answer: The Wampanoag lifed in North America.
                 message: live hat schon ein e, du hängst nur d an.
           - cue: Die Pilger gründeten die Kolonie.
-            target: The Pilgrims [started] the colony.
+            target: The Pilgrims [started|founded] the colony.
             mistakes:
               - answer: The Pilgrims start the colony.
                 message: Du brauchst die Vergangenheit mit -ed.

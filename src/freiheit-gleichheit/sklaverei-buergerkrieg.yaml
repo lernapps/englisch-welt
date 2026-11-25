@@ -240,7 +240,7 @@ blocks:
               - answer: The Northern states were called the Confederacy.
                 message: Confederacy waren die Südstaaten.
           - cue: Die Südstaaten bildeten die Konföderation.
-            target: The Southern states made the [Confederacy].
+            target: The Southern states formed the [Confederacy].
             mistakes:
               - answer: The Southern states made the Union.
                 message: Union hießen die Nordstaaten.

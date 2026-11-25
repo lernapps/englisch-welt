@@ -188,7 +188,7 @@ blocks:
               - answer: Many people came to Europe.
                 message: to heißt „nach“.
           - source: Sie wollten Arbeit.
-            target: They wanted (a job|work).
+            target: They wanted (a job|work|jobs|a better life).
             mistakes:
               - answer: They wanted a work.
                 message: Mit Artikel sagst du a job.

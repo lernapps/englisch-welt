@@ -39,7 +39,7 @@ blocks:
           5. **Sophie:** How many states are there?
       - type: text
         text: |
-          6. **Jayden:** Fifty! Forty-eight of them are connected. Canada is in the north of them and Mexico is in the south.
+          6. **Jayden:** Fifty! Forty-eight of them are connected. Canada is north of them and Mexico is south of them.
           7. **Jayden:** The other two are special. Alaska is in the north-west, but it is not connected to the other states. Hawaii is a group of islands in the Pacific Ocean.
           8. **Sophie:** What is in the middle of the country?
           9. **Jayden:** The Mississippi River and the Great Plains. The Rocky Mountains are in the west. The Grand Canyon is in Arizona.
@@ -208,7 +208,7 @@ blocks:
               - answer: Canada is south of Mexico.
                 message: south ist Süden. Kanada liegt im Norden.
           - source: Alaska ist ein Staat der USA.
-            target: Alaska is (a|one) state (of|in) the (USA|United States).
+            target: Alaska is (a|one) state (of|in) the (USA|United States|US).
             mistakes:
               - answer: Alaska is a country of the USA.
                 message: Ein Bundesstaat heißt state. country ist ein ganzes Land.

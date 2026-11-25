@@ -160,7 +160,7 @@ blocks:
 
               **Wie viel Abstand angenehm ist**, hängt von der Kultur, der Situation und der Person ab. Eine Studie von 2017 fand bei Fremden im Durchschnitt mehr als 120 cm in Rumänien und Ungarn und weniger als 90 cm in Argentinien und Peru. Das sind Durchschnitte: Einzelne Menschen sind verschieden. Wenn jemand zurücktritt, ist ihm der Abstand oft zu klein.
 
-              **Small talk** ist ein freundliches Gespräch über unwichtige Dinge mit den Teilen Gruß, Gespräch und Abschluss. Sichere Themen sind oft das Wetter, Sport und Fernsehen. Eine Antwort mit etwas mehr als nur „Yes“ oder „No“ gilt als höflicher. Regeln und Themen unterscheiden sich je nach Kultur.
+              **Small Talk** ist ein freundliches Gespräch über unwichtige Dinge mit den Teilen Gruß, Gespräch und Abschluss. Sichere Themen sind oft das Wetter, Sport und Fernsehen. Eine Antwort mit etwas mehr als nur „Yes“ oder „No“ gilt als höflicher. Regeln und Themen unterscheiden sich je nach Kultur.
 
               **Höfliche Kritik** beginnt mit etwas Positivem und macht aus der Kritik einen Vorschlag, zum Beispiel mit **could**, **might** oder **a bit**: It might be better to start with the main idea. Wie direkt Kritik sein darf, ist verschieden. Wenn du unsicher bist, wähle die höflichere Form.
   - type: section
@@ -216,14 +216,14 @@ blocks:
           punctuation: ok
         items:
           - source: Vielen Dank, dass ich kommen durfte.
-            target: Thank you (very much |)for (having|inviting) me.
+            target: (Thank you|Thanks) (very much |)for (having|inviting|letting) me(| come).
             mistakes:
               - answer: Thank you for have me.
                 message: Nach for steht die ing-Form.
               - answer: Thanks you for having me.
                 message: Nach Thanks steht kein you.
           - source: Entschuldigung, können Sie das bitte noch einmal sagen?
-            target: (Sorry|Excuse me), could you say that again, please?
+            target: (Sorry|Excuse me|I am sorry), could you (say that again|repeat that), please?
             mistakes:
               - answer: Sorry, can you to say that again, please?
                 message: Nach could you steht das Verb ohne to.
@@ -266,7 +266,7 @@ blocks:
         id: kk-dialog
         task: Schreibe einen Dialog mit vier bis sechs Zeilen zwischen Guest und Host. Er hat einen Gruß, eine freundliche Frage und eine höfliche Bitte.
         points:
-          - text: Der Dialog beginnt mit einem Gruß und einer freundlichen Frage (small talk).
+          - text: Der Dialog beginnt mit einem Gruß und einer freundlichen Frage (Small Talk).
             source: /englisch-weltweit/kulturelle-konventionen/#lesen
           - text: Eine Bitte oder ein Vorschlag ist höflich formuliert (could, might, perhaps, please).
             source: /englisch-weltweit/kulturelle-konventionen/#neu

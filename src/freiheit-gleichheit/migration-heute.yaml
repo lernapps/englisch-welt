@@ -21,7 +21,7 @@ blocks:
           - text: Wer migriert, flieht immer vor Krieg oder Not.
             correct: false
             info: Viele kommen zu Verwandten oder zur Arbeit.
-          - text: Wer eingewandert ist, bleibt immer für immer im neuen Land.
+          - text: Wer eingewandert ist, bleibt für immer im neuen Land.
             correct: false
             info: Viele ziehen später weiter oder zurück.
         explanation: Migration hat viele Gründe.
@@ -71,7 +71,7 @@ blocks:
           - target: the minority
             source: die Minderheit
           - target: the tribe
-            source: die indigene Gruppe, der Stamm
+            source: die indigene Gruppe, die Nation (englisch tribe)
           - target: to recognise
             source: anerkennen
           - target: the source
@@ -271,6 +271,6 @@ blocks:
             - 1996 erhielt Rosa Parks die Presidential Medal of Freedom.
           - - Migration heute
             - Du prüfst und vergleichst Zahlen aus zwei Ländern.
-            - Die US-Regierung erkennt 574 Stämme von Native Americans an.
+            - Die US-Regierung erkennt 574 Nationen und Gruppen von Native Americans (tribes) an.
       - type: text
         text: "Kapitel 4 ist geschafft. Weiter geht es in **Kapitel 5**: Dort liest du über Australien, hörst weitere Varietäten des Englischen und übst Umgangsformen in anderen Kulturen."
