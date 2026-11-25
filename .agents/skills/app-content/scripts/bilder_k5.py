@@ -48,10 +48,11 @@ def register(m):
               f'{cx-9},{cy-3} {cx-3},{cy-3}" fill="{m.ORANGE}" stroke="{m.INK}" stroke-width="1.5"/>\n')
         b += m.text(sx + 12, sy - 4, "Sydney", 14, "start")
         b += m.text(cx - 14, cy - 2, "Canberra", 14, "end", m.ORANGE, "bold")
-        b += m.text(mx - 10, my + 5, "Melbourne", 14, "end")
+        b += f'  <line x1="{mx}" y1="{my}" x2="{mx - 14}" y2="{my + 14}" stroke="{m.INK}" stroke-width="1.5"/>\n'
+        b += m.text(mx - 16, my + 24, "Melbourne", 14, "end")
         b += m.text(ll(147.2, -27.5)[0] - 20, ll(147.2, -27.5)[1] + 4, "Great Dividing Range", 14, "end")
         b += m.text(ll(149.2, -17.0)[0], ll(149.2, -17.0)[1], "Great Barrier Reef", 14, "start", m.GREEN)
-        b += m.text(ll(148.9, -42.0)[0], ll(148.9, -42.0)[1] + 4, "Tasmania", 14, "start")
+        b += m.text(ll(148.9, -42.0)[0] + 10, 254, "Tasmania", 14, "start")  # nicht in den unteren 40 Einheiten (Badge)
         return m.svg(480, 300, "Schemakarte Australiens mit Hauptstadt, Städten, Gebirge, Riff und Tasmanien", b)
 
     @m.image
@@ -67,8 +68,8 @@ def register(m):
         for r, fill in [(128, "#e9f1f7"), (96, "#dcebf5"), (64, "#cfe3f1"), (32, "#b9d6ec")]:
             b += f'  <circle cx="{cx}" cy="{cy}" r="{r}" fill="{fill}" stroke="{m.INK}" stroke-width="2"/>\n'
         b += f'  <circle cx="{cx}" cy="{cy}" r="8" fill="{m.INK}"/>\n'
-        rows = [("intimate", "bis etwa 0,5 m", 32, -60, 50), ("personal", "etwa 0,5 bis 1,2 m", 64, -30, 115),
-                ("social", "etwa 1,2 bis 3,7 m", 96, 10, 180), ("public", "mehr als 3,7 m", 128, 40, 245)]
+        rows = [("intimate", "bis etwa 0,5 m", 32, -60, 40), ("personal", "etwa 0,5 bis 1,2 m", 64, -30, 95),
+                ("social", "etwa 1,2 bis 3,7 m", 96, 10, 150), ("public", "mehr als 3,7 m", 128, 40, 205)]
         for name, dist, r, deg, ty in rows:
             a = math.radians(deg)
             x1, y1 = cx + r * math.cos(a), cy + r * math.sin(a)

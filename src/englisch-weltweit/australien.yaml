@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Australien
-description: "Du stellst Australien vor: Lage, Hauptstadt, die Geschichte als britische Kolonie und die Rolle der Aborigines und der Torres-Strait-Insulaner früher und heute."
+description: "Du stellst Australien vor: Lage, Hauptstadt, die Geschichte als britische Kolonie und die Rolle der Aboriginal Australians und der Torres-Strait-Insulaner früher und heute."
 competencies:
   - australien
-scope: "Die Seite stellt Australien vor. Australien ist ein Land und ein Kontinent, die Hauptstadt ist Canberra (nicht Sydney oder Melbourne, die größten Städte). Die meisten Menschen leben an der Küste, im Landesinneren ist es trocken. Die Aborigines und die Torres-Strait-Insulaner leben seit sehr langer Zeit dort. Die Aborigines sind kein einziges Volk, sondern viele Gruppen mit mehr als 250 Sprachen, die Torres-Strait-Insulaner sind ein eigenes Volk. Die Briten gründeten 1788 mit der First Fleet eine Strafkolonie in Sydney Cove, schlossen keine Verträge mit den Aborigines, und die Siedler nahmen den größten Teil des Landes. Ab 1886 nahmen Behörden viele Aboriginal-Kinder aus ihren Familien. 1901 vereinigten sich die sechs Kolonien. Ein Referendum 1967 und die Mabo-Entscheidung 1992 sind Schritte zu mehr Rechten. Geübt werden Lage auf der Karte, Zeitachse, zwei Sichtweisen auf dieselbe Geschichte und Sätze mit capital, coast und people. Typische Fehler sind Sydney als Hauptstadt, die Aborigines als ein Volk und Australien als leeres Land. Nicht hier: Politik der Gegenwart, Wirtschaft, Tiere, Schulsystem."
+scope: "Die Seite stellt Australien vor. Australien ist ein Land und ein Kontinent, die Hauptstadt ist Canberra (nicht Sydney oder Melbourne, die größten Städte). Die meisten Menschen leben an der Küste, im Landesinneren ist es trocken. Die Aboriginal Australians und die Torres-Strait-Insulaner leben seit sehr langer Zeit dort. Die Aboriginal Australians sind kein einziges Volk, sondern viele Gruppen mit mehr als 250 Sprachen, die Torres-Strait-Insulaner sind ein eigenes Volk. Die Briten gründeten 1788 mit der First Fleet eine Strafkolonie in Sydney Cove, schlossen keine Verträge mit den Aboriginal Australians, und die Siedler nahmen den größten Teil des Landes. Ab 1886 nahmen Regierungen der Kolonien viele Aboriginal-Kinder aus ihren Familien, 2008 entschuldigte sich Premierminister Kevin Rudd im Bundesparlament dafür. 1901 vereinigten sich die sechs Kolonien. Ein Referendum 1967 und die Mabo-Entscheidung 1992 sind Schritte zu mehr Rechten. Der 26. Januar ist der Nationalfeiertag, für manche Aboriginal Australians ein Tag der Trauer. Geübt werden Lage auf der Karte, Zeitachse, zwei Sichtweisen auf dieselbe Geschichte und Sätze mit capital, coast und people. Typische Fehler sind Sydney als Hauptstadt, die Aboriginal Australians als ein Volk und Australien als leeres Land. Nicht hier: Politik der Gegenwart, Wirtschaft, einzelne Tierarten, Schulsystem."
 blocks:
   - type: section
     id: einstieg
     title: Nächster Halt Australien
     blocks:
       - type: text
-        text: Auf der Wiederholungsseite ging es um das Vereinigte Königreich. Von dort fuhren im Jahr 1788 Schiffe nach Australien. Der Halt auf der Weltkarte liegt also weit im Süden. Vorher eine Frage an dich.
+        text: Auf der Wiederholungsseite ging es um das Vereinigte Königreich. Von dort aus entstand 1788 in Australien eine britische Kolonie. Der Halt auf der Weltkarte liegt weit im Süden. Vorher eine Frage an dich.
       - type: single-choice
         id: aus-start
         text: Welche Stadt ist die Hauptstadt von Australien?
@@ -37,10 +37,10 @@ blocks:
 
           1. Australia is a country and a continent at the same time. It consists of the mainland, the island of Tasmania and many smaller islands.
           2. It lies between the Indian Ocean and the Pacific Ocean. In the north, the Timor Sea separates it from Asia, and the Tasman Sea lies between Australia and New Zealand.
-          3. It is the flattest and driest continent on which people live. About seventy per cent of the land is dry or half dry.
+          3. It is the flattest and driest continent on which people live. About seventy per cent of the land is dry or semi-arid. By area, Australia is the sixth-largest country in the world.
           4. So most people live near the coast. About ninety-five per cent of the Australians live within a hundred kilometres of the sea.
           5. Canberra is the capital. Sydney and Melbourne are bigger: both have more than five million people.
-          6. The Great Dividing Range runs along the east of the country. The Great Barrier Reef, the largest coral reef in the world, lies off the north-east coast.
+          6. The Great Dividing Range runs along the east of the country. The Great Barrier Reef, the largest coral reef in the world, lies off the north-east coast and is more than two thousand three hundred kilometres long. Because Australia was cut off from other continents for a very long time, much of its wildlife is unique.
       - type: text
         text: |
           **The first peoples and the colony**
@@ -49,18 +49,18 @@ blocks:
           8. "Aboriginal Australians" does not mean one single people. When the British arrived, the Aboriginal people spoke more than two hundred and fifty different languages.
           9. The Torres Strait Islanders are a different people with their own culture and languages. Their islands lie at the northern tip of Australia.
           10. In 1770, James Cook sailed along the east coast and claimed it for Great Britain. In 1788, the First Fleet arrived at Sydney Cove with more than a thousand people, among them 778 convicts. Britain wanted a prison colony there.
-          11. The British made their camp at Sydney Cove on 26 January 1788. This day later became Australia's national day.
+          11. The British made their camp at Sydney Cove on 26 January 1788. This day later became Australia's national day, Australia Day. Some Aboriginal Australians call 26 January Invasion Day or Survival Day, or they mark it as a Day of Mourning.
       - type: text
         text: |
           **Then and now**
 
           12. For Aboriginal people, the settlers brought great losses. The British signed no treaties with them. Many people died of diseases that the settlers brought, others were killed in fights over land, and the settlers took most of the land.
-          13. From 1886, officials took many Aboriginal children away from their families. They gave child protection and assimilation as their reasons.
+          13. From 1886, colonial governments began to take many Aboriginal children away from their families. They gave child protection and assimilation as their reasons. In some places this went on until the 1970s.
           14. On 1 January 1901, the six colonies became one country. Canberra was built as its capital, and until 1927 Melbourne served as the temporary capital.
           15. In 1967, a referendum changed the constitution: Aboriginal Australians were now counted in the census, and the federal parliament could make laws for them. In 1992, the High Court decided in the Mabo case that native title had survived: Australia was not "land belonging to no one" when the British came.
-          16. The federal government later apologised for the policy of taking children away. In the census of 2021, 3.7 per cent of the people in Australia were Aboriginal, and almost 77,000 Aboriginal and Torres Strait Islander people spoke an Indigenous language at home.
+          16. On 13 February 2008, Prime Minister Kevin Rudd apologised in the federal parliament for the policy of taking children away. In the census of 2021, 3.7 per cent of the people in Australia were Aboriginal, and almost 77,000 Aboriginal and Torres Strait Islander people spoke an Indigenous language at home.
       - type: vocabulary
-        caption: Randglossar · Wörter des Lesestücks
+        caption: Randglossar · Wörter der Seite
         languages:
           source: de
           target: en
@@ -91,6 +91,8 @@ blocks:
             source: das Lager
           - target: the assimilation
             source: die Anpassung an die Mehrheit (die Kinder sollten die Lebensweise der Siedler übernehmen)
+          - target: semi-arid
+            source: halb trocken (wenig Regen)
           - target: the policy
             source: das Vorgehen einer Regierung, die Politik
           - target: the constitution
@@ -99,6 +101,12 @@ blocks:
             source: des ganzen Staates (nicht nur eines Teils)
           - target: the parliament
             source: das Parlament
+          - target: the Prime Minister
+            source: der Premierminister, die Regierungschefin oder der Regierungschef
+          - target: to apologise
+            source: sich entschuldigen
+          - target: the High Court
+            source: das oberste Gericht des Landes
           - target: the referendum
             source: die Volksabstimmung
           - target: the census
@@ -124,7 +132,7 @@ blocks:
           - left: the First Fleet
             right: die Flotte, die 1788 mit mehr als tausend Menschen in Sydney Cove ankam
           - left: the Mabo case
-            right: eine Entscheidung des höchsten Gerichts im Jahr 1992
+            right: eine Entscheidung des obersten Gerichts im Jahr 1992
         explanation: Die Begriffe stehen in den Zeilen 5 bis 15.
         hint: Lies die Zeilen 5, 6, 10 und 15.
       - type: single-choice
@@ -147,17 +155,17 @@ blocks:
         hint: Suche das Wort treaties.
       - type: open-task
         id: aus-meinung
-        task: Das Lesestück zeigt zwei Sichtweisen auf den Beginn der Kolonie. Beschreibe sie in zwei bis drei Sätzen auf Englisch, zum Beispiel mit „For the British … but for …“.
+        task: Das Lesestück zeigt zwei Sichtweisen auf den 26. Januar. Beschreibe sie in zwei bis drei Sätzen auf Englisch, zum Beispiel mit „For many Australians … but for some Aboriginal Australians …“.
         points:
-          - text: Du nennst, was der Beginn der Kolonie für die Briten bedeutete (neues Lager, Strafkolonie, später Nationalfeiertag).
+          - text: Du nennst die eine Sicht (Nationalfeiertag, Australia Day).
             source: /englisch-weltweit/australien/#lesen
-          - text: Du nennst, was er für die Aboriginal people bedeutete (Verluste, keine Verträge, Land genommen).
+          - text: Du nennst die andere Sicht (Invasion Day, Survival Day oder Day of Mourning; Verluste, keine Verträge, Land genommen).
             source: /englisch-weltweit/australien/#lesen
           - text: Es sind ganze Sätze mit Punkt am Ende.
             kind: form
         solution: |
-          For the British, the camp at Sydney Cove was the start of a new colony, and the day later became the national day. For the Aboriginal people, the settlers brought diseases and fights, and the settlers took most of the land.
-        hint: Lies die Zeilen 10 bis 12.
+          For many Australians, 26 January is the national day, Australia Day. But some Aboriginal Australians call it Invasion Day or Survival Day, because the settlers brought diseases and fights, and they took most of the land.
+        hint: Lies die Zeilen 11 und 12.
   - type: section
     id: neu
     title: Australien auf der Karte und in der Zeit
@@ -170,9 +178,6 @@ blocks:
         licence: CC-BY-4.0
       - type: timeline
         events:
-          - date: 1606
-            title: Erste belegte Landung von Europäern
-            text: Das niederländische Schiff Duyfken landet an der Küste.
           - date: 1770
             title: James Cook an der Ostküste
             text: Cook zeichnet die Küste und beansprucht sie für Großbritannien.
@@ -192,7 +197,7 @@ blocks:
             text: Aboriginal Australians werden bei der Volkszählung mitgezählt.
           - date: 1992
             title: Mabo-Entscheidung
-            text: Das höchste Gericht erkennt das Recht der ersten Völker auf ihr Land an.
+            text: Das oberste Gericht erkennt das Recht der ersten Völker auf ihr Land an.
       - type: note
         title: Merke
         blocks:
@@ -245,17 +250,17 @@ blocks:
           - Die Briten gründen in Sydney Cove eine Strafkolonie.
           - Die sechs Kolonien werden ein gemeinsamer Staat.
           - Eine Volksabstimmung ändert die Verfassung für die Aboriginal Australians.
-          - Das höchste Gericht entscheidet im Mabo-Fall.
+          - Das oberste Gericht entscheidet im Mabo-Fall.
         explanation: Von 1788 über 1901 und 1967 bis 1992.
         hint: Die Zeitachse nennt die Jahre.
       - type: single-choice
         id: aus-volk
-        text: "Jemand schreibt: „The Aborigines are one people with one language.“ Welche Antwort passt?"
+        text: "Jemand schreibt: „Aboriginal Australians are one people with one language.“ Welche Antwort passt?"
         options:
           - text: "Das stimmt nicht: Es gab viele verschiedene Gruppen mit mehr als 250 Sprachen."
             correct: true
             info: Es gab viele Gruppen mit eigenen Sprachen und Kulturen.
-          - text: "Das stimmt: Alle Aborigines sprachen vor 1788 dieselbe Sprache."
+          - text: "Das stimmt: Alle Aboriginal Australians sprachen vor 1788 dieselbe Sprache."
             correct: false
             info: Vor 1788 wurden mehr als 250 Sprachen gesprochen.
           - text: "Das stimmt nicht: Die Torres-Strait-Insulaner sind das einzige Volk des Landes."
@@ -284,7 +289,7 @@ blocks:
               - answer: The capital from Australia is Canberra.
                 message: Nach capital steht of.
           - source: Die meisten Australier leben an der Küste.
-            target: Most Australians live (on|near|by) the coast.
+            target: Most Australians live (on|near|by|along|close to) the coast.
             mistakes:
               - answer: Most Australians live in the coast.
                 message: Mit coast sagst du on the coast oder near the coast.
@@ -301,8 +306,8 @@ blocks:
           case: hint
           punctuation: ok
         items:
-          - audio: australia-is-the-sixth-largest-country-in-the-world.mp3
-            target: Australia is the sixth largest country in the world.
+          - audio: only-five-countries-in-the-world-are-bigger-than-australia.mp3
+            target: Only five countries in the world are bigger than Australia.
           - audio: tasmania-is-an-island-in-the-south-of-the-country.mp3
             target: Tasmania is an island in the south of the country.
           - audio: while-canberra-was-being-built-melbourne-was-the-temporary-capital.mp3
@@ -318,14 +323,14 @@ blocks:
         items:
           - audio: many-australian-animals-live-in-no-other-country.mp3
             text: Many Australian animals live in no other country.
-          - audio: the-great-barrier-reef-is-more-than-two-thousand-kilometres-long.mp3
-            text: The Great Barrier Reef is more than two thousand kilometres long.
+          - audio: canberra-is-smaller-than-sydney-but-it-is-the-capital.mp3
+            text: Canberra is smaller than Sydney, but it is the capital.
           - audio: aboriginal-australians-have-lived-there-for-many-thousands-of-years.mp3
             text: Aboriginal Australians have lived there for many thousands of years.
-        hint: Sprich langsam nach. Achte auf Australian, Barrier und thousand.
+        hint: Sprich langsam nach. Achte auf Australian, capital und thousand.
   - type: section
     id: weiter
     title: Nächster Halt
     blocks:
       - type: text
-        text: "Die Weltkarte hat jetzt auch einen Halt im Süden der Erde. Als Nächstes geht es um das, was du hörst, wenn Menschen in Australien, Schottland oder anderswo Englisch sprechen: **weitere Varietäten des Englischen**."
+        text: "Die Weltkarte hat jetzt auch einen Halt im Süden der Erde. Als Nächstes geht es darum, wie Menschen in Australien, Schottland oder anderswo Englisch sprechen und schreiben: **weitere Varietäten des Englischen**. Du liest und vergleichst Wörter. Die Hörsätze sind britisch oder amerikanisch gesprochen."
