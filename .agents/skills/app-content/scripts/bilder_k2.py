@@ -37,19 +37,19 @@ def register(m):
         """Page be-ae-aussprache, section neu: three words with the reading aid of both accents."""
         b = legend()
         rows = [("stork", "stohk", "stohrk"), ("ladder", "ladder, latter: verschieden", "ledder, ledder: gleich"), ("grass", "grahss", "gräss")]
-        y = 62
+        y = 40
         for w, gb, us in rows:
-            b += m.rect(20, y, 440, 66, "#f4efe2", m.INK, 2, 6)
-            b += m.text(36, y + 40, w if w != "ladder" else "ladder · latter", 20, "start", m.INK, "bold")
+            b += m.rect(20, y, 440, 60, "#f4efe2", m.INK, 2, 6)
+            b += m.text(36, y + 36, w if w != "ladder" else "ladder · latter", 20, "start", m.INK, "bold")
             if w == "ladder":
-                b += m.text(200, y + 28, "britisch: verschieden", 16, "start", GB_COL)
-                b += m.text(200, y + 54, "amerikanisch: gleich", 16, "start", US_COL)
+                b += m.text(200, y + 25, "britisch: verschieden", 16, "start", GB_COL)
+                b += m.text(200, y + 49, "amerikanisch: gleich", 16, "start", US_COL)
             else:
-                b += m.text(200, y + 28, "britisch: " + gb, 16, "start", GB_COL)
-                b += m.text(200, y + 54, "amerikanisch: " + us, 16, "start", US_COL)
-            y += 78
-        b += m.text(20, 300, "Lesehilfe in deutscher Annäherung", 14, "start")
-        return m.svg(480, 310, "Drei Wörter mit Lesehilfe für die britische und die amerikanische Aussprache", b)
+                b += m.text(200, y + 25, "britisch: " + gb, 16, "start", GB_COL)
+                b += m.text(200, y + 49, "amerikanisch: " + us, 16, "start", US_COL)
+            y += 70
+        # Nichts in den unteren 12 Prozent und rechts unten (Lizenz-Badge der Laufzeit).
+        return m.svg(480, 280, "Drei Wörter mit Lesehilfe für die britische und die amerikanische Aussprache", b)
 
     @m.image
     def be_ae_buchstaben():

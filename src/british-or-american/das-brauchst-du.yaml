@@ -10,7 +10,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Auf den nächsten Seiten hörst und liest du, wie Sophie und Jayden dieselben Dinge verschieden sagen und schreiben. Dafür brauchst du zwei Dinge aus Klang und Schrift.
+          Auf den nächsten Seiten hörst und liest du, wie Sophie und Jayden dieselben Dinge verschieden sagen und schreiben. Dafür brauchst du zwei Dinge aus Klang und Schrift: Bei der Aussprache hörst du, ob ein Vokal lang oder kurz ist (bath bei Sophie und bei Jayden). Bei der Schreibung merkst du, dass Wörter gleich klingen können und anders geschrieben werden (colour und color).
 
           **Ich kann ähnliche englische Vokale unterscheiden und aussprechen, zum Beispiel in ship – sheep und cat – cut.** Der Vokal in *ship* ist kurz, der in *sheep* ist lang. Bei *cat* sprichst du ein offenes ä, bei *cut* ein kurzes a.
 
@@ -29,17 +29,17 @@ blocks:
         id: recap-gleich
         text: Which two words sound the same?
         options:
-          - text: see and sea
+          - text: meet and meat
             correct: true
-            info: Beide Wörter klingen gleich und werden anders geschrieben.
-          - text: ship and sheep
+            info: Beide Wörter klingen gleich und werden anders geschrieben. ee und ea klingen oft gleich.
+          - text: bit and beat
             correct: false
-            info: ship hat einen kurzen, sheep einen langen Vokal. Die Wörter klingen verschieden.
-          - text: cat and cut
+            info: bit hat einen kurzen, beat einen langen Vokal. Die Wörter klingen verschieden.
+          - text: bed and bad
             correct: false
-            info: cat hat ein offenes ä, cut ein kurzes a. Die Wörter klingen verschieden.
-        explanation: see und sea sind gleich im Klang und verschieden in der Schrift.
-        hint: Zwei Wörter dieser Paare klingen gleich. Welches Paar ist es?
+            info: bed hat ein e, bad ein offenes ä. Die Wörter klingen verschieden.
+        explanation: meet und meat sind gleich im Klang und verschieden in der Schrift.
+        hint: Zwei Wörter dieser Paare klingen gleich. Denke an ee und ea.
       - type: true-false
         id: recap-vokal
         text: "Stimmt das? Der Vokal in sheep ist länger als der Vokal in ship."

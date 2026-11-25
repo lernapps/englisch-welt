@@ -24,7 +24,7 @@ Stand: 2026-11-24. Alle Fakten sind eigene Sätze nach den Quellen (keine Sätze
 ## Wörter außerhalb von A1 und A2 (Prüfliste `/tmp/gw.json`), je Seite erklärt
 - `be-ae-wortschatz`: apartment, elevator, pavement, sidewalk, parking lot, gas, cookie, soccer, queue, vacation, pants (Randglossar); bonnet, hood, boot, trunk, motorway, freeway, courgette, zucchini, hockey (Merke und Bild, mit deutscher Bedeutung); Cornwall (Name).
 - `be-ae-aussprache`: accent, vowel, voice message, silent, soft (Randglossar). Die Sätze der Hörpaare enthalten nur bekannte Wörter.
-- `be-ae-schreibung`: Randglossar mit allen Wortpaaren (color, favorite, gray, neighbor, center, theater, organize, program, traveling); Rückblick mit full stop, period, railway, railroad, kerb, curb, plough, plow (mit deutscher Bedeutung in der Tabelle); Merke und Bild mit honour, litre, realise, cancelled, jewellery, tyre.
+- `be-ae-schreibung`: Randglossar mit allen Wortpaaren (color, favorite, gray, neighbor, center, theater, organize, program, traveling); Rückblick mit motorway, freeway, boot, trunk (aus Merke und Bild von `be-ae-wortschatz`), stork, grass (Bild von `be-ae-aussprache`), jewellery, jewelry, litre, liter (Merke und Bild dieser Seite), jeweils mit deutscher Bedeutung in der Tabelle; Merke und Bild mit honour, litre, realise, cancelled, jewellery, tyre.
 
 ## Hörliste (nichts davon hat ein Mensch angehört)
 Erzeugt mit `regen_audio.py` (schneidet das Ausklingen ab), `bf_emma` (britisch) und `af_sarah` mit `ACCENT=us`. Es gab keine Dip-Schnitt-Meldungen; bei allen Dateien meldete das Skript nur einen Schnitt des Ausklingens (95 bis 240 ms, höchstens 0,15 % Energie, die längste Kürzung bei „…after his bath.“ britisch).
@@ -51,3 +51,10 @@ Zusätzlich anhören: ob die Hörpaare wirklich verschieden klingen (r in car, d
 - Die Seite `be-ae-aussprache` nutzt `direction: to-source` und `mode: choice` mit Audio für „Welche Stimme?“ (die Antwort „britisch/amerikanisch“ ist die deutsche Seite). Der Build nimmt es an; das Verhalten in der App wurde im Browser nur als Anzeige gesehen (Auswahlfeld „...“), nicht durchgespielt.
 - Je Seite ein Schemabild (`be-ae-auto`, `be-ae-klang`, `be-ae-buchstaben`, Skript `bilder_k2.py`), damit die Seiten etwas zum Anschauen haben.
 - Wiederholungsseite hat zwei Kontrollfragen und keinen `weiter`-Abschnitt.
+
+## Änderungen nach dem Gesamtcheck (Stand 2026-11-25)
+- `das-brauchst-du`: Text sagt jetzt, wofür die Bausteine gebraucht werden (lang/kurz bei bath, gleicher Klang und andere Schreibung bei colour/color). Kontrollfrage nutzt meet/meat statt see/sea (Antwort stand im Poster); bit/beat und bed/bad als Distraktoren.
+- `be-ae-wortschatz`: Einstiegsfrage jetzt petrol/gas (Fakt aus dem Artikel, siehe oben; das amerikanische Wort gas bleibt unverändert, Kapitel 5 bleibt stimmig). football/soccer im Chat nur noch als Rückverweis (Zeile 8), Glossar verweist auf den Halt „Jugendliche in den USA“; Auswahlaufgabe soccer/football ersetzt durch flat/apartment (apartment bleibt nur aus der Karte belegt).
+- `be-ae-aussprache`: weitere richtige Antworten (says|pronounces; Both of them are). Bild `be-ae-klang` ohne Inhalt in den unteren 12 Prozent (Lizenz-Badge), Kartenhöhe 60, Bildhöhe 280, Fußzeile im Bild entfernt (steht in der Bildunterschrift).
+- `be-ae-schreibung`: Verweis auf neighbour/colour aus „Hello, America!“ (Kanada, Feste in den USA) statt stillem Doppeln. Rückblick enthält nur Gelehrtes (motorway/freeway, boot/trunk, stork, grass, jewellery/jewelry, litre/liter), keine Beispiele aus den Übungen. full stop, railway, pearl, metal/medal, kerb, plough entfallen (nie gelehrt, in dieser Notiz oben nicht mehr genutzt).
+- Keine neuen Hörsätze, keine MP3 geändert. Hörliste oben unverändert.

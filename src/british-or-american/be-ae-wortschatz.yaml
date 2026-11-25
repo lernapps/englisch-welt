@@ -12,18 +12,18 @@ blocks:
         text: "Sophie und Jayden sagen oft dasselbe mit anderen Wörtern. Vorher eine Frage an dich."
       - type: single-choice
         id: wortschatz-start
-        text: "Jayden aus Chicago sagt: „I play football after school.“ Welches Spiel meint er?"
+        text: "Sophie schreibt: „The car needs petrol.“ Jayden schreibt dasselbe mit „gas“. Was meint er?"
         options:
-          - text: American football
+          - text: Benzin für das Auto
             correct: true
-            info: In den USA meint football meistens American football.
-          - text: Fußball, wie Sophie ihn spielt
+            info: In den USA heißt Benzin gas.
+          - text: Gas zum Kochen
             correct: false
-            info: Fußball heißt bei Jayden soccer.
-          - text: Rugby
+            info: Das Wort gas sieht aus wie Gas, meint hier aber Benzin.
+          - text: Luft für die Reifen
             correct: false
-            info: Von Rugby spricht Jayden nicht.
-        explanation: Dasselbe Wort meint in zwei Ländern ein anderes Spiel.
+            info: Von Luft für die Reifen spricht Jayden nicht.
+        explanation: Dasselbe Ding hat in zwei Ländern ein anderes Wort.
       - type: text
         text: "**Das kannst du danach:** Du nennst wichtige Unterschiede zwischen britischem und amerikanischem Wortschatz."
   - type: section
@@ -41,10 +41,10 @@ blocks:
           5. **Sophie:** Mum says the car needs petrol again.
           6. **Jayden:** For us it is gas. My dad buys gas every Friday.
           7. **Sophie:** After school I had a biscuit and watched football on TV.
-          8. **Jayden:** A cookie? Nice! I play football, too, but my football is a different game. You mean soccer!
+          8. **Jayden:** A cookie? Nice! Remember: my football is American football, and your football is my soccer.
       - type: text
         text: |
-          9. **Sophie:** Yes! Soccer is my football. Do you like autumn?
+          9. **Sophie:** I remember! Do you like autumn?
           10. **Jayden:** I love the fall, but I say fall, not autumn. The leaves are red and yellow.
           11. **Sophie:** In the holidays we go to Cornwall. I hate to stand in a queue at the station.
           12. **Jayden:** We say vacation. And we stand in line, not in a queue.
@@ -76,7 +76,7 @@ blocks:
             note: biscuit ist britisch, cookie amerikanisch.
           - target: football / soccer
             source: Fußball
-            note: soccer ist das amerikanische Wort für Fußball.
+            note: soccer ist das amerikanische Wort für Fußball. Das kennst du schon vom Halt „Jugendliche in den USA“.
           - target: the autumn / the fall
             source: der Herbst
             note: autumn ist britisch, fall amerikanisch.
@@ -97,7 +97,7 @@ blocks:
         id: wortschatz-verstehen
         text: "Stimmt das? Sophie und Jayden meinen mit „football“ dasselbe Spiel."
         answer: false
-        hint: Lies die Zeilen 8 und 9 noch einmal.
+        hint: Lies Zeile 8 noch einmal.
         explanation: Sophies football ist Jaydens soccer.
       - type: single-choice
         id: wortschatz-beleg
@@ -225,9 +225,9 @@ blocks:
           - cue: "Sophie isst einen Keks zum Tee."
             target: Sophie has a [biscuit] with her tea.
             distractors: [[cookie]]
-          - cue: "Jayden mag Fußball, das Spiel mit dem runden Ball."
-            target: Jayden likes to play [soccer].
-            distractors: [[football]]
+          - cue: "Jaydens Wohnung ist im fünften Stock."
+            target: Jayden's [apartment] is on the fifth floor.
+            distractors: [[flat]]
           - cue: "Jayden mag den Herbst."
             target: Jayden loves the [fall].
             distractors: [[autumn]]
