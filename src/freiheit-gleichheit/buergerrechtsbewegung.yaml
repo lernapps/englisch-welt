@@ -66,7 +66,7 @@ blocks:
           - target: the Supreme Court
             source: das Oberste Gericht
           - target: unconstitutional
-            source: verfassungswidrig
+            source: verfassungs­widrig
           - target: segregated
             source: nach Hautfarbe getrennt
           - target: to refuse
@@ -82,7 +82,7 @@ blocks:
           - target: to ban
             source: verbieten
           - target: the discrimination
-            source: die Diskriminierung
+            source: die Diskriminie­rung
           - target: abridged
             source: eingeschränkt
           - target: the servitude
@@ -98,9 +98,9 @@ blocks:
           - target: unanimously
             source: einstimmig
           - target: the segregation
-            source: die Rassentrennung
+            source: die Rassen­trennung
           - target: the carpool
-            source: die Fahrgemeinschaft, mehrere teilen sich ein Auto
+            source: die Fahrgemein­schaft, mehrere teilen sich ein Auto
           - target: the minister
             source: der Pfarrer, die Pfarrerin
           - target: Baptist

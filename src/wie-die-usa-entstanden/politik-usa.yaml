@@ -51,13 +51,13 @@ blocks:
         languages: { source: de, target: en }
         entries:
           - target: Congress
-            source: der Kongress (macht die Gesetze)
+            source: der Kongress
           - target: the Supreme Court
             source: das Oberste Gericht
           - target: in effect
             source: in Kraft
           - target: the commander
-            source: der Oberbefehlshaber, die Oberbefehlshaberin
+            source: der Ober­befehls­haber
           - target: the war
             source: der Krieg
           - target: the senator
@@ -75,13 +75,13 @@ blocks:
           - target: the law
             source: das Gesetz
           - target: the Senate
-            source: der Senat (ein Teil des Kongresses)
+            source: der Senat
           - target: the House of Representatives
-            source: das Repräsentantenhaus (der andere Teil des Kongresses)
+            source: das Reprä­sentanten­haus
           - target: to elect
             source: wählen
           - target: the veto
-            source: das Veto (ein „Nein“ zu einem Gesetz)
+            source: das Veto
           - target: to overrule
             source: überstimmen
           - target: the judge
@@ -89,7 +89,7 @@ blocks:
           - target: to check
             source: kontrollieren
           - target: the federal government
-            source: die Bundesregierung (für das ganze Land)
+            source: die Bundes­regierung
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
