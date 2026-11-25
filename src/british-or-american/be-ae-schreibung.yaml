@@ -31,7 +31,7 @@ blocks:
     title: Ein Poster für zwei Länder
     blocks:
       - type: text
-        text: "Jayden schreibt amerikanisch, Sophie britisch."
+        text: "Jayden schreibt amerikanisch, Sophie britisch. Zwei Wörter kennst du schon aus dem Kapitel „Hello, America!“: neighbour und neighbor vom Halt „Kanada“ und colours und colors vom Halt „Feste in den USA“. Hier siehst du das Muster dahinter."
       - type: text
         text: |
           1. **Sophie:** Hi Jayden! Mr Hill wants a poster about colours. My favourite colour is grey.
@@ -52,6 +52,7 @@ blocks:
         entries:
           - target: the colour / the color
             source: die Farbe
+            note: Du kennst colors schon vom Halt „Feste in den USA“.
           - target: favourite / favorite
             source: Lieblings-
           - target: grey / gray
@@ -59,6 +60,7 @@ blocks:
             note: gray ist die häufigere amerikanische Schreibung.
           - target: the neighbour / the neighbor
             source: der Nachbar, die Nachbarin
+            note: Du kennst neighbor schon vom Halt „Kanada“.
           - target: the centre / the center
             source: die Mitte
           - target: the theatre / the theater
@@ -247,11 +249,11 @@ blocks:
         caption: Schulkalender · Rückblick Kapitel 2
         header: [Thema, Britisch, Amerikanisch]
         rows:
-          - [Wortschatz · der Punkt am Satzende, full stop, period]
-          - [Wortschatz · die Eisenbahn, railway, railroad]
-          - [Aussprache · pearl (die Perle), "r nicht hörbar", "r hörbar"]
-          - [Aussprache · metal und medal, "klingen verschieden", "klingen gleich"]
-          - [Schreibung · der Bordstein, kerb, curb]
-          - [Schreibung · der Pflug, plough, plow]
+          - [Wortschatz · die Autobahn, motorway, freeway]
+          - [Wortschatz · der Kofferraum, boot, trunk]
+          - [Aussprache · stork (der Storch), "r nicht hörbar", "r hörbar"]
+          - [Aussprache · grass (das Gras), "langes a", "kurzes a"]
+          - [Schreibung · der Schmuck, jewellery, jewelry]
+          - [Schreibung · der Liter, litre, liter]
       - type: text
         text: "Auf der Weltkarte geht die Reise jetzt in die Vergangenheit. **Kapitel 3** erzählt die Geschichte der USA: Wie sind die USA entstanden?"

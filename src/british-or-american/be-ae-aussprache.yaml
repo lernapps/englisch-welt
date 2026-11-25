@@ -200,17 +200,17 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Sophie sagt bath mit einem langen a.
-            target: Sophie says bath with a long a.
+            target: Sophie (says|pronounces) bath with a long a.
             mistakes:
               - answer: Sophie says bath with a short a.
                 message: Sophies a ist lang.
           - source: Jayden spricht das r in car mit.
-            target: Jayden says the r in car.
+            target: Jayden (says|pronounces) the r in car.
             mistakes:
               - answer: Sophie says the r in car.
                 message: Bei Sophie bleibt das r stumm.
           - source: Beide Akzente sind normal.
-            target: (Both accents are|Both are) normal.
+            target: (Both accents are|Both are|Both of them are) normal.
             mistakes:
               - answer: Only one accent is normal.
                 message: Mr Hill nennt beide Arten normal.
