@@ -20,6 +20,7 @@ bad = 0
 for f in sorted(glob.glob("src/*/*.yaml")):
     if f.endswith("chapter.yaml"): continue
     d = yaml.safe_load(open(f, encoding="utf-8"))
+    if not isinstance(d, dict): continue
     if "recap" in d: continue
     hear = []
     def walk(o):
