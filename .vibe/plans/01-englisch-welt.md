@@ -249,25 +249,45 @@ page, which a link. -->
       decisions" why the app has none. Commit.
 - [x] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
-- [ ] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
-- [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
+- [x] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
+- [x] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
       whether it may go online. Stop and wait for the yes.
-- [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Ja, Retrospektive und Plan-Aufgaben abschließen, Katalogeintrag nur als Entwurf, danach stopp.
+- [x] (skipped: Die Orchestrator-Session veröffentlicht nach der Durchsicht) Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
       the run of `Pages` watched to its end.
-- [ ] Open the address the job `deploy` printed and confirm that the app shows. Never use a derived address.
-- [ ] Load skill `lernapps-listing`. Write the entry under "Entry draft" as it says, with the creator's answer to
+- [x] (skipped: Adresse wird nach der Veröffentlichung geprüft) Open the address the job `deploy` printed and confirm that the app shows. Never use a derived address.
+- [x] Load skill `lernapps-listing`. Write the entry under "Entry draft" as it says, with the creator's answer to
       "Finding the app".
-- [ ] Fill the retrospective.
-- [ ] Commit this plan on `main` and push it: the listing check and the review read it there.
-- [ ] **Checkpoint:** list. Open the listing pull request as skill `lernapps-listing` says, without asking first: the
+- [x] Fill the retrospective.
+- [x] (skipped: Der Plan liegt auf work, main macht die Orchestrator-Session) Commit this plan on `main` and push it: the listing check and the review read it there.
+- [x] **Checkpoint:** list. Open the listing pull request as skill `lernapps-listing` says, without asking first: the
       pull request is the review. See it to "bestanden", then show the creator the pull request and its result.
-- [ ] If the plan changed since its last push, commit it on `main` and push again.
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Katalogeintrag nur als Entwurf im Plan, nichts in lernapps/apps, den Eintrag legt die Orchestrator-Session nach der Veröffentlichung an.
+- [x] (skipped: Der Plan liegt auf work, main macht die Orchestrator-Session) If the plan changed since its last push, commit it on `main` and push again.
 
 ### Entry draft
 
-<!-- YAML valid against the entry schema the listing skill names. Only known values, never invented. -->
-
 ```yaml
+# yaml-language-server: $schema=https://lernapps.net/apps/schemas/entry.v1.schema.json
+title: "Englisch in der Welt: USA, Kanada und Australien"
+subject: englisch
+grades: [7, 8, 9, 10]
+summary: >-
+  Eine Weltkarte und eine Zeitachse führen dich durch die englischsprachige Welt: USA und Kanada, britisches und
+  amerikanisches Englisch, die Geschichte der USA von der Mayflower bis zu den Bürgerrechten, Migration heute,
+  Australien und weitere Varietäten des Englischen. Du liest Lesestücke, übst mit Hörsätzen und bekommst Rückmeldung.
+url: https://lernapps.net/englisch-welt/
+keywords: [USA, Kanada, Australien, Landeskunde, britisches und amerikanisches Englisch, Geschichte der USA, Bürgerrechte, Englisch]
+creator: { name: lernapps, url: "https://github.com/lernapps" }
+source: https://github.com/lernapps/englisch-welt
+# commit: die volle Id nach dem Veröffentlichen (git rev-parse HEAD auf main); erst dann gilt der Eintrag
+fitness:
+  account: false
+  install: false
+  storage: device
+  thirdParty: none
+  thirdPartyNote: ""
+  checked: false
 ```
 
 ## Retrospective
@@ -276,12 +296,19 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Phase Commit erreicht: Vorschau-Pull-Request #1 offen und grün (app und preview success), nicht veröffentlicht, kein Katalogeintrag (der Eintrag entsteht nach der Veröffentlichung durch die Orchestrator-Session). Checkpoints bestanden: Recherche (Ja), Plan und Inhaltsmethode (Ja), Musterseite (Ja, mit Freigabe für parallele Sub-Agenten), Veröffentlichen (Ja, Retrospektive und Plan abschließen, dann stoppen).
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Menschliche Ersteller:in: vor der Bestätigung des Plans die Freigabe der `npx`-Befehle für `init`; nach der Bestätigung eine Nachricht („Weiter“), keine inhaltliche Rückmeldung. Orchestrator-Session (in der Rolle der Ersteller:in) nach dem Plan: (1) Musterseite: Ja, Kapitel 1 bis 5 parallel mit Sub-Agenten in Worktrees, gemeinsame Dateien bei mir, vor dem Vorschau-PR Gesamtcheck und Sprachprüfung; (2) Veröffentlichen: Ja, Retrospektive und Plan-Aufgaben abschließen, Katalogeintrag nur als Entwurf, die ungeprüften Punkte als „offen“ im Inhaltsführer.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+- Interview: kein Gespräch mit einer menschlichen Ersteller:in. Ziel, Lernende, Umfang, Sprache und Begriffe stammen aus dem Auftrag (#484) und den Konventionen (#489); wo beide schweigen, steht „(guess)“ (Suchbegriffe, Kapitelordner, Seitenform mit Lesestück, Jayden als Chat-Figur ohne Zeichnung).
+- Hörproben für australisches, schottisches und indisches Englisch gibt es nicht (nur US- und GB-Stimmen erlaubt): Merkmale nur als Text und Wortliste (von der Orchestrator-Session bestätigt). Videoszenen als Gesprächsszenen mit Hörfassung (bestätigt).
+- Kapitel 1 bis 5 haben fünf Sub-Agenten nach Muster und Brief in eigenen Worktrees geschrieben, Gesamtcheck und Sprachprüfung ebenfalls Sub-Agenten, danach fünf Fix-Agenten; ich habe jeden Zweig per Build, `lernapps check` und Skripten geprüft und zusammengeführt. Das Mischen der Antwortoptionen (Skript `mische_optionen.py`) ist meine Entscheidung, weil die Vorlage nicht mischt.
+- Audio: Ich kann die 125 Dateien nicht hören, kein Mensch hat sie angehört.
+- Fakten: Wikipedia-Artikel, die HTTP 429 lieferten, sind nicht benutzt (Aussage entfiel); offen: Indian English, Census/ONS-Originale, archives.gov-Wortlaut der Declaration, `flat – apartment` nur aus der Karte, Lesehilfen in deutscher Annäherung (eigene Annäherung).
+- Pages und `gh`: Der Proxy sperrt `gh api` für Pages und Branches; PR und Checks über die GitHub-Werkzeuge. `gh-pages` existierte schon.
+- Vorlage und Laufzeit: Badge „© CC-BY-4.0“ verdeckt bei 360 px Bildecken (Bilder umgebaut), ein scrollbares Randglossar war nur in der CI zu breit (Trennstellen eingefügt), Datendatei-Schema der Zeitachse ohne Quellenfeld, `timeline` zeigt immer die ganze Datei; `explainer-text-load` bleibt als Hinweis bei sieben Seiten der Stufe 9-10 (Lesestück zählt laut Konvention nicht).
+- Plan-Aufgaben: Ich habe `plan done` zu Beginn zweimal zu früh ausgeführt (Interview, Plan-Aufgaben) und die Arbeit danach nachgeholt.
